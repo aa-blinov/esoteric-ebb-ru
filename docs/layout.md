@@ -143,6 +143,17 @@ of them was a little too wide on its own: «Глубокое» broke into «ГЛ
 «Е», and «хранилище» into «ХРАНИЛИ» and «ЩЕ». The size of the name is 30 now,
 and both words fit the column and break at the space.
 
+### What the translation cannot reach
+
+The tooltip of a spell slot reads «ОТ ПРОВАЛА» over a number, and the two
+overlap. None of the words in it are in the translation: «пр», «ОТ» and
+«ПРОВАЛА» are in no Russian file of this repository, and they are in no string
+of the game either, neither in UTF-8 nor in UTF-16. The developer ships a
+partial Russian of their own in the assets, and the tooltip is drawn from it.
+
+So there is nothing to shorten here. The only Russian word of that line that
+belongs to the translation is `Failure`, and it already reads «Провал».
+
 ## The clock in the corner
 
 The panel in the lower right corner of the game screen carries the time of day,

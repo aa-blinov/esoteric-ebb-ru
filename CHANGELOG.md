@@ -16,6 +16,11 @@ All notable changes to Esoteric Ebb RU. Versions are ordered newest first.
   140 px, and both Russian words were a little too wide on their own:
   «Глубокое» broke into «ГЛУБОКО» and «Е», and «хранилище» into «ХРАНИЛИ» and
   «ЩЕ». The size of the name is 30 now and the words break at the space.
+- **The overlap in the tooltip of a spell slot is not ours.** The words «пр»,
+  «ОТ» and «ПРОВАЛА» are in no Russian file of this repository and in no
+  string of the game either: the developer ships a partial Russian of their own
+  in the assets. The only word of that line that belongs to the translation is
+  `Failure`, and it reads «Провал».
 
 ## 0.9.0 (2026-10-24)
 
