@@ -132,9 +132,16 @@ Two more buttons were narrower than their words. «Завершить» broke in
 | `Menu_Button_Finish` | Завершить | Готово |
 | `Sheet_Proficiencies` | Специализации | Профессии |
 | `Menu_PreparingSpells_Collected` | Собранные заклинания | Собранные |
+| `Menu_DeepStorage` | Глубокое хранилище | `<size=30>Глубокое хранилище</size>` |
 
 The head of the panel that counts the collected cantrips and spells did not fit
 the width of the panel, and the last letter was cut off.
+
+The deep storage sits in a column of its own that is about 140 px wide. The
+English name, `Deep Storage`, fits it. The Russian one is two words, and each
+of them was a little too wide on its own: «Глубокое» broke into «ГЛУБОКО» and
+«Е», and «хранилище» into «ХРАНИЛИ» and «ЩЕ». The size of the name is 30 now,
+and both words fit the column and break at the space.
 
 ## The clock in the corner
 

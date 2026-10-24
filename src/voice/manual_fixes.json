@@ -371,7 +371,8 @@
     "Keybind_Select": "Лист",
     "Menu_Button_Finish": "Готово",
     "Sheet_Proficiencies": "Профессии",
-    "Menu_PreparingSpells_Collected": "Собранные"
+    "Menu_PreparingSpells_Collected": "Собранные",
+    "Menu_DeepStorage": "<size=30>Глубокое хранилище</size>"
   },
   "Feats.csv": {
     "FEAT_EYE_CHA": "Чтение обстановки",

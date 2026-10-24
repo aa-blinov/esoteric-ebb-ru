@@ -8,6 +8,15 @@ All notable changes to Esoteric Ebb RU. Versions are ordered newest first.
 
 - Nothing yet.
 
+## 0.10.0 (2026-10-24)
+
+### Fixed
+
+- **The deep storage keeps its words.** The name sits in a column of about
+  140 px, and both Russian words were a little too wide on their own:
+  «Глубокое» broke into «ГЛУБОКО» and «Е», and «хранилище» into «ХРАНИЛИ» and
+  «ЩЕ». The size of the name is 30 now and the words break at the space.
+
 ## 0.9.0 (2026-10-24)
 
 ### Fixed
