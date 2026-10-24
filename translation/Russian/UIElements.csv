@@ -131,7 +131,7 @@ Keybind_Utility,Служебные
 Keybind_Running,Бег
 Keybind_Highlight,Подсветка
 Keybind_Start,Начать
-Keybind_Select,Лист персонажа
+Keybind_Select,Лист
 Keybind_LeftShoulder,Левое плечо
 Keybind_LeftTrigger,Левый триггер
 Keybind_RightShoulder,Правое плечо
@@ -208,11 +208,11 @@ Menu_Button_Resume,Продолжить
 Menu_Button_QuitToMenu,Выйти в меню
 Menu_Header_SessionNotes,Заметки сессии
 Menu_Button_Continue,Дальше
-Menu_Button_Finish,Завершить
+Menu_Button_Finish,Готово
 Sheet_BackgroundFocus,Фокус на фоне
 Sheet_PreBuilt,Готовый
 Menu_Button_Return,Назад
-Sheet_Proficiencies,Специализации
+Sheet_Proficiencies,Профессии
 Menu_Button_Randomize,Случайно
 Menu_DeepStorage,Глубокое хранилище
 Menu_SpellSlot_First,1-й

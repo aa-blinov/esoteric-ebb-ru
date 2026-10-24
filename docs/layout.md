@@ -105,6 +105,33 @@ The size the translation is held to is **20**. At the default of 24 the
 Russian description takes a line more than the English one, and the heading of
 the uses rises under the bubble that covers the foot of the panel.
 
+## The bar on top of the screen
+
+The bar that names the open screen holds five names in a fixed height. The
+English ones are one word each — `Questing`, `Inventory`, `Journal`,
+`Spellbook`, `Sheet` — and the Russian ones were longer. «Поиск приключений»
+broke into two lines and the second line fell out of the bar, and «Книга
+заклинаний» ran past its right edge.
+
+| Key | Before | After |
+| --- | --- | --- |
+| `Questing` | Поиск приключений | Задания |
+| `Spellbook` | Книга заклинаний | Заклинания |
+| `Keybind_Select` | Лист персонажа | Лист |
+
+The two short names are the words the game itself uses: «выполняя ветви
+заданий» and «используя заклинания».
+
+## The buttons that hold one word
+
+Two more buttons were narrower than their words. «Завершить» broke into
+«ЗАВЕРШИ» and «ТЬ», and «Специализации» was flush with the edge of its panel.
+
+| Key | Before | After |
+| --- | --- | --- |
+| `Menu_Button_Finish` | Завершить | Готово |
+| `Sheet_Proficiencies` | Специализации | Профессии |
+
 ## The clock in the corner
 
 The panel in the lower right corner of the game screen carries the time of day,

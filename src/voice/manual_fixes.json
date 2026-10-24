@@ -312,7 +312,9 @@
     "AbilityScoreInfo_Wisdom_Uses3": "Эгалитарная надежда <size=44>Азгалианского <size=43>рабочего класса",
     "AbilityScoreInfo_Intelligence_Uses1": "Высокий Интеллект позволяет тебе\n<size=40>Подготовить</size>\n<size=42>Больше Заклинаний",
     "AbilityScoreInfo_Dexterity_Uses3": "Скопить состояние, как <size=40>Республиканец <size=41>Революционный",
-    "AbilityScoreInfo_Charisma_Uses3": "Говори что угодно, чтобы люди полюбили тебя и стали <size=42>аполитической</size>\n<size=40>силой природы"
+    "AbilityScoreInfo_Charisma_Uses3": "Говори что угодно, чтобы люди полюбили тебя и стали <size=42>аполитической</size>\n<size=40>силой природы",
+    "Questing": "Задания",
+    "Spellbook": "Заклинания"
   },
   "UIElements.csv": {
     "Loading_Desc_SpellConcentration": "Некоторые заклинания требуют поддержания Концентрации. Ты можешь сосредоточиться только на одном заклинании за раз.\r\n\r\nЕсли ты получаешь достаточно урона, для поддержания Концентрации обычно необходимо успешно пройти проверку Телосложениеа. Для тебя это, похоже, не проблема.\r\n\r\nКак только срок действия заклинания истекает или ты теряешь Концентрацию, заклинание заканчивается.",
@@ -365,7 +367,10 @@
     "Menu_PreparingSpells_Finish": "Готово",
     "Settings_RefreshRate_VSync": "VSYNC ",
     "Settings_DisplayMode_Option2": "Без рамки",
-    "Settings_DisplayMode_Option1": "Полный экран"
+    "Settings_DisplayMode_Option1": "Полный экран",
+    "Keybind_Select": "Лист",
+    "Menu_Button_Finish": "Готово",
+    "Sheet_Proficiencies": "Профессии"
   },
   "Feats.csv": {
     "FEAT_EYE_CHA": "Чтение обстановки",

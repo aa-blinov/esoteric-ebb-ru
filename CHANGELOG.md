@@ -8,6 +8,19 @@ All notable changes to Esoteric Ebb RU. Versions are ordered newest first.
 
 - Nothing yet.
 
+## 0.9.0 (2026-10-24)
+
+### Fixed
+
+- **The names on the bar on top of the screen stay inside it.** The English
+  names are one word each, and the Russian ones were longer: «ПОИСК» and
+  «ПРИКЛЮЧЕНИЙ» fell out of the bar, «КНИГА» and «ЗАКЛИНАНИЙ» ran past its
+  right edge. The names are now «ЗАДАНИЯ», «ИНВЕНТАРЬ», «ЖУРНАЛ»,
+  «ЗАКЛИНАНИЯ» and «ЛИСТ».
+- **Two more buttons hold their word.** «Завершить» broke into «ЗАВЕРШИ» and
+  «ТЬ», and «Специализации» was flush with the edge of its panel. They are
+  «Готово» and «Профессии» now.
+
 ## 0.8.0 (2026-10-24)
 
 ### Fixed
