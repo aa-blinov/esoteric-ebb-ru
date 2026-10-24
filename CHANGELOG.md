@@ -20,6 +20,8 @@ All notable changes to Esoteric Ebb RU. Versions are ordered newest first.
 - **Two more buttons hold their word.** «Завершить» broke into «ЗАВЕРШИ» and
   «ТЬ», and «Специализации» was flush with the edge of its panel. They are
   «Готово» and «Профессии» now.
+- **The head of the collected spells panel fits.** «Собранные заклинания» did
+  not fit the width of the panel and the last letter was cut off.
 
 ## 0.8.0 (2026-10-24)
 

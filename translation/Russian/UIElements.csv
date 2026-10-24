@@ -222,7 +222,7 @@ Menu_PreparingSpells_Title,Подготовка заклинаний
 Menu_PreparingSpells_Finish,Готово
 Menu_PreparingSpells_Prepared,Подготовленные заклинания
 Menu_PreparingSpells_Difficulty,Сложность заклинания
-Menu_PreparingSpells_Collected,Собранные заклинания
+Menu_PreparingSpells_Collected,Собранные
 Menu_PreparingSpells_ToPrepare,Заклинания для подготовки: {0}
 Menu_PcInfo_Level_Short,Ур
 Menu_PcInfo_Stats_Title,Характеристики

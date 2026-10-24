@@ -370,7 +370,8 @@
     "Settings_DisplayMode_Option1": "Полный экран",
     "Keybind_Select": "Лист",
     "Menu_Button_Finish": "Готово",
-    "Sheet_Proficiencies": "Профессии"
+    "Sheet_Proficiencies": "Профессии",
+    "Menu_PreparingSpells_Collected": "Собранные"
   },
   "Feats.csv": {
     "FEAT_EYE_CHA": "Чтение обстановки",

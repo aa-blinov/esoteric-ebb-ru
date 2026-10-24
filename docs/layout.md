@@ -131,6 +131,10 @@ Two more buttons were narrower than their words. «Завершить» broke in
 | --- | --- | --- |
 | `Menu_Button_Finish` | Завершить | Готово |
 | `Sheet_Proficiencies` | Специализации | Профессии |
+| `Menu_PreparingSpells_Collected` | Собранные заклинания | Собранные |
+
+The head of the panel that counts the collected cantrips and spells did not fit
+the width of the panel, and the last letter was cut off.
 
 ## The clock in the corner
 
