@@ -1,0 +1,96 @@
+ID,Speaker,RU
+QuickResponse_0,Avik,"«Хм? Жрец? Прости, я занят.»"
+QuickResponse_1,Domnall,«Это сверхурочная работа. Определённо.»
+QuickResponse_2,OBJ,Мужчина хмыкает.
+QuickResponse_3,Vattar,<i>Швмаэ! <wiggle>Анрхег!</wiggle></i>
+QuickResponse_4,OBJ,Грибная леди не отвечает. Медитация?
+QuickResponse_5,OBJ,«<i>Мистер</i> Жрец.»
+QuickResponse_6,OBJ,«Не сейчас. Мы не сбалансированы!»
+QuickResponse_7,Viira,"«Как <i>приятно</i>, что ты присоединился к нам, Жрец.»"
+QuickResponse_8,Sten,«Э-э… здравствуй.»
+QuickResponse_9,Nisse,Он сердито смотрит на тебя.
+QuickResponse_10,Toli,Он избегает твоего взгляда. Намеренно.
+QuickResponse_11,Simii,«…Здравствуй.»
+QuickResponse_12,OBJ,«Но зрелище всё же красивое.»
+QuickResponse_13,OBJ,"«Я же сказал, они не открываются до темноты!»"
+QuickResponse_14,OBJ,"«Ветер сегодня солёный, приятель.»"
+QuickResponse_15,OBJ,"«В смысле, он хороший. Лучшее вино в городе.»"
+QuickResponse_16,OBJ,"«Что ты имеешь в виду, <i>парень</i>? У Альфоса есть план.»"
+QuickResponse_17,OBJ,"«Я просто… думаю, это не работает.»"
+QuickResponse_18,OBJ,«Ничего не трогай.»
+QuickResponse_19,OBJ,"«Следи за собой, Горожанин.»"
+QuickResponse_20,OBJ,«Не могу. Говорить.»
+QuickResponse_21,OBJ,«Эй.»
+QuickResponse_22,OBJ,«Конечно. Я умею всё.»
+QuickResponse_23,OBJ,«Правда? Ты можешь залезть на то дерево?»
+QuickResponse_24,OBJ,Принудитель просто смотрит на тебя с ненавистью.
+QuickResponse_25,OBJ,«Нет. Не надо.»
+QuickResponse_26,OBJ,«Следи за собой.»
+QuickResponse_27,OBJ,"«Нет, нет. Я велел <i>ему</i> свалить.»"
+QuickResponse_28,OBJ,"«Значит, <i>он</i> велел тебе…»"
+QuickResponse_29,OBJ,«Ебаный Уртгард.»
+QuickResponse_30,OBJ,«Ненавижу эту ебаную работу.»
+QuickResponse_31,OBJ,"«Если поймаю, как ты лазишь по дереву, — убираешься.»"
+QuickResponse_32,OBJ,"«Но ведь она высоко, брат…»"
+QuickResponse_33,OBJ,"«Скорее всего, я бы выжил.»"
+QuickResponse_34,OBJ,«Будешь выпендриваться — пришью тебя.»
+QuickResponse_35,OBJ,"«Отойди, ублюдок-коровник.»"
+QuickResponse_36,OBJ,«Не могу говорить. Занят.»
+QuickResponse_37,OBJ,«На <i>что</i> ты смотришь?»
+QuickResponse_38,OBJ,«Что значит — <i>хороший</i>? Обычный Сфинкс.»
+QuickResponse_39,OBJ,"«Иди дальше, человек.»"
+QuickResponse_40,OBJ,"«Да, да, ещё есть время его продать.»"
+QuickResponse_41,Masked,"Слишком поглощён тем, чем занимается."
+QuickResponse_42,Razz,"«Пошёл нахер, <i>человек</i>.»"
+QuickResponse_43,OBJ,"«Эй, ты — тот жрец, которого ищет Снелл! Он ждёт у южного входа. <i>СНАРУЖИ</i>.»"
+QuickResponse_44,OBJ,«Собственность Полпути. Идите дальше.»
+QuickResponse_45,OBJ,«Чудесная погода сегодня!»
+QuickResponse_46,OBJ,"«Неплохой наряд, человек.»"
+QuickResponse_47,OBJ,«Жрец? Хм. Плохие новости.»
+QuickResponse_48,OBJ,«Мы ничего не знаем. Идите дальше.»
+QuickResponse_49,OBJ,«»
+QuickResponse_50,OBJ,"«…Как, чёрт возьми, эта штука ещё стоит?»"
+QuickResponse_51,OBJ,"«<i>Демокрациято ште погине, туй както вяко друго източно изобретение</i>.»"
+QuickResponse_52,OBJ,"«Я же говорил, они не открываются до темноты! И ты даже халат не принёс…»"
+QuickResponse_53,OBJ,«Дождь ЛЬЁТ как из ведра!»
+QuickResponse_54,OBJ,«Пошёл нахер.»
+QuickResponse_55,OBJ,"«Парень, это заняло немало времени.»"
+QuickResponse_56,Sten,«Мне нравится твоя шляпа.»
+QuickResponse_57,Toli,«…Эй.»
+QuickResponse_58,Nisse,«Господин Жрец.»
+QuickResponse_59,Sten,"«Привет, Жанна!»"
+QuickResponse_60,Toli,«…Мне это не нравится.»
+QuickResponse_61,Nisse,«Это наша территория. Ладно?»
+QuickResponse_62,Xerba,"«Модисса, ты уверена насчёт этого…?»"
+QuickResponse_63,Jehanne,"«Привет, Стен…»"
+QuickResponse_64,OBJ,«Уйди. Я строю планы.»
+QuickResponse_65,OBJ,«Сколько раз мне повторять?»
+QuickResponse_66,OBJ,"«Это стоило двадцать ворон, мам! Это же пустяк…»"
+QuickResponse_67,OBJ,"«А, прости! Я думал, это отвезёт нас в НБ.»"
+QuickResponse_68,OBJ,«Я бы хотел когда-нибудь завести грифона…!»
+QuickResponse_69,OBJ,«Пока ничего.»
+QuickResponse_70,OBJ,<i><b>Громкое храпение.</b></i>
+QuickResponse_71,OBJ,«Да хранят боги Сагелист»
+QuickResponse_72,OBJ,"«Клянусь, чувак, это классика. Смазанные гобробы? Ну как же без них.»"
+QuickResponse_73,OBJ,"«Леди Сагелист, похоже, засунула палку куда-то себе в задницу.»"
+QuickResponse_74,OBJ,Дворф игнорирует тебя и шепчет гоблинам: «<i>Буря зовёт нас.</i>»
+QuickResponse_75,OBJ,"«Думаю, нам придётся взять один из других мостов. Пошли!»"
+QuickResponse_76,OBJ,"«Простите, сэр. Нет времени.»"
+QuickResponse_77,OBJ,"«Почему ты так спокоен?! Посмотри на это — это явно не то, что показали в ЛР!»"
+QuickResponse_78,Lisa,Хаглинг хихикает. Как и положено хорошему хагу.
+QuickResponse_79,Arn,«Э-э. Эй.»
+QuickResponse_80,OBJ,«Он накренился.»
+QuickResponse_81,OBJ,«М-м. Всё нормально. Всё в порядке.»
+QuickResponse_82,Lisa,"«Рабочие дока? Ну да, бесплатная выпитка не помешает.»"
+QuickResponse_83,Arn,«Просто придержи его.»
+QuickResponse_84,OBJ,"«Ничего он не кривой, Фэлиг. Кривой ты.»"
+QuickResponse_85,OBJ,"«Давай, горожанин.»"
+QuickResponse_86,OBJ,"«Это не твоё место, жрец.»"
+QuickResponse_87,OBJ,«Что? Пошёл нахер.»
+QuickResponse_88,OBJ,"«Продолжай путь, человек.»"
+QuickResponse_89,OBJ,«Чё ты на меня пялишься? Придурок.»
+QuickResponse_90,OBJ,Дворф игнорирует тебя и шепчет себе: «<i>Буря зовёт меня.</i>»
+QuickResponse_91,OBJ,«Продолжай путь.»
+QuickResponse_92,Thal,«<i>Не сейчас</i>.»
+QuickResponse_93,OBJ,«<i>Тсс.</i>»
+QuickResponse_94,Zombie,Мужчина полностью игнорирует тебя.

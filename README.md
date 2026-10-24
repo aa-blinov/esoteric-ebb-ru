@@ -1,0 +1,142 @@
+# Эбб
+
+A complete Russian localization of Esoteric Ebb: 81,883 translated lines in
+twelve CSV files, installed as a language folder that the game loads next to
+the English one.
+
+Esoteric Ebb ships its own localization pipeline. The game reads
+`StreamingAssets/Localization/<Folder>/*.csv` at startup, and the developer
+tells translators to copy the `Template` folder, fill it in, and keep the word
+"Template" out of the name. This repository is that folder, filled in.
+
+![The main menu in Russian](docs/screenshots/menu-ru.png)
+
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![CI](https://github.com/aa-blinov/esoteric-ebb-ru/actions/workflows/ci.yml/badge.svg)](https://github.com/aa-blinov/esoteric-ebb-ru/actions/workflows/ci.yml)
+[![Python](https://img.shields.io/badge/python-3.12-blue)](src/)
+
+---
+
+## Quick start
+
+Copy the folder into the game's localization directory and pick Russian in the
+menu:
+
+```bash
+git clone https://github.com/aa-blinov/esoteric-ebb-ru.git
+cp -r esoteric-ebb-ru/translation/Russian \
+  "/c/Program Files (x86)/Steam/steamapps/common/Esoteric Ebb/Esoteric Ebb_Data/StreamingAssets/Localization/"
+```
+
+Then in the game: **Options → Language → Русский**. The language also switches
+with **V** and **B** while playing, and **Ctrl+R** re-reads the CSV files
+without a restart.
+
+The game writes its own preference, so the choice survives a restart. To set it
+without touching the menu:
+
+```json
+// %USERPROFILE%\AppData\LocalLow\Christoffer Bodegard\Esoteric Ebb\SETTINGS.es3
+"LanguageCode" : { "__type" : "string", "value" : "RU" }
+```
+
+## What it does
+
+- **Every line of the game.** 81,883 strings across dialogue, the codex, spells,
+  feats, items, quests, the character sheet and the interface. Every source
+  line that carries text has a Russian one; the rows that stay empty are empty
+  in the English source too.
+- **One voice for the whole game.** The terms were translated first and frozen
+  in a glossary of 1,838 entries; every later pass was bound to that glossary.
+  2,219 repeated lines that had been translated differently in different places
+  were reduced to a single wording each.
+- **Typography that survives the layout.** Russian needs a few characters more
+  than English in the same box, and the game's panels are fixed size. The
+  translation was measured against the real panel widths and the real font
+  metrics; four lines were rewritten to fit, and the dialogue text size was
+  lowered from 24 to 20 so the Russian occupies the space the English did.
+- **Inline markup left alone.** `<i>`, `<b>`, `<u>`, `<s>`, `<shake>`,
+  `<wiggle>`, `<size=N>`, `<color=#RRGGBB>` and placeholders such as `{CLERIC}`
+  are checked row by row against the English source. No row differs.
+- **A repeatable pipeline.** The translation was built by a script that is in
+  this repository, not by hand. It caches every model call, so a run can be
+  interrupted and resumed without spending anything twice.
+
+## Screenshots
+
+| Main menu | Options |
+| :---: | :---: |
+| ![Main menu](docs/screenshots/menu-ru.png) | ![Options](docs/screenshots/options-ru.png) |
+
+| Character sheet | Dialogue font |
+| :---: | :---: |
+| ![Character sheet](docs/screenshots/character-ru.png) | ![Dialogue font](docs/screenshots/dialogue-ru.png) |
+
+## Configuration
+
+| Setting | Value | What it does |
+| --- | --- | --- |
+| `LanguageCode` | `RU` | The language the game starts in. `EN` returns to English. |
+| `FontSize` | `20` | Size of the dialogue text. The developer recommends 24 for English; Russian needs 20 to keep the same line breaks in the fixed panels. |
+| `UIFontSize` | `0` | Interface size: 0 ordinary, 1 large, 2 huge. Nothing below ordinary exists. |
+| `FontIndex` | `0` | The dialogue font. 0 is Ebberia; EB Garamond and PT Serif both carry the full Cyrillic set. |
+
+Every one of these lives in `SETTINGS.es3` and survives a restart.
+
+## How it works
+
+The game loads one folder per language. The columns inside a file are named by
+language code, so a folder carries a single column:
+
+```
+StreamingAssets/Localization/
+├── Official/          English and Chinese, as the developer shipped them
+├── Template/          An empty folder with the right keys and the code F1
+├── ChineseCommunity/  A translation by the community
+└── Russian/           This repository
+```
+
+The pipeline that produced `Russian/` runs in six stages:
+
+```
+corpus ──▶ terms ──▶ names ──▶ bulk ──▶ edit ──▶ canon ──▶ QA
+```
+
+1. **Corpus.** The English CSVs are parsed into one JSON line per string.
+2. **Terms and names.** The codex terms and the 1,319 proper nouns are
+   translated first, grouped by stem so that singular and plural do not drift
+   apart. The result is the glossary every later stage is bound to.
+3. **Bulk.** The remaining 81,891 strings are translated in batches of about
+   3,200 characters. Neighbouring lines of one dialogue go into the same batch,
+   so the voice of a speaker survives. Each batch carries the glossary terms it
+   needs.
+4. **Edit.** An editor reads the finished translation against a written style
+   code and rewrites what the code asks for: register, rhythm, agreement,
+   typographic marks. 7,790 rows changed.
+5. **Canon.** Repeated source lines are collapsed onto one wording each.
+6. **QA.** Every row is checked for markup drift, for English words left
+   inside Russian sentences, for unbalanced quotes and for width against the
+   panel it has to fit in.
+
+`docs/architecture.md` has the detail, `docs/style-guide.md` the style code the
+editor works from, and `docs/layout.md` the measurements behind the width
+rules.
+
+## Development
+
+```bash
+python3 -m pip install -r requirements.txt   # httpx, fonttools, unitypy
+python3 -m unittest discover -s tests         # check the shipped CSV files
+python3 src/build.py --help                   # run the pipeline
+```
+
+The tests read `translation/Russian/*.csv` and fail on a missing key, a
+changed markup set, a straight quote, a three-dot ellipsis or an English word
+inside a Russian sentence. The same checks run in CI.
+
+## License
+
+[MIT](LICENSE), © Alexander Blinov.
+
+Esoteric Ebb is by Christoffer Bodegård. This repository holds a fan
+translation; the game, its text and its art stay with their authors.

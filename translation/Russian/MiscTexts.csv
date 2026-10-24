@@ -1,0 +1,1449 @@
+ID,Speaker,RU
+LanguageDropdown,,Русский
+FallbackLanguage,,EN
+DC,,DC
+dc_smallcaps,,dc
+You,,Ты
+Yes,,Да
+No,,Нет
+QuestingTree,,Дерево заданий
+Questing,,Поиск приключений
+Inventory,,Инвентарь
+Journal,,Журнал
+Spellbook,,Книга заклинаний
+Success,,Успех
+Failure,,Провал
+Failed,,Неудача
+Locked,,Заблокировано
+Crowns,,{0} Короны
+Strength,,Сила
+Level,,Уровень
+Dexterity,,Ловкость
+Constitution,,Устав
+Intelligence,,Интеллект
+Wisdom,,Мудрость
+Charisma,,Харизма
+Proficient,,Умелый
+NAT_20,,NAT 20
+Natural_20,,Natural 20
+NAT_1,,NAT 1
+Natural_1,,Natural 1
+Cantrips,,КантРИПЫ
+Spells,,Заклинания
+Xp_Gained,,Получено опыта: {0}xp!
+Crowns_Gained,,Получен предмет: «Пучок Корон.»
+Item_Gained,,Получен предмет: «{0}.»
+Feat_Unlocked,,Разблокировано умение «{0}»
+Feat_Unlocked_NoName,,Умение разблокировано
+Feat_EmptySlot,,[Пустой слот для умения]
+QuestPoint_Added,,«{0}» добавлено.
+QuestPoint_Completed,,«{0}» выполнено.
+QuestPoint_Updated,,«{0}» обновлено.
+TriInteraction_Enter,,Ввод
+TriInteraction_Trifle,,Мелочь
+TriInteraction_Behold,,Вот
+TriInteraction_Engage,,Вступить в бой
+Examine_Examine,,Осмотреть
+Examine_Memorize,,Запомнить
+Examine_Consume,,Употребить
+Haggle,,[Торг: {0}%]
+Check,,Проверка
+IROLL_Strength,,[Проверка силы]
+IROLL_Dexterity,,[Проверка ловкости]
+WOE,,ГОРЕ
+WEAL,,БЛАГОСОСТОЯНИЕ
+ADVANTAGE,,ПРЕИМУЩЕСТВО
+DISADVANTAGE,,НЕПРИМУЩЕСТВО
+MoveOn_PostFix,,(Идти дальше.)
+Leave_PostFix,,(Уйти.)
+UI_Health,,{0}/{1} ОЗ
+UI_Health_NoParams,,ОЗ
+UI_Health_HitPoints,,Очки здоровья
+UI_Exhaustion,,{0} выдох
+UI_XP,,{0}/{1} опыт
+DoorLocked_Default_1,,Не уступает.
+DoorLocked_Default_2,,Нет. Не сработает.
+DoorLocked_Default_3,,Здесь не пройти.
+DoorLocked_Default_4,,Я не могу идти туда.
+DoorLocked_Default_5,,Я не могу пройти.
+DoorLocked_Default_6,,Пути вперёд нет.
+DoorLocked_Default_7,,Этот путь закрыт.
+DoorLocked_Default_8,,Я не могу пойти сюда.
+DoorLocked_Default_9,,Путь преграждён.
+DoorLocked_Default_10,,Это непроходимо.
+DoorLocked_Default_11,,Не выйдет.
+DoorLocked_Default_12,,Я не могу этого сделать.
+DoorLocked_Default_13,,Это не вариант.
+DoorLocked_Default_14,,Так не получится.
+DoorLocked_Default_15,,Нет. Не могу этого сделать.
+Levelup_Available,,[Доступно повышение уровня!]
+Spell_Level0,,Заговор
+Spell_Level1,,1-й
+Spell_Level2,,2-й
+Spell_Level3,,3-й
+Spell_Level4,,4-й
+Spell_Level5,,5-й
+Spell_Level6,,6-й
+Spell_Level7,,7-й
+Spell_Level8,,8-й
+Spell_Level9,,9-й
+Spell_Level10,,10-й
+Spell_Level11,,11-й
+Spell_Level12,,12-й
+SpellSlot_Available_Level1_0,,Заклинательных слотов 1-го уровня не осталось.
+SpellSlot_Available_Level1_1,,У меня остался один слот заклинания 1-го уровня. На исходе.
+SpellSlot_Available_Level1_2,,У меня осталось два слота заклинаний 1-го уровня. Полезно.
+SpellSlot_Available_Level1_3,,Три слота заклинаний 1-го уровня! Я готов ко всему.
+SpellSlot_Available_Level1_4,,Урт хранит меня.
+SpellSlot_Available_Level1_5,,Что мне сотворить?
+SpellSlot_Available_Level1_6,,Я чувствую себя обновлённым.
+SpellSlot_Available_Level2_0,,Заклинательных слотов 2-го уровня не осталось.
+SpellSlot_Available_Level2_1,,У меня остался один слот заклинания 2-го уровня. Отлично.
+SpellSlot_Available_Level2_2,,"У меня осталось два слота заклинаний 2-го уровня. Интересно, что я сотворю…"
+SpellSlot_Available_Level2_3,,Вот это да! Потрясающе!
+SpellSlot_Available_Level2_4,,Они назовут меня струнником.
+SpellSlot_Available_Level2_5,,Истинный мастер Тайного…!
+SpellSlot_Available_Level2_6,,МОЯ СИЛА НЕ ИМЕЕТ ПРЕДЕЛОВ!
+SpellSlot_Available_Level3_0,,Заклинательных слотов 3-го уровня не осталось.
+SpellSlot_Available_Level3_1,,Один слот заклинания третьего уровня. Лучше потратить его с умом.
+SpellSlot_Available_Level3_2,,Два слота заклинания третьего уровня. Это мощная магия.
+SpellSlot_Available_Level3_3,,Три слота заклинания третьего уровня. Моё мастерство не знает преград.
+SpellSlot_Available_Level3_4,,Четыре слота заклинания третьего уровня. Аккуратно.
+SpellSlot_Available_Level3_5,,Пять слотов заклинания третьего уровня! Я неостановим!
+SpellSlot_Available_Level3_6,,Шесть слотов заклинания третьего уровня. Это вообще допустимо?
+Glossary_AlreadyClicked,,У меня это уже есть в глоссарии.
+Change_Font,,Сменить шрифт на: {0}
+New_Turn,,Ход {0}
+CantAfford_0,,Не хватает крон.
+CantAfford_1,,Мне нужно больше крон.
+CantAfford_2,,Слишком дорого.
+CantAfford_3,,Нет.
+CantAfford_4,,"Может быть, после зарплаты."
+CantAfford_5,,От этого мне грустно.
+ChoiceUnlock_NeedRest_0,,Позже.
+ChoiceUnlock_NeedRest_1,,Сначала мне нужно отдохнуть.
+ChoiceUnlock_NeedRest_2,,Немного погодя.
+ChoiceUnlock_NeedRest_3,,Для этого мне нужен осколок.
+ChoiceUnlock_NeedRest_4,,Не сейчас.
+ChoiceUnlock_Annoyed_0,,<b>Нет</b>.
+ChoiceUnlock_Annoyed_1,,Мне это надоело.
+ChoiceUnlock_Annoyed_2,,Прямо сейчас я правда не могу это сделать.
+ChoiceUnlock_Annoyed_3,,Мне нужно ПРИНЕСТИ <shake>ОСКОЛОК ДЖОРА</shake>!
+ChoiceUnlock_Annoyed_4,,"Похоже, мне никак не удастся с этим смириться, да?"
+RollUnlock_NeedRest_0,,"Сначала отдохну, а потом сделаю это."
+RollUnlock_NeedRest_1,,"Может быть, завтра."
+RollUnlock_NeedRest_2,,Позже.
+RollUnlock_NeedRest_3,,Сначала отдых.
+RollUnlock_NeedRest_4,,Не сейчас.
+RollUnlock_NeedRest_5,,Мне нужен перерыв.
+RollUnlock_NotEnoughHP,,[Эзотерик Нейротицизм] Недостаточно очков здоровья.
+RollUnlock_HpCost,,{0} ОЗ
+SpellClick_NotEnoughHP,,[Магия крови] Недостаточно очков здоровья для применения этого заклинания.
+SpellClick_NoSlot,,Нет свободных слотов заклинаний.
+SpellClick_CantCast,,Сейчас это применить нельзя.
+SpellClick_InEncounter,,Некогда!
+SpellClick_MaxHp,,Мне не нужно исцеление.
+Encounter_Round,,Раунд {0}
+Choice_Paranoia,,[Заразная Паранойя] Бросок инициативы с преимуществом.
+Choice_Bless,,БЛАГОСЛОВЕНИЕ — брошено {0} (1d4).
+Choice_Enhance,,УСИЛИТЬ СПОСОБНОСТЬ — добавлено {0} (ПРОФ).
+Choice_CrusadersMantle,,МАНТИЯ КРЕСТОНОСЦА — брошено {0} (1d12).
+Choice_DivineHex,,БОЖЕСТВЕННЫЙ СГЛАЗ добавляет {0}!
+Choice_WhitemanesBlessing,,Благословение Уайтмейн — брошено {0} (1d4).
+Choice_WEAL_Success,,Струна даёт Благосостояние!
+Choice_WEAL_Fail,,Благосостояние Струны не срабатывает…!
+Choice_WOE_Success,,Горе Струны рассеивается…!
+Choice_WOE_Fail,,Струна даёт Горе.
+Choice_LUCK_Once,,[Удача дурака] Выпала натуральная единица. Перебрасываю один раз.
+Choice_LUCK_Multiple,,[Удача дурака] Выпала натуральная единица. Перебрасываю {0} раз.
+Choice_LUCK_Damage,,[Удача дурака] Потеряно {0} ({1}d4) очков здоровья.
+Choice_PROF,,[Профессиональный Жрец] Избежал критического провала.
+Choice_VOICE_Nat20,,[Глас Бога] Он видит тебя.
+Choice_VOICE,,[Глас Бога] Ты добился критического успеха.
+Choice_MUSH,,[Подземелья: Рефлексы] Добавлено мастерство.
+Choice_DREAM,,[Имперский Сон] Добавлено мастерство.
+Choice_BARB,,[Варвар Асканий] Добавлено мастерство.
+Choice_NAT,,[Националист] Добавлено мастерство.
+Choice_DRUID,,[Местный друид] Добавлено мастерство.
+Choice_FEMI,,[Леди Фэйр] Добавлено мастерство.
+Choice_MASC,,[Будущий Патриарх] Добавлено мастерство.
+Choice_APO,,[Аполитичный] Мастерство увеличено на 1.
+Choice_APO_Election,,[Аполитичный] Мастерство увеличено на 10.
+Choice_ASIncrease,,Счёт характеристики увеличен на {0}.
+Choice_ASDecrease,,Счёт характеристики уменьшен на {0}.
+Lost_Item,,Потеряно {0}.
+Lost_Crowns,,Потеряно {0} корон.
+Lost_Crowns_All,,Потеряно {0} корон. Теперь у меня не осталось ни одной.
+DayMessage_Day,,День {0}
+DayMessage_Night,,Ночь
+DayMessage_Date_Day22,,"22 марта, 27 год Эры После Падения"
+DayMessage_Date_Day23,,"23 марта, 27 год Эры После Падения"
+DayMessage_Date_Day,,"Март {0}-го, 27 год Эры После Падения"
+LongRest_Done,,"[Хорошо отдохнул: преимущество при большинстве проверок, пока не получишь истощение.]"
+LongRest_Snell,Snell,И… ты отправляешься спать. Тогда я тоже пойду. <i>Спокойной ночи</i>.
+PillarScene_Snell,OBJ,<shake>Снелл</shake>!
+PillarScene_Ettir,OBJ,<shake>…Эттир</shake>!
+PillarScene_Hey,OBJ,«…Эй!»
+PillarScene_No,OBJ,Нет…
+PillarScene_NotAgain,OBJ,Только не <i>опять</i>.
+PillarScene_You,OBJ,Ты…
+PillarScene_This,OBJ,Это…
+PillarScene_Strength_Low,STR,Ты — <b>разочарование</b>.
+PillarScene_Dexterity_Low,DEX,"Ты только и делаешь, что <i>терпишь неудачи</i>, верно?"
+PillarScene_Constitution_Low,CON,Здесь ты <b>умрёшь</b>.
+PillarScene_Intelligence_Low,INT,Ты <b>не гений</b>.
+PillarScene_Wisdom_Low,WIS,Ты <b>совершенно потерян</b>.
+PillarScene_Charisma_Low,CHA,Ты <b>абсолютно один</b>.
+PillarScene_Strength_High,STR,<b>Он</b> здесь.
+PillarScene_Dexterity_High,DEX,Это чёртово место…
+PillarScene_Constitution_High,CON,Ты жив.
+PillarScene_Intelligence_High,INT,Как странно. Исследуй.
+PillarScene_Wisdom_High,WIS,Не всё потеряно.
+PillarScene_Charisma_High,CHA,"Может, отсюда всё-таки есть выход."
+PillarScene_Dexterity0_0,DEX,Подожди…
+PillarScene_Dexterity0_1,DEX,Что здесь происходит?
+PillarScene_Dexterity6_0,DEX,О нет.
+PillarScene_Dexterity6_1,DEX,Нет-нет-нет. Это плохо.
+PillarScene_Dexterity6_2,DEX,Ты НЕ обдумал это вообще. Совсем.
+PillarScene_Dexterity10_0,DEX,Чёрт.
+PillarScene_Dexterity10_1,DEX,"Чёрт, чёрт, чёрт."
+PillarScene_Dexterity10_2,DEX,Это была ужасная идея.
+PillarScene_Dexterity16_0,DEX,Хорошо. Незначительная ошибка в расчётах.
+PillarScene_Dexterity16_1,DEX,Но всё нормально. Ты справишься.
+PillarScene_Dexterity16_2,DEX,Пора импровизировать. <i>Быстро</i>.
+PillarScene_Charisma0_0,CHA,Можешь попробовать кричать?
+PillarScene_Charisma0_1,CHA,"Здесь нет никаких… <i>монстров</i>, правда?"
+PillarScene_Charisma6_0,CHA,Только ты и пустота. На этот раз от неё не уйти.
+PillarScene_Charisma6_1,CHA,Это <i>дерьмо</i>.
+PillarScene_Charisma10_0,CHA,"Да, дела явно идут не туда."
+PillarScene_Charisma10_1,CHA,"Но, может… ты сможешь договориться с тем, что там?"
+PillarScene_Charisma16_0,CHA,"Сосредоточься. С тем, что там, можно договориться."
+PillarScene_Charisma16_1,CHA,Всё чего-то хочет. Всегда есть верный выбор.
+PillarScene_Constitution0_0,CON,ПАНИКА. УЖАС. УМИРАЮЩИЙ.
+PillarScene_Constitution0_1,CON,Твоё тело кричит. Всё кричит.
+PillarScene_Constitution6_0,CON,СТРАХ. ТЕЛО ДРОЖИТ.
+PillarScene_Constitution6_1,CON,Там нигде. Там НИЧЕГО.
+PillarScene_Constitution10_0,CON,СТРАХ. Глубокий. Тревожный.
+PillarScene_Constitution10_1,CON,В твоей глубине бушует первобытный ужас.
+PillarScene_Constitution16_0,CON,СТРАХ. И всё же… ты СДЕРЖИВАЕШЬ ЕГО.
+PillarScene_Constitution16_1,CON,Тело выдерживает. Оно всегда выдерживает.
+PillarScene_Wisdom0_0,WIS,Странное место. Запутанный…
+PillarScene_Wisdom0_1,WIS,В голове закружилось. Ты ходишь по кругу?
+PillarScene_Wisdom6_0,WIS,Чувства не улавливают ничего.
+PillarScene_Wisdom6_1,WIS,Всё запутано. Разум не может толком это ухватить.
+PillarScene_Wisdom10_0,WIS,Пристальный взгляд в Запределье.
+PillarScene_Wisdom10_1,WIS,Оно оставляет твой разум… во тьме.
+PillarScene_Wisdom10_2,WIS,"Узкая полоска света, уравновешенная на эзотерической поверхности."
+PillarScene_Wisdom16_0,WIS,Запределье взирает в тебя в ответ.
+PillarScene_Wisdom16_1,WIS,Ты чувствуешь всё и ничего.
+PillarScene_Wisdom16_2,WIS,"Узкая полоска света, уравновешенная на эзотерической поверхности. Следуй за ней."
+PillarScene_Intelligence0_0,INT,Хмм…
+PillarScene_Intelligence0_1,INT,<wiggle>Хмм…</wiggle>
+PillarScene_Intelligence6_0,INT,"Разумеется, это всего лишь иллюзия."
+PillarScene_Intelligence6_1,INT,Места между мирами не могут быть… ничем. Это было бы нелепо.
+PillarScene_Intelligence10_0,INT,Вычисли. Обработай. Найди закономерность.
+PillarScene_Intelligence10_1,INT,"Ты знаешь, что Запределье противоречит всей логике. Оно — <i>Чистый Эзотерик</i>."
+PillarScene_Intelligence10_2,INT,Ты один можешь его покорить.
+PillarScene_Intelligence16_0,INT,Завораживающе. Жутко. Небывало.
+PillarScene_Intelligence16_1,INT,Твой гений привёл тебя сюда. В это место <i>Чистый Эзотерик</i>.
+PillarScene_Intelligence16_2,INT,Ты покоришь его в одиночку.
+PillarScene_Strength0_0,STR,Тело отказывает тебе.
+PillarScene_Strength0_1,STR,Просто… сдайся. Тебе никогда не было суждено зайти так далеко.
+PillarScene_Strength0_2,STR,Ты не заслуживаешь быть мужчиной.
+PillarScene_Strength6_0,STR,Это конец.
+PillarScene_Strength6_1,STR,Ты недостаточно силён для этого.
+PillarScene_Strength10_0,STR,Не время Размышлять.
+PillarScene_Strength10_1,STR,Пришло время ДЕЙСТВОВАТЬ.
+PillarScene_Strength16_0,STR,ВОЗЬМИ СЕБЯ В РУКИ. Это твоё испытание.
+PillarScene_Strength16_1,STR,Герои не пасуют. ВПЕРЁД.
+PillarScene_BigMessage_0,OBJ,"Ослеплённые странными огнями над головой, ты привыкаешь к ним."
+PillarScene_BigMessage_1,OBJ,Ты всматриваешься вперёд.
+PillarScene_BigMessage_2,OBJ,В темноте ты видите Колонну Света.
+PillarScene_BigMessage_3,OBJ,Что-то зовёт тебя к себе.
+EndScene_0,,Это <shake>трудно</shake>…!
+EndScene_1,,"Уверен, я принял хорошее решение…"
+EndScene_2,,"Интересно, куда делся Снелл…?"
+EndScene_3,,Хорошо. Время пришло. Правда?
+FinalMessage_0,OBJ,На этом завершаем сегодняшнюю сессию.
+FinalMessage_1,OBJ,Мне было честью вести для тебя игру на протяжении этого приключения. За твоим жрецом было <i>невероятно</i> интересно наблюдать.
+FinalMessage_AvikRich,OBJ,"(Я всё ещё не могу поверить, что ты отдал Колоду множества вещей тому дворфу, святые бляди.)"
+FinalMessage_LEVEL,OBJ,"(Я всё ещё в шоке, что ты добрался до конца на первом уровне. Это было личным испытанием или чем-то иным?)"
+FinalMessage_TeaShop,OBJ,"(Я до сих пор не могу поверить, что ты так ни разу и не зашёл в чайную. Вообще НИ РАЗУ.)"
+FinalMessage_EverGlad,OBJ,"(Я до сих пор не могу поверить, что ты подписал контракт с Вечно-Радостным. Это изменит мои планы довольно значительно.)"
+FinalMessage_CLERIC,OBJ,"(Или, точнее, <i>ЖРЕЦ</i>, верно?)"
+FinalMessage_WIZARD,OBJ,"(Или, точнее, твой <i>волшебник</i>, верно?)"
+FinalMessage_ROGUE,OBJ,"(Или, точнее, твой <i>долбоёб-разбойник</i>, верно?)"
+FinalMessage_BARB,OBJ,"(Или, точнее, твой питающийся непереработанным мясом <i>ВАРВАР</i>, верно?)"
+FinalMessage_BARD,OBJ,"(Или, точнее, твой будущий легендарный <i>ТАНЦУЮЩИЙ БАРД</i>, верно?)"
+FinalMessage_DRUID,OBJ,"(Или, точнее, твой добродушный местный <i>ДРУИД</i>, верно?)"
+FinalMessage_Compliment,OBJ,(Это комплимент.)
+FinalMessage_Date_Three_0,OBJ,"Как-то тебе удалось выбить ТРИ свидания за время этого приключения. Пока не ясно, сложатся ли они на самом деле удачно."
+FinalMessage_Date_Three_1,OBJ,"У меня такое чувство, что ты — как минимум — оставишь незабываемое впечатление. Впрочем, на целых троих. <i>Чёрт возьми</i>."
+FinalMessage_Date_Ettir_0,OBJ,Как-то тебе всё же удалось завоевать настоящее свидание с Эттир. С <i>буквальным</i> ангелом.
+FinalMessage_Date_Ettir_1,OBJ,"Уверен, она удивлена не меньше меня. И всё же ты прошёл весь путь и показал себя интересным — пусть и в самой незначительной степени — древнему метафизическому существу."
+FinalMessage_Date_Ettir_2,OBJ,Гордись этим. И немного бойся.
+FinalMessage_Date_Moongore_0,OBJ,"Как-то тебе всё-таки удалось назначить свидание с <i>Лунной Кровью</i> — настоящее, можно сказать, почти настоящее. Очень здравый выбор."
+FinalMessage_Date_Moongore_1,OBJ,"У меня ощущение, что к концу ты окажешься в гипсе."
+FinalMessage_Date_Moongore_2,OBJ,(Не в таком смысле.)
+FinalMessage_Date_Viira_0,OBJ,"Как-то тебе всё же удалось завоевать настоящее свидание с красивым орком, Вийрой."
+FinalMessage_Date_Viira_1,OBJ,"Мне кажется, ты — как минимум — произведёшь незабываемое впечатление."
+FinalMessage_Date_Viira_2,OBJ,(Помни: она лишь использует тебя — и это нормально.)
+FinalMessage_Isk_0,OBJ,"О, и не забудь про своего нового друга, Иска!"
+FinalMessage_Isk_1,OBJ,"Ему придётся отыскать <i>жутко</i> мощную магию, чтобы вернуть свою дорогую жену. Думаешь, у него получится? Возможно, тебе придётся ему помочь…"
+FinalMessage_Meek_0,OBJ,"Что касается Смиренного, теперь у тебя фамильяр на всю жизнь."
+FinalMessage_Meek_1,OBJ,"Только всё же присматривай за ним. Его старый учитель определённо ещё где-то здесь — возможно, тебе даже удастся как-нибудь с ним поговорить."
+FinalMessage_Meek_Ant,OBJ,"И ещё у тебя в кармане муравей из Черепа. Что ж, ты и правда собираешь всё больше таких «друзей», да?"
+FinalMessage_Ant_Individual_0,OBJ,"Помни, у тебя также есть муравей из Черепа. Возможно, теперь он будет жить с тобой. Думаю, будет."
+FinalMessage_Ant_Individual_1,OBJ,Твоя мама с ума сойдёт.
+FinalMessage_Ant_Hive_0,OBJ,"О, и, скорее всего, ты больше не увидишь того муравья из Черепа. Которого ты оставил внизу."
+FinalMessage_Ant_Hive_1,OBJ,"Если не захочешь, конечно. Ну, то есть. Мы можем это устроить. Может быть."
+FinalMessage_Mines,OBJ,"Есть ещё вопросы вокруг «Потерянных шахт», которые искал Акзел. По-моему, это подземелье повышенного уровня."
+FinalMessage_Mines_Key,OBJ,"Возможно, странный «Ключ в Нигде» имеет к этому отношение! Нам остаётся лишь ждать и смотреть."
+FinalMessage_Mines_NoKey,OBJ,"Полагаю, это может стать отличной целью следующего приключения. Кто не любит хорошую охоту за сокровищами?"
+FinalMessage_Deal_0,OBJ,"Кстати, Модисса и Ролло — интересная пара, не правда?"
+FinalMessage_Deal_1,OBJ,"Я бы сказал, эта путаница впоследствии доставит серьёзных неприятностей. Союз Азгала и Националистов? Он не может долго продержаться. Или может?"
+FinalMessage_GoldenHorde,OBJ,"Какой бы исход ни случился, Золотая орда будет бдительно — излучающе — следить за вашим городом."
+FinalMessage_GoldenHorde_A,OBJ,"К счастью для тебя, этот глаз не станет слишком тщательно за тобой следить. Хотя, возможно, это плохо. Будет захватывающе посмотреть."
+FinalMessage_GoldenHorde_B,OBJ,"И этот глаз может уставиться на <i>тебя</i> из-за того, как ты сыграл на той встрече. Будет захватывающе посмотреть."
+FinalMessage_Visken_0,OBJ,"Что касается Вискена, твоё маленькое приключение для него — суета. Разумеется."
+FinalMessage_Visken_1,OBJ,"Но я почти уверен, что после твоей полуночной встречи он и его Помощники так или иначе ещё встретятся с тобой."
+FinalMessage_Visken_Oath,OBJ,"Особенно потому, что ты принёс ту клятву. Удачи тебе."
+FinalMessage_Iomestra_0,OBJ,"А потом… есть <i>Иоместра</i>. Ты ведь не вправду столкнулся с ней, да?"
+FinalMessage_Iomestra_1,OBJ,"Может, и столкнулся. Мы никогда не можем быть уверены. В Джоре и его Струнах есть что-то странное. Ты хорошо играешь ими в своём разуме, но, раскрывая всё больше об этих перекрученных битвах, задай себе короткий вопрос:"
+FinalMessage_Iomestra_2,OBJ,<b>ЧТО ТАКОЕ ПЯТЬДЕСЯТ НА ПЯТЬДЕСЯТ?</b>
+FinalMessage_Crowns_0,OBJ,"В твоём жреце, разумеется, полно богатств из Колоды множества вещей."
+FinalMessage_Crowns_Pretend,OBJ,"(Не волнуйся, мы просто сделаем вид, что деньги он получил именно так.)"
+FinalMessage_Crowns_1,OBJ,"Не хочу слишком испортить тебе удовольствие, но… ему <i>придётся</i> заплатить с этого налоги. Плюс, он собрал их во время официальной миссии."
+FinalMessage_Crowns_2,OBJ,Рассчитывай сохранить меньше половины. Прости. Таковы правила. Я их не писал.
+FinalMessage_Crowns_3,OBJ,"Хорошо, технически я их всё же написал. Но поверь, я позабочусь, чтобы твой жрец получил <i>достойную долю</i>."
+FinalMessage_Crowns_LandRights,OBJ,"И ты также купил права на земли под подземельем… так что, думаю, ты заработаешь ещё больше. В конечном счёте. Правда?"
+FinalMessage_Fool_0,OBJ,И ещё кое-что — ты сохраняешь постоянный недостаток от карты ДУРАКА.
+FinalMessage_Fool_1,OBJ,Прости. Таковы правила. Я их не писал.
+FinalMessage_Fool_2,OBJ,"Хорошо, технически я их всё же написал. Но воспринимай это как весёлое испытание. Сложный режим!"
+FinalMessage_Fool_Sword_0,OBJ,"И что важнее: ты несёшь <i>Меч Тола</i> на спине. Подумай, что написано на рукояти."
+FinalMessage_Fool_Sword_1,OBJ,"Благодаря этому недостатку ты разгадал ту самую подсказку намного, <i>намного</i> раньше, чем следовало. Я говорю — на десять уровней раньше. Так что радуйся."
+FinalMessage_ROGUECard_0,OBJ,"И ещё кое-что — ты вытянул карту РАЗБОЙНИКА, верно? Из Колоды множества вещей?"
+FinalMessage_ROGUECard_1,OBJ,"Да, это ещё отомстит тебе. Скажем так, где-то в Норвике есть очень злой старик, который сейчас — тайком — плетёт твою гибель."
+FinalMessage_ROGUECard_2,OBJ,Но это будет просто весёлым испытанием. Сложным режимом!
+FinalMessage_Darrow_0,OBJ,"В конечном счёте, однако, меня больше всего заинтересовали твои дела с Дарроу. То, что он поделился всеми теми сведениями о Пророчестве Кровавого языка."
+FinalMessage_Darrow_1,OBJ,"Это определённо ещё станет мучением для твоего жреца в будущем. Кстати, об этом…"
+FinalMessage_Urth,OBJ,"В конечном счёте, однако, меня больше всего заинтересовала твоя встреча с Уртом."
+FinalMessage_Urth_Snell_0,OBJ,Для Снелла это была встреча с ужасами прошлого.
+FinalMessage_Urth_Ettir,OBJ,"Для Эттир это было напоминанием — чем дольше она стоит на месте, тем быстрее всё вокруг неё вращается."
+FinalMessage_Urth_Snell_1,OBJ,Для Жреца это наверняка оставило неизгладимый след.
+FinalMessage_Urth_Snell_2,OBJ,"След, который определит его будущее. И Эпоху, которая грядёт."
+FinalMessage_Urth_Snell_3,OBJ,"Кстати, об этом…"
+FinalMessage_Urth_Alone_0,OBJ,"Ты встретил своего бога в одиночестве, в пустоте."
+FinalMessage_Urth_Alone_1,OBJ,"Всего лишь человек. Или, может быть, призрак прошлого — его последние слова были посланием <i>тебе</i>."
+FinalMessage_Urth_Alone_2,OBJ,"Интересно, как это определит будущее Жреца. И Эпоху, которая грядёт."
+FinalMessage_Urth_Alone_3,OBJ,"Кстати, об этом…"
+FinalMessage_2,OBJ,"Выборы позади, и этой кампании, кажется, пора перескочить во времени. Пара месяцев? <i>Лет</i>?"
+FinalMessage_3,OBJ,Норвик вступает в смутные времена. {0}
+FinalMessage_3_NATIONALIST,OBJ,Но твой лояльный партии Жрец непременно найдёт место среди собратьев.
+FinalMessage_3_FREESTRIDER,OBJ,Но твой фристрайдер-жрец непременно преуспеет в этом современном мире. Или хотя бы устроится на работу.
+FinalMessage_3_AZGALIST,OBJ,Но твой азгал-жрец непременно найдёт цель в этом деле.
+FinalMessage_3_ARCANIST,OBJ,Но твой жрец непременно возвысится над всем этим — как <i>Бог-Волшебник-Король</i>.
+FinalMessage_3_APOLITICAL,OBJ,Но твой чудесный аполитичный жрец непременно найдёт в хаосе свой дом.
+FinalMessage_3_AGRARIAN,OBJ,"Но твой бедный, бедный яблочный парень-аграрий непременно найдёт покой на Холмах."
+FinalMessage_4,OBJ,"Не могу дождаться, чтобы увидеть, что ты сделаешь дальше.
+<i>— Кристоффер Бодегорд</i>"
+Cant_Reach,,Отсюда дотуда не дотянуться.
+QuickResponse_Empty,,"Хм. Ничего не скажешь, значит?"
+Success_Uppercase,,УСПЕХ
+Resisted_Uppercase,,СОПРОТИВЛЕНО
+Resistance_Magic,,Магическое сопротивление
+Resistance_Legendary,,Легендарное сопротивление
+Counterspell,,Контрзаклинание
+Spell_Failed,,Заклинание не удалось
+Spell_Succeeded,,Заклинание удалось
+Spell_Timer_Expire,,Срок действия {0} истекает.
+Arcanist_Roll,,"[Арканист] Бросок {0} (1d100), слот заклинания восстановлен."
+Lichdom_NoDamage,,[Почти личдом] Ты не получаете урон.
+Lichdom_BigHeal,,[Почти личдом] Восстановлено {0} здоровья. Ты теряешь один уровень истощения.
+Lichdom_SmallHeal,,[Почти личдом] Восстановлено только {0} здоровья. Ты не теряешь уровней истощения.
+Patron_KeepAlive,,[Собрание с Покровителем] Зловещее присутствие поддерживает вашу жизнь.
+Periapt_KeepAlive,,"[Периапт здоровья] В тот миг, когда ты теряешь сознание, тебя мгновенно возвращают к жизни."
+BlockMessage_RingOfProtection,,Кольцо Защиты блокирует 1 единицу урона!
+BlockMessage_Azgalist,,[Азгалист] Заблокирована 1 единица урона.
+BlockMessage_ShieldOfFaith,,Щит веры блокирует 1 единицу урона.
+BlockMessage_Barkskin,,Кора дерева сопротивляется урону {0}.
+BlockMessage_EsotericRage,,Эзотерическая ярость сопротивляется урону {0}.
+BlockMessage_Belly,,[Тёмный желудок души] Сопротивлено урона {0}.
+BlockMessage_Fragile,,[Хрупкое бессмертие] Ты жив.
+DeathRoll_Man,,[Хороший человек] Восстановлено {0} хитов.
+DeathRoll_Exhaust_Increase,,Истощение усилено…
+DeathRoll_Exhaust_Decrease,,Истощение предотвращено…!
+Snell_SpinCheck,,Почему ты такой?
+ExamineItem_Spell,,Я уже запомнил это заклинание.
+ExamineItem_Food_NoHeal,,У меня нет причин так делать.
+ExamineItem_Food_Heal,,Восстановлено {0} здоровья!
+ExamineItem_Food_Heal_Mill,,[Страж тысячелетия] Восстановлено {0} здоровья!
+ExamineItem_Food_Sick,,Мне нехорошо…
+ExamineItem_Food_Full,,"Не могу есть, слишком сыт."
+ExamineItem_Food_Keep,,Мне нужно сохранить хотя бы <i>один</i> из них.
+ExamineItem_Food_AbilityScore,,{1} увеличен на {0}
+ExamineItem_First_Full,,Мои слоты заклинаний первого уровня не израсходованы.
+ExamineItem_First_Refill,,<b>*Кашель*</b>
+ExamineItem_Second_Full,,Все места для заклинаний второго уровня заняты.
+ExamineItem_Second_Missing,,Нет второго уровня для восстановления.
+ExamineItem_Second_Refill,,<b>Гладко спускается.</b>
+ExamineItem_Third_Full,,Третий уровень? Есть.
+ExamineItem_Third_Missing,,Третий уровень? Пока нет.
+ExamineItem_Third_Refill,,<b>Обновление применено. Чувствуется <i>эзотерично</i>.</b>
+Pickpocket_Item,,Предмет для карманника
+Pickpocket_Success,,Успех карманника
+Pickpocket_Failure,,Провал карманника
+Pickpocket_NotAllowed_0,,Я не могу этого сделать.
+Pickpocket_NotAllowed_1,,Ни за что я сейчас это не украду.
+Pickpocket_NotAllowed_2,,Сегодня мне до этого не добраться.
+Pickpocket_NotAllowed_3,,Мне сначала надо немного подождать.
+Pickpocket_NotAllowed_4,,У кражи есть период восстановления? Чёрт.
+Pickpocket_NotAllowed_5,,Мне нужна чёртова передышка.
+MageHand_NotAllowed,,Нельзя переместить это Магической рукой!
+AddItem_Spell_Toss,,Я уже запомнил это заклинание. (Ты перебрасываешь его через плечо.)
+AddItem_Spell_Memorized,,Заклинание {0} запомнено.
+AddItem_ExtraCrown,,[Деньги решают] Найдена лишняя Корона!
+AddItem_ExtraCrowns,,[Деньги решают] Найдено дополнительных Корон: {0}!
+AddItem_ExtraItem,,[Аграрий] Найден дополнительный!
+PayCrowns,,Заплачено {0} корон.
+PayCrowns_Free,,"Так отторговался, что получил бесплатно!"
+PayCrowns_Haggled,,Отторговался на одну корону! Заплачено только {0}.
+PayCrowns_HaggledOne,,Отторговался на {1} корон. Заплачено только {0}!
+PayCrowns_HaggledProfit,,"Так отторговался, что умудрился получить прибыль. Получено {0} корон!"
+Feat_CantEquip_Cooldown,,Не смогу это экипировать до завтра.
+Feat_CantEquip_ToManyFeats,,Выбрано слишком много подвигов.
+Exhaustion_WellRested_Gone,,Больше не отдохнувший.
+SheetRoll_Behold,,Вот при сложности {0}
+Sheet_BeholdBackground,,Уровень {0} «{1}»
+Democratic_Heal,,[Демократический Глашатай] Восстановлено {0} (1d4) хитов.
+DialogError,,ПРЕДУПРЕЖДЕНИЕ: ПРОИЗОШЛА ОШИБКА В: «{0}»
+DialogWarning,,ПРЕДУПРЕЖДЕНИЕ: Отсутствует строка текста в диалоге: «{0}»
+Saving_Autosaving,,Автосохранение…
+Saving_Quicksaving,,Быстрое сохранение…
+Saving_InDialog,,Невозможно сохранить в диалоге
+Saving_NoQuickSave,,Сейчас невозможно сохранить
+Saving_Save,,— Сохранить —
+Saving_Overwrite,,— Перезаписать —
+Loading_InDialog,,Невозможно загрузить в диалоге
+Loading_NoQuickLoad,,Сейчас невозможно загрузить
+Loading_NoSaveFile,,Нет файла сохранения для загрузки
+Confirm_QuickLoad,,Быстрая загрузка?
+Confirm_QuitToMenu,,Выйти в меню?
+Confirm_Skip_Level,,Пропустить повышение уровня? Позже его всегда можно получить на листе персонажа.
+Confirm_Spend_HP,,"<shake>Принести в жертву</shake> {0} очков здоровья, чтобы разблокировать?"
+Confirm_Spend_Shard,,Потратить 1 осколок для разблокировки?
+Confirm_Skip_Credits,,Пропустить титры?
+Confirm_DeepStorage,,Вывернуть сумку наизнанку? Все сохранённые предметы окажутся в инвентаре.
+Confirm_Spell_Cast,,Применить {0} {1}
+Confirm_Spell_Replace,,Сейчас ты сосредоточен на {0}. Заменить его на {1} {2}
+Confirm_Spell_Cost_Spellslot,,слотом заклинания {0} уровня?
+Confirm_Spell_Cost_Hp,,путём <shake>принесения в жертву</shake> {0} очков здоровья?
+Confirm_Spell_Cost_Storing,,использовав {0}/{1} зарядов твоего Кольца хранения заклинаний
+Confirm_Spell_Cost_Incense,,с помощью <b>ладана</b>?
+Confirm_Spell_Cost_Bondust,,с помощью некоторой <b>костяной пыли</b>?
+Confirm_Spell_Cost_Dreampatch,,с помощью <b>Дримпатча</b>?
+Confirm_Spell_Cost_Item,,с помощью предмета?
+Confirm_Feat_Equip,,Добавить {0} на лист персонажа?
+Confirm_Feat_Unequip,,Убрать {0} с листа персонажа? Добавить его обратно можно будет только после отдыха.
+Confirm_ShortRest,,Потратить 1 кость для короткого часового отдыха?
+Toggle_Running,,[Переключатель: бег]
+SpellSlot_Regain_Incense,,[Чаша для ладана] Восстановлен слот заклинания 1-го уровня.
+Exhaustion_Endure,,[Выносливость азгалианца] Снят один уровень истощения.
+Exhaustion_NoSleep,,Я… устал. [ИСТОЩЕНИЕ КРИТИЧЕСКОЕ]
+NoSleep_Hour0_You,,Уже поздно. Пора спать.
+NoSleep_Hour1_Snell,Snell,"«Ты собираешься не спать всю ночь? Может, тебе не стоит, Жрец.»"
+NoSleep_Hour2_Snell,Snell,"«Я всеми руками за то, чтобы дело было сделано, но отдых тоже важен, понимаешь?»"
+NoSleep_Hour3_Snell,Snell,«Будешь работать всю ночь? …Хорошо. Давай это сделаем.»
+NoSleep_Hour4_Snell,Snell,«М-м? Что? …Я не спал.»
+NoSleep_Hour5_Snell,Snell,"«Если мы сейчас отправимся обратно, успеем лечь спать до рассвета.»"
+NoSleep_Hour7_Snell,Snell,«Десять лет назад я без труда не спал всю ночь. Теперь чувствую себя как медвежий помёт.»
+Item_NoWear_Spellbook,,Там нельзя экипировать тексты.
+Item_NoWear_Head,,Нет. Это явно предназначено для головы.
+Item_NoWear_Weapon,,Оружие туда не наденешь.
+Item_NoWear_Misc,,"Я бы сказал, это аксессуар."
+Item_NoWear_KeyItem_0,,"Пожалуй, я могу это носить…"
+Item_NoWear_KeyItem_1,,Я не ношу такие вещи.
+Item_NoWear_Incense,,У этого… есть и другие применения.
+Item_NoWear_Shard,,С этим надо быть осторожным.
+Item_NoWear_Potion,,Это можно употребить. Но не носить.
+Item_NoWear_Scroll,,Не совсем.
+Item_NoPickup_Helm,,<b>Нет. Я не стану.</b>
+Item_DeepStorage_One,,На дне сумки найден один предмет!
+Item_DeepStorage_Many,,На дне сумки найдено предметов: {0}!
+Companion_Pickup_Snell_0,Snell,"«<i>Доброе утро</i>, Жрец.»"
+Companion_Pickup_Snell_1,Snell,«Готов отправиться? Хорошо.»
+Companion_Pickup_Snell_2,Snell,"«Эй, Жрец. Да, пошли.»"
+Companion_Pickup_Ettir_0,Ettir,«Пойдём.»
+Companion_Pickup_Ettir_1,Ettir,«Я готов.»
+Companion_Pickup_Ettir_2,Ettir,«Я буду полезен.»
+Boon_Strength,STR,Ты чувствуешь себя <shake>сильнее</shake>…!
+Boon_Dexterity,DEX,Ого…! Ты чувствуешь себя <shake>божественно</shake> быстрым…!
+Boon_Consitution,CON,Божественный. Вечный. <shake>КРЕПКИЙ</shake>.
+Boon_Intelligence,INT,"<shake>Океан</shake> информации, ниспосланный божественной силой."
+Boon_Wisdom,WIS,Твой бог рядом. Он <shake>любит</shake> тебя.
+Boon_Charisma,CHA,Наконец-то! Хоть какое-то <shake>святое</shake> внимание.
+Spellbook_NoSpells,,Нет подготовленных заклинаний для применения.
+Spellbook_NoSpells_Spam_0,,Тебе нужна молитва. Отчаянно. Прямо сейчас.
+Spellbook_NoSpells_Spam_1,,Угх. У меня разыгрывается головная боль. Прекрати.
+Spellbook_NoSpells_Spam_2,,"Ещё несколько раз — я уверен, сработает."
+SpellBook_InvalidTarget,,Нет допустимой цели.
+SpellBook_Target,,— Применить {0} —
+SpellBook_Target_Title,,Цель для {0}
+SpellBook_Warning_Magic,,Предупреждение: Сопротивление
+SpellBook_Warning_Legendary,,Предупреждение: Легендарное сопротивление
+SpellBook_ItemCast,,Потрачено {0}.
+SpellBook_Prepare,,— Подготовить —
+SpellBook_Unprepare,,— Снять подготовку —
+SpellBook_Prepare_Amount,,Заклинания для подготовки: {0}
+SpellBook_PreparedSpells,,Подготовленные заклинания
+SpellBook_PreparedSpells_Info,,"Количество подготовленных тобой сейчас заклинаний. Ты можешь подготовить заклинания, посетив святилище в любое время.
+
+Ты можешь подготовить: 2 + уровень твоего класса + модификатор интеллекта."
+SpellBook_DifficultyClass,,Класс сложности
+SpellBook_DifficultyClass_Info,,"Это КС, которую цель должна набрать при спасброске против одного из твоих заклинаний.
+
+КС равна: 8 + больший из модификаторов мудрости и интеллекта + бонус мастерства."
+SpellBook_CollectedSpells,,Собранные заклинания
+SpellBook_CollectedSpells_Info,,"Количество заклинаний в твоей книге заклинаний. Ты можешь получить больше, собирая свитки заклинаний и запоминая их."
+SpellTile_NoCast,,Нет причин применять это заклинание.
+SpellTile_ShortRest,,Короткий отдых
+SpellTile_ShortRest_Info,,"Потратьте 1 час, чтобы восстановиться. Восстановите (1d8) хитов, снимите 1 уровень истощения и восстановите 1 ячейку заклинания. После отдыха все проверки костей разблокированы."
+SpellTile_ShortRest_Desc,,"{0}/{1}
+Потратьте 1 час, чтобы восстановиться. Восстановите (1d8) хитов, снимите 1 уровень истощения и восстановите 1 ячейку заклинания. После отдыха все проверки костей разблокированы."
+MiscTile_NoDice,,Кости хитов закончились.
+ShortRest_NeedLongRest,,"Нет. Мне нужен <i>длинный</i> отдых. (Слишком истощён, и уже 5 утра.)"
+ShortRest_Lone,,[Одинокий жрец] Восстановлено {0} хитов.
+ShortRest_Exhaustion,,Уровень истощения снижен на 1.
+ShortRest_Heal_Lone,,[Дружеская компания] Выпало {0} и {1} (преимущество 1d8). Лечение по большему значению.
+ShortRest_Heal,,На кости хитов выпало {0} (1d8).
+ShortRest_Spellslots,,Просматриваю запомненные заклинания…
+ShortRest_Third,,Удалось восстановить одну ячейку заклинания третьего уровня!
+ShortRest_Second,,Удалось восстановить одну ячейку заклинания второго уровня.
+ShortRest_First,,Удалось восстановить одну ячейку заклинания первого уровня.
+ShortRest_Memorizer_Third,,[Мастер-мнемоник] Удалось восстановить одну ячейку заклинания третьего уровня!
+ShortRest_Memorizer_Second,,[Мнемоник] Удалось восстановить одну ячейку заклинания второго уровня.
+ShortRest_Memorizer_First,,[Мнемоник] Удалось восстановить одну ячейку заклинания первого уровня.
+ShortRest_Unlock_AbilityCheck,,[Разблокированы все проверки характеристик.]
+ShortRest_NoSnell,,Хорошо. На сегодня хватит отдыхать.
+ShortRest_Snell_0,,Ты готов? Отлично. Пошли.
+ShortRest_Snell_1,,Закончил отдыхать?
+ShortRest_Snell_2,,"Хм? О, мы уходим? Хорошо."
+ShortRest_Snell_3,,Небольшая передышка не помешает. Но у нас есть дела.
+ShortRest_Snell_4,,"Хорошо, готов идти."
+TriInteraction_Closer,,Мне нужно подойти ближе.
+TriInteraction_OutOfReach_0,,Отсюда дотуда не дотянуться.
+TriInteraction_OutOfReach_1,,Слишком далеко.
+TriInteraction_OutOfReach_2,,Недостижимо.
+Bark_DS_ArcaneRiddle,Olzis,"«<i>Ну, ну…</i>»"
+Bark_DS_PrimalRiddle,,<i>Не расти. Исчезни.</i>
+Bark_DS_DivineRiddle,,<shake>ОТКРЫТО!</shake>
+Bark_OP_ArcaneSecret,,О. Это что-то дало.
+Spell_GoodApple,,Создано {0} Гудэплов.
+Spell_GoodApple_Wisdom,,Создано {0} Гудэплов (5 + {1} МДР)
+Spell_Augury_0,,<i>Струна</i>. Куда она меня приведёт?
+Spell_Augury_1,,Хмм.
+Spell_Augury_2,,Там… Я вижу. Написано…
+Spell_Augury_WEAL,,<wiggle>БЛАГОСОСТОЯНИЕ…!</wiggle>
+Spell_Augury_WEAL_Low,,Везучая я.
+Spell_Augury_WEAL_Medium,,"Отлично. Посмотрим, что будет!"
+Spell_Augury_WEAL_High,,Удача на моей стороне. Как всегда.
+Spell_Augury_WOE,,<shake>ГОРЕ…</shake>
+Spell_Augury_WOE_Low,,Чёрт.
+Spell_Augury_WOE_Medium,,Дерьмо. <i>Дерьмо</i>.
+Spell_Augury_WOE_High,,…Что-то очень плохое сейчас случится.
+Spell_AuraofVitality,,Бросок: {0} ({1}d6)
+Spell_AuraofVitality_Cleric,,[Жрец] Бросок: {0} ({1}d6) + {2}
+Spell_AuraofVitality_Tingle,,[Эзотерик Тинг] Бросок: {0} ({1}d6) + {2}
+Spell_AuraofVitality_Snell_0,,Святая дерьма. Вот это <i>лечение</i>…
+Spell_AuraofVitality_Snell_1,,<b>Погнали! Да!</b>
+Spell_AuraofVitality_Snell_2,,Да. Теперь я чувствую себя прекрасно.
+Spell_AuraofVitality_Snell_3,,Вот о чём я и говорю!
+Spell_AuraofVitality_Enc,,Бросок: {0} (2d6) на Ауре Жизненной силы.
+Spell_AuraofVitality_Enc_Cleric,,[Жрец] Бросок: {0} (2d6) + {1} на Ауре Жизненной силы.
+Spell_AuraofVitality_Enc_Tingle,,[Эзотерик Тинг] Бросок: {0} (4d6) + {1} на Ауре Жизненной силы.
+Spell_AuraofVitality_Enc_Snell_0,,"Продолжай в том же духе, Жрец!"
+Spell_AuraofVitality_Enc_Snell_1,,"Именно то, что мне было нужно."
+Spell_AuraofVitality_Enc_Snell_2,,Это поможет. Спасибо.
+Spell_AuraofVitality_Enc_Snell_3,,"Отлично, теперь сосредоточься на бое!"
+Spell_CureWounds,,Бросок {0} (1d8)
+Spell_CureWounds_wis,,Бросок {0} (1d8) + {1} (МДР)
+Spell_CureWounds_wis_Cleric,,[Жрец] Бросок {0} (1d8) + {1} (МДР) + {2}
+Spell_CureWounds_wis_Tingle,,[Эзотерик Тинг] Бросок {0} (2d8) + {1} (МДР) + {2}
+Spell_CureWounds_str_Cleric,,[Жрец] Бросок {0} (1d8) + {1} (СИЛ) + {2}
+Spell_CureWounds_str_Tingle,,[Эзотерик Тинг] Бросок {0} (2d8) + {1} (СИЛ) + {2}
+Spell_PrayerofHealing,,Бросок {0} (2d8)
+Spell_PrayerofHealing_wis,,Бросок {0} (2d8) + {1} (МДР)
+Spell_PrayerofHealing_wis_Cleric,,[Жрец] Бросок {0} (2d8) + {1} (МДР) + {2}
+Spell_PrayerofHealing_wis_Tingle,,[Эзотерик Тинг] Бросок {0} (4d8) + {1} (МДР) + {2}
+Spell_PrayerofHealing_str_Cleric,,[Жрец] Бросок {0} (2d8) + {1} (СИЛ) + {2}
+Spell_PrayerofHealing_str_Tingle,,[Эзотерик Тинг] Бросок {0} (4d8) + {1} (СИЛ) + {2}
+Spell_PrayerofHealing_Snell_0,Snell,«Спасибо.»
+Spell_PrayerofHealing_Snell_1,Snell,«Отлично. Немного энергии.»
+Spell_PrayerofHealing_Snell_2,Snell,«Чувствую себя свежим.»
+Spell_PrayerofHealing_Snell_3,Snell,"«Признателен, Жрец.»"
+Spell_PrayerofHealing_Ettir_0,Ettir,"«Спасибо, Жрец.»"
+Spell_PrayerofHealing_Ettir_1,Ettir,«В этом не было необходимости. Но я всё же благодарен.»
+Spell_PrayerofHealing_Ettir_2,Ettir,«Твоё исцеление очень мощное.»
+Spell_PrayerofHealing_Ettir_3,Ettir,«Магия Урта возвращает воспоминания.»
+Spell_InflictWound_Hit,,ПОПАДАНИЕ
+Spell_InflictWound_Miss,,ПРОМАХ
+IdeaBox_Locked,,???
+IdeaBox_QuestTimes_0,,<i>безуспешно</i>
+IdeaBox_QuestTimes_1,,<i>ровно один раз</i>
+IdeaBox_QuestTimes_2,,{0} раз
+IdeaBox_UpdatedOn,,Обновлено {0}
+IdeaBox_1stDay,,"1-й день, {0}"
+IdeaBox_2ndDay,,"2-й день, {0}"
+IdeaBox_3rdDay,,"3-й день, {0}"
+IdeaBox_DayBeforeElection,,"День перед выборами, {0}"
+IdeaBox_ElectionDay,,"День выборов, {0}"
+ItemType_Weapon,,Оружие
+ItemType_Head,,Голова
+ItemType_Spellbook,,Книга заклинаний
+ItemType_Scroll,,Свиток
+ItemType_Potion,,Зелье
+ItemType_Shard,,Осколок
+ItemType_Incense,,Ладан
+ItemType_Coin,,Монета
+ItemType_Misc,,Разное
+ItemType_KeyItem,,Ключевой предмет
+ItemType_AllItem,,Все предметы
+ItemType_StrMod,,Мод. Силы
+ItemType_DexMod,,Мод. Ловкости
+ItemType_ConMod,,Мод. Телосложения
+ItemType_IntMod,,Мод. Интеллекта
+ItemType_WisMod,,Мод. Мудрости
+ItemType_ChaMod,,Мод. Харизмы
+ItemType_None,,Нет
+ItemTitle_Normal_Weapon,,Оружие
+ItemTitle_SlightlyOff_Weapon,,Оружие
+ItemTitle_Stupid_Weapon,,Оружие
+ItemTitle_VeryStupid_Weapon,,Кувалда Сэйкера
+ItemTitle_Normal_Head,,Шлемы
+ItemTitle_SlightlyOff_Head,,Шлема
+ItemTitle_Stupid_Head,,Тинг для головы
+ItemTitle_VeryStupid_Head,,Лицо
+ItemTitle_Normal_Spellbook,,Литература
+ItemTitle_SlightlyOff_Spellbook,,Тексты
+ItemTitle_Stupid_Spellbook,,Бумаги
+ItemTitle_VeryStupid_Spellbook,,Я не умею читать
+ItemTitle_Normal_Scroll,,Свитки
+ItemTitle_SlightlyOff_Scroll,,Свитки
+ItemTitle_Stupid_Scroll,,Штуки для катывания
+ItemTitle_VeryStupid_Scroll,,Волшебная салфетка
+ItemTitle_Normal_Potion,,Расходники
+ItemTitle_SlightlyOff_Potion,,Еда
+ItemTitle_Stupid_Potion,,Ест
+ItemTitle_VeryStupid_Potion,,Ням
+ItemTitle_Normal_Shard,,Осколки
+ItemTitle_SlightlyOff_Shard,,Блестящие безделушки
+ItemTitle_Stupid_Shard,,Сверкающие камни
+ItemTitle_VeryStupid_Shard,,Почему?
+ItemTitle_Normal_Incense,,Церковные принадлежности
+ItemTitle_SlightlyOff_Incense,,Жреческие инструменты
+ItemTitle_Stupid_Incense,,Священные вещи
+ItemTitle_VeryStupid_Incense,,Вкусные вещи
+ItemTitle_Normal_Coin,,Норвикийские короны
+ItemTitle_SlightlyOff_Coin,,Короны
+ItemTitle_Stupid_Coin,,Монеты
+ItemTitle_VeryStupid_Coin,,Денежки
+ItemTitle_Normal_Misc,,Безделушки
+ItemTitle_SlightlyOff_Misc,,Безделушки
+ItemTitle_Stupid_Misc,,Снаряжение
+ItemTitle_VeryStupid_Misc,,Штуки
+ItemTitle_Normal_KeyItem,,Ключевые предметы
+ItemTitle_SlightlyOff_KeyItem,,Ключевые предметы
+ItemTitle_Stupid_KeyItem,,Важные вещи
+ItemTitle_VeryStupid_KeyItem,,Ключи?
+ItemTitle_Normal_AllItem,,Все предметы
+ItemTitle_SlightlyOff_AllItem,,Все предметы
+ItemTitle_Stupid_AllItem,,Всё
+ItemTitle_VeryStupid_AllItem,,Всё здесь
+ItemTitle_Normal_StrMod,,Сила
+ItemTitle_SlightlyOff_StrMod,,Сила
+ItemTitle_Stupid_StrMod,,Крепкий
+ItemTitle_VeryStupid_StrMod,,Мощь
+ItemTitle_Normal_DexMod,,Ловкость
+ItemTitle_SlightlyOff_DexMod,,Ловкость
+ItemTitle_Stupid_DexMod,,Быстрый
+ItemTitle_VeryStupid_DexMod,,Проворность?
+ItemTitle_Normal_ConMod,,Устав
+ItemTitle_SlightlyOff_ConMod,,Устав
+ItemTitle_Stupid_ConMod,,Твёрдый
+ItemTitle_VeryStupid_ConMod,,Нутром чую
+ItemTitle_Normal_IntMod,,Интеллект
+ItemTitle_SlightlyOff_IntMod,,Интеллект
+ItemTitle_Stupid_IntMod,,Умный
+ItemTitle_VeryStupid_IntMod,,Большой мозг
+ItemTitle_Normal_WisMod,,Мудрость
+ItemTitle_SlightlyOff_WisMod,,Мудрость
+ItemTitle_Stupid_WisMod,,Чувства
+ItemTitle_VeryStupid_WisMod,,Любовь
+ItemTitle_Normal_ChaMod,,Харизма
+ItemTitle_SlightlyOff_ChaMod,,Харизма
+ItemTitle_Stupid_ChaMod,,Очарование
+ItemTitle_VeryStupid_ChaMod,,Нужна любовь
+SpecType_Class,,класс
+SpecType_PoliticalStance,,политическая позиция
+SpecName_Cleric,,Жрец
+SpecName_Rogue,,Плут
+SpecName_Wizard,,Волшебник
+SpecName_Druid,,Друид
+SpecName_Bard,,Бард
+SpecName_Barbarian,,Варвар
+SpecName_Nationalist,,Националист
+SpecName_Freestrider,,Фристрайдер
+SpecName_Azgalist,,Азгалист
+SpecName_Arcanist,,Арканист
+SpecName_Apolitical,,Аполитичный
+SpecName_Agrarian,,Аграрий
+SpecName_Rogue_DickAss,,Долбоёб
+SpecName_Cleric_Article,,Артикль
+SpecName_Barbarian_DeathDefying,,Смертельно опасный
+SpecName_Bard_Philogynistic,,Женоненавистник
+SpecName_Druid_NatureLoving,,Любящий природу
+SpecName_Indefinitive_Cleric,,а <b>Жрец</b>
+SpecName_Indefinitive_Rogue,,а <b>Разбойник</b>
+SpecName_Indefinitive_Wizard,,а <b>Волшебник</b>
+SpecName_Indefinitive_Druid,,а <b>Друид</b>
+SpecName_Indefinitive_Bard,,а <b>Бард</b>
+SpecName_Indefinitive_Barbarian,,а <b>Варвар</b>
+SpecName_Indefinitive_Nationalist,,а <b>Националист</b>
+SpecName_Indefinitive_Freestrider,,а <b>Фристрайдер</b>
+SpecName_Indefinitive_Azgalist,,ан <b>Азгалист</b>
+SpecName_Indefinitive_Arcanist,,ан <b>Арканист</b>
+SpecName_Indefinitive_Apolitical,,ан <b>Аполитик</b>
+SpecName_Indefinitive_Agrarian,,ан <b>Аграрий</b>
+Race_Human_Urthfolk,,"Человек, Уртфолк"
+Race_Human_Reedsfolk,,"Человек, Тростниколикий"
+Race_Human_Coastfolk,,"Человек, Побережьефолк"
+Race_Human_Hordefolk,,"Человек, Толпафолк"
+Race_Halfling_Fordfolk,,"Полурослик, Фордфолк"
+Race_Halfling_Stormblood,,"Полурослик, Яростькрови"
+Race_Elf_Illym,,Эльф Иллим
+Race_Elf_Ym,,Эльф Ймиан
+Race_Elf_Pimea,,Эльф Пимеа
+Race_Dwarf_Exile,,Изгнанный дворф
+Race_Under_Dwarf,,Поддворф
+Race_Empire_Dwarf,,Высший дворф
+Race_Gnome_Tealfolk,,"Гном, Тиалфолк"
+Race_Gnome_Glintfolk,,"Гном, Блескфолк"
+Race_Goblin_Forest,,Лесной гоблин
+Race_Goblin_Hill,,Холмовой гоблин
+Race_Goblin_Cave,,Пещерный гоблин
+Race_Bugbear,,Багбер
+Race_Ogre,,Огр
+Race_Troll,,Тролль
+Race_Birdfolk,,Птицелюд
+Race_Orc_Fellfolk,,Орк с Феллов
+Race_Orc_Belifolk,,Орк с Бели
+Race_Merfolk,,Мерфолк
+Race_Kobold,,Кобольд
+Race_Crocoliskfolk,,Кроколизколикие
+Race_Snailfolk,,Улитники
+Race_Undead,,Нежить
+Race_Devil,,Демон
+Race_Demon,,Демон
+Race_Celestial,,Цели Небесных
+Race_Aberration,,Аберрация
+Race_Beast,,Зверь
+Race_Monstrosity,,Монстр
+Race_Plant,,Растение
+Race_Fey,,Фей
+Race_Elemental,,Элементаль
+Alignment_Lawful_Good,,"Законный
+Добрый"
+Alignment_Neutral_Good,,"Нейтральный
+Добрый"
+Alignment_Chaotic_Good,,"Хаотичный
+Добрый"
+Alignment_Lawful_Neutral,,"Законный
+Нейтральный"
+Alignment_True_Neutral,,"Истинно
+Нейтральный"
+Alignment_Chaotic_Neutral,,"Хаотичный
+Нейтральный"
+Alignment_Lawful_Evil,,"Законный
+Злой"
+Alignment_Neutral_Evil,,"Нейтральный
+Злой"
+Alignment_Chaotic_Evil,,"Хаотичный
+Злой"
+GlossaryTags_City,,Город
+GlossaryTags_Skills,,Навыки
+GlossaryTags_Esoterics,,Эзотерики
+GlossaryTags_Folk,,Народ
+GlossaryTags_Geography,,География
+GlossaryTags_History,,История
+GlossaryTags_Language,,Язык
+GlossaryTags_Literature,,Литература
+GlossaryTags_Nature,,Природа
+GlossaryTags_Politics,,Политика
+GlossaryTags_Religion,,Религия
+GlossaryTags_Spells,,Заклинания
+GlossaryTags_Strength,,Сила
+GlossaryTags_Dexterity,,Ловкость
+GlossaryTags_Constitution,,Устав
+GlossaryTags_Intelligence,,Интеллект
+GlossaryTags_Wisdom,,Мудрость
+GlossaryTags_Charisma,,Харизма
+AbilityScoreReveal_0,DEX,"Хм? Подожди, вода…?"
+AbilityScoreReveal_1,INT,Осколок Джора.
+AbilityScoreReveal_2,WIS,Эзотерический осколок во тьме.
+AbilityScoreReveal_3,STR,<i>Следы лап</i>…?
+AbilityScoreReveal_4,WIS,СТОЙТЕ СОВСЕМ НЕПОДВИЖНО.
+AbilityScoreReveal_5,WIS,Мускусный запах — <i>сквозняк</i>.
+AbilityScoreReveal_6,DEX,Чёрт. Искателям приключений и без того нелегко.
+AbilityScoreReveal_7,STR,Ты можешь поднять это.
+AbilityScoreReveal_8,STR,Крыса! Прибей её!
+AbilityScoreReveal_9,STR,Под этими ТЯЖЁЛЫМИ камнями что-то спрятано.
+AbilityScoreReveal_10,INT,Этот волшебник — на его окаменевшей поверхности можно найти что-то интересное.
+AbilityScoreReveal_11,WIS,Стена здесь — это дверь.
+AbilityScoreReveal_12,DEX,Добыча здесь!
+AbilityScoreReveal_13,DEX,Ещё добыча здесь!
+AbilityScoreReveal_14,CON,"Железо — свободно. Поверни, затем потяни."
+AbilityScoreReveal_15,INT,Книга. Исследовать.
+AbilityScoreReveal_16,CHA,"Похоже, на такой камень можно встать, чтобы привлечь внимание…"
+AbilityScoreReveal_17,CON,Что это… ТАКОЕ…?
+AbilityScoreReveal_18,STR,Ты можешь сдвинуть этот кирпич.
+DoorLocked_0_0,,Мне понадобится какой-нибудь ключ.
+DoorLocked_0_1,,Здесь надёжно заперто.
+DoorLocked_0_2,,"Мне понадобится какой-нибудь ключ, чтобы подняться сюда. Может быть… ключ от склепа."
+DoorLocked_1_0,,Этот длинный коридор охраняется. Сюда не пройти.
+DoorLocked_1_1,,Да. Сначала мне нужно поговорить с гоблином на троне.
+DoorLocked_1_2,,Выпустите меня! Я хочу <shake>УЙТИ</shake>!
+DoorLocked_2_0,,Здесь есть тяжело забаррикадированные двери.
+DoorLocked_2_1,,Сначала мне следует поговорить с той женщиной на троне.
+DoorLocked_2_2,,"Я чувствую, что кто-то в упор смотрит на меня."
+DoorLocked_3_0,,Вот это да. Они заперли это наглухо.
+DoorLocked_3_1,,Туда я этим путём не выйду.
+DoorLocked_3_2,,Ну ладно. Веревка у меня есть. Могу просто вылезти.
+DoorLocked_4_0,,Это просто какая-то случайная квартира. Но…
+DoorLocked_4_1,,"Может, я смогу войти сюда позже. У меня есть чувство, что смогу."
+DoorLocked_4_2,,Эта квартира какая-то очень приятная.
+DoorLocked_4_3,,"Странно. Почему-то мне кажется, что в этой квартире есть что-то особенное. Почему?"
+DoorLocked_5_0,,Снелл уже со мной.
+DoorLocked_5_1,,"Если я хочу, чтобы он пошёл домой, придётся рассказать об этом Снеллу."
+DoorLocked_5_2,,Это квартира Снелла.
+DoorLocked_5_3,,На двери написано «Снелл.»
+DoorLocked_6_0,,Снелл должен быть внутри.
+DoorLocked_6_1,,"Кажется, Снелл спит внутри."
+DoorLocked_6_2,,"Пожалуй, мне не следует его будить."
+DoorLocked_6_3,,"Жаль, что Снелл спит."
+DoorLocked_7_0,,Я здесь не живу.
+DoorLocked_7_1,,Это просто какая-то случайная квартира.
+DoorLocked_7_2,,У меня нет причин интересоваться именно этой дверью.
+DoorLocked_8_0,,До захода солнца не открыто.
+DoorLocked_8_1,,Здесь я пройти не смогу.
+DoorLocked_8_2,,"Как-то ни с чем не возьмётся, чтобы взломать этот замок. Очень эзотерично."
+DoorLocked_8_3,,"Придётся подождать, прежде чем попасть внутрь. До 18:00."
+DoorLocked_9_0,,В эту квартиру — у меня нет причин заходить внутрь.
+DoorLocked_9_1,,Нет.
+DoorLocked_9_2,,Не стану я просто взаимодействовать с дверьми наугад. Это было бы безумием.
+DoorLocked_10_0,,Сегодня закрыто.
+DoorLocked_10_1,,"Может, есть другой вход?"
+DoorLocked_10_2,,"Нет, точно нет. Она наглухо заперта."
+DoorLocked_10_3,,Есть и другие способы попасть внутрь…
+DoorLocked_11_0,,Сегодня закрыто.
+DoorLocked_11_1,,"Нет, точно нет. Она наглухо заперта."
+DoorLocked_11_2,,"Пожалуй, вернусь завтра."
+DoorLocked_12_0,,Закрыто. Плотно закрыто. Даже магия не позволит мне сюда войти.
+DoorLocked_12_1,,Она наглухо заперта. Мне сюда не попасть.
+DoorLocked_13_0,,Закрыто. Наглухо заперто.
+DoorLocked_13_1,,"Похоже, на сегодня всё закрыто."
+DoorLocked_14_0,,Изнутри слышен храп.
+DoorLocked_14_1,,Мне сюда точно не попасть.
+DoorLocked_14_2,,Утром должно быть открыто.
+DoorLocked_15_0,,Внизу по лестнице есть запертая дверь.
+DoorLocked_15_1,,Без разрешения здесь не пройти.
+DoorLocked_15_2,,Нет уж. Этот путь пока закрыт.
+DoorLocked_15_3,,"Кажется, эта дорога ведёт к складу…"
+DoorLocked_15_4,,Я здесь не пройду.
+DoorLocked_16_0,,Дверь здесь заперта.
+DoorLocked_16_1,,Хм. Дверь в этом тоннеле не открывается.
+DoorLocked_16_2,,Чёрт. Здесь я пройти не смогу.
+DoorLocked_16_3,,С этой стороны не открыть. Придётся обходить.
+DoorLocked_17_0,,Здесь всё ещё запечатано.
+DoorLocked_17_1,,Я не смогу сломать эти доски с этой стороны.
+DoorLocked_17_2,,Ага. Эзотерически запечатанные доски.
+DoorLocked_17_3,,Мне придётся открыть это снаружи.
+DoorLocked_17_4,,"Ага. Значит, это обычный вход. Понятно."
+DoorLocked_18_0,,"Нет уж, здесь я не пройду. За этой дверью ещё около пяти."
+DoorLocked_18_1,,"Кажется, отсюда можно спуститься в старый Склеп."
+DoorLocked_18_2,,Здесь понадобится ключ. Несомненно.
+DoorLocked_18_3,,Хм. Нужен какой-то «ключ от склепа.»
+DoorLocked_18_4,,Даже «Стук» не поможет. За этими вратами ещё столько запертых.
+DoorLocked_19_0,,До захода солнца не открыто.
+DoorLocked_19_1,,Здесь я пройти не смогу.
+DoorLocked_19_2,,"Как-то ни с чем не возьмётся, чтобы взломать этот замок. Очень эзотерично."
+DoorLocked_19_3,,"Придётся подождать, прежде чем попасть внутрь. До 18:00."
+DoorLocked_19_4,,«Впустите меня! Я хочу <shake>таверный опыт</shake>!»
+DoorLocked_19_5,,Терпение — добродетель среди монахов Вургени. <i>Не</i> у Уртфолков.
+DoorLocked_20_0,,Мне понадобится ключ.
+DoorLocked_20_1,,Это государственная собственность.
+DoorLocked_20_2,,"Нет уж, без ключа я сюда не попаду."
+DoorLocked_20_3,,Сюда не войти.
+Boon_Name_0,,Подбодриться: Восстановить 1d4 хитов.
+Boon_Name_1,,Прилив энергии: снять 1 уровень истощения.
+Boon_Name_2,,Прилив сил: восстановить 1 применение потраченной кости хитов.
+Boon_Name_3,,Магический: восстановить 1 ячейку заклинания 1-го уровня.
+Boon_Name_4,,Мистический: восстановить 1 ячейку заклинания 2-го уровня.
+Boon_Name_5,,Эзотерический: восстановить 1 ячейку заклинания 3-го уровня.
+Boon_Name_6,,Счастливая находка: Обнаружить кошель с 2d6 Коронами.
+Boon_Name_7,,Счастливая находка: Обнаружить кошель с 6d6 Коронами.
+Boon_Name_8,,Взрыв жизненной силы: Получить 3d4 хитов.
+Boon_Name_9,,Оживление: Снять 2 уровня Истощения.
+Boon_Name_10,,Подъём: Восстановить 2 применения потраченных костей хитов.
+Boon_Name_11,,Тайное обновление: Восстановить 2 ячейки заклинания 1-го уровня.
+Boon_Name_12,,Мистический подъём: Восстановить 2 ячейки заклинания 2-го уровня.
+Boon_Name_13,,Эзотерическое обновление: Восстановить 2 ячейки заклинания третьего уровня.
+Boon_Name_14,,"Счастливая находка: Обнаружить большой кошель, содержащий 12d6 корон."
+Boon_Name_15,,"Счастливая находка: Обнаружить кошель, содержащий 20d6 корон."
+Boon_Name_16,,"Невероятная находка: Обнаружить БОЛЬШОЙ кошель, содержащий 24d6 корон."
+Boon_Name_17,,Тронут божественностью: Восстановить 6d4 хитов.
+Boon_Name_18,,"Готовность к колдовству: Восстановить по 1 ячейке заклинания первого, второго и третьего уровня."
+Boon_Name_19,,<b>Дар бога: Получить +1 к характеристике на одну неделю.</b>
+Hover_1d4,,1d4
+Hover_1d12,,1d12
+Variable_Desc_Hardmode_0,,<i>Мастер недоволен тобой.</i>
+Variable_Desc_Hardmode_1,,<i>Ты явно выбрал сложный режим.</i>
+Variable_Desc_Hardmode_2,,<i>The-DM-Wants-To-Kill-You.</i>
+Variable_Desc_Hardmode_3,,<i>Ты выбрал эту сложность.</i>
+Variable_Desc_Hardmode_4,,<i>Мастер — один-единственный злой ублюдок.</i>
+Variable_Desc_Hardmode_5,,<i>Твой мастер устроил тебе проверку.</i>
+Variable_Desc_Plants,,Преимущество против Растений
+Variable_Desc_Bureaucrats,,Преимущество против Бюрократов
+Variable_Desc_Elementals,,Преимущество против Стихийных существ
+Variable_Desc_ProtectionFromEvil,,"ЗАЩИТА ОТ ЗЛА, ДОБРА И ТАК ДАЛЕЕ"
+Variable_Desc_Meek_0,,Смиренный помогает!
+Variable_Desc_Meek_1,,Смиренный следит за обстановкой!
+Variable_Desc_Meek_2,,Смиренный здесь!
+Variable_Desc_Meek_3,,Смиренный поддерживает тебя!
+Variable_Desc_Meek_4,,Смиренный…!
+Variable_Desc_Meek_5,,Смиренный помогает тебе сохранять бдительность
+Variable_Desc_DetectThoughts,,Ты <i>Обнаружил</i> несколько полезных <i>Мыслей</i>…
+Variable_Desc_Dwarves,,Преимущество против дворфов
+Variable_Desc_Elves,,Преимущество против Эльфов
+Variable_Desc_Aberrations,,Преимущество против Отклонений
+Variable_Desc_Urthfolk,,Преимущество против Уртфолков
+Variable_Desc_Evil,,Преимущество против Зла
+Variable_Desc_Good,,Преимущество против Добра
+Variable_Desc_Chaotic,,Преимущество против Хаоса
+Variable_Desc_Lawful,,Преимущество против Закона
+Variable_Desc_Exhausted_0,,Ты истощён.
+Variable_Desc_Exhausted_1,,Ты истощён. Но справишься.
+Variable_Desc_Rested,,Прошлой ночью ты спал больше 8 ЧАСОВ.
+Variable_Desc_Lie,,Прекрасная ложь.
+Variable_Desc_Fool,,ДУРАК.
+Variable_Desc_Jester,,ШУТ.
+Variable_Desc_Bless,,Под действием БЛАГОСЛОВЕНИЯ.
+Variable_Desc_Enhance,,Под действием УСИЛЕНИЯ СПОСОБНОСТЕЙ.
+Variable_Desc_CrusadersMantle,,Под действием МАНТИИ КРЕСТОНОСЦА.
+Variable_Desc_EsotericRage,,Под действием ЭЗОТЕРИЧЕСКОЙ ЯРОСТИ.
+Variable_Desc_DivineHex,,На цель наложен БОЖЕСТВЕННЫЙ СГЛАЗ.
+Variable_Desc_WhitemanesBless,,Под действием БЛАГОСЛОВЕНИЯ УАЙТМЕЙН.
+Variable_Desc_Weal,,БЛАГОСОСТОЯНИЕ.
+Variable_Desc_Woe,,ГОРЕ.
+Difficulty_0_0,,Без испытания
+Difficulty_0_1,,Не должно быть проблемой
+Difficulty_0_2,,Без неприятностей
+Difficulty_0_3,,Без труда
+Difficulty_0_4,,Д.Е.Н.П. (Даже Стараться Не Нужно)
+Difficulty_0_5,,Проще простого
+Difficulty_1,,Без усилий
+Difficulty_6,,Умеренно
+Difficulty_11,,Сложно
+Difficulty_16,,Грозно
+Difficulty_21,,Невозможно
+Difficulty_26,,Божественно
+Area_LL,,Нижнее логово
+Area_VL,,Логово Вискена
+Area_TS,,Толстад
+Area_TSS,,"Толстад, Юг"
+Area_TSE,,"Толстад, Восток"
+Area_TSW,,"Толстад, Запад"
+Area_TSN,,"Толстад, Север"
+Area_DN,,Гнездо Дарроу
+Area_GT,,Сторожевая башня
+Area_RM,,Гильдодцы Скалолома
+Area_TE,,Чайная
+Area_ST,,Тайный тоннель
+Area_TU,,Храм Урта
+Area_DS,,Пьяный сфинкс
+Area_GG,,Гоблинский сад
+Area_GW,,Склад Гильдии
+Area_PC,,Пересечение Колонн
+Area_SH,,Нора Симий
+Area_SP,,Усадьба Снелла
+Area_SO,,Кабинет Снурре
+Area_AR,,Асканий-Ридс
+Area_WL,,Вид на Водный путь
+Area_CB,,Город под городом
+Area_CRYPT,,Первый склеп Урта
+Area_LIBRARY,,Живая библиотека
+Area_NORTH_CAVERNS,,Северные Пещеры
+Area_ROOTS,,Корни
+Area_SOUTH_CAVERNS,,Южные Пещеры
+Area_SEWERS,,Канализация
+Area_LP,,Жильё Лизы
+Area_OP,,Старая тюрьма
+Area_UP,,Тропа Подбережья
+Area_JC,,Перекрёсток Джора
+SubArea_CN,,Центральный Норвик
+SubArea_CB,,Город под городом
+SubArea_LT,,Нижний Толстад
+SubArea_UT,,Верхний Толстад
+SubArea_UR,,Хребет Апперхоллоу
+SubArea_DS_BeyondName,,За гранью
+SubArea_Journal_Crypts,,Склепы
+SubArea_Journal_Stairs,,Лестница
+SubArea_Journal_Doom,,Рок
+SubArea_Journal_Niche,,Шипы?
+SubArea_Journal_Study,,Кабинет
+SubArea_Journal_LostApartment,,Потерянная квартира
+SubArea_Journal_Survey,,Обследование
+SubArea_Journal_Shrine,,Святилище
+Notification_JournalUpdated,,Журнал обновлён
+ActiveSpellUI_Text,,Осталось {0} минут.
+Time_Dusk,,Сумерки
+Time_Dawn,,Рассвет
+Time_Day,,Дня {0}
+Time_Election,,Конец
+Time_Election_Day,,Дня выборов
+InfoList_Proficient,,<i>Умелый</i>
+InfoList_Potion,,Зелье принято
+InfoList_FEAT_MILL,,[Страж тысячелетия]
+InfoList_AbilityScore,,Благословлён Уртом
+InfoList_Enhance,,УСИЛИТЬ СПОСОБНОСТЬ
+CalculateModifiers_Modified,,(Изменено)
+NewGame_RemainingPoints,,Характеристики — осталось очков: {0}
+NewSpec_New,,"Теперь ты — <b>{0}</b>.
+Получено опыта: {1}xp за выбор {2}."
+NewSpec_Replace,,"Ты больше не <i>«{3}»</i>…
+Теперь ты — <b>{0}</b>!
+Получено {1}xp за смену {2}."
+NewSpec_FlipFlop_Warning,,(Но серьёзно: выберите {0} и придерживайтесь его. В следующий раз за <i>сидение на заборе</i> опыта не дадут.)
+NewSpec_FlipFlop_New,,"Теперь ты — <b>{0}</b>.
+Получено всего {1}xp, потому что ты слишком часто менял свой путь. Хватит. Серьёзно. Уже выбери {2}."
+NewSpec_FlipFlop_Replace,,"Ты больше не <i>{0}</i>…
+Получено всего {1}xp, потому что ты слишком часто менял свой путь. Хватит. Серьёзно. Уже выбери {2}."
+HighestSpec_XpGain_Initial,,Получено {0}xp (5 x {1}) за выбор этого {2} {1} раз.
+HighestSpec_XpGain,,Получено {0}xp (5 x {1}).
+HighestSpec_Class_Message_0,,"Несмотря ни на что, теперь ты — {0}."
+HighestSpec_Class_Message_0_Cleric,,Ты ещё глубже погружаешься в роль <b>Жреца</b>.
+HighestSpec_Class_Message_3,,Путь {0} становится тебе всё более знакомым.
+HighestSpec_Class_Message_4,,"Ты чувствуешь растущее тяготение к тому, чтобы стать {0}."
+HighestSpec_Class_Message_5,,Теперь это невозможно отрицать. Ты — {0}.
+HighestSpec_Class_Message_6,,В тебе пробуждается <b>{0}</b> с тихой уверенностью.
+HighestSpec_Class_Message_6_Apolitical,,В тебе пробуждается <b>Аполитичность</b> с тихой уверенностью.
+HighestSpec_Class_Message_7,,Другие начинают замечать <b>{0}</b> в твоей походке.
+HighestSpec_Class_Message_7_Apolitical,,Другие начинают замечать <b>Аполитичность</b> в твоей походке.
+HighestSpec_Class_Message_8,,Твоя преданность <b>поведению в духе {0}</b> уходит корнями глубоко.
+HighestSpec_Class_Message_9,,«<b>{0}</b>»? Скорее уж <i>ты</i>.
+HighestSpec_Class_Message_10,,Ты несёшь тяжесть и гордость истинного <b>{0}</b>.
+HighestSpec_Class_Message_10_Apolitical,,Ты несёшь тяжесть и гордость истинного <b>Аполитичного</b> человека.
+HighestSpec_Class_Message_11,,Немногие усомнятся в твоей преданности быть {0}.
+HighestSpec_Class_Message_12,,Бытие {0} сформировало твой взгляд на мир.
+HighestSpec_Class_Message_13,,Ты говоришь — и люди слышат {0}.
+HighestSpec_Class_Message_14,,"Бытие {0} пронизывает твои решения, словно вторая натура."
+HighestSpec_Class_Message_15,,"Ты стал тем, кем многие хотят быть — преданным <b>{0}</b>."
+HighestSpec_Class_Message_16,,Твоё имя и «<b>{0}</b>» становятся одним и тем же.
+HighestSpec_Class_Message_17,,"Легенды создаются на убеждённости, подобной твоей. {0} не знает угасания."
+HighestSpec_Class_Message_18,,«<b>{0}</b>» высечено в самой глубине твоей души.
+HighestSpec_Class_Message_19,,"Ты — образец того, чему бывает {0}."
+HighestSpec_Class_Message_20,,Доказывать больше нечего. Ты — <i>сам</i> <b>{0}</b>.
+HighestSpec_Political_Message_0,,Ты стал {0}.
+HighestSpec_Political_Message_3,,Ты становишься ещё больше {0}.
+HighestSpec_Political_Message_4,,Ты продолжаешь причислять себя к {0}.
+HighestSpec_Political_Message_5,,"Ты обнаруживаешь, что отстаиваешь <b>идеалы {0}</b>."
+HighestSpec_Political_Message_6,,Ты легко говоришь в духе {0}.
+HighestSpec_Political_Message_7,,Ты озвучиваешь опасения {0}.
+HighestSpec_Political_Message_8,,Ты действуешь строго в рамках <b>линии партии {0}</b>.
+HighestSpec_Political_Message_8_Apolitical,,Ты действуешь строго в соответствии с <b>философией Аполитичности</b>.
+HighestSpec_Political_Message_9,,Коллеги признают в тебе убеждённого <b>{0}</b>.
+HighestSpec_Political_Message_9_Apolitical,,Коллеги признают в тебе истинного <b>Аполитичного</b> человека.
+HighestSpec_Political_Message_10,,Ты несёшь политическое бремя преданного <b>{0}</b>.
+HighestSpec_Political_Message_10_Apolitical,,Ты несёшь политическое бремя преданного <b>Аполитичного</b> человека.
+HighestSpec_Political_Message_11,,Ты неустанно борешься за <b>программу {0}</b>.
+HighestSpec_Political_Message_11_Apolitical,,Ты неустанно борешься за <b>программу Аполитичности</b>.
+HighestSpec_Political_Message_12,,Ты рассматриваешь каждый общественный вопрос через призму {0}.
+HighestSpec_Political_Message_13,,Ты говоришь — и массы слышат ведущий <b>голос {0}</b>.
+HighestSpec_Political_Message_14,,"Ты разрабатываешь политику и принимаешь решения, как опытный <b>{0}</b>."
+HighestSpec_Political_Message_15,,Ты стал видным лидером мыслителей <b>{0}</b>.
+HighestSpec_Political_Message_16,,Ты вдохновляешь других присоединиться к движению <b>{0}</b>.
+HighestSpec_Political_Message_16_Apolitical,,Ты вдохновляешь других присоединиться к <b>Аполитичности</b>.
+HighestSpec_Political_Message_17,,Ты ведёшь кампанию за радикальные реформы <b>{0}</b>.
+HighestSpec_Political_Message_17_Apolitical,,Ты ведёшь <b>{0}</b> к размашистым реформам.
+HighestSpec_Political_Message_18,,Ты посвящаешь жизнь продвижению идеологии <b>{0}</b>.
+HighestSpec_Political_Message_18_Apolitical,,Ты посвящаешь жизнь отказу от любой политической идеологии. Поскольку ты такой <b>{0}</b>.
+HighestSpec_Political_Message_19,,Ты — бесспорный чемпион <b>{0}ов</b>.
+HighestSpec_Political_Message_19_Apolitical,,"Ты — бесспорный чемпион всего, что прекрасно <b>Аполитично</b>."
+HighestSpec_Political_Message_20,,"Ты — высший авторитет в том, что значит быть {0}."
+SessionNotes_Message_0,,"Пора сыграть ещё одну сессию! Хотя, если ты видишь это сообщение, значит, мне не удалось узнать, что произошло на прошлой сессии. Всё пошло совсем не так. Либо я где-то ошибся, либо ты полез в файл сохранения. Если ты это видишь и <i>не трогал</i> ни одного файла сохранения, сообщи мне! <i>-Крис</i>"
+SessionNotes_Message_1,,"Кампания вышла чудовищно тяжёлой. Ты сразился с Городом под городом, нырнул в Запределье, и теперь тебя ждёт самое опасное и сложное задание из всех:
+
+Пора проголосовать на выборах. Удачи. Она тебе понадобится."
+SessionNotes_Message_2,,"Ты стоишь в тени человека без дороги. Финальная встреча. Последний рубеж. Конец кампании. Впрочем, конечно, всё зависит от решений, которые ты здесь примешь. Но удачи — и постарайся не умереть.
+
+Если честно, в этот раз я действительно пытаюсь тебя убить."
+SessionNotes_Message_3,,"Почти время. Мы приближаемся к финалу. В прошлый раз ты нашёл Мериадока, <i>звездного свидетеля</i>, которого искал всю кампанию. Он рассказал тебе о невидимом курящем человеке, который «вошёл в Колонну». Как бы безумно это ни звучало, ты уверен: тебе нужно последовать за ним.
+
+Тебе нужно найти способ попасть внутрь Столпа Джора."
+SessionNotes_Message_4,,В прошлый раз ты не далеко продвинулся. Это моя вина.
+SessionNotes_Message_4a,,"Мне следовало объяснить яснее: Город под городом — <i>подземелье</i> — ну, это скорее зона <i>3-го уровня и выше</i>.
+
+С другой стороны, если тебе повезёт… ты всегда можешь попробовать снова?"
+SessionNotes_Message_4b,,"Готов к ещё одному раунду?
+
+Если хочешь совет: подготовь заклинания у святилища, затем исцели себя. И съешь немного яблок. Это должно помочь тебе пройти <i>испытание Личхауса</i>."
+SessionNotes_Message_5,,"Итак, в прошлый раз ты прошёл всю вступительную последовательность. Буквально день назад взорвалась местная чайная, и теперь твоя работа — выяснить почему. По неизвестной причине ты проснулся на дне морга. Отличное начало."
+SessionNotes_Message_5a,,"Ты немного поговорил с Вискеном, местным мортобником с бледным лицом."
+SessionNotes_Message_5b,,"Затем ты отправился исследовать город. Толстад — довольно большое место, но даже тот крошечный его кусочек, на котором ты сосредоточен, уже переполнен людьми. Тебе было на что посмотреть. Теперь же тебе всё ещё нужно найти того гоблинского вожака…"
+SessionNotes_Message_5c,,"И, конечно, ты также заглянул в Город под городом, куда тебе придётся вернуться позже."
+SessionNotes_Message_5d,,"Но ты всё ещё в Логове Вискена. То есть — в Личхаусе. То есть — в местном морге. Так что, ну, выходи наружу!"
+SessionNotes_Message_6,,"Ты очнулся в морге. Это случилось на следующий день после взрыва местной чайной, и теперь твоя работа — выяснить почему. Пока ты обошёл город и подобрал ехидного гоблина-помощника. Отличные новости. Теперь пришло время заняться делом по-настоящему: когда солнце опускается над городом, ты <i>знаешь</i>: Владыка монет ждёт.
+
+Не буквально — он не из тех, кто кого-либо ждёт, — но у тебя с ним встреча. Когда-нибудь, в любое время, после полуночи. Только не заставляй его ждать до самого рассвета…"
+SessionNotes_Message_6a,,"Хотя раз ты уже побывал в чайной… ну, он тебе <i>не</i> сильно поможет."
+SessionNotes_Message_7,,"Ты прибыл в Толстад (проснувшись в морге), подобрал гоблина-помощника, и теперь… что ж, теперь пора сосредоточиться на настоящей задаче. <i>Чайная, которая взорвалась</i>."
+SessionNotes_Message_7a,,"Для начала тебе всё ещё нужно попасть внутрь. Вход находится посреди большой открытой площадки снаружи. Если застрянешь, наверняка найдутся и другие способы проникнуть…"
+SessionNotes_Message_7b,,"Ты уже побывал внутри. Ты всё осмотрел, ища <i>улики</i>."
+SessionNotes_Message_7c,,Но кое-что от тебя ускользает.
+SessionNotes_Message_7d,,"Скорее всего, тебе стоит сообщить леди Сагелист о мёртвом эльфе. Если не собираешься просто пропустить всю эту часть."
+SessionNotes_Message_7e,,"Кроме того, нужно ещё найти владельца. Судя по тому, что ты слышал об этом человеке, он мог уже покинуть город. Впрочем, если повезёт, ты успеешь перехватить его до того, как он отправится на следующий корабль по Водному пути."
+SessionNotes_Message_7f,,"Кроме того, ты нашёл владельца. Эта птица пыталась <i>отплыть сама</i> через Побережье. К счастью, ты поймал её прежде, чем её ящик исчез неизвестным образом."
+SessionNotes_Message_7g,,Но пока ничто не дало тебе неопровержимых доказательств.
+SessionNotes_Message_7h,,"А ещё есть этот замаскированный убийца. У тебя НИКАКИХ улик в том, что он нацелен на тебя."
+SessionNotes_Message_7i,,Всё здесь <i>искрятится</i>.
+SessionNotes_Message_7j,,"О, и не забудь: в чайной всё ещё нужно перевернуть тяжёлый стол. Приведи Снелла, он должен помочь."
+SessionNotes_Message_8,,"Ты очнулся в морге. Ты подобрал гоблина-помощника. Это должна была быть простая работа — выяснить, почему взорвалась местная чайная. Теперь ты стоишь здесь, и в глубине твоего сознания всё ещё живёт образ: <i>мёртвый эльф</i>. Увидеть <i>живого</i> эльфа и без того редкость."
+SessionNotes_Message_8a,,"А ещё есть этот странный замаскированный убийца. У тебя НИКАКИХ улик в том, что он нацелен на тебя. Но кто-то же затаил на тебя злобу."
+SessionNotes_Message_8b,,"Кроме того, нужно ещё найти владельца. Судя по тому, что ты слышал об этом человеке, он мог уже покинуть город. Впрочем, если повезёт, ты успеешь перехватить его до того, как он отправится на следующий корабль по Водному пути."
+SessionNotes_Message_8c,,"Кроме того, ты нашёл владельца. Эта птица пыталась <i>отплыть сама</i> через Побережье. К счастью, ты поймал её прежде, чем её ящик исчез неизвестным образом."
+SessionNotes_Message_8d,,"Сейчас осталось лишь одно место, которое стоит проверить: <i>Город под городом</i>. Похоже, твой главный свидетель, этот <i>Франк, сын Франка</i>, направлялся именно туда. Пора последовать за ним — вниз, в Подгородье…"
+SessionNotes_Message_8e,,"И наконец, ты спускаешься прямо в Город под городом. Эзотерические коридоры, полные ловушек. Тайны за каждым углом. Монстры <i>ползут</i> снизу, из глубин.
+
+Почему-то ты точно знаешь: кто-то или <i>что-то</i> пытается помешать тебе узнать правду. Тебе нужно продолжать искать. Обыщи каждый угол. Поговори с каждым человеком. Загляни в политическую хрень сверху и эзотерическое безумие снизу. Рано или поздно ты найдёшь путь вперёд…"
+SessionNotes_Message_8f,,"И наконец, ты спускаешься прямо в Город под городом. Эзотерические коридоры, полные ловушек. Тайны за каждым углом. Монстры <i>ползут</i> снизу, из глубин.
+
+Кто-то или <i>что-то</i> пытается помешать тебе узнать правду. И теперь ты её нашёл: тайный проход, ведущий далеко, далеко вниз, в дикие пустоши Подбережья. Обыщи каждый угол. Поговори с каждым человеком. Загляни в политическую хрень сверху и эзотерическое безумие снизу. Рано или поздно ты найдёшь путь вперёд…"
+SessionNotes_Message_9,,"Жрец на задании. Эзотерическом задании — разгадать тайну «Чайной лавки, которая взорвалась». Это ты! Пора отправляться: исследуй улицы, тоннели и Башни города."
+PCBackground_PunchingBag_name,,Груша для битья
+PCBackground_PunchingBag_desc,OBJ,"Ты — сын фермера, выросший в городе. Конечно, ты оказался изгоем. Понадобилось время, но в итоге ты понял, как с этим справляться."
+PCBackground_PunchingBag_date,,"Хронос 1-й, 6 PE"
+PCBackground_Trollkiller_name,,Убийца троллей
+PCBackground_Trollkiller_desc,OBJ,"Ты не помнишь этого, но хорошо знаешь, как умер твой отец. Иногда это воодушевляло. Иногда казалось, что тебе не удастся достичь его уровня."
+PCBackground_Trollkiller_date,,"Фелтени 14-й, 7 PE"
+PCBackground_KioskKid_name,,Киосковый пацан
+PCBackground_KioskKid_desc,OBJ,"Мать редко бывала дома, поэтому, чтобы не давать тебе втянуться во что-то дурное, она заставила тебя устроиться на работу после школы. Ты до сих пор ненавидишь запах газет."
+PCBackground_KioskKid_date,,"22-й Горгони, 10 PE"
+PCBackground_LoreEnthusiast_name,,Знаток истории
+PCBackground_LoreEnthusiast_desc,OBJ,"Проводя время в одиночестве в городе, ты часто оказывался в Библиотеке Дарроу. Странная история Царства Джора была для тебя постоянным спутником."
+PCBackground_LoreEnthusiast_date,,11 PE
+PCBackground_CrowdPleaser_name,,Народный любимец
+PCBackground_CrowdPleaser_desc,OBJ,"Рано или поздно ты связался с не той компанией. Ты быстро освоил их сленг и радикальную терминологию — делал всё, чтобы обрести настоящих друзей."
+PCBackground_CrowdPleaser_date,,"11 PE, 12 PE, 13 PE"
+PCBackground_LittleWeirdo_name,,Маленький чудак
+PCBackground_LittleWeirdo_desc,OBJ,"Для них ты был диковинкой. Мальчиком, готовым на всё ради их внимания. <i>Ради их одобрения</i>. Через года два ты стал делать это искусно."
+PCBackground_LittleWeirdo_date,,13 PE
+PCBackground_AzgalistActivist_name,,Активист Азгалист
+PCBackground_AzgalistActivist_desc,OBJ,"Твои «друзья» вскоре познакомили тебя с мятежным нутром Норвика. Подростком ты провёл там годы, распространяя хаос — и что хуже: <i>дворфскую пропаганду</i>."
+PCBackground_AzgalistActivist_date,,"Хронос 19-й, 15 PE"
+PCBackground_UrthguardRecruit_name,,Новобранец Уртгарда
+PCBackground_UrthguardRecruit_desc,OBJ,"После ареста долго спорить не пришлось. Три изнуряющих года в подготовке, зубрёжка городского устава и добродетелей. Но ты выжил."
+PCBackground_UrthguardRecruit_date,,"Ингарми 3-й, 17 PE"
+PCBackground_OneFriend_name,,Единственный друг
+PCBackground_OneFriend_desc,OBJ,"В те одинокие годы ты молился только об одном. Но боги не ответили. Поэтому ты научился справляться сам, как всегда."
+PCBackground_OneFriend_date,,18 PE
+PCBackground_Acolyte_name,,Послушник
+PCBackground_Acolyte_desc,OBJ,"Твою склонность к переписыванию заметили и повысили до церковных обязанностей. Выделенный из рядовых, ты быстро показал глубокую преданность своему божественному городу."
+PCBackground_Acolyte_date,,"19 PE, 20 PE"
+PCBackground_TowerApprentice_name,,Ученик Башен
+PCBackground_TowerApprentice_desc,OBJ,"Вступление в Башни — честь, которую получают немногие. Это также страшное испытание, даже для тебя. Кто бы подумал, что лекции так выматывают?"
+PCBackground_TowerApprentice_date,,"21-й Сумил, 21 PE"
+PCBackground_ArcaneProdigy_name,,Тайный Вундеркинд
+PCBackground_ArcaneProdigy_desc,OBJ,"Впервые в жизни ты был природным дарованием. Ты всегда знал несколько кантрипов, но настоящая магия — это было другое. Это была <i>сила</i>."
+PCBackground_ArcaneProdigy_date,,22 ПЭ
+PCBackground_PalacePawn_name,,Дворцовая Пешка
+PCBackground_PalacePawn_desc,OBJ,"Как быстро растущий талант, ты часто оказывался в круговерти интриг среди начальства, несмотря на все старания. Тебе это никогда не шло на пользу."
+PCBackground_PalacePawn_date,,"9-й Бельтан, 22 ПЭ"
+PCBackground_FaithfulHarbinger_name,,Верный Вестник
+PCBackground_FaithfulHarbinger_desc,OBJ,"Что-то не так. Молитвы мёртвому богу, чьи шёпоты ещё витают в воздухе… медленно стихают. Ты один среди своих собратьев."
+PCBackground_FaithfulHarbinger_date,,???
+PCBackground_EsotericExpert_name,,Эзотерический Эксперт
+PCBackground_EsotericExpert_desc,OBJ,"Ты проводил ночи в поисках эзотерического знания. Одинокая жизнь. Твои открытия были нежелательны властям, но ты не остановился. Никогда."
+PCBackground_EsotericExpert_date,,"30-е Эльтре, 25 ПЭ"
+PCBackground_RevolutionaryScribe_name,,Революционный Писец
+PCBackground_RevolutionaryScribe_desc,OBJ,"Разочарование. Город с идеалами, которые не соблюдаются. Однажды ты выбрал сторону: зарождающуюся Демократию. Ты писал день и ночь. Ради <i> перемен и славы</i>."
+PCBackground_RevolutionaryScribe_date,,"3-е Марта, 26 ПЭ"
+PCBackground_AbjectApostate_name,,Жалкий Отступник
+PCBackground_AbjectApostate_desc,OBJ,"Тебя никто не любит. Когда тебя понизили за небрежность, никто не вступился. Но всё в порядке. Всё будет хорошо. Ты ведь к этому привык."
+PCBackground_AbjectApostate_date,,"23-е Хроноса, 26 ПЭ"
+PCBackground_DeadCleric_name,,Мёртвый Жрец
+PCBackground_DeadCleric_desc,OBJ,Взросление в одиночестве. Неприятности. Обучение в Уртгарде. Посвящение всей жизни и становление Жрецом. Неужели всё это должно было закончиться в <i>Реке</i>?
+PCBackground_DeadCleric_date,,"25-е Марта, 27 ПЭ"
+AbilityScoreInfo_Strength_LoreQuote,STR,"<i>«Каждый пастух знает песнь. Она ревёт вверх по течению. Урт живёт в той полоске земли.»
+</i>
+—Плач Торны, народная молитва"
+AbilityScoreInfo_Strength_LoreDesc,STR,"<b><color=#FF3959>СИЛА</color></b> отражает твою природную телесную мощь наряду с образом мышления, напичканным тестостероном. Будучи мужчиной, ты считаешь должным совершенствовать своё тело и его возможности. Но зачем?
+
+Поиск смысла не менее важен, чем тяга к мастерству. К счастью, ты уже знаешь своё дело.
+
+<b>Защищать невинных</b>. Вести слабых. Жертвовать собой, пока о мостовую не ударится одна лишь твоя кость. Буквально <b>умереть</b>."
+AbilityScoreInfo_Strength_LoreFootNote,STR,Стань <b>ФАНАТИКОМ</b>. Верни свою честь. Отправься в <b><size=33>БОЖЕСТВЕННУЮ МИССИЮ</b>.
+AbilityScoreInfo_Strength_LoreNotice,,Собственный подход Жреца к Силе.
+AbilityScoreInfo_Strength_RoleHigh_Title,,Жрец с высокой Силой…
+AbilityScoreInfo_Strength_RoleHigh_Point1,,Голоса за Партию Норвика.
+AbilityScoreInfo_Strength_RoleHigh_Point2,,Молится своему мёртвому богу.
+AbilityScoreInfo_Strength_RoleHigh_Point3,,Решает задачи грубой силой.
+AbilityScoreInfo_Strength_RoleHigh_Point4,,Бьёт злодеев в лицо.
+AbilityScoreInfo_Strength_RoleHigh_Point5,,Хочет стать настоящим героем.
+AbilityScoreInfo_Strength_RoleHigh_Point6,,Обожает задания.
+AbilityScoreInfo_Strength_RoleHigh_Point7,,Вот так просто.
+AbilityScoreInfo_Strength_RoleLow_Title,,Жрец с низкой Силой…
+AbilityScoreInfo_Strength_RoleLow_Point1,,"Слабый, сопливый крысёнок."
+AbilityScoreInfo_Strength_RoleLow_Point2,,"Сгибается перед любым, кто сильнее."
+AbilityScoreInfo_Strength_RoleLow_Point3,,Не выносит подначивания.
+AbilityScoreInfo_Strength_RoleLow_Point4,,"Сдаётся, когда становится тяжело."
+AbilityScoreInfo_Strength_RoleLow_Point5,,Боится женщин.
+AbilityScoreInfo_Strength_RoleLow_Point6,,Ему плевать на задания.
+AbilityScoreInfo_Strength_RoleNotice,,Как Сила влияет на Жреца.
+AbilityScoreInfo_Strength_Uses1,,"<size=38>Большая Сила</size>
+позволяет снаряжать
+<size=45>ЛИШНИЕ ПРЕДМЕТЫ"
+AbilityScoreInfo_Strength_Uses2,,Будь жестоким и/или мужественным <size=33>Полезно в столкновениях
+AbilityScoreInfo_Strength_Uses3,,Религиозное рвение и <size=63>Эстетика <size=50>Национализм
+AbilityScoreInfo_Strength_Uses4,,"Возросшая
+мужественность"
+AbilityScoreInfo_Strength_UsesNotice,,Механические преимущества Силы
+AbilityScoreInfo_Wisdom_LoreQuote,WIS,"<i>«Крупные рушатся под тяжестью собственных тел. Мистические сбиваются в решающий момент. Мелкие дерутся до последнего.»</i>
+— Стихотворение Халфвида"
+AbilityScoreInfo_Wisdom_LoreDesc,WIS,"<b><color=#63CD5E>МУДРОСТЬ</color></b> измеряет осознанность, интуицию и умение понимать мир вокруг тебя. Чувствовать его. Ты можешь не знать почему, но, встретив чей взгляд, обретаешь эмпатическую связь с ним, его желаниями и страхами, снами и надеждами. Ты умеешь читать людей — во благо или во зло — и замечать детали, которые другие пропускают."
+AbilityScoreInfo_Wisdom_LoreFootNote,WIS,"Это твоя <b>ВЕРА</b> в самом сердце всех людей. Давать и делиться тем, что есть, и быть совершенно <b>БЕСКОРЫСТНЫМ</b>. Это единственный истинный путь к искуплению. Одни боги знают, как усердно ты стараешься."
+AbilityScoreInfo_Wisdom_LoreNotice,,Свойственный Жрецу взгляд на Мудрость.
+AbilityScoreInfo_Wisdom_RoleHigh_Title,,Жрец с высокой Мудростью…
+AbilityScoreInfo_Wisdom_RoleHigh_Point1,,Голосует за Азгалианскую рабочую партию.
+AbilityScoreInfo_Wisdom_RoleHigh_Point2,,Никого не ненавидит (кроме иерархий).
+AbilityScoreInfo_Wisdom_RoleHigh_Point3,,Принимает свою женскую сторону.
+AbilityScoreInfo_Wisdom_RoleHigh_Point4,,Следует за раненым сердцем.
+AbilityScoreInfo_Wisdom_RoleHigh_Point5,,Мастер Первобытной магии.
+AbilityScoreInfo_Wisdom_RoleHigh_Point6,,Читает язык тела как чемпион.
+AbilityScoreInfo_Wisdom_RoleHigh_Point7,,Замечает ВСЕ подробности.
+AbilityScoreInfo_Wisdom_RoleLow_Title,,Жрец с низкой Мудростью…
+AbilityScoreInfo_Wisdom_RoleLow_Point1,,Слепой дурак.
+AbilityScoreInfo_Wisdom_RoleLow_Point2,,Постоянно неверно читает намёки.
+AbilityScoreInfo_Wisdom_RoleLow_Point3,,Не думает о низшем классе.
+AbilityScoreInfo_Wisdom_RoleLow_Point4,,Не «понимает» людей.
+AbilityScoreInfo_Wisdom_RoleLow_Point5,,Не замечает ловушки.
+AbilityScoreInfo_Wisdom_RoleLow_Point6,,"Не понимает, где он? Что здесь происходит? Я так запутался, что"
+AbilityScoreInfo_Wisdom_RoleNotice,,Как Мудрость влияет на Жреца.
+AbilityScoreInfo_Wisdom_Uses1,,"Высокая Мудрость позволяет
+<size=65>Усиливать</size>
+<size=42>заклинания"
+AbilityScoreInfo_Wisdom_Uses2,,Будьте добры и замечайте хорошее во <size=77>всех людях
+AbilityScoreInfo_Wisdom_Uses3,,Эгалитарная надежда <size=62>Азгалианского <size=43>рабочего класса
+AbilityScoreInfo_Wisdom_Uses4,,"Нет никого
+большого злого"
+AbilityScoreInfo_Wisdom_UsesNotice,,Механические преимущества Мудрости
+AbilityScoreInfo_Intelligence_LoreQuote,INT,"<i>«Славный дизайн. Пусть ведут те, кто учится. Только за способности, и ни за что иное».</i>
+-Лорд Филлиус Пракс, Автобиография Пракса"
+AbilityScoreInfo_Intelligence_LoreDesc,INT,"<b><color=#5782FD>ИНТЕЛЛЕКТ</color></b> измеряет твою способность припоминать, хранить и обрабатывать информацию. Он — твой логический сосуд и калькулятор. Тебе надлежит оттачивать эту пульсирующую массу внутри черепа. Но зачем?"
+AbilityScoreInfo_Intelligence_LoreFootNote,INT,"Просто. Чистый неподдельный <b>ЭГО</b>. Знания правит миром. Однажды и ты станешь править слабыми. Принеси свой гений массам. Если они не склонятся — они не достойны тебя. Ты знаешь всё о <b>ПРОШЛОМ</b>, следовательно, лишь разумно, что ты по-настоящему узнаешь и будущее.
+
+<size=31><b>Просвети невежественные массы."
+AbilityScoreInfo_Intelligence_LoreNotice,,Уникальный взгляд Жреца на Интеллект.
+AbilityScoreInfo_Intelligence_RoleHigh_Title,,Жрец с высоким Интеллектом…
+AbilityScoreInfo_Intelligence_RoleHigh_Point1,,Голосует за лучшего Волшебника (это ты).
+AbilityScoreInfo_Intelligence_RoleHigh_Point2,,Презирает богов и завидует им.
+AbilityScoreInfo_Intelligence_RoleHigh_Point3,,Решает любую загадку без труда.
+AbilityScoreInfo_Intelligence_RoleHigh_Point4,,Мастер Тайной магии.
+AbilityScoreInfo_Intelligence_RoleHigh_Point5,,Сыпет историческими фактами часами.
+AbilityScoreInfo_Intelligence_RoleHigh_Point6,,Пренебрежительно относится к нижестоящим.
+AbilityScoreInfo_Intelligence_RoleHigh_Point7,,Знает всё.
+AbilityScoreInfo_Intelligence_RoleLow_Title,,Жрец с низким Интеллектом…
+AbilityScoreInfo_Intelligence_RoleLow_Point1,,Не знает ничего.
+AbilityScoreInfo_Intelligence_RoleLow_Point2,,Одновременно невежда и самоуверен. О нет.
+AbilityScoreInfo_Intelligence_RoleLow_Point3,,"Выдумывает мелочи, чтобы казаться умным."
+AbilityScoreInfo_Intelligence_RoleLow_Point4,,Едва осознаёт себя.
+AbilityScoreInfo_Intelligence_RoleLow_Point5,,Не способен решать загадки намеренно.
+AbilityScoreInfo_Intelligence_RoleLow_Point6,,Дурак. Ага.
+AbilityScoreInfo_Intelligence_RoleNotice,,Как Интеллект влияет на Жреца.
+AbilityScoreInfo_Intelligence_Uses1,,"Высокий Интеллект позволяет тебе
+<size=65>Подготовить</size>
+<size=42>Больше Заклинаний"
+AbilityScoreInfo_Intelligence_Uses2,,"Думай, планируй, действуй <size=42>Реальный план"
+AbilityScoreInfo_Intelligence_Uses3,,Заверши Магократский Возврат <size=35>Проголосуй за себя
+AbilityScoreInfo_Intelligence_Uses4,,Будь гением без равных
+AbilityScoreInfo_Intelligence_UsesNotice,,Механические преимущества Интеллекта.
+AbilityScoreInfo_Dexterity_LoreQuote,DEX,"<i>«Настоятельно важно просто объяснить этим людям, что они имеют право выбирать. Вера в себя справедлива. Благосостояние создаётся изнутри».</i>
+— Мериадок Лунная стража, «Зак тростников»"
+AbilityScoreInfo_Dexterity_LoreDesc,DEX,"<b><color=#F8FF5D>ЛОВКОСТЬ</color></b> измеряет естественную реактивность, равновесие и самообладание. Скорость, с которой ты бросаешь остроумную реплику или замечаешь нервный взгляд. И, конечно, способность изящно уходить от последствий своих действий. Всё решает соотношение риска и награды!"
+AbilityScoreInfo_Dexterity_LoreFootNote,DEX,"Это чувство <b>САМОСОХРАНЕНИЯ</b>, когда всё рушится вокруг. Схватить всё, что успеешь, пока хватание ещё возможно. Двигаться к новому будущему, полному <b>СВОБОДЫ</b>, чтобы те, кто заботится о себе, могли процветать и выжить."
+AbilityScoreInfo_Dexterity_LoreNotice,,Уникальный взгляд Жреца на Ловкость.
+AbilityScoreInfo_Dexterity_RoleHigh_Title,,Жрец с высокой Ловкостью…
+AbilityScoreInfo_Dexterity_RoleHigh_Point1,,Голосует за Революционных Фристрайдеров.
+AbilityScoreInfo_Dexterity_RoleHigh_Point2,,Собирает кучи блестящих монет.
+AbilityScoreInfo_Dexterity_RoleHigh_Point3,,Действует первым в каждом Столкновении.
+AbilityScoreInfo_Dexterity_RoleHigh_Point4,,Избегает неприятностей заранее.
+AbilityScoreInfo_Dexterity_RoleHigh_Point5,,На любой вопрос находит остроумный ответ.
+AbilityScoreInfo_Dexterity_RoleHigh_Point6,,Заботится о себе.
+AbilityScoreInfo_Dexterity_RoleHigh_Point7,,Идёт на большой риск и всегда преуспевает.
+AbilityScoreInfo_Dexterity_RoleLow_Title,,Жрец с низкой Ловкостью…
+AbilityScoreInfo_Dexterity_RoleLow_Point1,,Идёт на большой риск и всякий раз терпит неудачу.
+AbilityScoreInfo_Dexterity_RoleLow_Point2,,Ничего не замечает вовремя.
+AbilityScoreInfo_Dexterity_RoleLow_Point3,,Путается под собственными ногами.
+AbilityScoreInfo_Dexterity_RoleLow_Point4,,Всё роняет — в переносном и буквальном смысле.
+AbilityScoreInfo_Dexterity_RoleLow_Point5,,"Медлителен. И умом, и телом."
+AbilityScoreInfo_Dexterity_RoleLow_Point6,,Беден как нищета. Очень смущает.
+AbilityScoreInfo_Dexterity_RoleNotice,,Как Ловкость влияет на Жреца.
+AbilityScoreInfo_Dexterity_Uses1,,"С достаточной Ловкостью можно
+<size=33>УКРАСТЬ ЧТО УГОДНО."
+AbilityScoreInfo_Dexterity_Uses2,,"Вскрывать замки, Подкрасться, Уклоняться от ловушек, Бросать инициативу и быстро реагировать <size=35>Как дерзкий разбойник"
+AbilityScoreInfo_Dexterity_Uses3,,"Скопить состояние, как <size=55>Республиканец <size=41>Революционный"
+AbilityScoreInfo_Dexterity_Uses4,,"Просто беги, болван"
+AbilityScoreInfo_Dexterity_UsesNotice,,Механические преимущества Ловкости
+AbilityScoreInfo_Constitution_LoreQuote,CON,"<i>«Всегда слушай голодный желудок.»
+</i>
+— Гедонисты, Слепой Манифест"
+AbilityScoreInfo_Constitution_LoreDesc,CON,"<b><color=#C3863F>УСТАВ</color></b> определяет твою природную выносливость, умственную и физическую. Он показывает, сколько ты способен выдержать, прежде чем свалиться. Мир суров и безжалостен. Он изобьёт тебя до полусмерти словами и палками."
+AbilityScoreInfo_Constitution_LoreFootNote,CON,"Так слушай внутренний голос — инстинкт, который просыпается, когда ты стоишь на краю ямы. Это голос, который говорит только <b>ТЕЛЕСНУЮ ПРАВДУ</b>. Каждый твой выбор, каждое накопленное чувство можно проследить до нижней части желудка.
+
+Следуй ему. Сохраняй <b>СМЕРТНОСТЬ</b> плотской логики. Просто. Легко. <b>ПРАВДИВО</b>."
+AbilityScoreInfo_Constitution_LoreNotice,,Собственный взгляд Жреца на Устав.
+AbilityScoreInfo_Constitution_RoleHigh_Title,,Жрец с высоким Уставом…
+AbilityScoreInfo_Constitution_RoleHigh_Point1,,"Постоянно забывает, что идут выборы."
+AbilityScoreInfo_Constitution_RoleHigh_Point2,,Сосредоточен на хорошем в жизни.
+AbilityScoreInfo_Constitution_RoleHigh_Point3,,Прочнее энтропии.
+AbilityScoreInfo_Constitution_RoleHigh_Point4,,Держит свои нервы под контролем.
+AbilityScoreInfo_Constitution_RoleHigh_Point5,,Беседует с Духами в стенах.
+AbilityScoreInfo_Constitution_RoleHigh_Point6,,Слушает внутренний голос.
+AbilityScoreInfo_Constitution_RoleHigh_Point7,,Уже мёртв.
+AbilityScoreInfo_Constitution_RoleLow_Title,,Жрец с низким Уставом…
+AbilityScoreInfo_Constitution_RoleLow_Point1,,Умрёт.
+AbilityScoreInfo_Constitution_RoleLow_Point2,,Паникует из-за всего.
+AbilityScoreInfo_Constitution_RoleLow_Point3,,Слушает внутренний голос и ошибается.
+AbilityScoreInfo_Constitution_RoleLow_Point4,,Не контролирует функции своего тела.
+AbilityScoreInfo_Constitution_RoleLow_Point5,,Не способен вынести боль.
+AbilityScoreInfo_Constitution_RoleLow_Point6,,Не имеет <b>НИКАКОЙ</b> связи со стенами.
+AbilityScoreInfo_Constitution_RoleNotice,,Как Устав влияет на Жреца.
+AbilityScoreInfo_Constitution_Uses1,,"Устав
+необходим для
+<size=52> хитов"
+AbilityScoreInfo_Constitution_Uses2,,Контролируй своё тело и его <size=33>эзотерическую связь
+AbilityScoreInfo_Constitution_Uses3,,"Твоя партия набрала 2% за прошлую неделю, и
+<size=43>тебе всё равно"
+AbilityScoreInfo_Constitution_Uses4,,Боль полезна для тебя
+AbilityScoreInfo_Constitution_UsesNotice,,Механические преимущества Устава
+AbilityScoreInfo_Charisma_LoreQuote,CHA,"<i>«Те, кто верит в демократию, великолепно смотрят на простых людей — считают их способными принимать рациональные и обоснованные решения, свободные от личных предпочтений и эмоциональных порывов. Это, честно говоря, вдохновляет».
+</i>
+— Николай Дарроу, «Мемуары государственного деятеля»"
+AbilityScoreInfo_Charisma_LoreDesc,CHA,"<b><color=#CF5DCB>ХАРИЗМА</color></b> измеряет твоё красноречие, уверенность и способность ориентироваться в любых общественных ситуациях. Коротко говоря, это сила твоей небрежной личности. Но им знать об этом не нужно."
+AbilityScoreInfo_Charisma_LoreFootNote,CHA,"Гладко поговори, чтобы получить любую должность, какую пожелаешь. Ты можешь быть связан с любой известной фракцией или идеей. Реальность складывается вокруг твоей воли. Как хамелеон, стань <b>ОБЩЕСТВЕННЫМ ОПЕРАТОРОМ</b>. Стань всем, кем нужно, чтобы каждый наконец <b>ПОЛЮБИЛ ТЕБЯ</b>."
+AbilityScoreInfo_Charisma_LoreNotice,,Своеобразный взгляд Жреца на Харизму.
+AbilityScoreInfo_Charisma_RoleHigh_Title,,Жрец с высокой Харизмой…
+AbilityScoreInfo_Charisma_RoleHigh_Point1,,"Голосует за всё, что делает его популярным."
+AbilityScoreInfo_Charisma_RoleHigh_Point2,,Социализирован в детстве.
+AbilityScoreInfo_Charisma_RoleHigh_Point3,,"Знает, что сказать, чтобы заслужить расположение."
+AbilityScoreInfo_Charisma_RoleHigh_Point4,,На самом деле может флиртовать с некоторыми злодеями.
+AbilityScoreInfo_Charisma_RoleHigh_Point5,,Обожает контролировать разум людей.
+AbilityScoreInfo_Charisma_RoleHigh_Point6,,Считает истину рекомендацией.
+AbilityScoreInfo_Charisma_RoleHigh_Point7,,Не имеет души.
+AbilityScoreInfo_Charisma_RoleLow_Title,,Жрец с низкой Харизмой…
+AbilityScoreInfo_Charisma_RoleLow_Point1,,Не слишком приятный.
+AbilityScoreInfo_Charisma_RoleLow_Point2,,"Не знает, как себя вести с людьми."
+AbilityScoreInfo_Charisma_RoleLow_Point3,,Всё путает с злодеями.
+AbilityScoreInfo_Charisma_RoleLow_Point4,,Боится разговоров.
+AbilityScoreInfo_Charisma_RoleLow_Point5,,"По сути, полная противоположность опытному оратору."
+AbilityScoreInfo_Charisma_RoleLow_Point6,,Не имеет стиля.
+AbilityScoreInfo_Charisma_RoleNotice,,Как Харизма влияет на Жреца.
+AbilityScoreInfo_Charisma_Uses1,,"<size=30>При высокой Харизме</size>
+ты получаешь автоматическую
+<size=56>СКИДКУ</size>
+<size=24>в некоторых магазинах рядом с тобой"
+AbilityScoreInfo_Charisma_Uses2,,"Выиграй каждый разговор
+<size=22>Скажи <size=40>Правильную вещь"
+AbilityScoreInfo_Charisma_Uses3,,"Говори что угодно, чтобы люди полюбили тебя и стали <size=63>аполитической</size>
+<size=40>силой природы"
+AbilityScoreInfo_Charisma_Uses4,,"Будь, можно сказать, социопатом"
+AbilityScoreInfo_Charisma_UsesNotice,,Механические преимущества Харизмы.
+Death_SavingThrows,,Спасение от смерти
+Death_ReturnToMenu,,Вернуться в меню
+BadEnding_Normal_1,,Жрец мёртв
+BadEnding_Normal_2,,Струна срезана
+BadEnding_Genocide_1,,Красный <color=#e93c3c>Жрец</color>
+BadEnding_Genocide_2,,"Легенда быстро разнеслась по Побережью. Город, укутанный красной вуалью, — туманы крови и ужаса. Красный Жрец сотворил эзотерический огонь, призывая ВОРОТА открыться.
+
+<i>Лояльная смерть в День Избирательного права</i>.
+
+Эта битва хранит множество историй. Норвикийский ужас. Возвращение Урта. Ранняя Война Идущих Богов… но ничего из этого не помогает нашим шансам. Смотри в другое место, мой Невежественный Пламень. Со временем ты будешь вознаграждён."
+BadEnding_Snell_1,,Что бы сделал друг?
+BadEnding_Snell_2,,…
+BadEnding_Donjon_1,,Тюрьма
+BadEnding_Donjon_2,,"Мир молод. Всего лишь половину тысячелетия спустя, один лишь Жрец доживёт до его конца. Эта битва приведёт его на поля брани разорённых земель, где люди останавливаются и затем начинают заново. Он станет тем, кто увидит Последнюю Эпоху. Проклятие. Легенда. Последний Человек Джора.
+
+Увы, слишком далеко. Возвращайся."
+BadEnding_Death_1,,Принятие Смерти
+BadEnding_Death_2,,"Это спокойно. Это холодно. Это ничто.
+
+Нет. Жрецу не нравится эта битва — несмотря на её обещание мира. Куда бы ты ни последовал дальше, он наверняка сделает лучший выбор."
+BadEnding_Lose_1,,Испытать Судьбу и Проиграть
+BadEnding_Lose_2,,"Такова природа вещей. Не будь столь горд, чтобы считать, что ты знаешь хоть что-нибудь о состоянии дел, ибо мир неизмеримо обширнее, чем когда-либо покажет эта Струна.
+
+Хотя Жрец, он не чувствует ничего, кроме слабого намёка на солёность своего жалкого последнего выбора."
+BadEnding_Gel_1,,Один.
+BadEnding_Gel_2,,"Увы, такая одинокая жизнь несчастлива. Хотя многие из нас несут бремя таланта и о-о-о <i>великой природной силы</i>, когда приходит зимний холод и тропа становится всё более трудной, до весны добирается лишь зверь из стаи.
+
+Мужчина без брата — лишь горсть костей на дороге."
+BadEnding_Finger_1,,Восстал Рабом
+BadEnding_Finger_2,,Работа есть работа. Что труд заботит о жизни?
+BadEnding_Books_1,,Стать Историей
+BadEnding_Books_2,,"Обмен неравен. Впрочем, его коллективное сознание, быть может, объяснит ту самую камешек роста в этой вечной и бессмертной библиотеке. В конце концов, именно об этом думает Жрец, пока содержимое его черепа превращается в легендарный пепел."
+BadEnding_Roper_1,,Съеден Ардроппером
+BadEnding_Roper_2,,"В некотором смысле это естественно. Если бы только это не было отклонением, возможно, превратиться в <i>пищу</i> не казалось бы так отвратительно.
+
+Когда тысячи зубов смыкаются на его теле, последние мысли Жреца обращаются к отцу. Неужели он тоже так чувствовал, когда его тело рассыпалось под тяжестью монстра Асканий?"
+BadEnding_Gorm_1,,Мгновенное Обезглавливание
+BadEnding_Gorm_2,,"В свои последние мгновения Жрец, должно быть, подумал обо всех иных путях, которыми он мог бы пойти. Если бы он сражался упорнее, если бы ступил мудрее…
+
+Если бы нашёл больше друзей."
+BadEnding_Skeleton_1,,Смерть От Скелета
+BadEnding_Skeleton_2,,"Жрец умер так, как подобает истинному Жрецу, — в битве с нежитью. Возможно, однажды он присоединится к ним…"
+BadEnding_Tinn_1,,"Дымовой Мейфит забирается в твои доспехи, сжигая тебя изнутри."
+BadEnding_Tinn_2,,"Когда Струна срезана, ты отчётливо чувствуешь, что смерть Жреца будет замета под тем самым шикарным ковром."
+BadEnding_Well_1,,Жрец упал.
+BadEnding_Well_2,,В колодец
+BadEnding_Well_3,,(20d6 урона от падения)
+BadEnding_Assassin_1,,Твои органы сплющиваются в мелкую взвесь чарами колдуна.
+BadEnding_Assassin_2,,"Как отвратительно пасть так глубоко в бою. Он сражался так упорно, и всё же эта битва заканчивается такой жалостью. Как ужасно."
+BadEnding_IOM_1,,Твоё тело пожирает древнее проклятие.
+BadEnding_IOM_2,,"Ты умираешь, даже не успев добраться до Гравитационного флипа.
+
+<i>Лугаль-ме-эн.</i>"
+BadEnding_Gourgalash_1,,Великий вождь Гургалаш откусывает тебе голову.
+BadEnding_Gourgalash_2,,"Существо из другой Эпохи. Чтобы победить этого тролля, жрецу понадобилась бы куда большая сила. Или помощь.
+
+Или, возможно, просто куда больше удачи."
+BadEnding_Filuur_1,,жрец разозлил не того <size=200>ГОРГОНАЛЬЯ
+BadEnding_Filuur_2,,Это была неудача — или он зашёл слишком далеко?
+BadEnding_SoloAss_1,,жрец погиб в том затхлом проходе. его кровь просачивалась в мох.
+BadEnding_SoloAss_2,,"Ему не стоило так глубоко заходить в Исследовать — в одиночку.
+Возможно, когда-нибудь его молитва будет услышана."
+BadEnding_Exhaustion_1,,"Истощение настигает Жреца. Он падает, как и всё со временем."
+BadEnding_Exhaustion_2,,"Ему, вероятно, стоит ложиться спать чуть раньше. Оставаться на ногах после 06:00 опасно для здоровья."
+LevelUp_LevelReached,,Достигнут уровень {0}
+LevelUp_HitPoints,,Очки здоровья {0}
+LevelUp_HitDice,,Кости +1
+LevelUp_FirstSpellSlots,,Слоты заклинаний 1-го уровня +{0}
+LevelUp_SecondSpellSlots,,Слоты заклинаний 2-го уровня +{0}
+LevelUp_ThirdSpellSlots,,Слоты заклинаний 3-го уровня +{0}
+LevelUp_AbilityScore,,Счёт характеристик +1
+PreBuild_PrimalCleric_Title,,Праймл Жрец
+PreBuild_TricksterCleric_Title,,Плут Жрец
+PreBuild_ScholarCleric_Title,,Ш Жрец
+PreBuild_BeefyCleric_Title,,Могучий Жрец
+PreBuild_UnstableCleric_Title,,Нестабильный Жрец
+PreBuild_PrimalCleric_Desc,,Какова природа человека?
+PreBuild_TricksterCleric_Desc,,Не суй свои пальцы куда попало.
+PreBuild_ScholarCleric_Desc,,"Одинокий, мыслитель, человек идей."
+PreBuild_BeefyCleric_Desc,,"Да. Побольше яблок, Яблочный парень."
+PreBuild_UnstableCleric_Desc,,Они должны склониться перед твоим ЭГО.
