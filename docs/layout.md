@@ -49,6 +49,24 @@ measurements were taken against the real font data out of the game's assets:
 The last one keeps the word and lowers the size: the word was correct, the
 box was not.
 
+## The clock in the corner
+
+The panel in the lower right corner of the game screen carries the time of day,
+a rule, and the day it belongs to. The English label is `Day {0}`, which the
+display font draws as **DAY 1** in 94 px.
+
+The Russian `День {0}` needs 123 px. The label is one line high, so the number
+wrapped onto a second line, the word rode up over the rule, and the number was
+drawn below the panel.
+
+The label is `день {0}` now. Lower case needs 107 px and fits on one line, and
+the display font draws lower case as small capitals: the label reads **ДЕНЬ 1**,
+the same shape as **DAY 1**. The same string builds the summary of a saved
+game, where it reads `день 1 - 08:10`.
+
+A non-breaking space between the word and the number does not help: the text
+engine breaks the line at it as well.
+
 ## The global lever
 
 The game has a "Dialog Text Size" preference, 24 by default and tuned by the

@@ -174,7 +174,7 @@ Choice_ASDecrease,,Значение характеристики уменьше�
 Lost_Item,,Потеряно {0}.
 Lost_Crowns,,Потеряно {0} корон.
 Lost_Crowns_All,,Потеряно {0} корон. Теперь у меня не осталось ни одной.
-DayMessage_Day,,День {0}
+DayMessage_Day,,день {0}
 DayMessage_Night,,Ночь
 DayMessage_Date_Day22,,"22 марта, 27 год Эры После Падения"
 DayMessage_Date_Day23,,"23 марта, 27 год Эры После Падения"

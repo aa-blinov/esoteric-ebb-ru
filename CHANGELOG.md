@@ -8,6 +8,23 @@ All notable changes to Esoteric Ebb RU. Versions are ordered newest first.
 
 - Nothing yet.
 
+## 0.5.0 (2026-10-24)
+
+### Fixed
+
+- **The day label under the clock no longer breaks.** The Russian `День {0}` is
+  123 px wide, the line it is drawn in holds less than that, so the number
+  wrapped onto a second line and the word rode up over the rule under the
+  clock. The label is `день {0}` now: it fits on one line, and the display font
+  draws lower case as small capitals, so it reads «ДЕНЬ 1» beside the clock, the
+  same shape as the English «DAY 1».
+
+### Measured
+
+The label under the clock is 94 px wide in English. The Russian «День 1» needs
+123 px and «день 1» needs 107 px, which is what the line holds. The
+measurements are in `docs/layout.md`.
+
 ## 0.4.0 (2026-10-24)
 
 ### Fixed
