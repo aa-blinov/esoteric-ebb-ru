@@ -8,6 +8,26 @@ All notable changes to Esoteric Ebb RU. Versions are ordered newest first.
 
 - Nothing yet.
 
+## 0.3.0 (2026-10-24)
+
+### Fixed
+
+- **The background descriptions no longer run under the ability badges.** The
+  panel that holds a character's past is four lines tall and the badges are
+  drawn over the fifth. The Russian needs about a line more than the English
+  does, so seventeen backgrounds were rewritten to fit; the two longest are
+  now a third shorter than their source.
+- **The lore of Strength no longer pushes its footnote out of the panel.** It
+  was the longest of the six by a wide margin, and the last line of the
+  footnote ended up behind the notice band.
+
+### Measured
+
+The panel that holds a character's past is 541 px wide with a text area of
+about 470 px, which fits four lines of roughly 38 characters. The ability
+badges are drawn over the fifth. The budget for a background description is
+therefore 130 characters, and the scripts that check it are in `scripts/`.
+
 ## 0.2.0 (2026-10-24)
 
 ### Fixed
