@@ -8,6 +8,24 @@ All notable changes to Esoteric Ebb RU. Versions are ordered newest first.
 
 - Nothing yet.
 
+## 0.8.0 (2026-10-24)
+
+### Fixed
+
+- **The names in the uses of an ability no longer break in half.** The third
+  tab of the lore panel is narrow, and the Russian names are a third wider than
+  the English ones. Six of them came out in two pieces: «НАЦИОНАЛИЗ» over «М»,
+  «МУЖЕСТВЕННО» over «СТЬ», «РЕСПУБЛИКА» over «НЕЦ», «ПОДГОТОВ» over «ИТЬ»,
+  «АЗГАЛИАНС» over «КОГО» and «АПОЛИТИЧЕ» over «СКОЙ». Five names keep their
+  words and lose only their size; «мужественность» is fourteen letters and
+  cannot be made to fit at a readable size, so it becomes «мужество».
+
+### Measured
+
+The uses column is about 400 px wide on the narrow tabs and about 500 px on the
+wide one, and each name was measured on its own tab. The measurements are in
+`docs/layout.md`.
+
 ## 0.7.0 (2026-10-24)
 
 ### Fixed

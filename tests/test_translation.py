@@ -57,8 +57,12 @@ ALLOWED_LATIN = {
 # lowered so that the line fits the panel it is drawn in. The reason is in
 # docs/layout.md.
 MARKUP_EXCEPTIONS = {
-    ("MiscTexts.csv", "AbilityScoreInfo_Wisdom_Uses3"): "<size=62><size=43>",
+    ("MiscTexts.csv", "AbilityScoreInfo_Wisdom_Uses3"): "<size=44><size=43>",
     ("MiscTexts.csv", "AbilityScoreInfo_Strength_LoreFootNote"): "<b></b><b><size=25></b>",
+    ("MiscTexts.csv", "AbilityScoreInfo_Strength_Uses3"): "<size=63><size=45>",
+    ("MiscTexts.csv", "AbilityScoreInfo_Dexterity_Uses3"): "<size=40><size=41>",
+    ("MiscTexts.csv", "AbilityScoreInfo_Intelligence_Uses1"): "<size=40></size><size=42>",
+    ("MiscTexts.csv", "AbilityScoreInfo_Charisma_Uses3"): "<size=42></size><size=40>",
 }
 
 

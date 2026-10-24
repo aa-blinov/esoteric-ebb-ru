@@ -44,11 +44,37 @@ measurements were taken against the real font data out of the game's assets:
 | `AbilityScoreInfo_Strength_Uses1` | ДОПОЛНИТЕЛЬНЫЕ ПРЕДМЕТЫ | ЛИШНИЕ ПРЕДМЕТЫ |
 | `AbilityScoreInfo_Dexterity_Uses2` | Как стремительный Разбойник | Как дерзкий разбойник |
 | `AbilityScoreInfo_Constitution_Uses3` | Твоя политическая партия на прошлой неделе получила 2% голосов, и | Твоя партия набрала 2% за прошлую неделю, и |
-| `AbilityScoreInfo_Wisdom_Uses3` | `<size=73>Азгалианского` | `<size=62>Азгалианского` |
 | `AbilityScoreInfo_Strength_LoreFootNote` | `<size=33>БОЖЕСТВЕННУЮ МИССИЮ` | `<size=25>БОЖЕСТВЕННУЮ МИССИЮ` |
 
 The Wisdom line keeps the word and lowers the size: the word was correct, the
 box was not.
+
+## The uses column
+
+The third tab of the lore panel, **Польза**, is a narrow column. The English
+names fit it; the Russian ones are a third wider, and a name that does not fit
+is broken in two pieces: «НАЦИОНАЛИЗ» over «М», «МУЖЕСТВЕННО» over «СТЬ»,
+«РЕСПУБЛИКА» over «НЕЦ», «ПОДГОТОВ» over «ИТЬ», «АЗГАЛИАНС» over «КОГО» and
+«АПОЛИТИЧЕ» over «СКОЙ».
+
+The column is not one width. The icons of the ability take room on both sides,
+so СИЛА and МУДРОСТЬ are narrower than ИНТЕЛЛЕКТ. Every name was measured on
+its own tab.
+
+| Key | Before | After |
+| --- | --- | --- |
+| `AbilityScoreInfo_Strength_Uses3` | `<size=50>Национализм` | `<size=45>Национализм` |
+| `AbilityScoreInfo_Strength_Uses4` | `Возросшая мужественность` | `Возрослое мужество` |
+| `AbilityScoreInfo_Dexterity_Uses3` | `<size=55>Республиканец` | `<size=40>Республиканец` |
+| `AbilityScoreInfo_Intelligence_Uses1` | `<size=65>Подготовить</size>` | `<size=40>Подготовить</size>` |
+| `AbilityScoreInfo_Wisdom_Uses3` | `<size=62>Азгалианского` | `<size=44>Азгалианского` |
+| `AbilityScoreInfo_Charisma_Uses3` | `<size=63>аполитической</size>` | `<size=42>аполитической</size>` |
+
+Five names keep their words and lose only their size. **Мужественность** is
+fourteen letters, and at the size of the line above it the name is 570 px
+against a column of about 400. Lowering the size to fit would have made it half
+the size of the line above it, so the word is shortened to **мужество**, which
+reads the same in this context.
 
 ## The lore column
 

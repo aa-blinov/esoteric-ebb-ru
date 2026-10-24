@@ -1214,9 +1214,9 @@ AbilityScoreInfo_Strength_Uses1,,"<size=38>Большая Сила</size>
 позволяет снаряжать
 <size=45>ЛИШНИЕ ПРЕДМЕТЫ"
 AbilityScoreInfo_Strength_Uses2,,Будь жестоким и/или мужественным <size=33>Полезно в столкновениях
-AbilityScoreInfo_Strength_Uses3,,Религиозное рвение и <size=63>Эстетика <size=50>Национализм
-AbilityScoreInfo_Strength_Uses4,,"Возросшая
-мужественность"
+AbilityScoreInfo_Strength_Uses3,,Религиозное рвение и <size=63>Эстетика <size=45>Национализм
+AbilityScoreInfo_Strength_Uses4,,"Возрослое
+мужество"
 AbilityScoreInfo_Strength_UsesNotice,,Механические преимущества Силы
 AbilityScoreInfo_Wisdom_LoreQuote,WIS,"<i>«Крупные рушатся под тяжестью собственных тел. Мистические сбиваются в решающий момент. Мелкие дерутся до последнего.»</i>
 — Стихотворение Халфвида"
@@ -1243,7 +1243,7 @@ AbilityScoreInfo_Wisdom_Uses1,,"Высокая Мудрость позволяе
 <size=65>Усиливать</size>
 <size=42>заклинания"
 AbilityScoreInfo_Wisdom_Uses2,,Будьте добры и замечайте хорошее во <size=77>всех людях
-AbilityScoreInfo_Wisdom_Uses3,,Эгалитарная надежда <size=62>Азгалианского <size=43>рабочего класса
+AbilityScoreInfo_Wisdom_Uses3,,Эгалитарная надежда <size=44>Азгалианского <size=43>рабочего класса
 AbilityScoreInfo_Wisdom_Uses4,,"Нет
 больших злых"
 AbilityScoreInfo_Wisdom_UsesNotice,,Механические преимущества Мудрости
@@ -1271,7 +1271,7 @@ AbilityScoreInfo_Intelligence_RoleLow_Point5,,Намеренно не спосо
 AbilityScoreInfo_Intelligence_RoleLow_Point6,,Дурак. Ага.
 AbilityScoreInfo_Intelligence_RoleNotice,,Как Интеллект влияет на Жреца.
 AbilityScoreInfo_Intelligence_Uses1,,"Высокий Интеллект позволяет тебе
-<size=65>Подготовить</size>
+<size=40>Подготовить</size>
 <size=42>Больше Заклинаний"
 AbilityScoreInfo_Intelligence_Uses2,,"Думай, планируй, действуй <size=42>Реальный план"
 AbilityScoreInfo_Intelligence_Uses3,,Заверши Магократский Возврат <size=35>Проголосуй за себя
@@ -1301,7 +1301,7 @@ AbilityScoreInfo_Dexterity_RoleNotice,,Как Ловкость влияет на
 AbilityScoreInfo_Dexterity_Uses1,,"С достаточной Ловкостью можно
 <size=33>УКРАСТЬ ЧТО УГОДНО."
 AbilityScoreInfo_Dexterity_Uses2,,"Вскрывать замки, Подкрасться, Уклоняться от ловушек, Бросать инициативу и быстро реагировать <size=35>Как дерзкий разбойник"
-AbilityScoreInfo_Dexterity_Uses3,,"Скопить состояние, как <size=55>Республиканец <size=41>Революционный"
+AbilityScoreInfo_Dexterity_Uses3,,"Скопить состояние, как <size=40>Республиканец <size=41>Революционный"
 AbilityScoreInfo_Dexterity_Uses4,,"Просто беги, болван"
 AbilityScoreInfo_Dexterity_UsesNotice,,Механические преимущества Ловкости
 AbilityScoreInfo_Constitution_LoreQuote,CON,"<i>«Всегда слушай голодный желудок.»
@@ -1364,7 +1364,7 @@ AbilityScoreInfo_Charisma_Uses1,,"<size=30>При высокой Харизме<
 <size=24>в некоторых магазинах рядом с тобой"
 AbilityScoreInfo_Charisma_Uses2,,"Выиграй каждый разговор
 <size=22>Скажи <size=40>Правильную вещь"
-AbilityScoreInfo_Charisma_Uses3,,"Говори что угодно, чтобы люди полюбили тебя и стали <size=63>аполитической</size>
+AbilityScoreInfo_Charisma_Uses3,,"Говори что угодно, чтобы люди полюбили тебя и стали <size=42>аполитической</size>
 <size=40>силой природы"
 AbilityScoreInfo_Charisma_Uses4,,"Будь, можно сказать, социопатом"
 AbilityScoreInfo_Charisma_UsesNotice,,Механические преимущества Харизмы.
