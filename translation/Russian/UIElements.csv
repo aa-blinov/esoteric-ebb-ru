@@ -180,7 +180,7 @@ Settings_Examples_RecFont_Choice2,«Я буду играть с размером
 Settings_Examples_RecFont_Choice3,"«Averia, наверное, подойдёт.»"
 Settings_Examples_RecFont_Choice4,«Хорошо.» (Уйти.)
 Settings_RefreshRate_Unlimited,БЕЗЛИМИТ
-Settings_RefreshRate_VSync,ВЕРТИКАЛЬНАЯ СИНХРОНИЗАЦИЯ
+Settings_RefreshRate_VSync,VSYNC 
 Settings_VoiceOverMode_Option1,Озвучка всего
 Settings_VoiceOverMode_Option2,Озвучка заставок
 Settings_VoiceOverMode_Option3,Озвучка персонажей
@@ -194,8 +194,8 @@ Settings_ColorblindMode_Option1,Выкл.
 Settings_ColorblindMode_Option2,Цветовые метки
 Settings_Quality_Option1,Высокий
 Settings_Quality_Option2,Низкий
-Settings_DisplayMode_Option1,Полноэкранный
-Settings_DisplayMode_Option2,Безрамочный
+Settings_DisplayMode_Option1,Полный экран
+Settings_DisplayMode_Option2,Без рамки
 Settings_DisplayMode_Option3,В окне
 Menu_Button_NewGame,Новая игра
 Menu_Button_Load,Загрузка

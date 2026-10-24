@@ -67,6 +67,47 @@ game, where it reads `день 1 - 08:10`.
 A non-breaking space between the word and the number does not help: the text
 engine breaks the line at it as well.
 
+## The settings panel
+
+The options panel has a column of labels on the left and a column of values on
+the right. The value column is **140 px** wide and holds about ten Russian
+letters; the label column is **216 px** and holds about eleven.
+
+The English values are short: `Borderless`, `VSYNC`, `1920 x 1080`. The Russian
+ones were not, and the panel breaks a word that does not fit: `Безрамочный`
+became `Безрамочны` over `й`, and `ВЕРТИКАЛЬНАЯ СИНХРОНИЗАЦИЯ` took three lines
+and rode up over the resolution above it.
+
+| Key | Before | After |
+| --- | --- | --- |
+| `Settings_RefreshRate_VSync` | ВЕРТИКАЛЬНАЯ СИНХРОНИЗАЦИЯ | `VSYNC` + a non-breaking space |
+| `Settings_DisplayMode_Option1` | Полноэкранный | Полный экран |
+| `Settings_DisplayMode_Option2` | Безрамочный | Без рамки |
+
+The refresh rate keeps the name the game's own English string uses. The two
+display modes keep their meaning and lose only the letters that did not fit.
+
+### The trailing space
+
+The value of the refresh rate is written twice by the game, and the two
+formats are not the same. The caption of the field reads `{0} ({1})` and shows
+`VSYNC (144)`. The entries of the open list read `{0}({1})` and showed
+`VSYNC(72)`, with no space at all.
+
+The string therefore carries a space of its own. It is a non-breaking space,
+`U+00A0`, and not an ordinary one:
+
+- an ordinary space at the end of the cell is trailing whitespace, and the
+  house style bans it;
+- quoting the cell does not help. The game reads the CSV with its own reader,
+  which drops the Russian localization when a cell is quoted, and the whole
+  interface falls back to English.
+
+The non-breaking space survives the reader, the renderer draws it as a space,
+and the style check does not see it. The list entries read `VSYNC (72)` now,
+and the caption reads `VSYNC (144)`, whose gap is a fraction wider than the
+English one.
+
 ## The global lever
 
 The game has a "Dialog Text Size" preference, 24 by default and tuned by the

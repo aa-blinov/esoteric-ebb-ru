@@ -8,6 +8,27 @@ All notable changes to Esoteric Ebb RU. Versions are ordered newest first.
 
 - Nothing yet.
 
+## 0.6.0 (2026-10-24)
+
+### Fixed
+
+- **The graphics panel no longer breaks its words.** The column of values is
+  140 px wide and holds about ten Russian letters. «Безрамочный» broke into
+  «Безрамочны» and «й», and «ВЕРТИКАЛЬНАЯ СИНХРОНИЗАЦИЯ» took three lines and
+  rode up over the resolution above it. The refresh rate is `VSYNC` now, the
+  name the game's own English string uses, and the two display modes are
+  «Полный экран» and «Без рамки».
+- **The entries of the refresh rate list are spaced.** The game writes the
+  caption of the field as `{0} ({1})` and the entries of the open list as
+  `{0}({1})`, so the list showed «VSYNC(72)» without a space. The string
+  carries a non-breaking space of its own now, and the list reads «VSYNC (72)».
+
+### Measured
+
+The value column of the settings panel is 140 px and the label column 216 px.
+The English values fit on one line; the Russian ones did not. The measurements
+are in `docs/layout.md`.
+
 ## 0.5.0 (2026-10-24)
 
 ### Fixed
