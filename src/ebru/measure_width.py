@@ -16,6 +16,7 @@ DATA = os.path.join(os.environ.get(
     "EB_GAME_DIR",
     r"C:\Program Files (x86)\Steam\steamapps\common\Esoteric Ebb"),
     "Esoteric Ebb_Data")
+ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 OUT = os.path.join(ROOT, "work", "fonts")
 os.makedirs(OUT, exist_ok=True)
 

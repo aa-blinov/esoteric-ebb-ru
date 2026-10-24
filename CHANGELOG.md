@@ -8,6 +8,31 @@ All notable changes to Esoteric Ebb RU. Versions are ordered newest first.
 
 - Nothing yet.
 
+## 0.7.0 (2026-10-24)
+
+### Fixed
+
+- **The heading of the uses of Strength no longer peeks out from under the
+  bubble.** The lore panel is one column, and the Russian description is a line
+  shorter than the English one, so «Большая Сила» rose up under the pink bubble
+  that covers the foot of the panel. The footnote takes that line back: three
+  lines of one sentence each, and the name in capitals one size smaller, so it
+  no longer breaks in the middle of the phrase.
+
+### Changed
+
+- `src/ebru/measure_width.py` had no `ROOT` in it and did not run on its own.
+
+### Checked
+
+- The seven fonts of the dialogue text — Ebberia, EB Garamond, Josefin Sans,
+  Open Dyslexic, PT Serif, Roboto and Ubuntu — all draw the Russian without a
+  missing glyph.
+- The dialogue font reaches the lore panel of the character screen: the
+  description and the footnote are drawn in it, and so the size of the dialogue
+  text decides how many lines they take. The size the translation is held to
+  is 20, and the measurements are in `docs/layout.md`.
+
 ## 0.6.0 (2026-10-24)
 
 ### Fixed

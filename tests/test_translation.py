@@ -58,6 +58,7 @@ ALLOWED_LATIN = {
 # docs/layout.md.
 MARKUP_EXCEPTIONS = {
     ("MiscTexts.csv", "AbilityScoreInfo_Wisdom_Uses3"): "<size=62><size=43>",
+    ("MiscTexts.csv", "AbilityScoreInfo_Strength_LoreFootNote"): "<b></b><b><size=25></b>",
 }
 
 

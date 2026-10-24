@@ -37,7 +37,7 @@ difference is enough to push a display-size line out of the panel. The
 measurements were taken against the real font data out of the game's assets:
 `scripts/measure_width.py`.
 
-## The four lines that were rewritten
+## The lines that were rewritten
 
 | Key | Before | After |
 | --- | --- | --- |
@@ -45,9 +45,39 @@ measurements were taken against the real font data out of the game's assets:
 | `AbilityScoreInfo_Dexterity_Uses2` | Как стремительный Разбойник | Как дерзкий разбойник |
 | `AbilityScoreInfo_Constitution_Uses3` | Твоя политическая партия на прошлой неделе получила 2% голосов, и | Твоя партия набрала 2% за прошлую неделю, и |
 | `AbilityScoreInfo_Wisdom_Uses3` | `<size=73>Азгалианского` | `<size=62>Азгалианского` |
+| `AbilityScoreInfo_Strength_LoreFootNote` | `<size=33>БОЖЕСТВЕННУЮ МИССИЮ` | `<size=25>БОЖЕСТВЕННУЮ МИССИЮ` |
 
-The last one keeps the word and lowers the size: the word was correct, the
+The Wisdom line keeps the word and lowers the size: the word was correct, the
 box was not.
+
+## The lore column
+
+The lore panel of the character screen is one column. The quote, the
+description, the footnote and the heading of the uses follow each other, and
+the pink bubble that carries the character's comment covers the foot of the
+panel.
+
+The Russian description is a line shorter than the English one, so the heading
+of the uses, **Большая Сила**, rose far enough to be seen under the bubble.
+The footnote takes that line back. It is written as three lines of one
+sentence each, and the name in capitals is one size smaller, so that it fits
+the line and does not break in the middle of the phrase.
+
+## The dialogue fonts
+
+The game has seven fonts for the dialogue text: Ebberia, EB Garamond,
+Josefin Sans, Open Dyslexic, PT Serif, Roboto and Ubuntu. All seven draw the
+Russian without a missing glyph, so the player may pick any of them.
+
+The font reaches further than the dialogue box. The description and the
+footnote of the lore panel are drawn in the dialogue font, so the size of the
+dialogue text decides how many lines they take and where the panel ends. The
+quote, the tabs of the panel and the clock in the corner are drawn in the
+display font of the game and do not move.
+
+The size the translation is held to is **20**. At the default of 24 the
+Russian description takes a line more than the English one, and the heading of
+the uses rises under the bubble that covers the foot of the panel.
 
 ## The clock in the corner
 

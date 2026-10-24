@@ -1190,7 +1190,9 @@ AbilityScoreInfo_Strength_LoreDesc,STR,"<b><color=#FF3959>СИЛА</color></b> �
 Поиск смысла не менее важен, чем тяга к мастерству. К счастью, ты уже знаешь своё дело.
 
 <b>Защищать невинных</b>. Вести слабых. Жертвовать собой, пока о мостовую не ударится твоя кость. Буквально <b>умереть</b>."
-AbilityScoreInfo_Strength_LoreFootNote,STR,Стань <b>ФАНАТИКОМ</b>. Верни свою честь. Отправься в <b><size=33>БОЖЕСТВЕННУЮ МИССИЮ</b>.
+AbilityScoreInfo_Strength_LoreFootNote,STR,"Стань <b>ФАНАТИКОМ</b>.
+Верни свою честь.
+Отправься в <b><size=25>БОЖЕСТВЕННУЮ МИССИЮ</b>."
 AbilityScoreInfo_Strength_LoreNotice,,Собственный подход Жреца к Силе.
 AbilityScoreInfo_Strength_RoleHigh_Title,,Жрец с высокой Силой…
 AbilityScoreInfo_Strength_RoleHigh_Point1,,Голоса за Партию Норвика.
