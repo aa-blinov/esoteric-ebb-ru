@@ -242,6 +242,27 @@ Five strings in the lore panel overlap their neighbours in the English build
 as well: the badge row of the role description sits on top of the last line of
 the text, and the game has always done that. The Russian is not the cause.
 
+## The character sheet
+
+The sheet of the character carries three panels of its own: the lore, the
+benefits and the role. All three were checked with the Russian text in place.
+
+The names of the six abilities fit their cards. «ТЕЛОСЛОЖЕНИЕ» is the longest
+of them, and the engine shrinks that one on its own: it draws in a smaller
+size than «СИЛА» or «МУДРОСТЬ», and it keeps its margins both sides.
+
+The benefits panel fits as well. Its heading «Большая Сила» sits inside the
+panel, the two lines below it stay on their own lines, and the notice bar at
+the bottom reads «Механические преимущества Силы». The role panel carries a
+list of fourteen points, and every one of them stays on a single line.
+
+One thing on that screen belongs to the game and not to the translation. When
+the sheet opens for the first time, the benefits panel is still drawn where it
+was left, and the heading «Большая Сила» comes out under the notice bar of the
+lore panel, half covered by it. The first click on any of the three tabs puts
+the panel where it belongs, and the text stays there for the rest of the
+session.
+
 ## Checking a line yourself
 
 ```bash

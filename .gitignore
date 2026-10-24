@@ -52,3 +52,9 @@ Thumbs.db
 # The pipeline's scratch space: the corpus, the caches, the intermediate
 # passes. Nothing in here belongs in the repository.
 work/
+
+# Local measurement helpers. They carry an absolute path to this machine and
+# are not part of the project.
+scripts/find_too_wide.py
+scripts/scan_invisible.py
+scripts/ui_too_wide.py

@@ -4,6 +4,16 @@ All notable changes to Esoteric Ebb RU. Versions are ordered newest first.
 
 ## [Unreleased]
 
+### Fixed
+
+- **The declension of «Телосложение».** Two lines of the loading tips read
+  «проверку Телосложениеа» and «модификатора Телосложениеа». The word is a
+  feminine noun, and both lines now read «Телосложения».
+- **The category of the cantrips keeps one case.** The name was written
+  «КантРИПЫ», with the last four letters in capitals, which the decorative
+  font of the game draws at full height in the middle of a word. It is
+  «Кантрипы» now, and the glossary carries the same spelling.
+
 ### Added
 
 - Nothing yet.
