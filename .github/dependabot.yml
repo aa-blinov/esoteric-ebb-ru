@@ -2,6 +2,7 @@ version: 2
 
 # Dependency updates are the cheapest maintenance a repository can do, and
 # dependabot's grouping keeps the pull requests small enough to review.
+# Only the two ecosystems this repository actually uses are watched.
 updates:
   - package-ecosystem: github-actions
     directory: /
@@ -25,36 +26,3 @@ updates:
     groups:
       python:
         patterns: ['*']
-
-  - package-ecosystem: npm
-    directory: /
-    schedule:
-      interval: weekly
-    labels: [dependencies, javascript]
-    groups:
-      npm:
-        patterns: ['*']
-
-  - package-ecosystem: gomod
-    directory: /
-    schedule:
-      interval: weekly
-    labels: [dependencies, go]
-    groups:
-      go:
-        patterns: ['*']
-
-  - package-ecosystem: cargo
-    directory: /
-    schedule:
-      interval: weekly
-    labels: [dependencies, rust]
-    groups:
-      cargo:
-        patterns: ['*']
-
-  - package-ecosystem: docker
-    directory: /
-    schedule:
-      interval: weekly
-    labels: [dependencies, docker]
