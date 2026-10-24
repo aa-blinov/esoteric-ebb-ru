@@ -1,29 +1,29 @@
 ID,RU
-Credit_CreatedBy,Автор
-Credit_IllustrationsBy,Иллюстрации
-Credit_MusicBy,Музыка
+Credit_CreatedBy,Автор:
+Credit_IllustrationsBy,Иллюстрации:
+Credit_MusicBy,Музыка:
 Credit_Musicians,Музыканты
-Credit_ArtworkBy,Художественное оформление
-Credit_ProgrammingBy,Программирование
-Credit_SoundDesignBy,Звуковой дизайн
-Credit_EditingBy,Монтаж
+Credit_ArtworkBy,Художественное оформление:
+Credit_ProgrammingBy,Программирование:
+Credit_SoundDesignBy,Звуковой дизайн:
+Credit_EditingBy,Монтаж:
 Credit_ProductionAssistant,Помощник продюсера
-Credit_DesignNSupport,Дизайн и поддержка
+Credit_DesignNSupport,Дизайн и поддержка:
 Credit_AdditionalCollaborators,Дополнительные участники
 Credit_SoundtrackMasteredBy,"Esoteric Ebb OST, Vol. I и «Vol. II» мастерингом занимался"
 Credit_ReleasedOnVinylAndStreaming,Выпущено на виниле и в стриминговых сервисах через
-Credit_PublishedBy,Издатель
-Credit_Production,Продюсирование
+Credit_PublishedBy,Издатель:
+Credit_Production,Продюсирование:
 Credit_Marketing,Маркетинг
 Credit_Community,Сообщество
 Credit_Sales,Продажи
 Credit_CompanyManagement,Управление компанией
 Credit_Finance,Финансы
-Credit_VoiceOvers,Озвучивание
+Credit_VoiceOvers,Озвучивание:
 Credit_SpecialThanks,Особая благодарность
 Credit_ClosingMessage,"	ОГРОМНОЕ и ИСКРЕННЕЕ спасибо каждому, кто купил и сыграл (легально или нет) в эту дурацкую мою игру. За последние два года мне посчастливилось работать со множеством замечательных людей, однако Esoteric Ebb была для меня одиноким путешествием — иногда изнурительным, иногда радостным — но одиноким. Восемь лет проб и ошибок, сжигания сбережений, игнорирования здравых советов и отчаянного хлопанья пальцами по клавиатуре, пока что-то не щёлкнуло. И всё же всё это стало возможным лишь благодаря поддержке всех, кто не находился со мной в той тёмной комнате: моих друзей и игроков, моей семьи и коллег. Всем, кто верил в игру, когда в неё стоило верить, и тем более — когда не стоило. Спасибо, что помогали мне пробиваться к чему-то осмысленному. Надеюсь, следующая игра будет ещё лучше."
 Credit_toTheDevelopersOf,разработчикам
-Credit_Featuring,В игре участвуют
+Credit_Featuring,В игре участвуют:
 Credit_WritingProgrammingDesignBy,"Сценарий, программирование и дизайн"
 Credit_SoundDesignAndAudioProducer,Звуковой дизайн и звуковой продюсер
 Credit_GeneralManager,Генеральный управляющий
@@ -126,7 +126,7 @@ Keybind_Move_Left,Влево
 Keybind_Move_Right,Вправо
 Keybind_Choose,Выбрать
 Keybind_Menu,Меню
-Keybind_Reject,Отвергнуть
+Keybind_Reject,Отклонить
 Keybind_Utility,Служебные
 Keybind_Running,Бег
 Keybind_Highlight,Подсветка
@@ -140,14 +140,14 @@ Keybind_CycleLanguageRight,Следующий язык вправо
 Keybind_CycleLanguageLeft,Предыдущий язык влево
 Keybind_CycleFontRight,Следующий шрифт вправо
 Keybind_CycleFontLeft,Предыдущий шрифт влево
-Keybind_ToggleInventory,Переключатель инвентаря
-Keybind_ToggleJournal,Переключатель журнала
-Keybind_ToggleIdea,Переключатель идей
-Keybind_ToggleSpellbook,Переключатель книги заклинаний
-Keybind_ToggleSheet,Переключатель листа персонажа
+Keybind_ToggleInventory,Открыть инвентарь
+Keybind_ToggleJournal,Открыть журнал
+Keybind_ToggleIdea,Открыть идеи
+Keybind_ToggleSpellbook,Открыть книгу заклинаний
+Keybind_ToggleSheet,Открыть лист персонажа
 Keybind_QuickSave,Быстрое сохранение
 Keybind_QuickLoad,Быстрая загрузка
-Keybind_Enter,Ввод
+Keybind_Enter,Enter
 Keybind_Continue,Продолжить
 Keybind_DialogChoice1,Вариант диалога 1
 Keybind_DialogChoice2,Вариант диалога 2
@@ -184,8 +184,8 @@ Settings_RefreshRate_VSync,ВЕРТИКАЛЬНАЯ СИНХРОНИЗАЦИЯ
 Settings_VoiceOverMode_Option1,Озвучка всего
 Settings_VoiceOverMode_Option2,Озвучка заставок
 Settings_VoiceOverMode_Option3,Озвучка персонажей
-Settings_VoiceOverMode_Option4,Голос для Перезвонов
-Settings_VoiceOverMode_Option5,Храп (классический)
+Settings_VoiceOverMode_Option4,Озвучка звонков
+Settings_VoiceOverMode_Option5,Рычание (классическое)
 Settings_VoiceOverMode_Option6,Без голоса
 Settings_FontSize_Option1,Обычный
 Settings_FontSize_Option2,Большой
@@ -198,7 +198,7 @@ Settings_DisplayMode_Option1,Полноэкранный
 Settings_DisplayMode_Option2,Безрамочный
 Settings_DisplayMode_Option3,В окне
 Menu_Button_NewGame,Новая игра
-Menu_Button_Load,Нагрузка
+Menu_Button_Load,Загрузка
 Menu_Button_Save,Сохранить
 Menu_Button_Options,Настройки
 Menu_Button_Credits,Авторы
@@ -231,11 +231,11 @@ Menu_PCInfo_Cleric_Title,К<size=90%>лерик
 Menu_QuestTree_ChooseFeat,Выберите черту
 Menu_QuestTree_ForgoFeat,Отказаться от черты
 Menu_QuestTree_QP_Show,- Показать ветвь задания -
-Menu_QuestTree_QP_Hide,- Показать разблокированную черту -
+Menu_QuestTree_QP_Hide,- Скрыть разблокированную черту -
 Menu_QuestTree_TakeRoot,Взять корень
 Menu_QuestTree_Completed,ЗАВЕРШЕНО
 Menu_CharacterCreation_Lore,Знания
-Menu_CharacterCreation_Uses,Использования
+Menu_CharacterCreation_Uses,Применения
 Menu_CharacterCreation_Role,Роль
 Menu_LevelUpButton,Повышение уровня
 Menu_Autosaving,Автосохранение…
@@ -249,7 +249,7 @@ Menu_OverwriteConfirmation,Перезаписать файл?
 Menu_DeleteConfirmation,Удалить файл сохранения?
 Journal_Empty,[Этот журнал пуст.]
 Loading_AnyKey,"Нажмите любую клавишу, чтобы продолжить"
-Loading_Title_DiceChecks,Проверки костей
+Loading_Title_DiceChecks,Броски костей
 Loading_Desc_DiceChecks,"Бросьте кость d20. Если результат больше или равен Сложности (Классу трудности), ты преуспеваешь.
 
 Провал зачастую интереснее успеха. Не бойтесь кости."
@@ -287,7 +287,7 @@ Loading_Desc_DialogChoices,"Существует три типа вариант�
 </color>Некоторые варианты сочетают в себе все эти типы или часть из них."
 Loading_Title_HiddenDialogChoices,Скрытые варианты диалога
 Loading_Desc_HiddenDialogChoices,"Некоторые варианты диалога скрыты, если ты не соответствуешь требованиям. Но не волнуйся. В ЭББ тебе никогда не предстоит получить доступ ко всем путям разом."
-Loading_Title_SpellCasting,Заклинания
+Loading_Title_SpellCasting,Применение заклинаний
 Loading_Desc_SpellCasting,"Проводник божественной силы, ты можешь накладывать жреческие заклинания.
 
 Заклинания позволяют тебе лечиться, защищать себя, выполнять задания и открывать уникальные ветви диалогов.
@@ -298,7 +298,7 @@ Loading_Desc_SituationalSpells,"Некоторые заклинания можн
 Loading_Title_SpellConcentration,Концентрация на заклинании
 Loading_Desc_SpellConcentration,"Некоторые заклинания требуют поддержания Концентрации. Ты можешь сосредоточиться только на одном заклинании за раз.
 
-Если ты получаешь достаточно урона, для поддержания Концентрации обычно необходимо успешно пройти проверку Устава. Для тебя это, похоже, не проблема.
+Если ты получаешь достаточно урона, для поддержания Концентрации обычно необходимо успешно пройти проверку Телосложениеа. Для тебя это, похоже, не проблема.
 
 Как только срок действия заклинания истекает или ты теряешь Концентрацию, заклинание заканчивается."
 Loading_Title_SpellScrolls,Свитки заклинаний
@@ -336,7 +336,7 @@ Loading_Title_LevelUp,Повышение уровня
 Loading_Desc_LevelUp_Above,"Достигая определённых порогов опыта, ты можешь повысить уровень. Повышение уровня даёт тебе:"
 Loading_Desc_LevelUp_Below,На каждом втором уровне ты также получаешь 1 дополнительный заряд божественной силы.
 Loading_Desc_LevelUp_Gain_1,Улучшение характеристики на 1
-Loading_Desc_LevelUp_Gain_2,Увеличение максимальных хитов на основе твоего модификатора Устава
+Loading_Desc_LevelUp_Gain_2,Увеличение максимальных хитов на основе твоего модификатора Телосложениеа
 Loading_Desc_LevelUp_Gain_3,Увеличение числа ячеек заклинаний.
 Loading_Desc_LevelUp_Gain_4,Увеличение бонуса мастерства
 Loading_Desc_LevelUp_Gain_5,Увеличение хитовых костей
@@ -387,12 +387,12 @@ Loading_Desc_Exhaustion,"Если ты успешно участвуешь в б
 Каждый уровень истощения даёт −1 ко всем проверкам костей. Если ты достигнешь 10 уровней истощения, ты умрёшь.
 
 Истощение снимается после успешного долгого отдыха. Если до рассвета не совершить долгий отдых, ты получишь 6 уровней истощения."
-Loading_Title_Pickpocket,Карманник
+Loading_Title_Pickpocket,Карманная кража
 Loading_Desc_Pickpocket,"Некоторые предметы охраняются. Чтобы обокрасть их, нужно успешно пройти проверку способности.
 
 Если не справишься, можешь попасться. Тогда будь готов объяснить, что произошло. Обойдётся это скверно."
 Loading_AbilityScore_Mod,МОД
-Loading_AbilityScore_Short,КАК
+Loading_AbilityScore_Short,ХАР
 Intro_Message_1,До первых в истории выборов осталось пять дней.
 Intro_Message_2,"В самом сердце города вспыхивает взрыв.
 Никто не хочет с этим разбираться. Поэтому отправляют <i>тебя</i>."

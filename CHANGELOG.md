@@ -8,6 +8,32 @@ All notable changes to Esoteric Ebb RU. Versions are ordered newest first.
 
 - Nothing yet.
 
+## 0.2.0 (2026-10-24)
+
+### Fixed
+
+- **Short interface labels read in context.** A one-word label is the hard
+  case: the model that translated them in a batch had nothing but the word
+  itself, and the dictionary sense is often the wrong one. 1,656 short labels
+  were reviewed against their English source, and 173 corrections went in.
+- `Menu_Button_Load` read «Нагрузка» in the main menu, where the game itself
+  says «Загрузить файл». It reads «Загрузка» now.
+- **Constitution** was «Устав», a statute, where the ability is a physique.
+  It is «Телосложение» everywhere, in the character sheet and in the text.
+- **Lawful** was «Законный», a noun. The alignment is «Законопослушный».
+- **Warlock** and **sorcerer** were both «чародей». A warlock is «колдун»
+  in this game's Russian, and «чародей» belongs to the sorcerer.
+- Forty lines that had an English word inside a Russian sentence, and nine
+  that had never been translated at all, including a whole paragraph of
+  Rollo's article.
+- The term **lesser** is now «младший» throughout, the game's own way of
+  ranking things.
+
+### Changed
+
+- The repository carries the review scripts, so the same pass can be run over
+  a new build of the game.
+
 ## 0.1.0 (2026-10-24)
 
 ### Added

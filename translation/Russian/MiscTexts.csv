@@ -13,13 +13,13 @@ Journal,,Журнал
 Spellbook,,Книга заклинаний
 Success,,Успех
 Failure,,Провал
-Failed,,Неудача
+Failed,,Провал
 Locked,,Заблокировано
 Crowns,,{0} Короны
 Strength,,Сила
 Level,,Уровень
 Dexterity,,Ловкость
-Constitution,,Устав
+Constitution,,Телосложение
 Intelligence,,Интеллект
 Wisdom,,Мудрость
 Charisma,,Харизма
@@ -39,9 +39,9 @@ Feat_EmptySlot,,[Пустой слот для умения]
 QuestPoint_Added,,«{0}» добавлено.
 QuestPoint_Completed,,«{0}» выполнено.
 QuestPoint_Updated,,«{0}» обновлено.
-TriInteraction_Enter,,Ввод
+TriInteraction_Enter,,Войти
 TriInteraction_Trifle,,Мелочь
-TriInteraction_Behold,,Вот
+TriInteraction_Behold,,Смотреть
 TriInteraction_Engage,,Вступить в бой
 Examine_Examine,,Осмотреть
 Examine_Memorize,,Запомнить
@@ -59,8 +59,8 @@ Leave_PostFix,,(Уйти.)
 UI_Health,,{0}/{1} ОЗ
 UI_Health_NoParams,,ОЗ
 UI_Health_HitPoints,,Очки здоровья
-UI_Exhaustion,,{0} выдох
-UI_XP,,{0}/{1} опыт
+UI_Exhaustion,,{0} изд.
+UI_XP,,{0}/{1} опыта
 DoorLocked_Default_1,,Не уступает.
 DoorLocked_Default_2,,Нет. Не сработает.
 DoorLocked_Default_3,,Здесь не пройти.
@@ -77,7 +77,7 @@ DoorLocked_Default_13,,Это не вариант.
 DoorLocked_Default_14,,Так не получится.
 DoorLocked_Default_15,,Нет. Не могу этого сделать.
 Levelup_Available,,[Доступно повышение уровня!]
-Spell_Level0,,Заговор
+Spell_Level0,,Простейшее заклинание
 Spell_Level1,,1-й
 Spell_Level2,,2-й
 Spell_Level3,,3-й
@@ -94,7 +94,7 @@ SpellSlot_Available_Level1_0,,Заклинательных слотов 1-го �
 SpellSlot_Available_Level1_1,,У меня остался один слот заклинания 1-го уровня. На исходе.
 SpellSlot_Available_Level1_2,,У меня осталось два слота заклинаний 1-го уровня. Полезно.
 SpellSlot_Available_Level1_3,,Три слота заклинаний 1-го уровня! Я готов ко всему.
-SpellSlot_Available_Level1_4,,Урт хранит меня.
+SpellSlot_Available_Level1_4,,Урт оберегает меня.
 SpellSlot_Available_Level1_5,,Что мне сотворить?
 SpellSlot_Available_Level1_6,,Я чувствую себя обновлённым.
 SpellSlot_Available_Level2_0,,Заклинательных слотов 2-го уровня не осталось.
@@ -108,7 +108,7 @@ SpellSlot_Available_Level3_0,,Заклинательных слотов 3-го �
 SpellSlot_Available_Level3_1,,Один слот заклинания третьего уровня. Лучше потратить его с умом.
 SpellSlot_Available_Level3_2,,Два слота заклинания третьего уровня. Это мощная магия.
 SpellSlot_Available_Level3_3,,Три слота заклинания третьего уровня. Моё мастерство не знает преград.
-SpellSlot_Available_Level3_4,,Четыре слота заклинания третьего уровня. Аккуратно.
+SpellSlot_Available_Level3_4,,Четыре слота заклинаний третьего уровня. Отлично.
 SpellSlot_Available_Level3_5,,Пять слотов заклинания третьего уровня! Я неостановим!
 SpellSlot_Available_Level3_6,,Шесть слотов заклинания третьего уровня. Это вообще допустимо?
 Glossary_AlreadyClicked,,У меня это уже есть в глоссарии.
@@ -150,10 +150,10 @@ Choice_Enhance,,УСИЛИТЬ СПОСОБНОСТЬ — добавлено {0}
 Choice_CrusadersMantle,,МАНТИЯ КРЕСТОНОСЦА — брошено {0} (1d12).
 Choice_DivineHex,,БОЖЕСТВЕННЫЙ СГЛАЗ добавляет {0}!
 Choice_WhitemanesBlessing,,Благословение Уайтмейн — брошено {0} (1d4).
-Choice_WEAL_Success,,Струна даёт Благосостояние!
+Choice_WEAL_Success,,Струна дарует благосостояние!
 Choice_WEAL_Fail,,Благосостояние Струны не срабатывает…!
 Choice_WOE_Success,,Горе Струны рассеивается…!
-Choice_WOE_Fail,,Струна даёт Горе.
+Choice_WOE_Fail,,Струна дарует горе.
 Choice_LUCK_Once,,[Удача дурака] Выпала натуральная единица. Перебрасываю один раз.
 Choice_LUCK_Multiple,,[Удача дурака] Выпала натуральная единица. Перебрасываю {0} раз.
 Choice_LUCK_Damage,,[Удача дурака] Потеряно {0} ({1}d4) очков здоровья.
@@ -169,8 +169,8 @@ Choice_FEMI,,[Леди Фэйр] Добавлено мастерство.
 Choice_MASC,,[Будущий Патриарх] Добавлено мастерство.
 Choice_APO,,[Аполитичный] Мастерство увеличено на 1.
 Choice_APO_Election,,[Аполитичный] Мастерство увеличено на 10.
-Choice_ASIncrease,,Счёт характеристики увеличен на {0}.
-Choice_ASDecrease,,Счёт характеристики уменьшен на {0}.
+Choice_ASIncrease,,Значение характеристики увеличено на {0}.
+Choice_ASDecrease,,Значение характеристики уменьшено на {0}.
 Lost_Item,,Потеряно {0}.
 Lost_Crowns,,Потеряно {0} корон.
 Lost_Crowns_All,,Потеряно {0} корон. Теперь у меня не осталось ни одной.
@@ -178,7 +178,7 @@ DayMessage_Day,,День {0}
 DayMessage_Night,,Ночь
 DayMessage_Date_Day22,,"22 марта, 27 год Эры После Падения"
 DayMessage_Date_Day23,,"23 марта, 27 год Эры После Падения"
-DayMessage_Date_Day,,"Март {0}-го, 27 год Эры После Падения"
+DayMessage_Date_Day,,"Март {0}-го, 27 год Эры Падения"
 LongRest_Done,,"[Хорошо отдохнул: преимущество при большинстве проверок, пока не получишь истощение.]"
 LongRest_Snell,Snell,И… ты отправляешься спать. Тогда я тоже пойду. <i>Спокойной ночи</i>.
 PillarScene_Snell,OBJ,<shake>Снелл</shake>!
@@ -219,19 +219,19 @@ PillarScene_Charisma10_0,CHA,"Да, дела явно идут не туда."
 PillarScene_Charisma10_1,CHA,"Но, может… ты сможешь договориться с тем, что там?"
 PillarScene_Charisma16_0,CHA,"Сосредоточься. С тем, что там, можно договориться."
 PillarScene_Charisma16_1,CHA,Всё чего-то хочет. Всегда есть верный выбор.
-PillarScene_Constitution0_0,CON,ПАНИКА. УЖАС. УМИРАЮЩИЙ.
+PillarScene_Constitution0_0,CON,ПАНИКА. УЖАС. УМИРАЮ.
 PillarScene_Constitution0_1,CON,Твоё тело кричит. Всё кричит.
 PillarScene_Constitution6_0,CON,СТРАХ. ТЕЛО ДРОЖИТ.
-PillarScene_Constitution6_1,CON,Там нигде. Там НИЧЕГО.
+PillarScene_Constitution6_1,CON,Нигде нет выхода. Там НИЧЕГО.
 PillarScene_Constitution10_0,CON,СТРАХ. Глубокий. Тревожный.
 PillarScene_Constitution10_1,CON,В твоей глубине бушует первобытный ужас.
 PillarScene_Constitution16_0,CON,СТРАХ. И всё же… ты СДЕРЖИВАЕШЬ ЕГО.
 PillarScene_Constitution16_1,CON,Тело выдерживает. Оно всегда выдерживает.
-PillarScene_Wisdom0_0,WIS,Странное место. Запутанный…
+PillarScene_Wisdom0_0,WIS,Странное место. Путаница…
 PillarScene_Wisdom0_1,WIS,В голове закружилось. Ты ходишь по кругу?
 PillarScene_Wisdom6_0,WIS,Чувства не улавливают ничего.
 PillarScene_Wisdom6_1,WIS,Всё запутано. Разум не может толком это ухватить.
-PillarScene_Wisdom10_0,WIS,Пристальный взгляд в Запределье.
+PillarScene_Wisdom10_0,WIS,Взгляд в Запределье.
 PillarScene_Wisdom10_1,WIS,Оно оставляет твой разум… во тьме.
 PillarScene_Wisdom10_2,WIS,"Узкая полоска света, уравновешенная на эзотерической поверхности."
 PillarScene_Wisdom16_0,WIS,Запределье взирает в тебя в ответ.
@@ -259,7 +259,7 @@ PillarScene_Strength16_1,STR,Герои не пасуют. ВПЕРЁД.
 PillarScene_BigMessage_0,OBJ,"Ослеплённые странными огнями над головой, ты привыкаешь к ним."
 PillarScene_BigMessage_1,OBJ,Ты всматриваешься вперёд.
 PillarScene_BigMessage_2,OBJ,В темноте ты видите Колонну Света.
-PillarScene_BigMessage_3,OBJ,Что-то зовёт тебя к себе.
+PillarScene_BigMessage_3,OBJ,Что-то зовёт тебя вперёд.
 EndScene_0,,Это <shake>трудно</shake>…!
 EndScene_1,,"Уверен, я принял хорошее решение…"
 EndScene_2,,"Интересно, куда делся Снелл…?"
@@ -332,11 +332,11 @@ FinalMessage_Urth_Snell_0,OBJ,Для Снелла это была встреча
 FinalMessage_Urth_Ettir,OBJ,"Для Эттир это было напоминанием — чем дольше она стоит на месте, тем быстрее всё вокруг неё вращается."
 FinalMessage_Urth_Snell_1,OBJ,Для Жреца это наверняка оставило неизгладимый след.
 FinalMessage_Urth_Snell_2,OBJ,"След, который определит его будущее. И Эпоху, которая грядёт."
-FinalMessage_Urth_Snell_3,OBJ,"Кстати, об этом…"
+FinalMessage_Urth_Snell_3,OBJ,Кстати о…
 FinalMessage_Urth_Alone_0,OBJ,"Ты встретил своего бога в одиночестве, в пустоте."
 FinalMessage_Urth_Alone_1,OBJ,"Всего лишь человек. Или, может быть, призрак прошлого — его последние слова были посланием <i>тебе</i>."
 FinalMessage_Urth_Alone_2,OBJ,"Интересно, как это определит будущее Жреца. И Эпоху, которая грядёт."
-FinalMessage_Urth_Alone_3,OBJ,"Кстати, об этом…"
+FinalMessage_Urth_Alone_3,OBJ,Кстати о…
 FinalMessage_2,OBJ,"Выборы позади, и этой кампании, кажется, пора перескочить во времени. Пара месяцев? <i>Лет</i>?"
 FinalMessage_3,OBJ,Норвик вступает в смутные времена. {0}
 FinalMessage_3_NATIONALIST,OBJ,Но твой лояльный партии Жрец непременно найдёт место среди собратьев.
@@ -348,9 +348,9 @@ FinalMessage_3_AGRARIAN,OBJ,"Но твой бедный, бедный яблоч
 FinalMessage_4,OBJ,"Не могу дождаться, чтобы увидеть, что ты сделаешь дальше.
 <i>— Кристоффер Бодегорд</i>"
 Cant_Reach,,Отсюда дотуда не дотянуться.
-QuickResponse_Empty,,"Хм. Ничего не скажешь, значит?"
+QuickResponse_Empty,,"Хм. Ничего не сказать, значит?"
 Success_Uppercase,,УСПЕХ
-Resisted_Uppercase,,СОПРОТИВЛЕНО
+Resisted_Uppercase,,СОПРОТИВЛЕНИЕ ОКАЗАНО
 Resistance_Magic,,Магическое сопротивление
 Resistance_Legendary,,Легендарное сопротивление
 Counterspell,,Контрзаклинание
@@ -381,18 +381,18 @@ ExamineItem_Food_Heal_Mill,,[Страж тысячелетия] Восстано
 ExamineItem_Food_Sick,,Мне нехорошо…
 ExamineItem_Food_Full,,"Не могу есть, слишком сыт."
 ExamineItem_Food_Keep,,Мне нужно сохранить хотя бы <i>один</i> из них.
-ExamineItem_Food_AbilityScore,,{1} увеличен на {0}
+ExamineItem_Food_AbilityScore,,{1} увеличено на {0}
 ExamineItem_First_Full,,Мои слоты заклинаний первого уровня не израсходованы.
 ExamineItem_First_Refill,,<b>*Кашель*</b>
 ExamineItem_Second_Full,,Все места для заклинаний второго уровня заняты.
 ExamineItem_Second_Missing,,Нет второго уровня для восстановления.
-ExamineItem_Second_Refill,,<b>Гладко спускается.</b>
+ExamineItem_Second_Refill,,<b>Легко проходит вниз.</b>
 ExamineItem_Third_Full,,Третий уровень? Есть.
 ExamineItem_Third_Missing,,Третий уровень? Пока нет.
 ExamineItem_Third_Refill,,<b>Обновление применено. Чувствуется <i>эзотерично</i>.</b>
 Pickpocket_Item,,Предмет для карманника
-Pickpocket_Success,,Успех карманника
-Pickpocket_Failure,,Провал карманника
+Pickpocket_Success,,Успешная кража
+Pickpocket_Failure,,Неудачная кража
 Pickpocket_NotAllowed_0,,Я не могу этого сделать.
 Pickpocket_NotAllowed_1,,Ни за что я сейчас это не украду.
 Pickpocket_NotAllowed_2,,Сегодня мне до этого не добраться.
@@ -402,18 +402,18 @@ Pickpocket_NotAllowed_5,,Мне нужна чёртова передышка.
 MageHand_NotAllowed,,Нельзя переместить это Магической рукой!
 AddItem_Spell_Toss,,Я уже запомнил это заклинание. (Ты перебрасываешь его через плечо.)
 AddItem_Spell_Memorized,,Заклинание {0} запомнено.
-AddItem_ExtraCrown,,[Деньги решают] Найдена лишняя Корона!
+AddItem_ExtraCrown,,[Деньги решают] Найдена дополнительная Корона!
 AddItem_ExtraCrowns,,[Деньги решают] Найдено дополнительных Корон: {0}!
 AddItem_ExtraItem,,[Аграрий] Найден дополнительный!
 PayCrowns,,Заплачено {0} корон.
 PayCrowns_Free,,"Так отторговался, что получил бесплатно!"
-PayCrowns_Haggled,,Отторговался на одну корону! Заплачено только {0}.
-PayCrowns_HaggledOne,,Отторговался на {1} корон. Заплачено только {0}!
+PayCrowns_Haggled,,Выторговал скидку на одну корону! Заплачено только {0}.
+PayCrowns_HaggledOne,,Выторговал скидку на {1} корон. Заплачено только {0}!
 PayCrowns_HaggledProfit,,"Так отторговался, что умудрился получить прибыль. Получено {0} корон!"
 Feat_CantEquip_Cooldown,,Не смогу это экипировать до завтра.
 Feat_CantEquip_ToManyFeats,,Выбрано слишком много подвигов.
 Exhaustion_WellRested_Gone,,Больше не отдохнувший.
-SheetRoll_Behold,,Вот при сложности {0}
+SheetRoll_Behold,,"Вот, бросок с сложностью {0}"
 Sheet_BeholdBackground,,Уровень {0} «{1}»
 Democratic_Heal,,[Демократический Глашатай] Восстановлено {0} (1d4) хитов.
 DialogError,,ПРЕДУПРЕЖДЕНИЕ: ПРОИЗОШЛА ОШИБКА В: «{0}»
@@ -445,7 +445,7 @@ Confirm_Spell_Cost_Dreampatch,,с помощью <b>Дримпатча</b>?
 Confirm_Spell_Cost_Item,,с помощью предмета?
 Confirm_Feat_Equip,,Добавить {0} на лист персонажа?
 Confirm_Feat_Unequip,,Убрать {0} с листа персонажа? Добавить его обратно можно будет только после отдыха.
-Confirm_ShortRest,,Потратить 1 кость для короткого часового отдыха?
+Confirm_ShortRest,,Потратить 1 кость хитов на 1 час короткого отдыха?
 Toggle_Running,,[Переключатель: бег]
 SpellSlot_Regain_Incense,,[Чаша для ладана] Восстановлен слот заклинания 1-го уровня.
 Exhaustion_Endure,,[Выносливость азгалианца] Снят один уровень истощения.
@@ -457,7 +457,7 @@ NoSleep_Hour3_Snell,Snell,«Будешь работать всю ночь? …Х
 NoSleep_Hour4_Snell,Snell,«М-м? Что? …Я не спал.»
 NoSleep_Hour5_Snell,Snell,"«Если мы сейчас отправимся обратно, успеем лечь спать до рассвета.»"
 NoSleep_Hour7_Snell,Snell,«Десять лет назад я без труда не спал всю ночь. Теперь чувствую себя как медвежий помёт.»
-Item_NoWear_Spellbook,,Там нельзя экипировать тексты.
+Item_NoWear_Spellbook,,Нельзя экипировать книги заклинаний.
 Item_NoWear_Head,,Нет. Это явно предназначено для головы.
 Item_NoWear_Weapon,,Оружие туда не наденешь.
 Item_NoWear_Misc,,"Я бы сказал, это аксессуар."
@@ -489,9 +489,9 @@ Spellbook_NoSpells_Spam_2,,"Ещё несколько раз — я уверен
 SpellBook_InvalidTarget,,Нет допустимой цели.
 SpellBook_Target,,— Применить {0} —
 SpellBook_Target_Title,,Цель для {0}
-SpellBook_Warning_Magic,,Предупреждение: Сопротивление
+SpellBook_Warning_Magic,,Предупреждение: Сопротивление магии
 SpellBook_Warning_Legendary,,Предупреждение: Легендарное сопротивление
-SpellBook_ItemCast,,Потрачено {0}.
+SpellBook_ItemCast,,Использовано: {0}.
 SpellBook_Prepare,,— Подготовить —
 SpellBook_Unprepare,,— Снять подготовку —
 SpellBook_Prepare_Amount,,Заклинания для подготовки: {0}
@@ -536,15 +536,15 @@ TriInteraction_OutOfReach_1,,Слишком далеко.
 TriInteraction_OutOfReach_2,,Недостижимо.
 Bark_DS_ArcaneRiddle,Olzis,"«<i>Ну, ну…</i>»"
 Bark_DS_PrimalRiddle,,<i>Не расти. Исчезни.</i>
-Bark_DS_DivineRiddle,,<shake>ОТКРЫТО!</shake>
+Bark_DS_DivineRiddle,,<shake>ОТКРЫВАЙ!</shake>
 Bark_OP_ArcaneSecret,,О. Это что-то дало.
-Spell_GoodApple,,Создано {0} Гудэплов.
-Spell_GoodApple_Wisdom,,Создано {0} Гудэплов (5 + {1} МДР)
+Spell_GoodApple,,Создано {0} Хороших яблок.
+Spell_GoodApple_Wisdom,,Создано {0} Хороших яблок (5 + {1} МДР)
 Spell_Augury_0,,<i>Струна</i>. Куда она меня приведёт?
 Spell_Augury_1,,Хмм.
 Spell_Augury_2,,Там… Я вижу. Написано…
-Spell_Augury_WEAL,,<wiggle>БЛАГОСОСТОЯНИЕ…!</wiggle>
-Spell_Augury_WEAL_Low,,Везучая я.
+Spell_Augury_WEAL,,<wiggle>БЛАГО…!</wiggle>
+Spell_Augury_WEAL_Low,,Везучий я.
 Spell_Augury_WEAL_Medium,,"Отлично. Посмотрим, что будет!"
 Spell_Augury_WEAL_High,,Удача на моей стороне. Как всегда.
 Spell_Augury_WOE,,<shake>ГОРЕ…</shake>
@@ -565,8 +565,8 @@ Spell_AuraofVitality_Enc_Snell_0,,"Продолжай в том же духе, �
 Spell_AuraofVitality_Enc_Snell_1,,"Именно то, что мне было нужно."
 Spell_AuraofVitality_Enc_Snell_2,,Это поможет. Спасибо.
 Spell_AuraofVitality_Enc_Snell_3,,"Отлично, теперь сосредоточься на бое!"
-Spell_CureWounds,,Бросок {0} (1d8)
-Spell_CureWounds_wis,,Бросок {0} (1d8) + {1} (МДР)
+Spell_CureWounds,,Бросок: {0} (1d8)
+Spell_CureWounds_wis,,Бросок: {0} (1d8) + {1} (МДР)
 Spell_CureWounds_wis_Cleric,,[Жрец] Бросок {0} (1d8) + {1} (МДР) + {2}
 Spell_CureWounds_wis_Tingle,,[Эзотерик Тинг] Бросок {0} (2d8) + {1} (МДР) + {2}
 Spell_CureWounds_str_Cleric,,[Жрец] Бросок {0} (1d8) + {1} (СИЛ) + {2}
@@ -583,7 +583,7 @@ Spell_PrayerofHealing_Snell_2,Snell,«Чувствую себя свежим.»
 Spell_PrayerofHealing_Snell_3,Snell,"«Признателен, Жрец.»"
 Spell_PrayerofHealing_Ettir_0,Ettir,"«Спасибо, Жрец.»"
 Spell_PrayerofHealing_Ettir_1,Ettir,«В этом не было необходимости. Но я всё же благодарен.»
-Spell_PrayerofHealing_Ettir_2,Ettir,«Твоё исцеление очень мощное.»
+Spell_PrayerofHealing_Ettir_2,Ettir,«Твоя целительная сила очень мощна.»
 Spell_PrayerofHealing_Ettir_3,Ettir,«Магия Урта возвращает воспоминания.»
 Spell_InflictWound_Hit,,ПОПАДАНИЕ
 Spell_InflictWound_Miss,,ПРОМАХ
@@ -620,8 +620,8 @@ ItemTitle_SlightlyOff_Weapon,,Оружие
 ItemTitle_Stupid_Weapon,,Оружие
 ItemTitle_VeryStupid_Weapon,,Кувалда Сэйкера
 ItemTitle_Normal_Head,,Шлемы
-ItemTitle_SlightlyOff_Head,,Шлема
-ItemTitle_Stupid_Head,,Тинг для головы
+ItemTitle_SlightlyOff_Head,,Шлемы
+ItemTitle_Stupid_Head,,Головняк
 ItemTitle_VeryStupid_Head,,Лицо
 ItemTitle_Normal_Spellbook,,Литература
 ItemTitle_SlightlyOff_Spellbook,,Тексты
@@ -629,11 +629,11 @@ ItemTitle_Stupid_Spellbook,,Бумаги
 ItemTitle_VeryStupid_Spellbook,,Я не умею читать
 ItemTitle_Normal_Scroll,,Свитки
 ItemTitle_SlightlyOff_Scroll,,Свитки
-ItemTitle_Stupid_Scroll,,Штуки для катывания
+ItemTitle_Stupid_Scroll,,Катушки
 ItemTitle_VeryStupid_Scroll,,Волшебная салфетка
 ItemTitle_Normal_Potion,,Расходники
 ItemTitle_SlightlyOff_Potion,,Еда
-ItemTitle_Stupid_Potion,,Ест
+ItemTitle_Stupid_Potion,,Съедобное
 ItemTitle_VeryStupid_Potion,,Ням
 ItemTitle_Normal_Shard,,Осколки
 ItemTitle_SlightlyOff_Shard,,Блестящие безделушки
@@ -667,8 +667,8 @@ ItemTitle_Normal_DexMod,,Ловкость
 ItemTitle_SlightlyOff_DexMod,,Ловкость
 ItemTitle_Stupid_DexMod,,Быстрый
 ItemTitle_VeryStupid_DexMod,,Проворность?
-ItemTitle_Normal_ConMod,,Устав
-ItemTitle_SlightlyOff_ConMod,,Устав
+ItemTitle_Normal_ConMod,,Телосложение
+ItemTitle_SlightlyOff_ConMod,,Телосложение
 ItemTitle_Stupid_ConMod,,Твёрдый
 ItemTitle_VeryStupid_ConMod,,Нутром чую
 ItemTitle_Normal_IntMod,,Интеллект
@@ -736,34 +736,34 @@ Race_Ogre,,Огр
 Race_Troll,,Тролль
 Race_Birdfolk,,Птицелюд
 Race_Orc_Fellfolk,,Орк с Феллов
-Race_Orc_Belifolk,,Орк с Бели
+Race_Orc_Belifolk,,Орк из Бели
 Race_Merfolk,,Мерфолк
 Race_Kobold,,Кобольд
-Race_Crocoliskfolk,,Кроколизколикие
+Race_Crocoliskfolk,,Кроколизкофолк
 Race_Snailfolk,,Улитники
 Race_Undead,,Нежить
-Race_Devil,,Демон
+Race_Devil,,Дьявол
 Race_Demon,,Демон
 Race_Celestial,,Цели Небесных
 Race_Aberration,,Аберрация
 Race_Beast,,Зверь
-Race_Monstrosity,,Монстр
+Race_Monstrosity,,Монстросность
 Race_Plant,,Растение
 Race_Fey,,Фей
 Race_Elemental,,Элементаль
-Alignment_Lawful_Good,,"Законный
+Alignment_Lawful_Good,,"Законопослушный
 Добрый"
 Alignment_Neutral_Good,,"Нейтральный
 Добрый"
 Alignment_Chaotic_Good,,"Хаотичный
 Добрый"
-Alignment_Lawful_Neutral,,"Законный
+Alignment_Lawful_Neutral,,"Законопослушный
 Нейтральный"
 Alignment_True_Neutral,,"Истинно
 Нейтральный"
 Alignment_Chaotic_Neutral,,"Хаотичный
 Нейтральный"
-Alignment_Lawful_Evil,,"Законный
+Alignment_Lawful_Evil,,"Законопослушный
 Злой"
 Alignment_Neutral_Evil,,"Нейтральный
 Злой"
@@ -783,7 +783,7 @@ GlossaryTags_Religion,,Религия
 GlossaryTags_Spells,,Заклинания
 GlossaryTags_Strength,,Сила
 GlossaryTags_Dexterity,,Ловкость
-GlossaryTags_Constitution,,Устав
+GlossaryTags_Constitution,,Телосложение
 GlossaryTags_Intelligence,,Интеллект
 GlossaryTags_Wisdom,,Мудрость
 GlossaryTags_Charisma,,Харизма
@@ -853,13 +853,13 @@ DoorLocked_13_0,,Закрыто. Наглухо заперто.
 DoorLocked_13_1,,"Похоже, на сегодня всё закрыто."
 DoorLocked_14_0,,Изнутри слышен храп.
 DoorLocked_14_1,,Мне сюда точно не попасть.
-DoorLocked_14_2,,Утром должно быть открыто.
-DoorLocked_15_0,,Внизу по лестнице есть запертая дверь.
+DoorLocked_14_2,,"Утром, должно быть, откроют."
+DoorLocked_15_0,,Внизу по лестнице есть дверь с засовом.
 DoorLocked_15_1,,Без разрешения здесь не пройти.
 DoorLocked_15_2,,Нет уж. Этот путь пока закрыт.
 DoorLocked_15_3,,"Кажется, эта дорога ведёт к складу…"
 DoorLocked_15_4,,Я здесь не пройду.
-DoorLocked_16_0,,Дверь здесь заперта.
+DoorLocked_16_0,,Здесь дверь забаррикадирована.
 DoorLocked_16_1,,Хм. Дверь в этом тоннеле не открывается.
 DoorLocked_16_2,,Чёрт. Здесь я пройти не смогу.
 DoorLocked_16_3,,С этой стороны не открыть. Придётся обходить.
@@ -907,10 +907,10 @@ Hover_1d4,,1d4
 Hover_1d12,,1d12
 Variable_Desc_Hardmode_0,,<i>Мастер недоволен тобой.</i>
 Variable_Desc_Hardmode_1,,<i>Ты явно выбрал сложный режим.</i>
-Variable_Desc_Hardmode_2,,<i>The-DM-Wants-To-Kill-You.</i>
+Variable_Desc_Hardmode_2,,<i>Мастер хочет тебя убить.</i>
 Variable_Desc_Hardmode_3,,<i>Ты выбрал эту сложность.</i>
 Variable_Desc_Hardmode_4,,<i>Мастер — один-единственный злой ублюдок.</i>
-Variable_Desc_Hardmode_5,,<i>Твой мастер устроил тебе проверку.</i>
+Variable_Desc_Hardmode_5,,<i>Твой мастер даёт тебе бой.</i>
 Variable_Desc_Plants,,Преимущество против Растений
 Variable_Desc_Bureaucrats,,Преимущество против Бюрократов
 Variable_Desc_Elementals,,Преимущество против Стихийных существ
@@ -924,9 +924,9 @@ Variable_Desc_Meek_5,,Смиренный помогает тебе сохран�
 Variable_Desc_DetectThoughts,,Ты <i>Обнаружил</i> несколько полезных <i>Мыслей</i>…
 Variable_Desc_Dwarves,,Преимущество против дворфов
 Variable_Desc_Elves,,Преимущество против Эльфов
-Variable_Desc_Aberrations,,Преимущество против Отклонений
+Variable_Desc_Aberrations,,Преимущество против Искажений
 Variable_Desc_Urthfolk,,Преимущество против Уртфолков
-Variable_Desc_Evil,,Преимущество против Зла
+Variable_Desc_Evil,,Преимущество против Него
 Variable_Desc_Good,,Преимущество против Добра
 Variable_Desc_Chaotic,,Преимущество против Хаоса
 Variable_Desc_Lawful,,Преимущество против Закона
@@ -944,16 +944,16 @@ Variable_Desc_DivineHex,,На цель наложен БОЖЕСТВЕННЫЙ �
 Variable_Desc_WhitemanesBless,,Под действием БЛАГОСЛОВЕНИЯ УАЙТМЕЙН.
 Variable_Desc_Weal,,БЛАГОСОСТОЯНИЕ.
 Variable_Desc_Woe,,ГОРЕ.
-Difficulty_0_0,,Без испытания
+Difficulty_0_0,,Без вызова
 Difficulty_0_1,,Не должно быть проблемой
 Difficulty_0_2,,Без неприятностей
-Difficulty_0_3,,Без труда
+Difficulty_0_3,,Без проблем
 Difficulty_0_4,,Д.Е.Н.П. (Даже Стараться Не Нужно)
 Difficulty_0_5,,Проще простого
 Difficulty_1,,Без усилий
 Difficulty_6,,Умеренно
-Difficulty_11,,Сложно
-Difficulty_16,,Грозно
+Difficulty_11,,Непросто
+Difficulty_16,,Устрашающе
 Difficulty_21,,Невозможно
 Difficulty_26,,Божественно
 Area_LL,,Нижнее логово
@@ -996,10 +996,10 @@ SubArea_UT,,Верхний Толстад
 SubArea_UR,,Хребет Апперхоллоу
 SubArea_DS_BeyondName,,За гранью
 SubArea_Journal_Crypts,,Склепы
-SubArea_Journal_Stairs,,Лестница
+SubArea_Journal_Stairs,,Ступени
 SubArea_Journal_Doom,,Рок
 SubArea_Journal_Niche,,Шипы?
-SubArea_Journal_Study,,Кабинет
+SubArea_Journal_Study,,Изучение
 SubArea_Journal_LostApartment,,Потерянная квартира
 SubArea_Journal_Survey,,Обследование
 SubArea_Journal_Shrine,,Святилище
@@ -1015,7 +1015,7 @@ InfoList_Potion,,Зелье принято
 InfoList_FEAT_MILL,,[Страж тысячелетия]
 InfoList_AbilityScore,,Благословлён Уртом
 InfoList_Enhance,,УСИЛИТЬ СПОСОБНОСТЬ
-CalculateModifiers_Modified,,(Изменено)
+CalculateModifiers_Modified,,(Изменён)
 NewGame_RemainingPoints,,Характеристики — осталось очков: {0}
 NewSpec_New,,"Теперь ты — <b>{0}</b>.
 Получено опыта: {1}xp за выбор {2}."
@@ -1114,7 +1114,7 @@ SessionNotes_Message_7e,,"Кроме того, нужно ещё найти вл
 SessionNotes_Message_7f,,"Кроме того, ты нашёл владельца. Эта птица пыталась <i>отплыть сама</i> через Побережье. К счастью, ты поймал её прежде, чем её ящик исчез неизвестным образом."
 SessionNotes_Message_7g,,Но пока ничто не дало тебе неопровержимых доказательств.
 SessionNotes_Message_7h,,"А ещё есть этот замаскированный убийца. У тебя НИКАКИХ улик в том, что он нацелен на тебя."
-SessionNotes_Message_7i,,Всё здесь <i>искрятится</i>.
+SessionNotes_Message_7i,,Всё здесь <i>пахнет</i>.
 SessionNotes_Message_7j,,"О, и не забудь: в чайной всё ещё нужно перевернуть тяжёлый стол. Приведи Снелла, он должен помочь."
 SessionNotes_Message_8,,"Ты очнулся в морге. Ты подобрал гоблина-помощника. Это должна была быть простая работа — выяснить, почему взорвалась местная чайная. Теперь ты стоишь здесь, и в глубине твоего сознания всё ещё живёт образ: <i>мёртвый эльф</i>. Увидеть <i>живого</i> эльфа и без того редкость."
 SessionNotes_Message_8a,,"А ещё есть этот странный замаскированный убийца. У тебя НИКАКИХ улик в том, что он нацелен на тебя. Но кто-то же затаил на тебя злобу."
@@ -1163,25 +1163,25 @@ PCBackground_TowerApprentice_desc,OBJ,"Вступление в Башни — ч
 PCBackground_TowerApprentice_date,,"21-й Сумил, 21 PE"
 PCBackground_ArcaneProdigy_name,,Тайный Вундеркинд
 PCBackground_ArcaneProdigy_desc,OBJ,"Впервые в жизни ты был природным дарованием. Ты всегда знал несколько кантрипов, но настоящая магия — это было другое. Это была <i>сила</i>."
-PCBackground_ArcaneProdigy_date,,22 ПЭ
+PCBackground_ArcaneProdigy_date,,22 PE
 PCBackground_PalacePawn_name,,Дворцовая Пешка
 PCBackground_PalacePawn_desc,OBJ,"Как быстро растущий талант, ты часто оказывался в круговерти интриг среди начальства, несмотря на все старания. Тебе это никогда не шло на пользу."
-PCBackground_PalacePawn_date,,"9-й Бельтан, 22 ПЭ"
+PCBackground_PalacePawn_date,,"9-й Бельтан, 22 PE"
 PCBackground_FaithfulHarbinger_name,,Верный Вестник
 PCBackground_FaithfulHarbinger_desc,OBJ,"Что-то не так. Молитвы мёртвому богу, чьи шёпоты ещё витают в воздухе… медленно стихают. Ты один среди своих собратьев."
 PCBackground_FaithfulHarbinger_date,,???
 PCBackground_EsotericExpert_name,,Эзотерический Эксперт
 PCBackground_EsotericExpert_desc,OBJ,"Ты проводил ночи в поисках эзотерического знания. Одинокая жизнь. Твои открытия были нежелательны властям, но ты не остановился. Никогда."
-PCBackground_EsotericExpert_date,,"30-е Эльтре, 25 ПЭ"
+PCBackground_EsotericExpert_date,,"30-е Эльтре, 25 PE"
 PCBackground_RevolutionaryScribe_name,,Революционный Писец
 PCBackground_RevolutionaryScribe_desc,OBJ,"Разочарование. Город с идеалами, которые не соблюдаются. Однажды ты выбрал сторону: зарождающуюся Демократию. Ты писал день и ночь. Ради <i> перемен и славы</i>."
-PCBackground_RevolutionaryScribe_date,,"3-е Марта, 26 ПЭ"
+PCBackground_RevolutionaryScribe_date,,"3-е Марта, 26 PE"
 PCBackground_AbjectApostate_name,,Жалкий Отступник
 PCBackground_AbjectApostate_desc,OBJ,"Тебя никто не любит. Когда тебя понизили за небрежность, никто не вступился. Но всё в порядке. Всё будет хорошо. Ты ведь к этому привык."
-PCBackground_AbjectApostate_date,,"23-е Хроноса, 26 ПЭ"
+PCBackground_AbjectApostate_date,,"23-е Хроноса, 26 PE"
 PCBackground_DeadCleric_name,,Мёртвый Жрец
 PCBackground_DeadCleric_desc,OBJ,Взросление в одиночестве. Неприятности. Обучение в Уртгарде. Посвящение всей жизни и становление Жрецом. Неужели всё это должно было закончиться в <i>Реке</i>?
-PCBackground_DeadCleric_date,,"25-е Марта, 27 ПЭ"
+PCBackground_DeadCleric_date,,"25-е Марта, 27 PE"
 AbilityScoreInfo_Strength_LoreQuote,STR,"<i>«Каждый пастух знает песнь. Она ревёт вверх по течению. Урт живёт в той полоске земли.»
 </i>
 —Плач Торны, народная молитва"
@@ -1225,12 +1225,12 @@ AbilityScoreInfo_Wisdom_RoleHigh_Title,,Жрец с высокой Мудрос�
 AbilityScoreInfo_Wisdom_RoleHigh_Point1,,Голосует за Азгалианскую рабочую партию.
 AbilityScoreInfo_Wisdom_RoleHigh_Point2,,Никого не ненавидит (кроме иерархий).
 AbilityScoreInfo_Wisdom_RoleHigh_Point3,,Принимает свою женскую сторону.
-AbilityScoreInfo_Wisdom_RoleHigh_Point4,,Следует за раненым сердцем.
+AbilityScoreInfo_Wisdom_RoleHigh_Point4,,Следует влево сердца.
 AbilityScoreInfo_Wisdom_RoleHigh_Point5,,Мастер Первобытной магии.
 AbilityScoreInfo_Wisdom_RoleHigh_Point6,,Читает язык тела как чемпион.
 AbilityScoreInfo_Wisdom_RoleHigh_Point7,,Замечает ВСЕ подробности.
 AbilityScoreInfo_Wisdom_RoleLow_Title,,Жрец с низкой Мудростью…
-AbilityScoreInfo_Wisdom_RoleLow_Point1,,Слепой дурак.
+AbilityScoreInfo_Wisdom_RoleLow_Point1,,Наивный дурак.
 AbilityScoreInfo_Wisdom_RoleLow_Point2,,Постоянно неверно читает намёки.
 AbilityScoreInfo_Wisdom_RoleLow_Point3,,Не думает о низшем классе.
 AbilityScoreInfo_Wisdom_RoleLow_Point4,,Не «понимает» людей.
@@ -1242,8 +1242,8 @@ AbilityScoreInfo_Wisdom_Uses1,,"Высокая Мудрость позволяе
 <size=42>заклинания"
 AbilityScoreInfo_Wisdom_Uses2,,Будьте добры и замечайте хорошее во <size=77>всех людях
 AbilityScoreInfo_Wisdom_Uses3,,Эгалитарная надежда <size=62>Азгалианского <size=43>рабочего класса
-AbilityScoreInfo_Wisdom_Uses4,,"Нет никого
-большого злого"
+AbilityScoreInfo_Wisdom_Uses4,,"Нет
+больших злых"
 AbilityScoreInfo_Wisdom_UsesNotice,,Механические преимущества Мудрости
 AbilityScoreInfo_Intelligence_LoreQuote,INT,"<i>«Славный дизайн. Пусть ведут те, кто учится. Только за способности, и ни за что иное».</i>
 -Лорд Филлиус Пракс, Автобиография Пракса"
@@ -1264,8 +1264,8 @@ AbilityScoreInfo_Intelligence_RoleLow_Title,,Жрец с низким Интел
 AbilityScoreInfo_Intelligence_RoleLow_Point1,,Не знает ничего.
 AbilityScoreInfo_Intelligence_RoleLow_Point2,,Одновременно невежда и самоуверен. О нет.
 AbilityScoreInfo_Intelligence_RoleLow_Point3,,"Выдумывает мелочи, чтобы казаться умным."
-AbilityScoreInfo_Intelligence_RoleLow_Point4,,Едва осознаёт себя.
-AbilityScoreInfo_Intelligence_RoleLow_Point5,,Не способен решать загадки намеренно.
+AbilityScoreInfo_Intelligence_RoleLow_Point4,,Едва способен к осознанию.
+AbilityScoreInfo_Intelligence_RoleLow_Point5,,Намеренно не способен решать загадки.
 AbilityScoreInfo_Intelligence_RoleLow_Point6,,Дурак. Ага.
 AbilityScoreInfo_Intelligence_RoleNotice,,Как Интеллект влияет на Жреца.
 AbilityScoreInfo_Intelligence_Uses1,,"Высокий Интеллект позволяет тебе
@@ -1309,8 +1309,8 @@ AbilityScoreInfo_Constitution_LoreDesc,CON,"<b><color=#C3863F>УСТАВ</color>
 AbilityScoreInfo_Constitution_LoreFootNote,CON,"Так слушай внутренний голос — инстинкт, который просыпается, когда ты стоишь на краю ямы. Это голос, который говорит только <b>ТЕЛЕСНУЮ ПРАВДУ</b>. Каждый твой выбор, каждое накопленное чувство можно проследить до нижней части желудка.
 
 Следуй ему. Сохраняй <b>СМЕРТНОСТЬ</b> плотской логики. Просто. Легко. <b>ПРАВДИВО</b>."
-AbilityScoreInfo_Constitution_LoreNotice,,Собственный взгляд Жреца на Устав.
-AbilityScoreInfo_Constitution_RoleHigh_Title,,Жрец с высоким Уставом…
+AbilityScoreInfo_Constitution_LoreNotice,,Собственный взгляд Жреца на Телосложение.
+AbilityScoreInfo_Constitution_RoleHigh_Title,,Жрец с высоким Телосложением…
 AbilityScoreInfo_Constitution_RoleHigh_Point1,,"Постоянно забывает, что идут выборы."
 AbilityScoreInfo_Constitution_RoleHigh_Point2,,Сосредоточен на хорошем в жизни.
 AbilityScoreInfo_Constitution_RoleHigh_Point3,,Прочнее энтропии.
@@ -1318,22 +1318,22 @@ AbilityScoreInfo_Constitution_RoleHigh_Point4,,Держит свои нервы 
 AbilityScoreInfo_Constitution_RoleHigh_Point5,,Беседует с Духами в стенах.
 AbilityScoreInfo_Constitution_RoleHigh_Point6,,Слушает внутренний голос.
 AbilityScoreInfo_Constitution_RoleHigh_Point7,,Уже мёртв.
-AbilityScoreInfo_Constitution_RoleLow_Title,,Жрец с низким Уставом…
+AbilityScoreInfo_Constitution_RoleLow_Title,,Жрец с низким Телосложением…
 AbilityScoreInfo_Constitution_RoleLow_Point1,,Умрёт.
 AbilityScoreInfo_Constitution_RoleLow_Point2,,Паникует из-за всего.
 AbilityScoreInfo_Constitution_RoleLow_Point3,,Слушает внутренний голос и ошибается.
 AbilityScoreInfo_Constitution_RoleLow_Point4,,Не контролирует функции своего тела.
 AbilityScoreInfo_Constitution_RoleLow_Point5,,Не способен вынести боль.
 AbilityScoreInfo_Constitution_RoleLow_Point6,,Не имеет <b>НИКАКОЙ</b> связи со стенами.
-AbilityScoreInfo_Constitution_RoleNotice,,Как Устав влияет на Жреца.
-AbilityScoreInfo_Constitution_Uses1,,"Устав
+AbilityScoreInfo_Constitution_RoleNotice,,Как Телосложение влияет на Жреца.
+AbilityScoreInfo_Constitution_Uses1,,"Телосложение
 необходим для
 <size=52> хитов"
 AbilityScoreInfo_Constitution_Uses2,,Контролируй своё тело и его <size=33>эзотерическую связь
 AbilityScoreInfo_Constitution_Uses3,,"Твоя партия набрала 2% за прошлую неделю, и
 <size=43>тебе всё равно"
 AbilityScoreInfo_Constitution_Uses4,,Боль полезна для тебя
-AbilityScoreInfo_Constitution_UsesNotice,,Механические преимущества Устава
+AbilityScoreInfo_Constitution_UsesNotice,,Механические преимущества Телосложения
 AbilityScoreInfo_Charisma_LoreQuote,CHA,"<i>«Те, кто верит в демократию, великолепно смотрят на простых людей — считают их способными принимать рациональные и обоснованные решения, свободные от личных предпочтений и эмоциональных порывов. Это, честно говоря, вдохновляет».
 </i>
 — Николай Дарроу, «Мемуары государственного деятеля»"
@@ -1345,13 +1345,13 @@ AbilityScoreInfo_Charisma_RoleHigh_Point1,,"Голосует за всё, что
 AbilityScoreInfo_Charisma_RoleHigh_Point2,,Социализирован в детстве.
 AbilityScoreInfo_Charisma_RoleHigh_Point3,,"Знает, что сказать, чтобы заслужить расположение."
 AbilityScoreInfo_Charisma_RoleHigh_Point4,,На самом деле может флиртовать с некоторыми злодеями.
-AbilityScoreInfo_Charisma_RoleHigh_Point5,,Обожает контролировать разум людей.
+AbilityScoreInfo_Charisma_RoleHigh_Point5,,Обожает контролировать людей разумом.
 AbilityScoreInfo_Charisma_RoleHigh_Point6,,Считает истину рекомендацией.
 AbilityScoreInfo_Charisma_RoleHigh_Point7,,Не имеет души.
 AbilityScoreInfo_Charisma_RoleLow_Title,,Жрец с низкой Харизмой…
-AbilityScoreInfo_Charisma_RoleLow_Point1,,Не слишком приятный.
+AbilityScoreInfo_Charisma_RoleLow_Point1,,Не очень приятный.
 AbilityScoreInfo_Charisma_RoleLow_Point2,,"Не знает, как себя вести с людьми."
-AbilityScoreInfo_Charisma_RoleLow_Point3,,Всё путает с злодеями.
+AbilityScoreInfo_Charisma_RoleLow_Point3,,Косячит с злодеями.
 AbilityScoreInfo_Charisma_RoleLow_Point4,,Боится разговоров.
 AbilityScoreInfo_Charisma_RoleLow_Point5,,"По сути, полная противоположность опытному оратору."
 AbilityScoreInfo_Charisma_RoleLow_Point6,,Не имеет стиля.
@@ -1436,10 +1436,10 @@ LevelUp_HitDice,,Кости +1
 LevelUp_FirstSpellSlots,,Слоты заклинаний 1-го уровня +{0}
 LevelUp_SecondSpellSlots,,Слоты заклинаний 2-го уровня +{0}
 LevelUp_ThirdSpellSlots,,Слоты заклинаний 3-го уровня +{0}
-LevelUp_AbilityScore,,Счёт характеристик +1
-PreBuild_PrimalCleric_Title,,Праймл Жрец
+LevelUp_AbilityScore,,Повышение характеристики +1
+PreBuild_PrimalCleric_Title,,Праймл-жрец
 PreBuild_TricksterCleric_Title,,Плут Жрец
-PreBuild_ScholarCleric_Title,,Ш Жрец
+PreBuild_ScholarCleric_Title,,Учёный Жрец
 PreBuild_BeefyCleric_Title,,Могучий Жрец
 PreBuild_UnstableCleric_Title,,Нестабильный Жрец
 PreBuild_PrimalCleric_Desc,,Какова природа человека?
