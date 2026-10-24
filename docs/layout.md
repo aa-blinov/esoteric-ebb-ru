@@ -263,6 +263,21 @@ lore panel, half covered by it. The first click on any of the three tabs puts
 the panel where it belongs, and the text stays there for the rest of the
 session.
 
+## The splash screen
+
+The prompt on the first screen of the game is drawn over a painting, and the
+painting is in front of the text on the left. The clear band of sky at the
+height of the line runs from **x = 519** to **x = 1249**.
+
+| Line | Size | Width | Result |
+| --- | --- | --- | --- |
+| `PRESS ANY BUTTON` (English) | 54 | 504 px | fits |
+| `НАЖМИТЕ ЛЮБУЮ КНОПКУ` | 54 | 778 px | the first word goes under the cloud |
+| `НАЖМИТЕ ЛЮБУЮ КНОПКУ` | 36 | 517 px | fits |
+
+The line is centred, so the width is what decides the outcome. At size 36 the
+Russian line measures the same as the English one and stays in the open sky.
+
 ## Checking a line yourself
 
 ```bash

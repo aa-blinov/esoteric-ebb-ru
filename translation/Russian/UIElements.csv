@@ -203,7 +203,7 @@ Menu_Button_Save,Сохранить
 Menu_Button_Options,Настройки
 Menu_Button_Credits,Авторы
 Menu_Button_Exit,Выход
-Menu_Button_PressAnyButton,Нажмите любую кнопку
+Menu_Button_PressAnyButton,<size=36>Нажмите любую кнопку</size>
 Menu_Button_Resume,Продолжить
 Menu_Button_QuitToMenu,Выйти в меню
 Menu_Header_SessionNotes,Заметки сессии

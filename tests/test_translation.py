@@ -64,6 +64,7 @@ MARKUP_EXCEPTIONS = {
     ("MiscTexts.csv", "AbilityScoreInfo_Intelligence_Uses1"): "<size=40></size><size=42>",
     ("MiscTexts.csv", "AbilityScoreInfo_Charisma_Uses3"): "<size=42></size><size=40>",
     ("UIElements.csv", "Menu_DeepStorage"): "<size=30></size>",
+    ("UIElements.csv", "Menu_Button_PressAnyButton"): "<size=36></size>",
 }
 
 

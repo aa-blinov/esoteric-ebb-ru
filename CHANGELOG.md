@@ -4,8 +4,19 @@ All notable changes to Esoteric Ebb RU. Versions are ordered newest first.
 
 ## [Unreleased]
 
+### Added
+
+- Nothing yet.
+
+## 0.11.0 (2026-10-25)
+
 ### Fixed
 
+- **The prompt on the splash screen fits the sky.** The line «Нажмите любую
+  кнопку» is 778 px wide in the display font of the game, and the English
+  «Press Any Button» is 504 px. The text is centred, and the Russian one
+  reached under the cloud on the left: only «Е ЛЮБУЮ КНОПКУ» could be read.
+  The size of the line is 36 now, and it measures 517 px.
 - **The declension of «Телосложение».** Two lines of the loading tips read
   «проверку Телосложениеа» and «модификатора Телосложениеа». The word is a
   feminine noun, and both lines now read «Телосложения».
@@ -13,10 +24,6 @@ All notable changes to Esoteric Ebb RU. Versions are ordered newest first.
   «КантРИПЫ», with the last four letters in capitals, which the decorative
   font of the game draws at full height in the middle of a word. It is
   «Кантрипы» now, and the glossary carries the same spelling.
-
-### Added
-
-- Nothing yet.
 
 ## 0.10.0 (2026-10-24)
 
