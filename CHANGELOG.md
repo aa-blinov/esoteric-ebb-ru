@@ -8,6 +8,26 @@ All notable changes to Esoteric Ebb RU. Versions are ordered newest first.
 
 - Nothing yet.
 
+## 0.4.0 (2026-10-24)
+
+### Fixed
+
+- **The narrow arrow button on the character screen no longer wraps.** It
+  takes its label from the menu strings, and the display font is wide: nine
+  letters did not fit, so the word broke and its tail landed under the
+  divider. «Продолжить» is «Дальше» and «Завершить» is «Готово».
+- **The tab between "Знания" and "Роль" no longer wraps.** «Применения» is
+  «Польза».
+- **The lore of Strength fits the panel again.** At 390 characters it is
+  exactly as wide as the 451 characters of the English original, because a
+  Cyrillic letter costs about 0.52 em and an English one about 0.45.
+
+### Measured
+
+The display font breaks a word that does not fit, and the tail lands under
+whatever is below. The narrow boxes on the character screen hold about
+eight characters. The scripts that check the lengths are in `scripts/`.
+
 ## 0.3.0 (2026-10-24)
 
 ### Fixed

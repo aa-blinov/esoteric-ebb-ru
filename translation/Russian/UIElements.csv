@@ -207,7 +207,7 @@ Menu_Button_PressAnyButton,Нажмите любую кнопку
 Menu_Button_Resume,Продолжить
 Menu_Button_QuitToMenu,Выйти в меню
 Menu_Header_SessionNotes,Заметки сессии
-Menu_Button_Continue,Продолжить
+Menu_Button_Continue,Дальше
 Menu_Button_Finish,Завершить
 Sheet_BackgroundFocus,Фокус на фоне
 Sheet_PreBuilt,Готовый
@@ -219,7 +219,7 @@ Menu_SpellSlot_First,1-й
 Menu_SpellSlot_Second,2-й
 Menu_SpellSlot_Third,3-й
 Menu_PreparingSpells_Title,Подготовка заклинаний
-Menu_PreparingSpells_Finish,Завершить
+Menu_PreparingSpells_Finish,Готово
 Menu_PreparingSpells_Prepared,Подготовленные заклинания
 Menu_PreparingSpells_Difficulty,Сложность заклинания
 Menu_PreparingSpells_Collected,Собранные заклинания
@@ -235,7 +235,7 @@ Menu_QuestTree_QP_Hide,- Скрыть разблокированную черт�
 Menu_QuestTree_TakeRoot,Взять корень
 Menu_QuestTree_Completed,ЗАВЕРШЕНО
 Menu_CharacterCreation_Lore,Знания
-Menu_CharacterCreation_Uses,Применения
+Menu_CharacterCreation_Uses,Польза
 Menu_CharacterCreation_Role,Роль
 Menu_LevelUpButton,Повышение уровня
 Menu_Autosaving,Автосохранение…
