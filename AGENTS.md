@@ -31,7 +31,7 @@ python3 src/build.py --install --game-dir "/c/Program Files (x86)/Steam/steamapp
 | `src/` | The pipeline: corpus extraction, translation, editing, canonicalisation, QA. |
 | `src/voice/` | The style code the editor works from, and the frozen glossary. |
 | `tests/` | The checks that run in CI and before every install. |
-| `scripts/` | Helpers for installing and for measuring panel widths. |
+| `scripts/` | The installer, the width measurement, the scan for machine-written prose. |
 | `docs/` | The style guide, the glossary, the layout measurements, the architecture. |
 | `work/` | Scratch space: the corpus, the caches, the intermediate passes. Not committed. |
 
@@ -57,14 +57,33 @@ python3 src/build.py --install --game-dir "/c/Program Files (x86)/Steam/steamapp
   real font metrics out of the game's assets. A line that passes the
   character-count check can still overflow the panel.
 - **The game's dialogue size is the global lever.** `FontSize` in
-  `SETTINGS.es3` is 24 in the original and 20 for the Russian text. Changing
-  it invalidates the width measurements in `docs/layout.md`.
+  `SETTINGS.es3` is 24 in the original and 22 for the Russian text. Changing
+  it invalidates the width measurements in `docs/layout.md`. The game writes
+  its own value back when it leaves, so the file has to be checked afterwards.
 - **The fonts are the game's.** Two of the seven dialogue fonts carry no
-  Cyrillic at all. A Russian player has to pick EB Garamond or PT Serif in
-  the options.
+  Cyrillic at all: Ebberia and Josefin Sans. The game does not show a missing
+  glyph in them, it draws a rune, and a Russian line comes out as a row of
+  runes. Ebberia is the first entry of the list and the default, so the
+  setting has to be corrected before the first line is readable.
+  `scripts/install.py` moves the setting to Ubuntu when it finds one of the
+  two.
+- **An empty line is not an empty line.** The game falls back to the English
+  original of its own assets when a cell is empty, and a cell of nothing but a
+  space is trimmed before the lookup. The zero width space (`U+200B`) is the
+  only thing that stays empty, and it is the only way to leave a line out on
+  purpose.
+- **The panels that the game rebuilds at runtime are filled from the game's
+  own strings**, not from the folder of the language. The light mode rebuilds
+  the panel of the examples, and it comes out in English, because the
+  developer's own Chinese is in that place in his build.
 - **Keep the markup.** `<i>`, `<b>`, `<size=N>`, `{CLERIC}` and the rest are
   checked row by row against the English source. A dropped tag is a broken
   line in the game, not a typo.
+- **The English source is the yardstick.** `scripts/scan_ai_patterns.py`
+  looks for the patterns of machine-written prose in the Russian and prints
+  the lines next to their source. A Russian line that carries such a word is
+  faithful when the source carries it too; rewriting it would only make it
+  stranger.
 
 ## Style / safety rails
 
@@ -76,3 +95,18 @@ python3 src/build.py --install --game-dir "/c/Program Files (x86)/Steam/steamapp
 - **The translation's voice is fixed.** `docs/style-guide.md` is the contract
   with the editor; a hand edit that breaks it will be corrected by the next
   run of the editor pass.
+- **A correction goes into the CSV file and into
+  `src/voice/manual_fixes.json`**, or the next run of the pipeline will undo
+  it.
+- **A correction is measured and written down.** The measurement belongs in
+  `docs/layout.md`, the change in `CHANGELOG.md`. The house check of the
+  organisation lives in `golden-repo/scripts/`, outside this repository, and
+  both of its checkers have to stay quiet.
+
+## The workspace around the repository
+
+The repository is worked on from a workspace one level up, where the game
+lives and the helpers that drive it are kept. `../AGENTS.md` of that
+workspace describes the layout, the order of the work and the traps of the
+game window. Two of them matter most: the game reads the localization once,
+at the start, and it rewrites its own settings file when it leaves.
