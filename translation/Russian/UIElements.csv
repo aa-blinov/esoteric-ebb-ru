@@ -75,9 +75,9 @@ Settings_NoStressMode_Info,"В Esoteric Ebb время сбалансирова�
 Settings_NoAnimations_Title,Мгновенный текст
 Settings_NoAnimations_Info,Убирает все анимации и автоматическую прокрутку из интерфейса диалогов.
 Settings_Limit_Unlimited,Без ограничений
-Settings_QuickSaveLimit_Title,Лимит быстрых сохранений
+Settings_QuickSaveLimit_Title,Лимит быстрых
 Settings_QuickSaveLimit_Info,Установите ограничение на количество хранимых быстрых сохранений. Они создаются клавишей F5. Быстрая загрузка — клавишей F9.
-Settings_AutoSaveLimit_Title,Лимит автосохранений
+Settings_AutoSaveLimit_Title,Лимит авто
 Settings_AutoSaveLimit_Info,Задайте предел количества хранимых автосохранений. Они создаются при выходе из диалога или входе в новую область.
 Settings_Lightmode_Title,Светлый режим
 Settings_Lightmode_Info,"Включите эту опцию, чтобы изменить цвет интерфейса диалогов, если предпочитаете светлый фон и тёмный текст."

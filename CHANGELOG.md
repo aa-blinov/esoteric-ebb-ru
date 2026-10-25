@@ -8,6 +8,27 @@ All notable changes to Esoteric Ebb RU. Versions are ordered newest first.
 
 - Nothing yet.
 
+## 0.18.0 (2026-10-25)
+
+### Fixed
+
+- **The names of the limits of the saves keep their row.** The names of the
+  limits in the settings are right-aligned in a column of about 240 px, and
+  «Лимит быстрых сохранений» and «Лимит автосохранений» broke into two lines:
+  the second line of the first one fell on the name of the second. They are
+  «Лимит быстрых» and «Лимит авто» now.
+
+### Known issues
+
+- **The light mode makes one panel fall back to English.** The game rebuilds
+  parts of the interface when the light mode is switched at runtime, and the
+  panels it rebuilds take their text from the fallback language. The column of
+  examples next to the settings turns into English in the Russian build; the
+  Chinese build of the game keeps the Chinese. The keys of the panel are
+  translated and are read correctly before the switch, and the rest of the
+  interface stays Russian. A restart reads the localization again. The
+  measurements and what was tried are in `docs/layout.md`.
+
 ## 0.17.0 (2026-10-25)
 
 ### Fixed
