@@ -12,9 +12,13 @@ import csv
 import json
 import os
 import re
+import sys
+import tempfile
 import unittest
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(ROOT, "src"))
+from ebru.apply_manual import apply_to_corpus
 TRANSLATION = os.path.join(ROOT, "translation", "Russian")
 MANIFEST = os.path.join(ROOT, "translation", "keys.json")
 GLOSSARY = os.path.join(ROOT, "src", "voice", "glossary.json")
@@ -63,6 +67,8 @@ MARKUP_EXCEPTIONS = {
     ("MiscTexts.csv", "AbilityScoreInfo_Dexterity_Uses3"): "<size=40><size=41>",
     ("MiscTexts.csv", "AbilityScoreInfo_Intelligence_Uses1"): "<size=40></size><size=42>",
     ("MiscTexts.csv", "AbilityScoreInfo_Charisma_Uses3"): "<size=42></size><size=40>",
+    ("MiscTexts.csv", "AbilityScoreInfo_Charisma_Uses1"): "<size=20></size><size=48></size><size=18>",
+    ("MiscTexts.csv", "AbilityScoreInfo_Charisma_LoreFootNote"): "<size=20><b></b><b></b></size>",
     ("UIElements.csv", "Menu_DeepStorage"): "<size=20></size>",
     ("UIElements.csv", "Menu_Button_PressAnyButton"): "<size=36></size>",
     ("UIElements.csv", "Menu_Header_SessionNotes"): "<size=38></size>",
@@ -222,6 +228,20 @@ class TestSettings(unittest.TestCase):
         rows = {r[0]: r[-1] for r in load_csv("MiscTexts.csv")[1:]}
         self.assertEqual(rows.get("LanguageDropdown"), "Русский")
         self.assertEqual(rows.get("FallbackLanguage"), "EN")
+
+
+class TestManualFixes(unittest.TestCase):
+    def test_csv_named_fixes_apply_to_corpus_rows(self):
+        with tempfile.TemporaryDirectory() as folder:
+            source = os.path.join(folder, "source.jsonl")
+            output = os.path.join(folder, "output.jsonl")
+            row = {"file": "Dialogs", "key": "sample", "en": "sample", "ru": "old"}
+            with open(source, "w", encoding="utf-8") as fh:
+                fh.write(json.dumps(row) + "\n")
+            applied = apply_to_corpus(source, output, {"Dialogs.csv": {"sample": "new"}})
+            self.assertEqual(applied, 1)
+            with open(output, encoding="utf-8") as fh:
+                self.assertEqual(json.loads(fh.readline())["ru"], "new")
 
 
 if __name__ == "__main__":

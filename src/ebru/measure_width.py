@@ -21,6 +21,7 @@ OUT = os.path.join(ROOT, "work", "fonts")
 os.makedirs(OUT, exist_ok=True)
 
 PANEL_PX = 500.0
+USES_TEXT_PX = 325.0
 
 
 def extract_fonts():
@@ -84,6 +85,10 @@ def main():
         ("ЛИШНИЕ ПРЕДМЕТЫ", 45, "AbilityScoreInfo_Strength_Uses1 (new RU)"),
         ("Higher Strength", 38, "Uses1"),
         ("Большая Сила", 38, "Uses1"),
+        ("Высокая Харизма", 20, "Charisma Uses1 heading; 325 px text slot"),
+        ("сразу получаешь", 22, "Charisma Uses1 body; 325 px text slot"),
+        ("СКИДКУ", 48, "Charisma Uses1 highlight; 325 px text slot"),
+        ("в некоторых лавках", 18, "Charisma Uses1 note; 325 px text slot"),
     ]
 
     out = ["panel usable width: %.0f px" % PANEL_PX, ""]
@@ -101,7 +106,8 @@ def main():
             except Exception as e:
                 out.append("    %-28s error %s" % (text, e))
                 continue
-            mark = "OK " if w <= PANEL_PX else "OVER"
+            limit = USES_TEXT_PX if "325 px text slot" in label else PANEL_PX
+            mark = "OK " if w <= limit else "OVER"
             out.append("    [%s] %-30s size=%-3d  ~%6.0f px  %s"
                        % (mark, text, size, w, label))
             if missing:

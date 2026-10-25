@@ -24,11 +24,17 @@ def load_fixes():
         return json.load(fh)
 
 
+def corpus_fix_table(fixes, file_name):
+    """Resolve a corpus filename against the CSV-named manual-fix table."""
+    return fixes.get(file_name) or fixes.get(file_name + ".csv") or {}
+
+
 def apply_to_corpus(src, dst, fixes):
-    rows = [json.loads(l) for l in open(src, encoding="utf-8")]
+    with open(src, encoding="utf-8") as fh:
+        rows = [json.loads(line) for line in fh]
     applied = 0
     for r in rows:
-        table = fixes.get(r["file"])
+        table = corpus_fix_table(fixes, r["file"])
         if not table:
             continue
         new = table.get(r["key"])
@@ -47,7 +53,8 @@ def apply_to_csv(fixes):
         path = os.path.join(TRANSLATION, name)
         if not os.path.exists(path):
             continue
-        rows = list(csv.reader(open(path, encoding="utf-8-sig", newline="")))
+        with open(path, encoding="utf-8-sig", newline="") as fh:
+            rows = list(csv.reader(fh))
         out = []
         for r in rows:
             if r and r[0] in table:

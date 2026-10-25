@@ -9,12 +9,17 @@ All notable changes to Esoteric Ebb RU. Versions are ordered newest first.
 - Corrected five ability lore entries and standardized the Constitution stat as “Телосложение”. Two ordinary dialogue uses now read as “здоровье”.
 - Shortened the Strength description to fit the fixed panel at font size 22.
 - Replaced the clipped third line of the Strength footnote with a zero-width space; the black notice text remains visible.
+- Shortened the Charisma footnote and set it to size 20 so its five measured lines stay above the panel illustration; the black notice remains visible.
 - Corrected the geographic term for the Coast’s eight regions and separated it from uses meaning a music group, companions, or idioms.
 - Standardized the halfling people and the Golden Horde, corrected treaty and item names, and repaired a five-thousand-year prophecy and related lore dialogue.
 - Made the dates and era names consistent across the war history, archive records, and current-day references.
 - Restored the canonical dwarf term across the translation and repaired lines that had turned dwarves into gnomes, doors, or nobles. Removed an invented country name from the suffragette history.
 - Distinguished political parties from adventuring groups in dialogue and codex entries; corrected election references on the voting card and in character dialogue.
 - Aligned the spell name with the game’s glossary term and repaired several lore sentences whose Russian changed or obscured the source meaning.
+- Fixed the Charisma benefit text to stay within its 325 px panel column, and corrected the labels for proficiencies and Behold checks.
+- Aligned spell names, creature types, and the Roper entry across the glossary, item cards, and character sheet; corrected the Sending Pebble target and several feat mechanics.
+- Translated two remaining English dialogue lines and repaired 20 dialogue quote openings.
+- Fixed the manual-fix pipeline so corrections keyed by CSV filenames also reach corpus rows on rebuild.
 
 ## 0.21.0 (2026-10-25)
 

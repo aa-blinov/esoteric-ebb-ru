@@ -1,6 +1,6 @@
 # Эбб
 
-A complete Russian localization of Esoteric Ebb: 81,883 translated lines in
+A complete Russian localization of Esoteric Ebb: 81,891 translated lines in
 twelve CSV files, installed as a language folder that the game loads next to
 the English one.
 
@@ -44,7 +44,7 @@ without touching the menu:
 
 ## What it does
 
-- **Every line of the game.** 81,883 strings across dialogue, the codex, spells,
+- **Every line of the game.** 81,891 strings across dialogue, the codex, spells,
   feats, items, quests, the character sheet and the interface. Every source
   line that carries text has a Russian one; the rows that stay empty are empty
   in the English source too.

@@ -77,6 +77,24 @@ against a column of about 400. Lowering the size to fit would have made it half
 the size of the line above it, so the word is shortened to **мужество**, which
 reads the same in this context.
 
+### Charisma benefit
+
+The first Charisma benefit shares its narrow 325 px text slot with an icon.
+The old heading wrapped into two lines, and the explanatory line and store
+note wrapped too. Together they pushed the lower text into the tab strip. The
+new copy occupies four lines:
+
+| Line | Size | Width in the widest extracted font |
+| --- | ---: | ---: |
+| `Высокая Харизма` | 20 | 287 px |
+| `сразу получаешь` | 22 | 316 px |
+| `СКИДКУ` | 48 | 288 px |
+| `в некоторых лавках` | 18 | 301 px |
+
+All four lines fit the 325 px slot. The sizes and widths come from the real
+font assets measured by `src/ebru/measure_width.py`. The installed copy was
+reloaded in the running game with Ctrl+R.
+
 ## The lore column
 
 The lore panel of the character screen is one column. The quote, the
@@ -100,6 +118,18 @@ rendered text show a widest line of **497 px** in the roughly **500 px** text
 column. The third line of the Strength footnote is replaced by a zero-width
 space because it showed through the notice band. The first two footnote lines
 remain in the translation, and the black notice text remains visible.
+
+### Charisma footnote
+
+The original Charisma footnote wrapped to seven lines, with its last line
+running into the illustration above the magenta notice. The shortened wording
+keeps the same five ideas: persuasive speech, factional affiliation, reality
+shaped by will, the chameleon-like social operator, and the need to be loved.
+At font size **20**, it wraps to **five lines** in the extracted Noto Serif
+font; the widest line is **492 px** in the **500 px** text column. The separate
+black notice (`AbilityScoreInfo_Charisma_LoreNotice`) remains visible.
+After a full game restart, the character creation screen confirms that the last
+line stays above the illustration and the black notice is unobstructed.
 
 ## The dialogue fonts
 
