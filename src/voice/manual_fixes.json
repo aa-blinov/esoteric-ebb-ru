@@ -317,7 +317,7 @@
     "AbilityScoreInfo_Charisma_Uses3": "Говори что угодно, чтобы люди полюбили тебя и стали <size=42>аполитической</size>\n<size=40>силой природы",
     "Questing": "Задания",
     "Spellbook": "Заклинания",
-    "Cantrips": "Кантрипы",
+    "Cantrips": "<size=16>Кантрипы</size>",
     "PCBackground_EsotericExpert_name": "Эзотерик",
     "PCBackground_RevolutionaryScribe_name": "Писец революции",
     "PCBackground_UrthguardRecruit_name": "Рекрут Уртгарда",
@@ -334,7 +334,8 @@
     "ItemType_StrMod": "Мод. СИЛ",
     "AbilityScoreInfo_Strength_LoreNotice": "​",
     "Proficient": "Владение",
-    "InfoList_Proficient": "<i>Владение</i>"
+    "InfoList_Proficient": "<i>Владение</i>",
+    "Spells": "<size=16>Заклинания</size>"
   },
   "UIElements.csv": {
     "Loading_Desc_SpellConcentration": "Некоторые заклинания требуют поддержания Концентрации. Ты можешь сосредоточиться только на одном заклинании за раз.\r\n\r\nЕсли ты получаешь достаточно урона, для поддержания Концентрации обычно необходимо успешно пройти проверку Телосложения. Для тебя это, похоже, не проблема.\r\n\r\nКак только срок действия заклинания истекает или ты теряешь Концентрацию, заклинание заканчивается.",

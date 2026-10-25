@@ -8,6 +8,18 @@ All notable changes to Esoteric Ebb RU. Versions are ordered newest first.
 
 - Nothing yet.
 
+## 0.20.0 (2026-10-25)
+
+### Fixed
+
+- **The counts of the spells have room for two digits.** The card of the
+  collected spells is about 182 px wide, and the name of the card and the
+  names of the counts share it. The count itself is drawn by the game and keeps
+  the size of the panel, so a count of two digits needs about 28 px next to the
+  name. «ЗАКЛИНАНИЯ» reached the count at 139 px, and a count of two digits
+  would have touched it. The two names are written in the size 16 now, and
+  «ЗАКЛИНАНИЯ» measures 111 px.
+
 ## 0.19.0 (2026-10-25)
 
 ### Fixed

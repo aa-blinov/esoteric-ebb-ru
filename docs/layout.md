@@ -481,6 +481,25 @@ speaks of proficiency in the words of the translation: «Ты владеешь �
 lore itself uses, and it fits the room of the mark. «Умелый» was the word
 before, and the lore never uses it.
 
+## The card of the collected spells
+
+The card that counts the spells of the character has a width of about **182 px**,
+and the name of the card and the two names of the counts share it. The count
+itself is drawn by the game and keeps the size of the panel, so a count of
+two digits needs about 28 px next to the name.
+
+| Name | Size | Width | Result |
+| --- | --- | --- | --- |
+| `КАНТРИПЫ 0` | 20 | 119 px | fits |
+| `ЗАКЛИНАНИЯ 1` | 20 | 139 px | the name reaches the count |
+| `ЗАКЛИНАНИЯ 12` | 20 | 156 px | the count and the name touch |
+| `КАНТРИПЫ` | 16 | 95 px | fits |
+| `ЗАКЛИНАНИЯ` | 16 | 111 px | fits |
+
+The two names are written in the size 16 now. The size of the panel is 20, and
+the tag of the size does change the name on this element, which was measured
+on the screen of the game.
+
 ## Checking a line yourself
 
 ```bash

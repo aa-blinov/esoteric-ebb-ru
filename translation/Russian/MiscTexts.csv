@@ -28,8 +28,8 @@ NAT_20,,NAT 20
 Natural_20,,Natural 20
 NAT_1,,NAT 1
 Natural_1,,Natural 1
-Cantrips,,Кантрипы
-Spells,,Заклинания
+Cantrips,,<size=16>Кантрипы</size>
+Spells,,<size=16>Заклинания</size>
 Xp_Gained,,Получено опыта: {0}xp!
 Crowns_Gained,,Получен предмет: «Пучок Корон.»
 Item_Gained,,Получен предмет: «{0}.»
