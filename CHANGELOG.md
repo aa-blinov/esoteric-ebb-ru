@@ -8,6 +8,27 @@ All notable changes to Esoteric Ebb RU. Versions are ordered newest first.
 
 - Nothing yet.
 
+## 0.13.0 (2026-10-25)
+
+### Fixed
+
+- **The dialogue font of the game starts with one that cannot draw the
+  Russian.** The first entry of the list of the seven is Ebberia, the font of
+  the title of the game, and it carries no Cyrillic. The game does not show
+  a missing glyph in it, it draws a rune, and a Russian line in it comes out as
+  a row of runes. Josefin Sans has the same fault. The installer moves the
+  setting to Ubuntu when it finds one of the two, and the README names the
+  setting now.
+- **The name of the deep storage keeps its words.** The button of the deep
+  storage has 117 px for the name, and «ГЛУБОКОЕ ХРАНИЛИЩЕ» needs 158 px at
+  the size of 30: the display font broke both words in the middle and the
+  second one fell out of the panel. The size of the name is 20 now.
+- **The names of the backgrounds stay on one line.** The panel of the
+  background focus has about 340 px for the name of the background, and the
+  date of the world sits right above it. «ЭЗОТЕРИЧЕСКИЙ ЭКСПЕРТ» needs
+  430 px, and its second line landed on the date. The names are «Эзотерик»,
+  «Писец революции» and «Рекрут Уртгарда» now.
+
 ## 0.12.0 (2026-10-25)
 
 ### Fixed

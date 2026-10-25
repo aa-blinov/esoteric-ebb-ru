@@ -1149,7 +1149,7 @@ PCBackground_LittleWeirdo_date,,13 PE
 PCBackground_AzgalistActivist_name,,Активист Азгалист
 PCBackground_AzgalistActivist_desc,OBJ,«Друзья» вскоре показали тебе мятежное нутро Норвика. Подростком ты сеял хаос — и что хуже: <i>дворфскую пропаганду</i>.
 PCBackground_AzgalistActivist_date,,"Хронос 19-й, 15 PE"
-PCBackground_UrthguardRecruit_name,,Новобранец Уртгарда
+PCBackground_UrthguardRecruit_name,,Рекрут Уртгарда
 PCBackground_UrthguardRecruit_desc,OBJ,"После ареста долго спорить не пришлось. Три изнуряющих года в подготовке, зубрёжка городского устава и добродетелей. Но ты выжил."
 PCBackground_UrthguardRecruit_date,,"Ингарми 3-й, 17 PE"
 PCBackground_OneFriend_name,,Единственный друг
@@ -1170,10 +1170,10 @@ PCBackground_PalacePawn_date,,"9-й Бельтан, 22 PE"
 PCBackground_FaithfulHarbinger_name,,Верный Вестник
 PCBackground_FaithfulHarbinger_desc,OBJ,"Что-то не так. Молитвы мёртвому богу, чьи шёпоты ещё витают в воздухе… медленно стихают. Ты один среди своих собратьев."
 PCBackground_FaithfulHarbinger_date,,???
-PCBackground_EsotericExpert_name,,Эзотерический Эксперт
+PCBackground_EsotericExpert_name,,Эзотерик
 PCBackground_EsotericExpert_desc,OBJ,"Ночи напролёт ты искал эзотерическое знание. Одинокая жизнь. Твои открытия властям были не нужны, но ты не остановился. Никогда."
 PCBackground_EsotericExpert_date,,"30-е Эльтре, 25 PE"
-PCBackground_RevolutionaryScribe_name,,Революционный Писец
+PCBackground_RevolutionaryScribe_name,,Писец революции
 PCBackground_RevolutionaryScribe_desc,OBJ,"Разочарование. Город, где идеалы не соблюдаются. Ты выбрал зарождающуюся Демократию. Писал ночами ради <i>перемен и славы</i>."
 PCBackground_RevolutionaryScribe_date,,"3-е Марта, 26 PE"
 PCBackground_AbjectApostate_name,,Жалкий Отступник

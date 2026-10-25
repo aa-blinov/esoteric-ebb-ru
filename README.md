@@ -79,9 +79,11 @@ without touching the menu:
 | `LanguageCode` | `RU` | The language the game starts in. `EN` returns to English. |
 | `FontSize` | `20` | Size of the dialogue text. The developer recommends 24 for English; Russian needs 20 to keep the same line breaks in the fixed panels. |
 | `UIFontSize` | `0` | Interface size: 0 ordinary, 1 large, 2 huge. Nothing below ordinary exists. |
-| `FontIndex` | `0` | The dialogue font. 0 is Ebberia; EB Garamond and PT Serif both carry the full Cyrillic set. |
+| `FontIndex` | `6` | The dialogue font. 0 is Ebberia and 2 is Josefin Sans; neither of them carries any Cyrillic, and the game draws the Russian text of such a panel as a row of runes. The installer moves the setting to Ubuntu when it finds one of the two. |
 
-Every one of these lives in `SETTINGS.es3` and survives a restart.
+Every one of these lives in `SETTINGS.es3` and survives a restart. The game
+rewrites the file when it leaves, so the setting has to be changed while the
+game is closed.
 
 ## How it works
 

@@ -92,8 +92,17 @@ the line and does not break in the middle of the phrase.
 ## The dialogue fonts
 
 The game has seven fonts for the dialogue text: Ebberia, EB Garamond,
-Josefin Sans, Open Dyslexic, PT Serif, Roboto and Ubuntu. All seven draw the
-Russian without a missing glyph, so the player may pick any of them.
+Josefin Sans, Open Dyslexic, PT Serif, Roboto and Ubuntu.
+
+Two of them carry no Cyrillic: Ebberia and Josefin Sans. The game does not
+show a missing glyph in them, it draws a rune, and a Russian line in either of
+them comes out as a row of runes that cannot be read. Ebberia is the font of
+the title of the game and the first entry of the list, so it is also the one
+the game starts with: a Russian player has to change the setting before the
+first line is readable. The installer moves the setting to Ubuntu when it
+finds one of the two.
+
+The other five draw the Russian well, and the player may pick any of them.
 
 The font reaches further than the dialogue box. The description and the
 footnote of the lore panel are drawn in the dialogue font, so the size of the
@@ -327,6 +336,35 @@ height of the line runs from **x = 519** to **x = 1249**.
 
 The line is centred, so the width is what decides the outcome. At size 36 the
 Russian line measures the same as the English one and stays in the open sky.
+
+## The panel of the background focus
+
+The panel that describes the background of the character carries the name of
+the background in a line of its own, with the date of the world above it. The
+name is drawn in a display font that spends about **20 px** on a capital
+letter, and the line holds about **340 px**.
+
+The Russian names are longer than the English ones, and the longest three did
+not fit:
+
+| Name | Width | Result |
+| --- | --- | --- |
+| `ДВОРЦОВАЯ ПЕШКА` | 320 px | fits |
+| `НОВОБРАНЕЦ УРТГАРДА` | 360 px | breaks, the second line lands on the date |
+| `РЕВОЛЮЦИОННЫЙ ПИСЕЦ` | 390 px | breaks |
+| `ЭЗОТЕРИЧЕСКИЙ ЭКСПЕРТ` | 430 px | breaks |
+
+The names were rewritten instead of shrunk: «Эзотерик», «Писец революции» and
+«Рекрут Уртгарда». Eight of the backgrounds were drawn and looked at on the
+screen of the game, and every name of them stays on one line.
+
+## The deep storage
+
+The button of the deep storage carries an icon and the name in two lines, and
+the text of the name has about **117 px** to work with. «ГЛУБОКОЕ ХРАНИЛИЩЕ»
+needs 158 px at the size of 30, so the display font broke both words in the
+middle and the second one fell out of the panel. The size of the name is 20
+now, and the two words fit on their own lines.
 
 ## Checking a line yourself
 

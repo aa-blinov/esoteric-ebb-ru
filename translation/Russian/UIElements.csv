@@ -214,7 +214,7 @@ Sheet_PreBuilt,Готовый
 Menu_Button_Return,Назад
 Sheet_Proficiencies,Профессии
 Menu_Button_Randomize,Случайно
-Menu_DeepStorage,<size=30>Глубокое хранилище</size>
+Menu_DeepStorage,<size=20>Глубокое хранилище</size>
 Menu_SpellSlot_First,1-й
 Menu_SpellSlot_Second,2-й
 Menu_SpellSlot_Third,3-й
