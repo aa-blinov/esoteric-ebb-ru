@@ -17,6 +17,7 @@ The machine-readable form is [../src/voice/glossary.json](../src/voice/glossary.
 | Agrarian Rural Party | Сельская аграрная партия |
 | Arcane Era | Эпоха тайной магии |
 | Band (geographic division) | пояс |
+| Bugbear | Багбир |
 | Cleric | Жрец |
 | Detect Alignment | Определить уравновешение |
 | Constitution | Телосложение |
@@ -74,6 +75,30 @@ The machine-readable form is [../src/voice/glossary.json](../src/voice/glossary.
 | Rixbiter | Риксбайтер |
 | Alfoz | Альфос |
 | Snurre | Снурре |
+
+## Character classes and creature names
+
+| English source term | Russian |
+| --- | --- |
+| Barbarian | Варвар |
+| Bard | Бард |
+| Cleric | Жрец |
+| Druid | Друид |
+| Fighter | Боец |
+| Paladin | Паладин |
+| Ranger | Следопыт |
+| Rogue | Плут |
+| Rogue paladin | Паладин-отступник |
+| Rogue sorcerer | Чародей-отступник |
+| Rogue spellcaster | Маг-отступник |
+| Rogue wizard | Волшебник-отступник |
+| Sorcerer | Чародей |
+| Warlock | Колдун |
+| Wizard | Волшебник |
+
+Названия классов в репликах склоняются по падежу и согласуются с полом персонажа: например, «колдуну», «колдунья», «чародейкой». Название класса передаётся как «Плут». Сочетание «маг-отступник» обозначает мага вне закона, а не класс «Плут». Если речь идёт о представителе другого класса, слово «отступник» ставится после названия класса: «паладин-отступник».
+
+Имя Симий склоняется: Симий, Симия, Симию, Симием, о Симии. «Багбир» — название вида; нормативные формы: багбира, багбиру, багбиром, багбиры.
 
 ## Context and chronology
 

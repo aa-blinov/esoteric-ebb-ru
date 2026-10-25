@@ -89,6 +89,7 @@ def main():
         ("сразу получаешь", 22, "Charisma Uses1 body; 325 px text slot"),
         ("СКИДКУ", 48, "Charisma Uses1 highlight; 325 px text slot"),
         ("в некоторых лавках", 18, "Charisma Uses1 note; 325 px text slot"),
+        ("Как лихой плут", 35, "Dexterity Uses2 class label; 325 px text slot"),
     ]
 
     out = ["panel usable width: %.0f px" % PANEL_PX, ""]

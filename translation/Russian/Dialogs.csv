@@ -151,7 +151,7 @@ AR_HiddenFreestriderSafe_32,AR,dex,LINE,"Крошечный зазор, куда
 AR_HiddenFreestriderSafe_33,AR,PC,CHOICE,"(Надави на этот зазор, одновременно возясь с механизмом.)"
 AR_HiddenFreestriderSafe_34,AR,dex,LINE,"Ты делаешь это, и через несколько секунд раздаётся Щелчок."
 AR_HiddenFreestriderSafe_35,AR,dex,LINE,"Что бы ты ни сделал, это сработало!"
-AR_HiddenFreestriderSafe_36,AR,PC,CHOICE,Я величайший! Истинный разбойник этой эпохи.
+AR_HiddenFreestriderSafe_36,AR,PC,CHOICE,Я величайший! Истинный плут нашей эпохи.
 AR_HiddenFreestriderSafe_37,AR,dex,LINE,Ещё бы.
 AR_HiddenFreestriderSafe_38,AR,PC,CHOICE,Везучий же.
 AR_HiddenFreestriderSafe_39,AR,dex,LINE,Удача — другое слово для мастерства без замысла.
@@ -919,8 +919,8 @@ AR_Viira_42,AR,Viira,LINE,"Она быстро отдёргивает руку. 
 AR_Viira_43,AR,wis,LINE,"Похоже, она слегка забавляется твоим странным поведением. Может, ей понравится ещё?"
 AR_Viira_44,AR,PC,CHOICE,«Я Рагн.»
 AR_Viira_45,AR,Viira,LINE,"«Здравствуй, Рагн.»"
-AR_Viira_46,AR,PC,CHOICE,«Я — Разбойник.»
-AR_Viira_47,AR,Viira,LINE,«Разбойник? Вроде как… удалец? Любопытно.»
+AR_Viira_46,AR,PC,CHOICE,«Я — плут.»
+AR_Viira_47,AR,Viira,LINE,«Плут? Вроде как… удалец? Любопытно.»
 AR_Viira_48,AR,dex,LINE,"Конечно, стоит. Это очень круто."
 AR_Viira_49,AR,PC,CHOICE,«На самом деле я <b>Жрец</b>.»
 AR_Viira_50,AR,Viira,LINE,«Жрец? А.»
@@ -1669,7 +1669,7 @@ AR_Viira_788,AR,PC,CHOICE,«…Неважно.»
 AR_Viira_789,AR,Viira,LINE,«Так загадочно.»
 AR_Viira_790,AR,Viira,LINE,«О!»
 AR_Viira_791,AR,Viira,LINE,"«Пожалуйста, непременно расскажи.»"
-AR_Viira_792,AR,PC,CHOICE,«Он в квартире Симий. Один из азгалианцев работает на Мастера Альфоса. Они устроили там целое тайное логово.»
+AR_Viira_792,AR,PC,CHOICE,«Он в квартире Симия. Один из азгалианцев работает на Мастера Альфоса. Они устроили там целое тайное логово.»
 AR_Viira_793,AR,Viira,LINE,"«Ну, звучит это очень незаконно.»"
 AR_Viira_794,AR,PC,CHOICE,«Да.»
 AR_Viira_795,AR,Viira,LINE,"«Гм. Да, это очень ценные сведения. Очень, очень ценные…»"
@@ -2794,16 +2794,16 @@ CB_Akzel_54,CB,PC,CHOICE,«Не просто жрец. Я <i>Сам</i> Жрец
 CB_Akzel_55,CB,Akzel,LINE,«Вот же чёрт!»
 CB_Akzel_56,CB,Akzel,LINE,"«Не знаю, что это значит, но звучит дорого!»"
 CB_Akzel_57,CB,str,LINE,Это значит «всё.»
-CB_Akzel_58,CB,PC,CHOICE,«Я скорее разбойник. Из тех хитрых.»
-CB_Akzel_59,CB,Akzel,LINE,«Р… разбойник? Разбойник чего?»
-CB_Akzel_60,CB,PC,CHOICE,"«Просто разбойник, ты же знаешь.»"
+CB_Akzel_58,CB,PC,CHOICE,"«Я скорее плут. Из тех, кто действует скрытно.»"
+CB_Akzel_59,CB,Akzel,LINE,«П… плут? Плут чего?»
+CB_Akzel_60,CB,PC,CHOICE,"«Просто плут, ты же знаешь.»"
 CB_Akzel_61,CB,Akzel,LINE,«Знаю?»
 CB_Akzel_62,CB,PC,CHOICE,«Ты же <i>знаешь</i>.»
 CB_Akzel_63,CB,Akzel,LINE,Он пожимает плечами и говорит: «Конечно! А почему нет?»
-CB_Akzel_64,CB,PC,CHOICE,«Вор-актёр в мире заговоров.»
+CB_Akzel_64,CB,PC,CHOICE,«Самостоятельный игрок в мире заговоров.»
 CB_Akzel_65,CB,Akzel,LINE,«Звучит мрачно! Мне нравится.»
 CB_Akzel_66,CB,dex,LINE,также.
-CB_Akzel_67,CB,PC,CHOICE,"«Может, „вор“ — лучшее название.»"
+CB_Akzel_67,CB,PC,CHOICE,"«Может, „вор“ — название поточнее.»"
 CB_Akzel_68,CB,Akzel,LINE,"«О. Пожалуй, жрец-клептоман звучит заманчиво!»"
 CB_Akzel_69,CB,dex,LINE,И правда.
 CB_Akzel_70,CB,PC,CHOICE,«Вообще-то я больше тайный заклинатель.»
@@ -2990,9 +2990,9 @@ CB_Akzel_250,CB,PC,CHOICE,«Так в чём проблема?»
 CB_Akzel_251,CB,Akzel,LINE,«С этим местом <i>никаких</i> проблем нет.»
 CB_Akzel_252,CB,Akzel,LINE,«Но я почти закончил здесь. И не могу попасть во вторые руины Уайтмейна.»
 CB_Akzel_253,CB,Akzel,LINE,"«Потому что они на территории HWBT! А они совершенно не готовы пустить дальше такого дворфа, как я.»"
-CB_Akzel_254,CB,Akzel,LINE,«Эти гоблины наняли грубого <b>бугбира</b> в стражу.»
+CB_Akzel_254,CB,Akzel,LINE,«Эти гоблины наняли грубого <b>багбира</b> в стражу.»
 CB_Akzel_255,CB,Akzel,LINE,Он дрожит. «Ужасное существо.»
-CB_Akzel_256,CB,Akzel,LINE,«Твои милые гоблины-друзья наняли грубого <b>бугбира</b> в стражу.»
+CB_Akzel_256,CB,Akzel,LINE,«Твои милые гоблины-друзья наняли грубого <b>багбира</b> в стражу.»
 CB_Akzel_257,CB,Akzel,LINE,"«Но ты ж жрец! Если сумеешь пробраться на их территорию, то прошу — иди на юг!»"
 CB_Akzel_258,CB,Akzel,LINE,"«Через сырые верхние пещеры. В конце должны быть руины Уайтмейна. Святилище. Скорее всего, его отмечает груда кошачьих Символов.»"
 CB_Akzel_259,CB,Akzel,LINE,"Он указывает на огромную статую. «По сути, ищи больших кошек.»"
@@ -3824,7 +3824,7 @@ CB_Bondavol_188,CB,Bond,LINE,"«Это то, что ты делаешь, <shake>
 CB_Bondavol_189,CB,Bond,LINE,"«Ты пустячный, как Пустяк!»"
 CB_Bondavol_190,CB,PC,CHOICE,«Я <b>Жрец</b>.» (Постарайся не сблефнуть.)
 CB_Bondavol_191,CB,Bond,LINE,"«ЖРЕЦ, А?»"
-CB_Bondavol_192,CB,PC,CHOICE,«Я… вор.»
+CB_Bondavol_192,CB,PC,CHOICE,«Я… плут.»
 CB_Bondavol_193,CB,Bond,LINE,«Мне это больше похоже на пустячество!»
 CB_Bondavol_194,CB,PC,CHOICE,«Нет! Это другое!»
 CB_Bondavol_195,CB,Bond,LINE,"«Ставлю свою душу, что нет!»"
@@ -6447,7 +6447,7 @@ CB_HallwaySolution_511,CB,Snell,LINE,"«…Но остальные племен�
 CB_HallwaySolution_512,CB,PC,CHOICE,«А чем <i>именно</i> ты занимаешься?»
 CB_HallwaySolution_513,CB,Snell,LINE,«Я Бегун. И Распорядитель. В HWBT.»
 CB_HallwaySolution_514,CB,PC,CHOICE,"(Смотри на него, пока он действительно не расскажет, чем занимается.)"
-CB_HallwaySolution_515,CB,PC,CHOICE,"«Так ты сексуальный разбойник, как и я!»"
+CB_HallwaySolution_515,CB,PC,CHOICE,"«Значит, ты такой же сексуальный плут, как я!»"
 CB_HallwaySolution_516,CB,Snell,LINE,Он издаёт мучительный стон.
 CB_HallwaySolution_517,CB,Snell,LINE,«Прежде всего — нет. Я не сексуальный.»
 CB_HallwaySolution_518,CB,Snell,LINE,"«Во-вторых — нет, <i>ты</i> не сексуальный.»"
@@ -6600,7 +6600,7 @@ CB_HallwaySolution_664,CB,Snell,LINE,«Он это точно сделал.»
 CB_HallwaySolution_665,CB,Snell,LINE,«Но откуда мне знать?» Он пожимает плечами. «Ты жрец.»
 CB_HallwaySolution_666,CB,PC,CHOICE,«Ты начинаешь понимать. Я — Жрец.»
 CB_HallwaySolution_667,CB,Snell,LINE,«Ещё бы.»
-CB_HallwaySolution_668,CB,PC,CHOICE,"«День за днём я всё больше становлюсь похожим на разбойника. Кажется, это подземелье во всём виновато.»"
+CB_HallwaySolution_668,CB,PC,CHOICE,"День за днём я всё больше становлюсь похожим на плута. Думаю, это подземелье виновато."
 CB_HallwaySolution_669,CB,Snell,LINE,"«Хитрый. Может, пригодится с ловушками.»"
 CB_HallwaySolution_670,CB,PC,CHOICE,"«Нет. Я волшебник. Ну, ты знаешь, заклинания? Помнишь это.»"
 CB_HallwaySolution_671,CB,Snell,LINE,«Верно. <i>Заклинания</i>.»
@@ -7670,7 +7670,7 @@ CB_Kraaid_506,CB,PC,CHOICE,«Нет.»
 CB_Kraaid_507,CB,Kraaid,LINE,Крокодилозверь бросается вперёд и хватает тебя за шею.
 CB_Kraaid_508,CB,PC,CHOICE,(Тяжело дышать.) «Я на самом деле…»
 CB_Kraaid_509,CB,Kraaid,LINE,"Он сжимает хватку сильнее, пока ты бормочешь еле слышный ответ."
-CB_Kraaid_510,CB,PC,CHOICE,«…вор.»
+CB_Kraaid_510,CB,PC,CHOICE,«…плут.»
 CB_Kraaid_511,CB,PC,CHOICE,«…волшебник.»
 CB_Kraaid_512,CB,PC,CHOICE,"«…нет, нет, ладно, я жрец. Я даже <b>Жрец</b>.»"
 CB_Kraaid_513,CB,PC,CHOICE,"«…кажется, я Бард? Ты знаешь, что это такое?»"
@@ -9416,7 +9416,7 @@ CB_MimicChest_138,CB,PC,CHOICE,Хм.
 CB_Moongore_1,CB,Moongore,LINE,"«Стой, человек.»"
 CB_Moongore_2,CB,Moongore,LINE,"Мохнатое чудовище, нависающее над тобой. Его морда скривилась в строгую (и, вероятно, постоянную) гримасу."
 CB_Moongore_3,CB,Moongore,LINE,«Не проходи дальше.»
-CB_Moongore_4,CB,int,LINE,Это бугбэр.
+CB_Moongore_4,CB,int,LINE,Это багбир.
 CB_Moongore_5,CB,int,LINE,"Они чаще всего встречаются на западе, в суровых землях между Форднипом и ВК."
 CB_Moongore_6,CB,str,LINE,Эта <i>женщина</i> не властвует над тобой.
 CB_Moongore_7,CB,str,LINE,Не дай ей встать тебе поперёк дороги.
@@ -9444,7 +9444,7 @@ CB_Moongore_28,CB,PC,CHOICE,"«Почему ты стоишь здесь, вни
 CB_Moongore_29,CB,PC,CHOICE,"«Ты что, подземный монстр?»"
 CB_Moongore_30,CB,Moongore,LINE,"Она фыркает. «Да. А теперь <b>отойди</b>, пока не разбила тебе лицо.»"
 CB_Moongore_31,CB,Moongore,LINE,"«Я, <b>Лунная Кровь из Жёстких и HWBT</b>, требую этого.»"
-CB_Moongore_32,CB,Moongore,LINE,Бугбэр кладёт руку на оружие.
+CB_Moongore_32,CB,Moongore,LINE,Багбир кладёт руку на оружие.
 CB_Moongore_33,CB,str,LINE,Утренняя звезда. Остерегайтесь.
 CB_Moongore_34,CB,str,LINE,Утренняя звезда. Она твоя?
 CB_Moongore_35,CB,int,LINE,"Утренняя звезда? Нет, это явно просто булава с шипами."
@@ -9457,7 +9457,7 @@ CB_Moongore_41,CB,wis,LINE,Точно держит руку на оружии.
 CB_Moongore_42,CB,Moongore,LINE,«<i>Человек</i>.»
 CB_Moongore_43,CB,Moongore,LINE,"Мохнатое чудовище, нависающее над тобой. Его морда скривилась в строгую (и, вероятно, постоянную) гримасу."
 CB_Moongore_44,CB,Moongore,LINE,«Следи за собой. Это земли Полпути.»
-CB_Moongore_45,CB,int,LINE,Это бугбэр.
+CB_Moongore_45,CB,int,LINE,Это багбир.
 CB_Moongore_46,CB,int,LINE,"Они чаще всего встречаются на западе, в суровых землях между Форднипом и ВК."
 CB_Moongore_47,CB,str,LINE,Эта <i>женщина</i> не властвует над тобой.
 CB_Moongore_48,CB,str,LINE,Не дай ей встать тебе поперёк дороги.
@@ -9496,7 +9496,7 @@ CB_Moongore_80,CB,Moongore,LINE,Она фыркает. «Ни один монс�
 CB_Moongore_81,CB,Snell,LINE,"«…Серьёзная, как всегда. Рад тебя видеть.»"
 CB_Moongore_82,CB,PC,CHOICE,(Поклон.) «Я Жрец. Приятно познакомиться.»
 CB_Moongore_83,CB,YOU,LINE,Она храпит. «Я — Лунная Кровь из Жёстких. Слуга госпожи Сагелист.»
-CB_Moongore_84,CB,Moongore,LINE,Бугр кладёт руку на оружие.
+CB_Moongore_84,CB,Moongore,LINE,Багбир кладёт руку на оружие.
 CB_Moongore_85,CB,Moongore,LINE,«Не устраивайте неприятностей.»
 CB_Moongore_86,CB,str,LINE,Утренняя звезда. Остерегайтесь.
 CB_Moongore_87,CB,str,LINE,Утренняя звезда. Она твоя?
@@ -9542,7 +9542,7 @@ CB_Moongore_126,CB,PC,CHOICE,"«Да, я — <b>Великий</b> Жрец.»"
 CB_Moongore_127,CB,PC,CHOICE,«Скорее волшебник. Но пусть будет так.»
 CB_Moongore_128,CB,Moongore,LINE,"«Не знаю разницы. И, честно говоря, мне всё равно.»"
 CB_Moongore_129,CB,int,LINE,Простофиля. Как грустно.
-CB_Moongore_130,CB,PC,CHOICE,«Лично я предпочитаю видеть себя в роли лихого разбойника.»
+CB_Moongore_130,CB,PC,CHOICE,«Лично я предпочитаю считать себя лихим плутом.»
 CB_Moongore_131,CB,Moongore,LINE,«Удалого…? Нет. Ты явно Жрец.»
 CB_Moongore_132,CB,dex,LINE,Ишь как пренебрежительно.
 CB_Moongore_133,CB,PC,CHOICE,«Нет! Я Бард!»
@@ -9561,7 +9561,7 @@ CB_Moongore_145,CB,PC,CHOICE,"(Озирается по сторонам, дик�
 CB_Moongore_146,CB,Moongore,LINE,Она громко стонет.
 CB_Moongore_147,CB,Moongore,LINE,«Ты <b>дурак</b>!»
 CB_Moongore_148,CB,int,LINE,"Сурово, но верно."
-CB_Moongore_149,CB,cha,LINE,Мне нравится этот зануда. Она хорошо тебя понимает.
+CB_Moongore_149,CB,cha,LINE,Мне нравится эта женщина-багбир. Она хорошо тебя понимает.
 CB_Moongore_150,CB,Moongore,LINE,«Я говорю о леди Сагелист! Из племени На полпути!»
 CB_Moongore_151,CB,PC,CHOICE,"«Простите, я просто как-то сюда попал.»"
 CB_Moongore_152,CB,Moongore,LINE,«Что? Как?!»
@@ -9585,7 +9585,7 @@ CB_Moongore_169,CB,int,LINE,Молча.
 CB_Moongore_170,CB,PC,CHOICE,"«Да, мэм.»"
 CB_Moongore_171,CB,PC,CHOICE,"«Да, мам.»"
 CB_Moongore_172,CB,Moongore,LINE,«Тогда—»
-CB_Moongore_173,CB,Moongore,LINE,Бугбир останавливается и смотрит на тебя с дикой яростью в глазах.
+CB_Moongore_173,CB,Moongore,LINE,Багбир останавливается и смотрит на тебя с дикой яростью в глазах.
 CB_Moongore_174,CB,int,LINE,Молча.
 CB_Moongore_175,CB,PC,CHOICE,«Возможно.»
 CB_Moongore_176,CB,Moongore,LINE,«Тогда <b>иди</b>!»
@@ -9595,7 +9595,7 @@ CB_Moongore_179,CB,Moongore,LINE,Она тянется вперёд и хват�
 CB_Moongore_180,CB,Moongore,LINE,"Она притягивает тебя к себе и кричит прямо в лицо: «<b>Вверх по лестнице, через парк, к Саду</b>!»"
 CB_Moongore_181,CB,str,LINE,Она здесь главная.
 CB_Moongore_182,CB,str,LINE,Прекрасно.
-CB_Moongore_183,CB,cha,LINE,Фу. У тебя всё лицо в слюнях дворфа-буга.
+CB_Moongore_183,CB,cha,LINE,Фу. У тебя всё лицо в слюнях багбира.
 CB_Moongore_184,CB,str,LINE,<b>Потрясающе</b>.
 CB_Moongore_185,CB,Moongore,LINE,Затем она отпускает тебя и отступает на шаг.
 CB_Moongore_186,CB,Moongore,LINE,«Иди. Сейчас.»
@@ -9640,7 +9640,7 @@ CB_Moongore_224,CB,PC,CHOICE,"«Спасибо, я сделала их сама.
 CB_Moongore_225,CB,PC,CHOICE,"(Молчи и просто ухмыляйся, как безумец, внутри своего шлема.)"
 CB_Moongore_226,CB,PC,CHOICE,"(Молчи и просто ухмыляйся, как безумец, внутри своего ведра.)"
 CB_Moongore_227,CB,PC,CHOICE,"(Молчи и просто ухмыляйся, как безумец, внутри своей кастрюли.)"
-CB_Moongore_228,CB,Moongore,LINE,"Бугр презрительно фыркает, стискивает зубы и сжимает в руках утреннюю звезду."
+CB_Moongore_228,CB,Moongore,LINE,"Багбир презрительно фыркает, стискивает зубы и сжимает в руках утреннюю звезду."
 CB_Moongore_229,CB,Moongore,LINE,"«И что ещё ты хочешь обсудить? Больше я не буду потакать твоему эго, уверяю тебя.»"
 CB_Moongore_230,CB,cha,LINE,Она не встретит твоего взгляда. Как странно.
 CB_Moongore_231,CB,cha,LINE,"О боже. Ага. На полпути, парень."
@@ -9710,7 +9710,7 @@ CB_Moongore_294,CB,PC,CHOICE,«Отлично. Давай. Только…»
 CB_Moongore_295,CB,Moongore,LINE,Она сердито сопит.
 CB_Moongore_296,CB,wis,LINE,"Это значит: <i>Пожалуйста, продолжай.</i>"
 CB_Moongore_297,CB,PC,CHOICE,"«Этот шар пропускает лишь тех, кто совместим в любви. Просто подумала, тебе стоит об этом знать.»"
-CB_Moongore_298,CB,Moongore,LINE,Медведь громко смеётся.
+CB_Moongore_298,CB,Moongore,LINE,Багбир громко смеётся.
 CB_Moongore_299,CB,Moongore,LINE,"«Тогда это эзотерическое колдовство и докажет, насколько ты достоин!»"
 CB_Moongore_300,CB,Moongore,LINE,"Она приближается, хищно и криво ухмыляясь."
 CB_Moongore_301,CB,Moongore,LINE,«Насколько ты достоин…»
@@ -9743,14 +9743,14 @@ CB_Moongore_327,CB,int,LINE,Забавный звук.
 CB_Moongore_328,CB,int,LINE,Это чудовище даже говорить толком не умеет.
 CB_Moongore_329,CB,PC,CHOICE,«Это значит „да“?»
 CB_Moongore_330,CB,PC,CHOICE,(Рычит в ответ.)
-CB_Moongore_331,CB,PC,CHOICE,"«Говори членораздельно, домовой.»"
+CB_Moongore_331,CB,PC,CHOICE,"«Говори членораздельно, багбир.»"
 CB_Moongore_332,CB,Moongore,LINE,Она обнажает клыки.
 CB_Moongore_333,CB,Moongore,LINE,«Да.»
 CB_Moongore_334,CB,Moongore,LINE,«Ты ищешь этого мужчину?»
 CB_Moongore_335,CB,PC,CHOICE,"«Ну да, очевидно.»"
 CB_Moongore_336,CB,PC,CHOICE,«Нет.»
 CB_Moongore_337,CB,PC,CHOICE,"(Рычит, нарочито выделяя звук.)"
-CB_Moongore_338,CB,Moongore,LINE,"Бугбеар хмурится и говорит: «Если увидишь его, воткни ему в сердце нож для меня.»"
+CB_Moongore_338,CB,Moongore,LINE,"Багбир хмурится и говорит: «Если увидишь его, воткни ему в сердце нож для меня.»"
 CB_Moongore_339,CB,int,LINE,Говори на её языке.
 CB_Moongore_340,CB,PC,CHOICE,"«Подожди, почему?»"
 CB_Moongore_341,CB,PC,CHOICE,(Рычит в задумчивости.)
@@ -9820,10 +9820,10 @@ CB_Moongore_404,CB,Moongore,LINE,«Тогда ненавижу и тебя.»
 CB_Moongore_405,CB,PC,CHOICE,«Ирония. Не выношу этих выскочек.»
 CB_Moongore_406,CB,PC,CHOICE,«Лично я к ним нейтрален.»
 CB_Moongore_407,CB,PC,CHOICE,(Сердитое фырканье.)
-CB_Moongore_408,CB,Moongore,LINE,Бугр издаёт фырканье.
+CB_Moongore_408,CB,Moongore,LINE,Багбир издаёт фырканье.
 CB_Moongore_409,CB,wis,LINE,"Она явно даёт понять, что эта часть разговора её больше не интересует."
 CB_Moongore_410,CB,Moongore,LINE,«Правда?»
-CB_Moongore_411,CB,Moongore,LINE,Бугр задирает подбородок и смотрит на тебя сверху вниз.
+CB_Moongore_411,CB,Moongore,LINE,Багбир задирает подбородок и смотрит на тебя сверху вниз.
 CB_Moongore_412,CB,Moongore,LINE,«Он всё ещё в Городе под городом?!»
 CB_Moongore_413,CB,PC,CHOICE,«Нет. Он намного ниже.»
 CB_Moongore_414,CB,Moongore,LINE,«Чёрт.»
@@ -9901,7 +9901,7 @@ CB_Moongore_480,CB,str,LINE,Оно не слушается тебя.
 CB_Moongore_481,CB,PC,CHOICE,Но… Я ДОЛЖЕН…!
 CB_Moongore_482,CB,str,LINE,Это обойдётся тебе очень дорого.
 CB_Moongore_483,CB,str,LINE,"Если ты уверен, что готов заплатить. Тогда… плати."
-CB_Moongore_484,CB,PC,CHOICE,Я ПЛАЧУ ПОШЛИНУ БУГБЕАРА. (Причинить себе сильную боль.)
+CB_Moongore_484,CB,PC,CHOICE,Я ПЛАЧУ ПОШЛИНУ БАГБИРА. (Причинить себе сильную боль.)
 CB_Moongore_485,CB,str,LINE,"Всё болит, когда ты заставляешь себя идти вперёд."
 CB_Moongore_486,CB,str,LINE,Тогда…
 CB_Moongore_487,CB,PC,CHOICE,"«Угу. Неважно, я просто приму первоначальное предложение.»"
@@ -10004,7 +10004,7 @@ CB_Moongore_583,CB,Moongore,LINE,"Она приближается. «Если т
 CB_Moongore_584,CB,PC,CHOICE,«Хорошо. Забираю свои слова обратно.»
 CB_Moongore_585,CB,Moongore,LINE,Она поднимает кулак. «Вот настолько близко.»
 CB_Moongore_586,CB,PC,CHOICE,«Нет.»
-CB_Moongore_587,CB,Moongore,LINE,"Бугр отвешивает тебе пощёчину, твой шлем отлетает, вращаясь вместе с твоими мыслями."
+CB_Moongore_587,CB,Moongore,LINE,"Багбир отвешивает тебе пощёчину, твой шлем отлетает, вращаясь вместе с твоими мыслями."
 CB_Moongore_588,CB,Moongore,LINE,«Возьми обратно!»
 CB_Moongore_589,CB,Moongore,LINE,«Возьми <i>обратно</i>! Сейчас!»
 CB_Moongore_590,CB,PC,CHOICE,«Я уступаю! Я беру обратно!» (Сдаться.)
@@ -10014,7 +10014,7 @@ CB_Moongore_593,CB,PC,CHOICE,«Я отказываю…!» (Стоять на с
 CB_Moongore_594,CB,PC,CHOICE,«Я…! Я…» (Приготовиться получить ещё раз.)
 CB_Moongore_595,CB,PC,CHOICE,«<i>Снова</i>.»
 CB_Moongore_596,CB,Snell,LINE,«<i>Святые ады</i>…»
-CB_Moongore_597,CB,Moongore,LINE,"Бугбир заносит руку, чтобы снова ударить тебя; её грудь ходит ходуном от тяжёлого дыхания."
+CB_Moongore_597,CB,Moongore,LINE,"Багбир заносит руку, чтобы снова ударить тебя; её грудь ходит ходуном от тяжёлого дыхания."
 CB_Moongore_598,CB,wis,LINE,"Несмотря на явно огромную Выносливость, эта женщина измотана столькими ударами."
 CB_Moongore_599,CB,con,LINE,Ты. Стой. Прямо.
 CB_Moongore_600,CB,Moongore,LINE,«П-чего?»
@@ -10036,7 +10036,7 @@ CB_Moongore_615,CB,Moongore,LINE,«Не тебя в частности. <i>Хо�
 CB_Moongore_616,CB,Snell,LINE,"«Хорь?! Не думаю, что я заслуживаю такого прозвища.»"
 CB_Moongore_617,CB,PC,CHOICE,«Довольно удачное прозвище.»
 CB_Moongore_618,CB,Snell,LINE,«Пошёл нахер.»
-CB_Moongore_619,CB,Moongore,LINE,Бугбер хихикает.
+CB_Moongore_619,CB,Moongore,LINE,Багбир хихикает.
 CB_Moongore_620,CB,PC,CHOICE,"«Так ты, прежде всего, страж?»"
 CB_Moongore_621,CB,Moongore,LINE,«Да.»
 CB_Moongore_622,CB,PC,CHOICE,«Ты ещё чем-нибудь здесь занимаешься? Хобби?»
@@ -10138,7 +10138,7 @@ CB_Moongore_717,CB,Moongore,LINE,"«ТЫ ДУМАЕШЬ, ТЕБЕ УДАСТСЯ
 CB_Moongore_718,CB,con,LINE,О нет.
 CB_Moongore_719,CB,con,LINE,Она идёт.
 CB_Moongore_720,CB,Moongore,LINE,«ПРОКЛЯТЫЙ ХИТРЫЙ ВОЛШЕБНИК!»
-CB_Moongore_721,CB,Moongore,LINE,"Мгновение спустя бугбери оказывается рядом: она несётся к тебе с невероятной скоростью, занесла оружие и готовит сокрушительный удар."
+CB_Moongore_721,CB,Moongore,LINE,"Мгновение спустя багбир оказывается рядом: она несётся к тебе с невероятной скоростью, заносит оружие и готовит сокрушительный удар."
 CB_Moongore_722,CB,Moongore,LINE,"Последнее, что ты видишь — булава, направленная тебе в—"
 CB_Moongore_723,CB,PC,CHOICE,А? (Подбрасывание.)
 CB_Moongore_724,CB,Moongore,LINE,…!
@@ -10153,7 +10153,7 @@ CB_Moongore_732,CB,PC,CHOICE,«Может… я и не буду.»
 CB_Moongore_733,CB,Moongore,LINE,«Хорошо.»
 CB_Moongore_734,CB,PC,CHOICE,«Вот и всё.» (Прервать заклинание.)
 CB_Moongore_735,CB,Moongore,LINE,«Опять…!»
-CB_Moongore_736,CB,Moongore,LINE,"Как только заклинание слабеет, бугбир бросается в бой."
+CB_Moongore_736,CB,Moongore,LINE,"Как только заклинание слабеет, багбир бросается в бой."
 CB_Moongore_737,CB,Moongore,LINE,Хватание.
 CB_Moongore_738,CB,Moongore,LINE,За горло.
 CB_Moongore_739,CB,Moongore,LINE,"«Даже представить не могу, как же мне хочется прямо сейчас выбросить свои приказы.»"
@@ -10167,7 +10167,7 @@ CB_Moongore_746,CB,str,LINE,"Есть, мэм."
 CB_Moongore_747,CB,str,LINE,Ну. Ты справился.
 CB_Moongore_748,CB,PC,CHOICE,"«Да, да.»"
 CB_Moongore_749,CB,Moongore,LINE,«<b>ВОР!</b>»
-CB_Moongore_750,CB,Moongore,LINE,"Огромная рука бугбира сжимает твоё запястье, словно тиски."
+CB_Moongore_750,CB,Moongore,LINE,"Огромная рука багбира сжимает твоё запястье, словно тиски."
 CB_Moongore_751,CB,con,LINE,Боль. Мгновенная боль.
 CB_Moongore_752,CB,Moongore,LINE,«Ты осмелился красть у <b>МЕНЯ</b>?»
 CB_Moongore_753,CB,Moongore,LINE,"Её хватка усиливается. Ты чувствуешь, как смещаются кости."
@@ -14899,7 +14899,7 @@ Default_PillarofJor_397,Default,Snell,LINE,«Это было пятьдесят 
 Default_PillarofJor_398,Default,Ettir,LINE,«Да.»
 Default_PillarofJor_399,Default,cha,LINE,Ты делаешь вдох и вспоминаешь ритуал. Ту самую парольную фразу.
 Default_PillarofJor_400,Default,cha,LINE,"Вообще-то её не полагалось записывать, но не волнуйся. Почему-то она словно высечена у тебя в мозгу."
-Default_PillarofJor_401,Default,cha,LINE,"Эта магия чародея — тёмная дрянь. Впрочем, ничего плохого. Просто… зловещая."
+Default_PillarofJor_401,Default,cha,LINE,"Эта магия колдуна — тёмная дрянь. Впрочем, ничего плохого. Просто… зловещая."
 Default_PillarofJor_402,Default,cha,LINE,В общем…
 Default_PillarofJor_403,Default,Snell,LINE,"«Ты же делаешь это, верно?»"
 Default_PillarofJor_404,Default,Snell,LINE,"«Очевидно, теперь уже поздно, но хочу сказать прямо: я не в восторге от твоих дел с аберрациями, ладно?»"
@@ -15779,7 +15779,7 @@ DN_Darrow_197,DN,PC,CHOICE,"«Я думал, забрать ключ — нор�
 DN_Darrow_198,DN,Darrow,LINE,Он смотрит на тебя с недоумением. «Почему нет?»
 DN_Darrow_199,DN,PC,CHOICE,«Твои карманы так притягивают взгляд и не кажутся угрожающими.»
 DN_Darrow_200,DN,PC,CHOICE,«Ты не оказал сопротивления.»
-DN_Darrow_201,DN,PC,CHOICE,«Я хитрый маленький разбойник.»
+DN_Darrow_201,DN,PC,CHOICE,«Я хитрый маленький плут.»
 DN_Darrow_202,DN,Darrow,LINE,Владыка монет вздыхает.
 DN_Darrow_203,DN,Darrow,LINE,"«Верно. <b>Ну, в общем.</b>»"
 DN_Darrow_204,DN,cha,LINE,Насильственная смена темы. Мощно. Элегантно.
@@ -15864,7 +15864,7 @@ DN_Darrow_282,DN,Darrow,LINE,"«Нет-нет, Жрец, я вообще о др
 DN_Darrow_283,DN,PC,CHOICE,"«Значит, это просто дымовая завеса.»"
 DN_Darrow_284,DN,Darrow,LINE,«Ну…»
 DN_Darrow_285,DN,Darrow,LINE,«Моё чистое предположение будет…»
-DN_Darrow_286,DN,Darrow,LINE,"«Кто-то, у кого есть доступ к Тайным артефактам. Или, в худшем случае, какой-нибудь разбойник-заклинатель.»"
+DN_Darrow_286,DN,Darrow,LINE,"«Кто-то, у кого есть доступ к Тайным артефактам. Или, в худшем случае, какой-нибудь маг-отступник.»"
 DN_Darrow_287,DN,Darrow,LINE,"«Кто-то, кому выгодны испуганные гоблины и разъярённые Азгалы.»"
 DN_Darrow_288,DN,PC,CHOICE,«Ну…»
 DN_Darrow_289,DN,Darrow,LINE,«Радикал<i>льный</i>.»
@@ -17127,13 +17127,13 @@ DS_Deck_313,DS,Snell,LINE,«Жуткий.»
 DS_Deck_314,DS,Snell,LINE,"«Может, это та самая карта „зловещая угроза, не имеющая последствий“?»"
 DS_Deck_315,DS,PC,CHOICE,(Вытяни ещё карту.)
 DS_Deck_316,DS,PC,CHOICE,(Остановись здесь. Мне уже достаточно.)
-DS_Deck_317,DS,OBJ,LINE,На ней написано: <b>РАЗБОЙНИК</b>.
+DS_Deck_317,DS,OBJ,LINE,На ней написано: <b>ПЛУТ</b>.
 DS_Deck_318,DS,dex,LINE,"Эй, вот тебе карта!"
 DS_Deck_319,DS,OBJ,LINE,Секунду спустя ты видишь её лик — и карта рассыпается у тебя в руке в пыль.
 DS_Deck_320,DS,wis,LINE,Тебя охватывает тревожное чувство.
 DS_Deck_321,DS,dex,LINE,Хм?
 DS_Deck_322,DS,dex,LINE,"Ох, боже."
-DS_Deck_323,DS,int,LINE,"Разбойник означает, что кто-то в этом мире предаст тебя."
+DS_Deck_323,DS,int,LINE,"Плут предвещает, что кто-то в этом мире предаст тебя."
 DS_Deck_324,DS,int,LINE,Кто именно — пока неясно.
 DS_Deck_325,DS,int,LINE,Так что жди этого.
 DS_Deck_326,DS,cha,LINE,Чёрт.
@@ -18243,7 +18243,7 @@ DS_Olzis_703,DS,Olzis,LINE,«Нет.»
 DS_Olzis_704,DS,Olzis,LINE,«Колода возвращена. Ты закончил.»
 DS_Olzis_705,DS,Olzis,LINE,«Спасибо за твоё время.»
 DS_Olzis_706,DS,Olzis,LINE,Она улыбается.
-DS_Olzis_707,DS,Olzis,LINE,"«В будущем ты узнаешь, кем окажется ROGUE.»"
+DS_Olzis_707,DS,Olzis,LINE,"«В будущем ты узнаешь, кем окажется ПЛУТ.»"
 DS_Olzis_708,DS,Olzis,LINE,«Тебе стоит остерегаться. ПЛАМЯ в конце концов придут и будут пожирать тебя. Когда-нибудь.»
 DS_Olzis_709,DS,Olzis,LINE,"«Я по большей части лишь поражён тем, как хорошо ты справилась с ЧЕРЕПОМ. Тебе следует быть похваленной!»"
 DS_Olzis_710,DS,Olzis,LINE,Сфинкс обнажает тебе ряд острых зубов.
@@ -19026,7 +19026,7 @@ DS_Rixbiter_38,DS,Rix,LINE,«Ну ты даёшь.»
 DS_Rixbiter_39,DS,PC,CHOICE,"«На самом деле, хочу уточнить: я не жрец. Ни в коем случае.»"
 DS_Rixbiter_40,DS,Rix,LINE,«<i>О?</i> О нет…»
 DS_Rixbiter_41,DS,Rix,LINE,"«Так кто ты такой, разбойник, и зачем нарядился так?»"
-DS_Rixbiter_42,DS,PC,CHOICE,«Я вроде как разбойник-авантюрист.»
+DS_Rixbiter_42,DS,PC,CHOICE,«Я этакий плутоватый пройдоха.»
 DS_Rixbiter_43,DS,PC,CHOICE,"«Ну, волшебник! Магический! Стреляющий заклинаниями!»"
 DS_Rixbiter_44,DS,Rix,LINE,«О! Как чудесно!»
 DS_Rixbiter_45,DS,PC,CHOICE,"«…нет, подожди, может, я Жрец.»"
@@ -20179,7 +20179,7 @@ DS_Smarter_19,DS,PC,CHOICE,«Так он <i>гоблин</i>?»
 DS_Smarter_20,DS,Snell,LINE,Снелл бросает на тебя суровый взгляд.
 DS_Smarter_21,DS,PC,CHOICE,"«А. Обычный вор, значит?»"
 DS_Smarter_22,DS,Snell,LINE,Снелл трёт глаза.
-DS_Smarter_23,DS,PC,CHOICE,"«Отлично. Он разбойник, как и я.»"
+DS_Smarter_23,DS,PC,CHOICE,"«Круто. Он плут, как и я.»"
 DS_Smarter_24,DS,Snell,LINE,Снелл качает головой.
 DS_Smarter_25,DS,Snell,LINE,"«Нет. Слушай, я говорю о настоящем, совершенно настоящем случае <i>патологической</i> клептомании.»"
 DS_Smarter_26,DS,Snell,LINE,"«Ну, знаешь, когда не можешь удержать руки подальше от чужих карманов.»"
@@ -20802,7 +20802,7 @@ Enc_Below_232_E_HexWeapon,Enc,PC,CHOICE,Ты заметил их привяза�
 Enc_Below_233,Enc,int,LINE,Ты поднимаешь обе руки перед собой и загибаешь пальцы.
 Enc_Below_234,Enc,int,LINE,"Ты тянешься — не физически, а эзотерически."
 Enc_Below_235,Enc,int,LINE,"И ты находишь Струну, соединяющую убийцу с кинжалом."
-Enc_Below_236,Enc,int,LINE,Струна чародея и его гексклинжа.
+Enc_Below_236,Enc,int,LINE,Струна колдуна и его гексклинжа.
 Enc_Below_237,Enc,int,LINE,"Ты срезаешь Струну, и клинок ломается с высвобождением эзотерического напряжения."
 Enc_Below_238,Enc,int,LINE,<i>«Нет!»</i>
 Enc_Below_239,Enc,int,LINE,"Он взлетает с земли и впивается в бок убийцы, рассекая его глубоко, затем с лязгом падает обратно на камень."
@@ -20959,10 +20959,10 @@ Enc_Below_369,Enc,str,LINE,"Ты НАЙДЁШЬ его там, внизу. И о
 Enc_Below_370,Enc,str,LINE,"Ты НАЙДЁШЬ её там, внизу. И отчитаешь эту девчонку."
 Enc_Below_371,Enc,int,LINE,"Хм. За тобой охотится женщина. Молодая, к тому же."
 Enc_Below_372,Enc,int,LINE,"Хаг, может быть? Нет. Это было бы слишком удобно. Все улики указывают на самый простой ответ."
-Enc_Below_373,Enc,int,LINE,Тебе противостоит <i>отступник-колдун</i>. И ты идёшь прямиком в логово его хозяина.
+Enc_Below_373,Enc,int,LINE,Тебе противостоит <i>колдунья-отступница</i>. И ты идёшь прямиком в логово её хозяина.
 Enc_Below_374,Enc,int,LINE,"Из всей магии, которую ты здесь видел, улики указывают на очень простой ответ."
 Enc_Below_375,Enc,int,LINE,"Не хаг. И не грубый наёмник, которому заплатили за твою кровь. Нет. Это было бы слишком удобно."
-Enc_Below_376,Enc,int,LINE,Тебе противостоит <i>отступник-колдун</i>. И ты идёшь прямиком в логово его хозяина.
+Enc_Below_376,Enc,int,LINE,Тебе противостоит <i>колдун-отступник</i>. И ты идёшь прямиком в логово его хозяина.
 Enc_Below_377,Enc,dex,LINE,"То, что скрывается за этими ступенями, скорее всего — то есть, весьма вероятно, — <i>именно то</i>, что этот убийца не хочет, чтобы ты нашёл. Так что…"
 Enc_Below_378,Enc,dex,LINE,Пора двигаться!
 Enc_Below_379,Enc,con,LINE,Время раскрыть ПРАВДУ.
@@ -21861,7 +21861,7 @@ Enc_Final_423,Enc,Masked,LINE,«Взамен я перестану пытать�
 Enc_Final_424,Enc,PC,CHOICE,"«Так значит, всё это время ты следил за мной, да?»"
 Enc_Final_425,Enc,Masked,LINE,«Найти тебя было не так уж трудно.»
 Enc_Final_426,Enc,PC,CHOICE,"«Что это, <i>вообще</i>, значит?»"
-Enc_Final_427,Enc,PC,CHOICE,«Я хитрый. Я хитрый разбойник!»
+Enc_Final_427,Enc,PC,CHOICE,«Я хитрый. Я хитрый плут!»
 Enc_Final_428,Enc,PC,CHOICE,«Верно.»
 Enc_Final_429,Enc,Masked,LINE,«Да.»
 Enc_Final_430,Enc,Masked,LINE,"«Ты ведь понимаешь, какой шум ты издаёшь, когда топчешься в этих сапогах?»"
@@ -22160,7 +22160,7 @@ Enc_Night_177,Enc,wis,LINE,Здесь есть что-то странное.
 Enc_Night_178,Enc,wis,LINE,Это был не убийца. Это ощущалось как… ошибка. Во всём.
 Enc_Night_179,Enc,str,LINE,"Конечно, это была ошибка. Они пытались убить <b>Жреца</b>."
 Enc_Night_180,Enc,str,LINE,"В следующий раз тебе придётся действовать решительнее, чтобы поймать этого дурацкого заклинателя."
-Enc_Night_181,Enc,PC,CHOICE,В конце там был Туманный Шаг. Это может быть Rogue?
+Enc_Night_181,Enc,PC,CHOICE,В конце там был Туманный шаг. Неужели это маг-отступник?
 Enc_Night_182,Enc,int,LINE,"Вполне возможно, да."
 Enc_Night_183,Enc,str,LINE,"Скорее всего, официально лицензированного мага, нет."
 Enc_Night_184,Enc,str,LINE,Это было бы нелепо. Город не нанимает таких эзотерических убийц.
@@ -23072,7 +23072,7 @@ EP_Darrow_118,EP,PC,CHOICE,«Ой.»
 EP_Darrow_119,EP,PC,CHOICE,"(Пожимает плечами, небрежно.)"
 EP_Darrow_120,EP,Darrow,LINE,Он взмахивает рукой.
 EP_Darrow_121,EP,Darrow,LINE,«В общем.»
-EP_Darrow_122,EP,Darrow,LINE,"«Ты, должно быть, нашёл доказательство, что твой колдун-независимый скрывается за пределами мира. Полагаю, так?»"
+EP_Darrow_122,EP,Darrow,LINE,"«Ты, должно быть, нашёл доказательство того, что твой маг-отступник скрывается за пределами мира. Полагаю, так?»"
 EP_Darrow_123,EP,Darrow,LINE,«И всё это время леди Сагелист оставалась вполне довольной.»
 EP_Darrow_124,EP,Darrow,LINE,Он бросает взгляд на Снелла.
 EP_Darrow_125,EP,Darrow,LINE,«Или как минимум: <i>удовлетворён</i>.»
@@ -23897,7 +23897,7 @@ EP_Everglad_21,EP,Ever,LINE,«В этот радостный день тебе �
 EP_Everglad_22,EP,Ever,LINE,«Расскажи мне.»
 EP_Everglad_23,EP,Ever,LINE,«Поделись своим опытом о водоёмах моего порождения — о <i>Пределе</i>.»
 EP_Everglad_24,EP,Ever,LINE,«Что ты думал о бедном старом Горме?»
-EP_Everglad_25,EP,PC,CHOICE,"«Ты знал, что Горм был бродячим заклинателем. Почему ничего не сказал?»"
+EP_Everglad_25,EP,PC,CHOICE,"«Ты знал, что Горм был магом-отступником. Почему ничего не сказал?»"
 EP_Everglad_26,EP,Ever,LINE,"«Похоже, ты не вполне понимаешь мою профессию здесь.»"
 EP_Everglad_27,EP,Ever,LINE,"«Я скажу не более того, что считаю достойным обмена.»"
 EP_Everglad_28,EP,PC,CHOICE,«Ты слышишь через все эти трубы?»
@@ -24593,7 +24593,7 @@ EP_Moongore_43,EP,PC,CHOICE,«А-а-а…»
 EP_Moongore_44,EP,Moongore,LINE,"«Тогда я останусь здесь. Надеясь, что случится что-нибудь интересное.»"
 EP_Moongore_45,EP,Moongore,LINE,Она стонет и поправляет щит.
 EP_Moongore_46,EP,Moongore,LINE,«Совсем скоро.»
-EP_Moongore_47,EP,Moongore,LINE,"Шерсть бугбира шуршит на ветру, когда ты приближаешься."
+EP_Moongore_47,EP,Moongore,LINE,"Шерсть багбира шуршит на ветру, когда ты приближаешься."
 EP_Moongore_48,EP,Moongore,LINE,"«Надеюсь, скоро что-нибудь случится, а то я засну.»"
 EP_Moongore_49,EP,Snell,LINE,"«Обязательно сообщу тебе, если так будет, Лунная Кровь.»"
 EP_Moongore_50,EP,PC,CHOICE,"«Я нашла мужчину в жёлтом. Того, кто тебя очаровал.» (Приготовь показать, как ты отомстил за неё.)"
@@ -24611,7 +24611,7 @@ EP_Moongore_61,EP,Moongore,LINE,Она игнорирует твои слова 
 EP_Moongore_62,EP,Moongore,LINE,«Теперь тишина. Гром <i>ревёт</i>.»
 EP_Moongore_63,EP,PC,CHOICE,«Развлекайся.»
 EP_Moongore_64,EP,Moongore,LINE,«Правда?»
-EP_Moongore_65,EP,Moongore,LINE,Бугр задирает подбородок и смотрит на тебя сверху вниз.
+EP_Moongore_65,EP,Moongore,LINE,Багбир задирает подбородок и смотрит на тебя сверху вниз.
 EP_Moongore_66,EP,Moongore,LINE,«Он всё ещё в Городе под городом?!»
 EP_Moongore_67,EP,PC,CHOICE,"«Нет. Хотя, может, теперь он где-то поблизости…»"
 EP_Moongore_68,EP,Moongore,LINE,"«Хорошо. Я найду его в скором времени, чтобы мог-»"
@@ -24689,7 +24689,7 @@ EP_Moongore_134,EP,str,LINE,Оно не слушается тебя.
 EP_Moongore_135,EP,PC,CHOICE,Но… Я ДОЛЖЕН…!
 EP_Moongore_136,EP,str,LINE,Это обойдётся тебе очень дорого.
 EP_Moongore_137,EP,str,LINE,"Если ты уверен, что готов заплатить. Тогда… плати."
-EP_Moongore_138,EP,PC,CHOICE,Я ПЛАЧУ ПОШЛИНУ БУГБЕАРА. (Причинить себе сильную боль.)
+EP_Moongore_138,EP,PC,CHOICE,Я ПЛАЧУ ПОШЛИНУ БАГБИРА. (Причинить себе сильную боль.)
 EP_Moongore_139,EP,str,LINE,"Всё болит, когда ты заставляешь себя идти вперёд."
 EP_Moongore_140,EP,str,LINE,Тогда…
 EP_Moongore_141,EP,PC,CHOICE,"«Угу. Неважно, я просто приму первоначальное предложение.»"
@@ -25875,7 +25875,7 @@ EP_Simii_91,EP,Simii,LINE,"«Может, лучше будет <i>Чайная �
 EP_Simii_92,EP,PC,CHOICE,«Я не считаю себя большим знатоком названий. В этом смысле я аполитичен.»
 EP_Simii_93,EP,Simii,LINE,«Хм.»
 EP_Simii_94,EP,Simii,LINE,"«Тебе стоит это обдумать. Аполитичность ведь может привести к фашизму, знаешь.»"
-EP_Simii_95,EP,PC,CHOICE,"«Пойдём в Отбой. Пойдём устроим Отбой у Симий! Да, мне нравится.»"
+EP_Simii_95,EP,PC,CHOICE,"«Пойдём в Отбой. Пойдём устроим Отбой у Симия! Да, мне нравится.»"
 EP_Simii_96,EP,Simii,LINE,«Да.»
 EP_Simii_97,EP,Simii,LINE,Дворф возвращается к планированию своего будущего среди завалов.
 EP_Simii_98,EP,PC,CHOICE,Я оставлю его в покое.
@@ -27539,7 +27539,7 @@ Ettir_Companion_60,Ettir,Ettir,LINE,«Можешь выпить её сам. У 
 Ettir_Companion_61,Ettir,PC,CHOICE,«Продолжим путь.»
 Ettir_Companion_62,Ettir,Ettir,LINE,«Ты глубоко исследовал Старую тюрьму. Ты вёл переговоры с ним в трубах.»
 Ettir_Companion_63,Ettir,Ettir,LINE,«Остаётся лишь. Настоящий ответ.»
-Ettir_Companion_64,Ettir,Ettir,LINE,«Чайная лавка и её останки. Найди чародея-нежить. <i>Поспеши</i>.»
+Ettir_Companion_64,Ettir,Ettir,LINE,«Чайная лавка и её останки. Найди мага-отступника. <i>Поспеши</i>.»
 Ettir_Companion_65,Ettir,Ettir,LINE,«Старая Тюрьма хранит немало тайн. Пора Исследовать глубже.»
 Ettir_Companion_66,Ettir,Ettir,LINE,«Нам нужно найти её нынешнего хозяина.»
 Ettir_Companion_67,Ettir,Ettir,LINE,«По ту сторону раздвоенной реки — у подножия Колонны.»
@@ -28023,12 +28023,12 @@ GG_Miska_305,GG,cha,LINE,Как драматично. Обожаю её.
 GG_Miska_306,GG,Miska,LINE,«Коррупция. Безумие.» Она скребёт когтями по деревянному трону. «<i>ПОЛИТИКА.</i>»
 GG_Miska_307,GG,int,LINE,Болтовня дураков.
 GG_Miska_308,GG,wis,LINE,Бюрократия изматывает её.
-GG_Miska_309,GG,Miska,LINE,"«Очевидно, это дело рук какого-нибудь отступника-заклинателя. Того, кто НЕ МОЖЕТ остаться безнаказанным.»"
+GG_Miska_309,GG,Miska,LINE,"«Очевидно, это дело рук какого-нибудь мага-отступника. Того, кто НЕ МОЖЕТ остаться безнаказанным.»"
 GG_Miska_310,GG,str,LINE,СПРАВЕДЛИВОСТЬ. ДА.
 GG_Miska_311,GG,int,LINE,Для такого разрушения заклинание действительно было бы единственным логичным объяснением.
 GG_Miska_312,GG,PC,CHOICE,«Я принесу СПРАВЕДЛИВОСТЬ в Норвик.»
 GG_Miska_313,GG,Miska,LINE,«Буду надеяться.»
-GG_Miska_314,GG,PC,CHOICE,"«Вор-колдун? Разве у нас нет специального отряда против магии, который можно вызвать?»"
+GG_Miska_314,GG,PC,CHOICE,"«Маг-отступник? Разве у нас нет специального отряда по борьбе с магией, который можно вызвать?»"
 GG_Miska_315,GG,Miska,LINE,«Почему бы и нет!» — восклицает она.
 GG_Miska_316,GG,Miska,LINE,Она указывает острым пальцем.
 GG_Miska_317,GG,Miska,LINE,«Ты.»
@@ -28607,7 +28607,7 @@ GG_Miska_863,GG,Miska,LINE,"«Да, это вполне может быть та
 GG_Miska_864,GG,Miska,LINE,«Но сначала тебе придётся найти больше доказательств. Разумеется. Жду с нетерпением.»
 GG_Miska_865,GG,cha,LINE,"О. Подожди, вообще-то это не так уж безумно."
 GG_Miska_866,GG,PC,CHOICE,«Виноваты <shake>люди</shake>.»
-GG_Miska_867,GG,PC,CHOICE,"«Это не какое-нибудь заклинание отступника… это проклятие, оставленное Арканистами. Эти ублюдки!»"
+GG_Miska_867,GG,PC,CHOICE,"«Это был не какой-то маг-отступник… Это проклятие, оставленное Арканистами. Эти ублюдки!»"
 GG_Miska_868,GG,PC,CHOICE,"«Ставлю на то, что это сделала <i>женщина</i>.»"
 GG_Miska_869,GG,cha,LINE,"О! Это может сработать. Сексизм всегда склонен срабатывать, когда-"
 GG_Miska_870,GG,Miska,LINE,«Согласен.»
@@ -29706,8 +29706,8 @@ GG_Nessan_461,GG,Nessan,LINE,Она смотрит на неё.
 GG_Nessan_462,GG,Nessan,LINE,«У меня нет такого свитка заклинания. Прости.»
 GG_Nessan_463,GG,Nessan,LINE,"«Но мне кажется, я помню… Я отдала один Лунной Крови. Возможно, она хранит один в Корнях Пу.»"
 GG_Nessan_464,GG,PC,CHOICE,«Лунная Кровь?»
-GG_Nessan_465,GG,Nessan,LINE,«Один из Принудителей Сагелиста. Бугбэр. Прекрасная женщина.»
-GG_Nessan_466,GG,PC,CHOICE,"«Лунная Кровь? А. Я встречала её. Бугбэр, верно?»"
+GG_Nessan_465,GG,Nessan,LINE,«Один из Принудителей Сагелиста. Багбир. Прекрасная женщина.»
+GG_Nessan_466,GG,PC,CHOICE,"«Лунная Кровь? А. Я встречала её. Багбир, верно?»"
 GG_Nessan_467,GG,Nessan,LINE,«Да- да! Разумеется! Как замечательно.»
 GG_Nessan_468,GG,Nessan,LINE,«Ей и правда нужно побольше общения внизу. Прекрасная женщина.»
 GG_Nessan_469,GG,PC,CHOICE,«Как мне получить тот свиток заклинания Гудэпл?»
@@ -29724,7 +29724,7 @@ GG_Nessan_479,GG,PC,CHOICE,"«Хорошо, хорошо.»"
 GG_Nessan_480,GG,Nessan,LINE,«Хорошо. Хорошо…»
 GG_Nessan_481,GG,Nessan,LINE,«Вот это у неё <i>укус</i>.»
 GG_Nessan_482,GG,cha,LINE,Что она имеет в виду?
-GG_Nessan_483,GG,wis,LINE,Бугбиры кусаются. Логично.
+GG_Nessan_483,GG,wis,LINE,Багбиры кусаются. Логично.
 GG_Nessan_484,GG,str,LINE,Эльфийка задира достаточно. Ужасно.
 GG_Nessan_485,GG,PC,CHOICE,«Может ли природа… защитить меня?»
 GG_Nessan_486,GG,Nessan,LINE,«…Разумеется. С помощью Коры дерева.»
@@ -30036,7 +30036,7 @@ GT_Archives_41,GT,wis,LINE,"Но теперь, прочитав их, ты лу�
 GT_Archives_42,GT,cha,LINE,Безусловно. На собственное благо.
 GT_Archives_43,GT,dex,LINE,Ты гадаешь: кто ведёт эти записи?
 GT_Archives_44,GT,dex,LINE,"Наверняка какие-нибудь вольные сыщики, нанятые городом."
-GT_Archives_45,GT,str,LINE,Жрецы не занимаются такой грязной работой. Это должен быть какой-нибудь грязный ROGUE.
+GT_Archives_45,GT,str,LINE,Жрецы не занимаются такой грязной работой. Это должен быть какой-нибудь грязный ПЛУТ.
 GT_Archives_46,GT,dex,LINE,Не называй себя грязным. Это просто грубо.
 GT_Archives_47,GT,PC,CHOICE,Немного вторжение в частную жизнь. Но это может пригодиться. (Вернуть документы.)
 GT_Archives_48,GT,int,LINE,Совершенно верно. Если тебе когда-нибудь не повезёт снова столкнуться с Азгалами.
@@ -30939,7 +30939,7 @@ GT_Ettir_331,GT,Ettir,LINE,Она кивает и поворачивается �
 GT_Ettir_332,GT,PC,CHOICE,«Но маска выглядела по-настоящему <i>эзотерично</i>.»
 GT_Ettir_333,GT,Ettir,LINE,Ангел достаёт газетную вырезку.
 GT_Ettir_334,GT,Ettir,LINE,«Это?»
-GT_Ettir_335,GT,int,LINE,Статья озаглавлена: «ЗАМАСКИРОВАННЫЙ ВОЛШЕБНИК НАНОСИТ УДАР СНОВА.»
+GT_Ettir_335,GT,int,LINE,Статья озаглавлена: «ЗАМАСКИРОВАННЫЙ МАГ-ОТСТУПНИК СНОВА НАНОСИТ УДАР».
 GT_Ettir_336,GT,int,LINE,Шрифт ужасно старый — времён Эпохи тайной магии.
 GT_Ettir_337,GT,dex,LINE,Ого. Смотри!
 GT_Ettir_338,GT,dex,LINE,"Рядом со статьей есть иллюстрация. Она выглядит точь-в-точь как та железная маска, которую ты встретил."
@@ -33027,8 +33027,8 @@ JC_Gorm_12,JC,con,LINE,Задыхается. Та перевязь на твое
 JC_Gorm_13,JC,con,LINE,Тронутый ПУСТОТОЙ.
 JC_Gorm_14,JC,cha,LINE,Он выглядит достаточно вменяемым. Как-то.
 JC_Gorm_15,JC,int,LINE,Вот значит как.
-JC_Gorm_16,JC,dex,LINE,Не был бродячим заклинателем.
-JC_Gorm_17,JC,dex,LINE,Разбойник-<i>паладин</i>.
+JC_Gorm_16,JC,dex,LINE,Не был магом-отступником.
+JC_Gorm_17,JC,dex,LINE,<i>Паладин-отступник</i>.
 JC_Gorm_18,JC,con,LINE,Ты слышишь шёпот. УМОЛЯНИЕ.
 JC_Gorm_19,JC,Gorm,LINE,«Я не признаю <i>это</i> обычным шлемом Уртгарда. Это… кастрюля?»
 JC_Gorm_20,JC,Gorm,LINE,"«Я бы спросил, почему вы надели себе на голову ведро, но сейчас неподходящее время задавать вопросы об эстетике.»"
@@ -33309,7 +33309,7 @@ JC_Gorm_294,JC,PC,CHOICE,«Что ты <i>сделал</i>?»
 JC_Gorm_295,JC,Gorm,LINE,Он поднимает изуродованную руку; содранная кожа пульсирует вокруг жилоподобных отростков.
 JC_Gorm_296,JC,Gorm,LINE,«Я разыскал аберрацию.»
 JC_Gorm_297,JC,cha,LINE,О.
-JC_Gorm_298,JC,Gorm,LINE,"«Все мы знали, что он там. Вечно-Радостного никогда не считали угрозой в его затопленном храме. И его чародеев тоже. Я не предполагал, что он так легко даст мне всё, что было нужно.»"
+JC_Gorm_298,JC,Gorm,LINE,"«Все мы знали, что он там. Вечно-Радостного никогда не считали угрозой в его затопленном храме. И его колдунов тоже. Я не предполагал, что он так легко даст мне всё, что было нужно.»"
 JC_Gorm_299,JC,PC,CHOICE,«Что он тебе дал?»
 JC_Gorm_300,JC,Gorm,LINE,«Власть.»
 JC_Gorm_301,JC,PC,CHOICE,«Ты превратил себя в отвратительное создание? Ради чего?»
@@ -33377,7 +33377,7 @@ JC_Gorm_362,JC,Gorm,LINE,«Да. Полностью.»
 JC_Gorm_363,JC,PC,CHOICE,«Чего они хотели взамен?»
 JC_Gorm_364,JC,Gorm,LINE,"«Того же, чего они всегда хотят. Нашего уничтожения.»"
 JC_Gorm_365,JC,Gorm,LINE,Он кашляет и кривится.
-JC_Gorm_366,JC,Gorm,LINE,"«Иллим хочет не дать Фристрайдерам закрепиться в Аскане. Они считают Уртфолков слабыми без них. Лёгкой добычей. Они ошибаются. Но я подыграл их предположениям. Для них я был разбойником-паладином, желающим отомстить своему народу. Человеком, которому нужны средства для создания сети инакомыслящих.»"
+JC_Gorm_366,JC,Gorm,LINE,"«Иллим хочет не дать Фристрайдерам закрепиться в Аскане. Они считают Уртфолков слабыми без них. Лёгкой добычей. Они ошибаются. Но я подыграл их предположениям. Для них я был паладином-отступником, желавшим отомстить своему народу. Человеком, которому нужны средства для создания сети инакомыслящих.»"
 JC_Gorm_367,JC,Gorm,LINE,"«После нескольких услуг они с готовностью предоставили мне серебро, алмазы, а также Агента, чтобы внедрить Ожерелье огненных шаров.»"
 JC_Gorm_368,JC,PC,CHOICE,«<i>Ты</i> принёс Ожерелье огненных шаров в город?»
 JC_Gorm_369,JC,Gorm,LINE,«Да.»
@@ -33963,8 +33963,8 @@ JC_Gorm_920,JC,Gorm,LINE,…
 JC_Gorm_921,JC,Gorm,LINE,"«Скажи мне, брат. Как тебя зовут?»"
 JC_Gorm_922,JC,PC,CHOICE,«Я — <b>Жрец</b>.»
 JC_Gorm_923,JC,Gorm,LINE,«Конечно.»
-JC_Gorm_924,JC,PC,CHOICE,«Я просто разбойник.»
-JC_Gorm_925,JC,Gorm,LINE,«Хм. Разбойник.»
+JC_Gorm_924,JC,PC,CHOICE,«Я просто плут.»
+JC_Gorm_925,JC,Gorm,LINE,«Хм. Плут.»
 JC_Gorm_926,JC,PC,CHOICE,«Обращайся ко мне: Волшебник.»
 JC_Gorm_927,JC,Gorm,LINE,«Волшебник.»
 JC_Gorm_928,JC,PC,CHOICE,«Зови меня <i>Пляшущий Бард</i>.»
@@ -33982,7 +33982,7 @@ JC_Gorm_939,JC,Gorm,LINE,«Мой добрый <i>Друид</i>.»
 JC_Gorm_940,JC,Gorm,LINE,"«Ты, <i>Варвар</i>.»"
 JC_Gorm_941,JC,Gorm,LINE,«Мой брат <i>Бард</i>.»
 JC_Gorm_942,JC,Gorm,LINE,«<i>Волшебник</i> Норвика.»
-JC_Gorm_943,JC,Gorm,LINE,«<i>Разбойник</i> Норвика.»
+JC_Gorm_943,JC,Gorm,LINE,«<i>Плут</i> Норвика.»
 JC_Gorm_944,JC,Gorm,LINE,«<i>Жрец</i> Норвика.»
 JC_Gorm_945,JC,Gorm,LINE,«Рагн.»
 JC_Gorm_946,JC,YOU,LINE,…
@@ -34892,7 +34892,7 @@ JC_Gorm_1778,JC,Gorm,LINE,Лорд Горм встречает твой взгл
 JC_Gorm_1779,JC,PC,CHOICE,"«Видишь ли ты себя, мой <i>Лорд</i>? Видишь ли, во что ты превратился?»"
 JC_Gorm_1780,JC,PC,CHOICE,(Выплюнуть кровь.) «Пошёл ты <i>на хер</i>.»
 JC_Gorm_1781,JC,PC,CHOICE,«Я… <i>Жрец Норвика</i>.»
-JC_Gorm_1782,JC,PC,CHOICE,«Я слишком крутой вор… чтобы умирать здесь.»
+JC_Gorm_1782,JC,PC,CHOICE,«Я слишком крутой плут… чтобы умирать здесь.»
 JC_Gorm_1783,JC,PC,CHOICE,«Волшебник… не кланяется… перед каким-то <i>павшим паладином</i>.»
 JC_Gorm_1784,JC,PC,CHOICE,«Я танцующий бард. И моя душа никогда не перестанет плясать…»
 JC_Gorm_1785,JC,Gorm,LINE,«…<i>Что</i>?»
@@ -37285,22 +37285,22 @@ LL_Cloak_28,LL,cha,LINE,Нет?
 LL_Cloak_29,LL,cha,LINE,Как уже было сказано.
 LL_Cloak_30,LL,cha,LINE,Ты <i>можешь</i> это провернуть.
 LL_Cloak_31,LL,dex,LINE,"Разумеется, тебе стоит это надеть!"
-LL_Cloak_32,LL,dex,LINE,Капюшон — идеальный инструмент для любого приличного вора и/или разбойника.
+LL_Cloak_32,LL,dex,LINE,Капюшон — идеальная вещь для любого приличного плута и/или негодяя.
 LL_Cloak_33,LL,dex,LINE,Пусть немного влажный — тебе же всё равно придётся его носить!
-LL_Cloak_34,LL,dex,LINE,Вор надел бы его. Это точно. Ну…
+LL_Cloak_34,LL,dex,LINE,Плут такое точно надел бы. Ну…
 LL_Cloak_35,LL,PC,CHOICE,Я подумаю.
-LL_Cloak_36,LL,PC,CHOICE,"Ну, я же вор, так что… ладно. Наденем!"
-LL_Cloak_37,LL,PC,CHOICE,Но я не вор?
-LL_Cloak_38,LL,dex,LINE,Прости. Слов «я не вор» на самом деле нет в твоём словаре.
+LL_Cloak_36,LL,PC,CHOICE,"Ну, я же плут, так что… ладно. Наденем!"
+LL_Cloak_37,LL,PC,CHOICE,Но я же не плут?
+LL_Cloak_38,LL,dex,LINE,"Прости. Слов «я не плут» у тебя, похоже, нет в словаре."
 LL_Cloak_39,LL,dex,LINE,"Пожалуйста, переформулируй."
 LL_Cloak_40,LL,PC,CHOICE,Но это всё-таки не <i>одно</i> слово.
 LL_Cloak_41,LL,dex,LINE,Ну зануда.
 LL_Cloak_42,LL,int,LINE,Ну <i>невоспитанный</i>.
 LL_Cloak_43,LL,dex,LINE,Заткнись.
-LL_Cloak_44,LL,PC,CHOICE,"О. Ну ладно, полагаю, я вор."
-LL_Cloak_45,LL,dex,LINE,"Хм. Звучит не как то, что сказал бы хороший вор."
+LL_Cloak_44,LL,PC,CHOICE,"О. Ну ладно, значит, я плут."
+LL_Cloak_45,LL,dex,LINE,Хм. Хороший плут так бы не сказал.
 LL_Cloak_46,LL,PC,CHOICE,"Не указывай мне, что делать."
-LL_Cloak_47,LL,dex,LINE,Вот что сказал бы хороший вор!
+LL_Cloak_47,LL,dex,LINE,Вот так и должен был ответить хороший плут!
 LL_Cloak_48,LL,str,LINE,Ты тянешься к своей нарядной красной <b>Сумке вместилища</b>.
 LL_Cloak_49,LL,dex,LINE,"Плащ легко скользит внутрь, в межпространственное измерение, с приятным <i>чмоком</i>."
 LL_Cloak_50,LL,PC,CHOICE,Я действительно люблю свою Сумку вместилища.
@@ -37657,7 +37657,7 @@ LL_Intro_32,LL,dex,LINE,Тебя разве не называли «Долбоё
 LL_Intro_33,LL,str,LINE,Не используй столь сквернословные выражения.
 LL_Intro_34,LL,PC,CHOICE,…«Долбоёб?»
 LL_Intro_35,LL,dex,LINE,"О, погоди. Это было не так."
-LL_Intro_36,LL,dex,LINE,Было «Долбоёб <i>Вор</i>.»
+LL_Intro_36,LL,dex,LINE,Было «Долбоёб-<i>плут</i>».
 LL_Intro_37,LL,dex,LINE,Ну знаешь. Когда ты ещё жил на улице.
 LL_Intro_38,LL,cha,LINE,Не надо об этом. Боже мой.
 LL_Intro_39,LL,cha,LINE,Тебе было… <i>двенадцать</i>.
@@ -37668,7 +37668,7 @@ LL_Intro_43,LL,wis,LINE,Именно так и было.
 LL_Intro_44,LL,int,LINE,Глупец.
 LL_Intro_45,LL,PC,CHOICE,Значит… моё имя —…
 LL_Intro_46,LL,int,LINE,Да. Произнеси его.
-LL_Intro_47,LL,PC,CHOICE,«Долбоёб Вор.»
+LL_Intro_47,LL,PC,CHOICE,«Долбоёб-плут.»
 LL_Intro_48,LL,int,LINE,НЕТ!
 LL_Intro_49,LL,dex,LINE,Вслух звучит совсем не так забавно…
 LL_Intro_50,LL,Jor,LINE,Ты отвечаешь. Ещё один вопрос из тьмы.
@@ -37745,7 +37745,7 @@ LL_Intro_120,LL,PC,CHOICE,«Я — <b>Жрец</b>.»
 LL_Intro_121,LL,str,LINE,<b>ДА.</b>
 LL_Intro_122,LL,dex,LINE,Стыдно.
 LL_Intro_123,LL,cha,LINE,Согласен.
-LL_Intro_124,LL,PC,CHOICE,«Я хитрый маленький разбойник.»
+LL_Intro_124,LL,PC,CHOICE,«Я хитрый маленький плут.»
 LL_Intro_125,LL,dex,LINE,Причём нарядный.
 LL_Intro_126,LL,PC,CHOICE,«Я ужасен во всём.»
 LL_Intro_127,LL,cha,LINE,"Жестокий, но правда."
@@ -37912,7 +37912,7 @@ LL_Intro_287,LL,PC,CHOICE,"Просто работа? Ага. Значит, я �
 LL_Intro_288,LL,dex,LINE,"Ну. Возможно, не <i>именно такого</i> рода работу."
 LL_Intro_289,LL,dex,LINE,Ты… <i>на самом деле</i> нет.
 LL_Intro_290,LL,dex,LINE,"Твой прошлый опыт больше связан с базовой службой в Уртгардском ополчении, а также с несколькими годами в Башнях."
-LL_Intro_291,LL,int,LINE,Разбойничья магия не была твоим основным занятием. Но да. Ты много читал о таких огненных событиях.
+LL_Intro_291,LL,int,LINE,Магия отступников не была твоим основным занятием. Но да. Ты много читал о таких огненных событиях.
 LL_Intro_292,LL,int,LINE,В наши дни они не слишком часты. Однако этот случай не выглядит чрезмерно сложным.
 LL_Intro_293,LL,PC,CHOICE,Задание? Мне нравятся задания.
 LL_Intro_294,LL,str,LINE,"Хороший настрой. За углом всегда найдётся ещё что-нибудь, так что смотри. Не хочется ничего пропустить."
@@ -39369,9 +39369,9 @@ LP_Lisa_706,LP,Lisa,LINE,«Понятно.»
 LP_Lisa_707,LP,PC,CHOICE,«Спасибо?»
 LP_Lisa_708,LP,Lisa,LINE,«Не за что.»
 LP_Lisa_709,LP,Lisa,LINE,"«Что касается хаоса твоих Струн, я проведу кое-какие изыскания. Вполне возможно, дело просто в твоей биологии. Некоторые люди благословлены-прокляты всякими эзотерическими способностями, прозрениями и вырождениями.»"
-LP_Lisa_710,LP,Lisa,LINE,"«Кто знает, вдруг ты и сам колдун? Не так уж отличаешься от нас, хаг…»"
+LP_Lisa_710,LP,Lisa,LINE,"«Кто знает, вдруг ты и сам чародей? Не так уж отличаешься от нас, хаг…»"
 LP_Lisa_711,LP,Lisa,LINE,"Она дико смеётся, делая кое-какие записи в маленьком справочнике."
-LP_Lisa_712,LP,int,LINE,Ты не ничтожный колдун.
+LP_Lisa_712,LP,int,LINE,Ты не какой-то там жалкий чародей.
 LP_Lisa_713,LP,int,LINE,Такое объяснение было бы глупостью.
 LP_Lisa_714,LP,int,LINE,Эта связь со Струнами Джора возникла по твоей собственной воле — ты не родился таким.
 LP_Lisa_715,LP,int,LINE,Твой великий гений просто привлекал их на своём пути.
@@ -40991,7 +40991,7 @@ OP_EverGlad_152,OP,Ever,LINE,«Прекрасно.»
 OP_EverGlad_153,OP,PC,CHOICE,"«Ты — тот, кого называют Вечно-Радостный?»"
 OP_EverGlad_154,OP,Ever,LINE,«<b>Да</b>.»
 OP_EverGlad_155,OP,Ever,LINE,«Это имя я выбрал себе. Первоначальное название моей заявки сочли слишком трудным.»
-OP_EverGlad_156,OP,Ever,LINE,"«Когда я подписал первого слугу-варлока, мы остановились на более современном имени. Вечно-Радостный.»"
+OP_EverGlad_156,OP,Ever,LINE,"«Когда я заключил контракт с первым слугой-колдуном, мы решили выбрать имя посовременнее. Остановились на Вечно-Радостном.»"
 OP_EverGlad_157,OP,Ever,LINE,«Оно подходит. Выражает моё вечное счастье.»
 OP_EverGlad_158,OP,Ever,LINE,Пасть зверя раскрывается ещё шире.
 OP_EverGlad_159,OP,PC,CHOICE,"«Значит, прежнее имя было для нас, смертных, просто непостижимым, полагаю?»"
@@ -41003,7 +41003,7 @@ OP_EverGlad_164,OP,PC,CHOICE,(Издать нервный наигранный �
 OP_EverGlad_165,OP,Ever,LINE,«Хорошо. Смех полезен. Он благотворен для тела и разума.»
 OP_EverGlad_166,OP,PC,CHOICE,«Понятно.»
 OP_EverGlad_167,OP,Ever,LINE,«Ты — такой. И останешься таким.»
-OP_EverGlad_168,OP,PC,CHOICE,"«…Подожди, варлоки?»"
+OP_EverGlad_168,OP,PC,CHOICE,"«…Подожди, колдуны?»"
 OP_EverGlad_169,OP,Ever,LINE,«Да. Ты сталкивался с моим <i>бывшим</i> слугой. С той девушкой.»
 OP_EverGlad_170,OP,PC,CHOICE,«Ты послал её меня убить?»
 OP_EverGlad_171,OP,Ever,LINE,«Да…»
@@ -41023,7 +41023,7 @@ OP_EverGlad_184,OP,Snell,LINE,«<i>Жрец</i>.»
 OP_EverGlad_185,OP,wis,LINE,Гоблин выглядит обеспокоенным.
 OP_EverGlad_186,OP,Ever,LINE,"«Я спросил бы твоего гоблина, однако чувствую, что на его стороне есть колебания насчёт передачи работы на аутсорс.»"
 OP_EverGlad_187,OP,Snell,LINE,«Угу.»
-OP_EverGlad_188,OP,PC,CHOICE,"«Ты посылаешь своего чародея убить меня, а затем предлагаешь мне его работу? Как твоему слуге?»"
+OP_EverGlad_188,OP,PC,CHOICE,"«Ты посылаешь своего колдуна убить меня, а потом предлагаешь мне занять его место? Стать твоим слугой?»"
 OP_EverGlad_189,OP,Ever,LINE,«Ну…»
 OP_EverGlad_190,OP,Ever,LINE,"«Это стоит рассмотреть. Твои результаты, в конце концов, весьма впечатляют…»"
 OP_EverGlad_191,OP,PC,CHOICE,«Я согласен!»
@@ -41451,7 +41451,7 @@ OP_EverGlad_602,OP,Ever,LINE,"«Я желаю, чтобы Эбб закончи�
 OP_EverGlad_603,OP,Ever,LINE,"«В этом пророчестве я увидел свою роль — увидел истину, которую могу создать.»"
 OP_EverGlad_604,OP,Ever,LINE,"«Чтобы обратить этот огонь на законодательную массу. Заговор, затеянный последователями Мастера починки. Эльфы <i>Иллим</i>.»"
 OP_EverGlad_605,OP,Ever,LINE,"«Я выбрал поддержать одного игрока в этой игре интриг. Того, кого ты ищешь…»"
-OP_EverGlad_606,OP,Ever,LINE,"«Этот бродячий заклинатель, которого ты выслеживаешь.»"
+OP_EverGlad_606,OP,Ever,LINE,"«Этого мага-отступника, которого ты выслеживаешь.»"
 OP_EverGlad_607,OP,PC,CHOICE,"«Ты знаешь, кого я ищу?»"
 OP_EverGlad_608,OP,Ever,LINE,"«Конечно. Я знаю почти всё, что стоит знать.»"
 OP_EverGlad_609,OP,PC,CHOICE,«Говори. Сейчас.»
@@ -41461,7 +41461,7 @@ OP_EverGlad_612,OP,PC,CHOICE,"«Что я могу предложить, что�
 OP_EverGlad_613,OP,Ever,LINE,"«Боюсь, что — ничего.»"
 OP_EverGlad_614,OP,PC,CHOICE,(Просто смотришь на монстра.)
 OP_EverGlad_615,OP,Ever,LINE,«Не волнуйся. Узнаешь со временем.»
-OP_EverGlad_616,OP,PC,CHOICE,"«Значит, ты пытался меня убить, чтобы помешать мне найти этого бродячего заклинателя?»"
+OP_EverGlad_616,OP,PC,CHOICE,"«Ты пытался меня убить, чтобы я не нашёл этого твоего мага-отступника?»"
 OP_EverGlad_617,OP,PC,CHOICE,"«Говори ясно, чёрт возьми.»"
 OP_EverGlad_618,OP,PC,CHOICE,«Не понимаю.»
 OP_EverGlad_619,OP,Ever,LINE,Его щупальца хватают цистерну.
@@ -41719,7 +41719,7 @@ OP_EverGlad_870,OP,PC,CHOICE,«Да. Я желаю подписать контр
 OP_EverGlad_871,OP,Ever,LINE,«<shake>Да…</shake>»
 OP_EverGlad_872,OP,int,LINE,Теневая надпись краснеет перед твоими глазами.
 OP_EverGlad_873,OP,int,LINE,Затем она исчезает.
-OP_EverGlad_874,OP,Ever,LINE,"«Теперь ты подписал контракт, <i>Рагн</i>. Мой воющий маг.»"
+OP_EverGlad_874,OP,Ever,LINE,"«Теперь ты подписал контракт, <i>Рагн</i>. Мой колдун.»"
 OP_EverGlad_875,OP,Ettir,LINE,"«Я не одобряю это, Жрец. Но надеюсь, ты хотя бы понимаешь, что делаешь.»"
 OP_EverGlad_876,OP,Snell,LINE,"«Никогда не думал, что ты окажешься таким безумым.»"
 OP_EverGlad_877,OP,PC,CHOICE,«Я ничего не чувствую.»
@@ -41785,9 +41785,9 @@ OP_EverGlad_936,OP,int,LINE,"Увы, ты легко можешь вырвать
 OP_EverGlad_937,OP,dex,LINE,Э.
 OP_EverGlad_938,OP,dex,LINE,Просто будь начеку. Тебе уже доводилось попадать в переделки похуже.
 OP_EverGlad_939,OP,dex,LINE,Хотя после закрытия Башен это может стать запасной подработкой.
-OP_EverGlad_940,OP,Ever,LINE,"«Стать моим следующим чародеем — одно важное преимущество, разумеется…»"
+OP_EverGlad_940,OP,Ever,LINE,"«Стать моим следующим колдуном — одно важное преимущество, разумеется…»"
 OP_EverGlad_941,OP,Ever,LINE,«Знания.»
-OP_EverGlad_942,OP,PC,CHOICE,«То есть никакой магии чародея?»
+OP_EverGlad_942,OP,PC,CHOICE,«То есть никаких способностей колдуна?»
 OP_EverGlad_943,OP,Ever,LINE,«Разумеется. Со временем.»
 OP_EverGlad_944,OP,Ever,LINE,«Я не стану обещать тебе чистую силу — это было бы крайне обманчиво.»
 OP_EverGlad_945,OP,Ever,LINE,«Тебе может подойти магия Дальнего Мира. А может и нет.»
@@ -42627,8 +42627,8 @@ OP_Isk_560,OP,str,LINE,ПОСЛУШАЙ УЛИТКУ.
 OP_Isk_561,OP,Isk,LINE,«О!»
 OP_Isk_562,OP,Isk,LINE,«Ты желаешь войти в закрытые Ворота?»
 OP_Isk_563,OP,Isk,LINE,«Смелость за тобой не грех.»
-OP_Isk_564,OP,PC,CHOICE,«Мне нужно проследить за одним заклинателем-разбойником внутри. <i>Подозреваемым</i> заклинателем-разбойником.»
-OP_Isk_565,OP,PC,CHOICE,"Пожалуй, мне не стоит упоминать заклинателя-разбойника, верно? Подожди, чёрт. Он сейчас всё слышит, да? Чёрт. Э-э…"
+OP_Isk_564,OP,PC,CHOICE,«Мне нужно проследить за магом-отступником внутри. За <i>подозреваемым</i> магом-отступником.»
+OP_Isk_565,OP,PC,CHOICE,"Пожалуй, мне не стоит упоминать мага-отступника, верно? Подожди, чёрт. Он сейчас всё слышит, да? Чёрт. Э-э…"
 OP_Isk_566,OP,Isk,LINE,Улитка смотрит на тебя.
 OP_Isk_567,OP,Isk,LINE,«Я ничего не слышал.»
 OP_Isk_568,OP,Isk,LINE,"«Но если тебе нужно войти в закрытые Ворота, конечно, это не пустяк.»"
@@ -43378,7 +43378,7 @@ PC_AzgalDoor_77,PC,Alfoz,LINE,«Так ты <i>действительно</i> ж
 PC_AzgalDoor_78,PC,PC,CHOICE,«Конечно.»
 PC_AzgalDoor_79,PC,PC,CHOICE,«Нет.»
 PC_AzgalDoor_80,PC,Alfoz,LINE,«О?»
-PC_AzgalDoor_81,PC,PC,CHOICE,«Я — Разбойник.»
+PC_AzgalDoor_81,PC,PC,CHOICE,«Я — плут.»
 PC_AzgalDoor_82,PC,PC,CHOICE,«Я — Волшебник.»
 PC_AzgalDoor_83,PC,PC,CHOICE,«Хорошо. Я — ЖРЕЦ.»
 PC_AzgalDoor_84,PC,PC,CHOICE,«Я — Бард.»
@@ -43949,18 +43949,18 @@ Q_Class_12,Q,str,LINE,"С тех пор как ты вступил в Уртга
 Q_Class_13,Q,str,LINE,"Вот твоё призвание. Здесь ты нашёл своё рвение, любовь к этому городу и смысл жизни."
 Q_Class_14,Q,PC,CHOICE,(Чувствуешь церковного.)
 Q_Class_15,Q,dex,LINE,Ты уже столько раз это говорил.
-Q_Class_16,Q,dex,LINE,"Ты — разбойник! И, честно говоря, это отличный путь для тебя."
+Q_Class_16,Q,dex,LINE,"Ты — плут! И, честно говоря, это отличный путь для тебя."
 Q_Class_17,Q,dex,LINE,"Быть неуклюжим и нехитрым? Кажется, это выбор бедняка."
-Q_Class_18,Q,PC,CHOICE,"О да. В конце концов, я очень крутой разбойник."
-Q_Class_19,Q,dex,LINE,"Именно. Хитрый, ловкий, долбоёбов разбойник."
+Q_Class_18,Q,PC,CHOICE,"О да. В конце концов, я очень крутой плут."
+Q_Class_19,Q,dex,LINE,"Именно. Хитрый, ловкий, долбоёб-плут."
 Q_Class_20,Q,dex,LINE,"Только так жизнь кажется правильной, знаешь?"
 Q_Class_21,Q,PC,CHOICE,"Верно. Кажется, я говорил это несколько раз?"
 Q_Class_22,Q,dex,LINE,…Да? Что ещё ты сказал бы?
 Q_Class_23,Q,dex,LINE,С детства ты шастал по улицам.
-Q_Class_24,Q,dex,LINE,Помнишь <b>Долбоёба-Разбойника</b>? Хорошие времена.
+Q_Class_24,Q,dex,LINE,Помнишь <b>Долбоёба-плута</b>? Хорошие времена.
 Q_Class_25,Q,dex,LINE,"Трудишься жопами. По крайней мере, поначалу не по своей воле. Но ты уже понял, каково это — зарабатывать деньги."
 Q_Class_26,Q,dex,LINE,"Особенно когда зарабатываешь много денег, приложив как можно меньше усилий."
-Q_Class_27,Q,dex,LINE,"Вот что делает разбойник. Берёт, что хочет, и избегает всех этих раздражающих последствий."
+Q_Class_27,Q,dex,LINE,"Вот что делает плут: берёт, что хочет, и избегает всех этих раздражающих последствий."
 Q_Class_28,Q,dex,LINE,Это ебать <i>великолепно</i>.
 Q_Class_29,Q,int,LINE,<i>Тсс</i>.
 Q_Class_30,Q,int,LINE,Ужасно. Твой народ в наши дни сталкивается с такой дискриминацией.
@@ -44013,10 +44013,10 @@ Q_Class_76,Q,con,LINE,И… и так далее.
 Q_Class_77,Q,PC,CHOICE,Расскажи мне больше о <b>Жреце</b>.
 Q_Class_78,Q,str,LINE,"С этим именем как твоей ГОРДОСТЬЮ ты продолжишь путь. Через божественную, <b>священную</b> магию."
 Q_Class_79,Q,SystemText,LINE,"Жрец — твои исцеляющие заклинания получают дополнительный бонус мастерства. Лечение также может усиливаться модификатором Силы вместо Мудрости, если он выше."
-Q_Class_80,Q,PC,CHOICE,Расскажи мне больше о <b>Долбоёбе-Воре</b>.
+Q_Class_80,Q,PC,CHOICE,Расскажи мне больше о <b>Долбоёбе-плуте</b>.
 Q_Class_81,Q,dex,LINE,Суетись! Мельтеши! Беги!
 Q_Class_82,Q,dex,LINE,Никогда не попадись!
-Q_Class_83,Q,SystemText,LINE,Долбоёб-разбойник — к броскам на пустяки добавляется ещё один бонус мастерства.
+Q_Class_83,Q,SystemText,LINE,Долбоёб-плут — к броскам на пустяки добавляется ещё один бонус мастерства.
 Q_Class_84,Q,PC,CHOICE,"Почему я называю это <i>пустяками</i>, а не <i>воровством</i>?"
 Q_Class_85,Q,dex,LINE,Ага.
 Q_Class_86,Q,dex,LINE,Ты знаешь Пустяка? Эту страшную штуку-монстра?
@@ -44058,7 +44058,7 @@ Q_Class_121,Q,PC,CHOICE,"Разве я не говорил это достато
 Q_Class_122,Q,str,LINE,СКАЖИ ЭТО.
 Q_Class_123,Q,PC,CHOICE,Я ЖРЕЦ!
 Q_Class_124,Q,str,LINE,<i>Урт Благословлён</i> — <b>ТЫ</b>.
-Q_Class_125,Q,PC,CHOICE,(Выбери разбойника Долбоёба.)
+Q_Class_125,Q,PC,CHOICE,(Выбери Долбоёба-плута.)
 Q_Class_126,Q,dex,LINE,Адски да!
 Q_Class_127,Q,dex,LINE,"Время разбогатеть, сука!"
 Q_Class_128,Q,PC,CHOICE,(Выбери волшебника Бог-императора.)
@@ -48428,7 +48428,7 @@ SH_Modissa_30,SH,Modissa,LINE,«Тогда ты вёл бы себя как Ди
 SH_Modissa_31,SH,PC,CHOICE,«Нет. Тогда я уважал бы тебя.»
 SH_Modissa_32,SH,Modissa,LINE,"«Хорошо. Конечно. Я позабочусь, чтобы впредь у меня было оружие.»"
 SH_Modissa_33,SH,PC,CHOICE,"«…Прости, я не хотел так тебя спровоцировать.»"
-SH_Modissa_34,SH,PC,CHOICE,"«Наверное, я попытался бы его украсть. Я ведь Хитрый разбойник.» (Ухмыляется.)"
+SH_Modissa_34,SH,PC,CHOICE,"«Наверное, я попытался бы украсть это у тебя. Я ведь хитрый плут.»"
 SH_Modissa_35,SH,PC,CHOICE,«Забираю свои слова назад. Звучишь совсем не угрюмо.»
 SH_Modissa_36,SH,PC,CHOICE,"«Послушай, прости. Я не хотел тебя так подставить.»"
 SH_Modissa_37,SH,Modissa,LINE,Она фыркает и хмурится.
@@ -48959,7 +48959,7 @@ SH_Modissa_561,SH,Modissa,LINE,«Ты была? Отлично!»
 SH_Modissa_562,SH,Modissa,LINE,«Просто войди снова. Ты прокралась внутрь или… вы с А. Р. в дружбе?»
 SH_Modissa_563,SH,PC,CHOICE,«Ага. Они меня там обожают.»
 SH_Modissa_564,SH,Modissa,LINE,«Какая двуликость. Мне это нравится.»
-SH_Modissa_565,SH,PC,CHOICE,«Я прокралась внутрь. Я ведь хитрый маленький разбойник.»
+SH_Modissa_565,SH,PC,CHOICE,«Я прокралась внутрь. Я ведь хитрая плутовка.»
 SH_Modissa_566,SH,PC,CHOICE,«Тебе лучше не знать.»
 SH_Modissa_567,SH,Modissa,LINE,«Ладно. Ну… просто войди снова и принеси мне чернила.»
 SH_Modissa_568,SH,Modissa,LINE,«Э-э… пожалуйста.»
@@ -49956,7 +49956,7 @@ Snell_Companion_360,Snell,Snell,LINE,«Уверен. <i>Жрец</i>.»
 Snell_Companion_361,Snell,wis,LINE,Он прав!
 Snell_Companion_362,Snell,int,LINE,"В наши дни Уртгардов осталось немного. А те, что есть, растянуты по ниточке. Ты бы знал."
 Snell_Companion_363,Snell,PC,CHOICE,"«Ты уверен, что это не просто несчастный случай?»"
-Snell_Companion_364,Snell,Snell,LINE,"«Как я тебе говорил, есть несколько важных деталей, указывающих на то, что это заклинатель-отступник.»"
+Snell_Companion_364,Snell,Snell,LINE,"«Как я тебе уже говорил, есть несколько важных деталей, указывающих на то, что это маг-отступник.»"
 Snell_Companion_365,Snell,Snell,LINE,«И самое главное: ночью весь Толстад слышал взрыв. Он разбудил и меня. Отдачу до самых Дыр.»
 Snell_Companion_366,Snell,int,LINE,"На укреплённом острове Толстада надстроено множество ярусов самой разной архитектуры. Если вибрации дошли до квартир в Дырах, это была адская бомба."
 Snell_Companion_367,Snell,Snell,LINE,«Именно поэтому ты здесь. Заклинатель с такой разрушительной силой был бы чрезвычайно опасен.»
@@ -50689,7 +50689,7 @@ SO_Snurre_114,SO,PC,CHOICE,(Пригнуться ближе.) «Продолжа
 SO_Snurre_115,SO,PC,CHOICE,«Тогда я пропущу. Я чувствителен к таким вещам.»
 SO_Snurre_116,SO,PC,CHOICE,«У меня нет времени на шутку.»
 SO_Snurre_117,SO,Snurre,LINE,«Верно.»
-SO_Snurre_118,SO,Snurre,LINE,"«Жрец, Арканист и Разбойник исследуют логово суккуба!»"
+SO_Snurre_118,SO,Snurre,LINE,"«Жрец, Арканист и Плут исследуют логово суккуба!»"
 SO_Snurre_119,SO,Snurre,LINE,«Искусительница побеждает всех троих и сбрасывает их в свою темницу.»
 SO_Snurre_120,SO,Snurre,LINE,"«Но она приходит к ним по вкусу, поэтому предлагает выбор: каждому мужчине, который сумеет её удовлетворить, она позволит уйти. Иначе,» — он вставляет между словами короткие вспышки смеха, — «она их убьёт, так сказать.»"
 SO_Snurre_121,SO,con,LINE,Эта история будет долгой.
@@ -50701,12 +50701,12 @@ SO_Snurre_126,SO,Snurre,LINE,"«Да, да. Дай-ка расскажу шут�
 SO_Snurre_127,SO,PC,CHOICE,«Какая шумная история. Продолжай-ка.»
 SO_Snurre_128,SO,PC,CHOICE,(Киваешь в ответ.)
 SO_Snurre_129,SO,PC,CHOICE,"«Хорошо, жалею, что спросил. Пропусти шутку, пожалуйста.»"
-SO_Snurre_130,SO,Snurre,LINE,"«Итак, трое искателей спорят, в каком порядке идти. В конце концов Разбойник и Арканист решают, что первым должен пойти Жрец: он девственник и с наименьшей вероятностью повысит её стандарты.»"
+SO_Snurre_130,SO,Snurre,LINE,"«Итак, трое искателей спорят, в каком порядке идти. В конце концов Плут и Арканист решают, что первым должен пойти Жрец, поскольку он девственник и с наименьшей вероятностью повысит её стандарты.»"
 SO_Snurre_131,SO,Snell,LINE,"Твой гоблин-напарник потирает глаза, слушая шутку."
 SO_Snurre_132,SO,Snurre,LINE,"«Жрец, будучи божественным и прочим, молится своему богу и отправляется в спальню чудовища. Десять минут спустя он выходит совершенно невредимым и показывает своим двум друзьям большой палец. Оба, разумеется, испытывают великое облегчение.»"
 SO_Snurre_133,SO,Snurre,LINE,"«Следующим идёт Арканист, уверенный и надменный. Если Жрец смог, значит, чудовище легко даётся! Не проходит и нескольких минут, как из-за входа в спальню катятся его кости: мужчина был сожжён адским пламенем.»"
-SO_Snurre_134,SO,Snurre,LINE,"«Разбойник в ужасе, но понимает: очевидно, Арканист переоценил свои способности. Поэтому он осторожно входит в спальню, готовый вложить в дело все свои силы.»"
-SO_Snurre_135,SO,Snurre,LINE,"«Не проходит и минуты, как из спальни раздаются крики, а безжизненное тело Разбойника вываливается из входа.»"
+SO_Snurre_134,SO,Snurre,LINE,"«Плут в ужасе, но понимает: очевидно, Арканист переоценил свои способности. Поэтому он осторожно входит в спальню, готовый приложить все силы.»"
+SO_Snurre_135,SO,Snurre,LINE,"«Не проходит и минуты, как из спальни раздаются крики, а безжизненное тело Плута вываливается наружу.»"
 SO_Snurre_136,SO,Snurre,LINE,"«Жрец молится за души своих товарищей и собирает их останки для погребения. Суккуб выходит, докуривая сигарету. Она говорит Жрецу: <i>Ну, твои друзья были и правда ужасны. Они там просто тыкались без толку. По крайней мере, тебе удалось его слегка тронуть</i>.»"
 SO_Snurre_137,SO,Snurre,LINE,"«На что Жрец отвечает: <i>Ты действительно ужасное создание, и я буду молиться об изгнании твоего присутствия с этого плана существования каждый день до самого дня своей смерти</i>.»"
 SO_Snurre_138,SO,Snurre,LINE,"«А затем, прежде чем уйти, Жрец добавляет: <i>О, но я всё же залечил эту страшную рану у тебя между ног. Надеемся, это сделает тебя в будущем менее злой</i>.»"
@@ -50840,7 +50840,7 @@ SO_Snurre_265,SO,PC,CHOICE,"«Очевидно. Понятия не имею, п
 SO_Snurre_266,SO,PC,CHOICE,"«Возможно, дело в чайной.»"
 SO_Snurre_267,SO,PC,CHOICE,"«О да. Наверняка потому, что я важен.»"
 SO_Snurre_268,SO,Snurre,LINE,Полурослик едва слушает твой комментарий и касается усов.
-SO_Snurre_269,SO,Snurre,LINE,«Возможно… <i>варлок</i>.»
+SO_Snurre_269,SO,Snurre,LINE,«Возможно… <i>колдун</i>.»
 SO_Snurre_270,SO,Snell,LINE,"Гоблин морщится, услышав это слово."
 SO_Snurre_271,SO,Snurre,LINE,«Но кому он служит? Фейскому существу? Или какой-нибудь аберрации? Кто знает!»
 SO_Snurre_272,SO,Snurre,LINE,«Только осторожнее. Такая магия в лучшем случае смертоносна.»
@@ -51814,7 +51814,7 @@ SO_Snurre_1239,SO,PC,CHOICE,"По-моему, ты уже просто расс�
 SO_Snurre_1240,SO,OBJ,LINE,"ТЫ МОЖЕШЬ ПРЕКРАТИТЬ СВОИ РАССЛЕДОВАНИЯ В ЛЮБОЙ МОМЕНТ, ТЫ, ЧЕЛОВЕК МАЛОГО ДОСТОИНСТВА."
 SO_Snurre_1241,SO,PC,CHOICE,"Хронологически, значит."
 SO_Snurre_1242,SO,OBJ,LINE,БАЗОВЫЕ ЗНАНИЯ.
-SO_Snurre_1243,SO,PC,CHOICE,Я разбойник. Как мне заработать денег?
+SO_Snurre_1243,SO,PC,CHOICE,Я плут. Как мне заработать денег?
 SO_Snurre_1244,SO,OBJ,LINE,"В МИРЕ, УПРАВЛЯЕМОМ ИДЕАЛАМИ ФРИСТРАЙДЕРА, ГЛАВНЫЕ ИНСТРУМЕНТЫ ПОБЕДЫ — ПОПУЛИЗМ, ЛОББИЗМ И РАЗНООБРАЗИЕ."
 SO_Snurre_1245,SO,PC,CHOICE,Что?
 SO_Snurre_1246,SO,OBJ,LINE,"ПОПУЛИЗМ: СЕЙ ЧУДО, ОДЕРЖИМЫЙ ЧИСТЫМ ПАТОСОМ. ЕСЛИ РЕАЛЬНОСТЬ ВСТАЁТ НА ПУТИ, ПЕРЕПИШИ ФАКТЫ СРЕДСТВАМИ ЭПОХИ."
@@ -51831,7 +51831,7 @@ SO_Snurre_1256,SO,OBJ,LINE,"ВО-ПЕРВЫХ, УБЕЙ ИХ КУЛЬТУРНУ�
 SO_Snurre_1257,SO,OBJ,LINE,"ВО-ВТОРЫХ, УБЕЙ ИХ ДЕЙСТВЕННЫЙ КАПИТАЛ — ЧТОБЫ УНИЧТОЖИТЬ ВОЗВЫШЕНИЕ ОЛИГАРХИИ."
 SO_Snurre_1258,SO,OBJ,LINE,"И НАКОНЕЦ, УБЕЙ ИХ ДЕМОКРАТИЮ — В ТЕ ВРЕМЕНА, КОГДА РЕАЛЬНОСТЬ НЕ ИМЕЕТ НИКАКОГО ВЛИЯНИЯ НА СРЕДНЕГО ГРАЖДАНИНА."
 SO_Snurre_1259,SO,PC,CHOICE,«Я бард. Расскажи мне о бардах.»
-SO_Snurre_1260,SO,OBJ,LINE,ВОЛШЕБНИКИ С ЧУТЬЁМ НА РИТМ.
+SO_Snurre_1260,SO,OBJ,LINE,ЧАРОДЕИ С ЧУТЬЁМ НА РИТМ.
 SO_Snurre_1261,SO,OBJ,LINE,НЕ БОЛЬШЕ НИЧЕГО.
 SO_Snurre_1262,SO,PC,CHOICE,«Я варвар. Но на самом деле это здесь ни при чём.»
 SO_Snurre_1263,SO,OBJ,LINE,СОВЕРШЕННО ВЕРНО.
@@ -54595,7 +54595,7 @@ TE_Rubble_147,TE,Snell,LINE,Он пожимает плечами. «Достат
 TE_Rubble_148,TE,Snell,LINE,"«Не в первый раз, иначе. Норвик за прошедшие годы видел немало волшебников-отступников.»"
 TE_Rubble_149,TE,Snell,LINE,«Но способных на такое разрушение — не так много. Не в наши дни.»
 TE_Rubble_150,TE,int,LINE,"В прежние времена волшебники были куда могущественнее, до начала новой эпохи."
-TE_Rubble_151,TE,str,LINE,Тогда Урт бился с любыми бродячими чародеями.
+TE_Rubble_151,TE,str,LINE,Тогда Урт бился с любыми чародеями-отступниками.
 TE_Rubble_152,TE,str,LINE,Теперь это твоя работа.
 TE_Rubble_153,TE,con,LINE,"Гоблин приподнимает бровь, и у тебя внизу живота что-то шевелится."
 TE_Rubble_154,TE,Snell,LINE,«А ты? Умеешь колдовать огненный шар?»
@@ -57258,7 +57258,7 @@ TS_Braxo_302,TS,Braxo,LINE,«Кто знает?»
 TS_Braxo_303,TS,Snell,LINE,«Простой ответ обычно оказывается верным. Но почему-то я не так в этом уверен.»
 TS_Braxo_304,TS,PC,CHOICE,«Это не может быть заговор. Город честен.»
 TS_Braxo_305,TS,Braxo,LINE,"«Ты говоришь с человеком, который стоит за многими городскими сделками. Поверь, честность среди бюрократов встречается редко.»"
-TS_Braxo_306,TS,PC,CHOICE,"«Думаю, это бродячий заклинатель.»"
+TS_Braxo_306,TS,PC,CHOICE,"«Думаю, это маг-отступник.»"
 TS_Braxo_307,TS,Braxo,LINE,«Всё проще некуда.»
 TS_Braxo_308,TS,PC,CHOICE,"«Френд, значит?»"
 TS_Braxo_309,TS,Braxo,LINE,"«Не смотри на меня так. Худшее, что со мной может случиться, — я превращусь в летучую мышь! Разумеется, необычно привлекательную летучую мышь.»"
@@ -60017,7 +60017,7 @@ TS_Nearly_433,TS,Nearly,LINE,"Она на мгновение отводит вз
 TS_Nearly_434,TS,Nearly,LINE,Она бормочет себе под нос: «Почему я всегда притягиваю чудаков?»
 TS_Nearly_435,TS,PC,CHOICE,«Нет. Конечно нет. Это было бы странно. Я жрец. Даже Жрец.»
 TS_Nearly_436,TS,Nearly,LINE,«Правда?»
-TS_Nearly_437,TS,PC,CHOICE,"«Если честно, я скорее похож на разбойника.»"
+TS_Nearly_437,TS,PC,CHOICE,"«Если честно, я скорее персонаж класса „Плут“.»"
 TS_Nearly_438,TS,Nearly,LINE,«…Хорошо.»
 TS_Nearly_439,TS,PC,CHOICE,«…Варвар.»
 TS_Nearly_440,TS,Nearly,LINE,«…Что?»
@@ -61006,7 +61006,7 @@ TS_Pinja_79,TS,Pinja,LINE,«Ах.»
 TS_Pinja_80,TS,PC,CHOICE,«Нет. Мне просто интересно.»
 TS_Pinja_81,TS,Pinja,LINE,«М-м.»
 TS_Pinja_82,TS,Pinja,LINE,"«Как <b>ты</b> думаешь, что произошло?»"
-TS_Pinja_83,TS,PC,CHOICE,«Вор-заклинатель.»
+TS_Pinja_83,TS,PC,CHOICE,«Маг-отступник.»
 TS_Pinja_84,TS,PC,CHOICE,«Это был несчастный случай.»
 TS_Pinja_85,TS,PC,CHOICE,"«Без понятия. Наверное, ничего сложного.»"
 TS_Pinja_86,TS,PC,CHOICE,"«Не знаю, но я выясню.»"
@@ -64279,7 +64279,7 @@ TS_Viira_175,TS,int,LINE,Здравое рассуждение.
 TS_Viira_176,TS,Viira,LINE,"«Одни могут увидеть в этом коррупцию, но я бы скорее назвал это простой, скучной, хотя в конечном счёте безвредной бюрократией.»"
 TS_Viira_177,TS,PC,CHOICE,«Что именно ты слышал?»
 TS_Viira_178,TS,Viira,LINE,«Оно взорвалось. Инцидент с камином.»
-TS_Viira_179,TS,Viira,LINE,"«Чушь, конечно. Скорее всего, какой-нибудь отступник-заклинатель.»"
+TS_Viira_179,TS,Viira,LINE,"«Чушь, конечно. Скорее всего, какой-нибудь маг-отступник.»"
 TS_Viira_180,TS,PC,CHOICE,«<i>Эзотерик</i>. Я постоянно слышу это слово. Что оно означает?»
 TS_Viira_181,TS,int,LINE,Правда?
 TS_Viira_182,TS,Viira,LINE,«Это значит…» Её глаза на некоторое время рассеиваются. На переносице залегает складка.
@@ -64999,7 +64999,7 @@ TS_Xerba_4,TS,PC,CHOICE,«Гражданин.»
 TS_Xerba_5,TS,PC,CHOICE,"«Привет, я <b>Жрец</b>.»"
 TS_Xerba_6,TS,PC,CHOICE,"«Поверь или нет, я на самом деле не жрец.»"
 TS_Xerba_7,TS,Xerba,LINE,«…Что?»
-TS_Xerba_8,TS,PC,CHOICE,«Я — разбойник. Люблю воровать вещи у людей. Но не у тебя: на тебе вроде ничего ценного нет.»
+TS_Xerba_8,TS,PC,CHOICE,«Я — плут. Люблю воровать вещи у людей. Но у тебя не стану: на тебе вроде ничего ценного нет.»
 TS_Xerba_9,TS,Xerba,LINE,"Она ещё какое-то время смотрит на тебя, а затем говорит:"
 TS_Xerba_10,TS,Xerba,LINE,«Ты… не можешь воровать у людей.»
 TS_Xerba_11,TS,Xerba,LINE,«Это незаконно.»
@@ -66112,7 +66112,7 @@ UP_Brr_101,UP,int,LINE,"Вполне возможно, это были прос�
 UP_Brr_102,UP,int,LINE,В любом случае — да.
 UP_Brr_103,UP,int,LINE,Проклятие холода.
 UP_Brr_104,UP,PC,CHOICE,Кто наложил заклинание?
-UP_Brr_105,UP,int,LINE,"Это мог быть какой-нибудь заклинатель-неуч, или грибное существо нашло свиток заклинания и неудачно его применило."
+UP_Brr_105,UP,int,LINE,"Это мог быть маг-отступник, а может, грибное существо нашло свиток заклинания и неудачно его применило."
 UP_Brr_106,UP,int,LINE,Но реалистичнее…
 UP_Brr_107,UP,int,LINE,Это сделал ледяной тролль.
 UP_Brr_108,UP,int,LINE,Но реалистичнее…
@@ -68223,7 +68223,7 @@ UP_LivingRoots_49,UP,Snell,LINE,«О чёрт. Верно. Разговор с �
 UP_LivingRoots_50,UP,Snell,LINE,"«Но говорить за тебя буду я, мистер Друид.»"
 UP_LivingRoots_51,UP,PC,CHOICE,«Я — Жрец.»
 UP_LivingRoots_52,UP,OBJ,LINE,«<i>Клэр… эрк</i>.»
-UP_LivingRoots_53,UP,PC,CHOICE,«Я хитрый разбойник.»
+UP_LivingRoots_53,UP,PC,CHOICE,«Я хитрый плут.»
 UP_LivingRoots_54,UP,OBJ,LINE,«<i>Руу… джи</i>.»
 UP_LivingRoots_55,UP,PC,CHOICE,«Я великий волшебник небес.»
 UP_LivingRoots_56,UP,OBJ,LINE,«<i>Визз… эрд</i>.»
@@ -68413,7 +68413,7 @@ UP_Meri_93,UP,Meri,LINE,«<i>Жрец?</i>»
 UP_Meri_94,UP,PC,CHOICE,«Верно.»
 UP_Meri_95,UP,Meri,LINE,"«Буду я проклят. Единственный и неповторимый, да?»"
 UP_Meri_96,UP,PC,CHOICE,«Меня зовут Рагн. Я служу в правительстве.»
-UP_Meri_97,UP,PC,CHOICE,"«Сейчас я — вольный искатель, чем-то вроде Разбойника. Из хитрых.»"
+UP_Meri_97,UP,PC,CHOICE,"«Сейчас я скорее исследовательница, что-то вроде плута. Из тех, кто действует скрытно.»"
 UP_Meri_98,UP,Meri,LINE,«О!»
 UP_Meri_99,UP,wis,LINE,Он выглядит искренне впечатлённым.
 UP_Meri_100,UP,dex,LINE,Он ТВОЙ ЧЕЛОВЕК!
@@ -68598,9 +68598,9 @@ UP_Meri_273,UP,Meri,LINE,"«Я спустился с помощью своего
 UP_Meri_274,UP,Meri,LINE,"«Следуя указаниям, купленным у старого отставного Жреца — источника, который рекомендуют, — я нашёл тайный путь вниз из тоннелей Толстада!»"
 UP_Meri_275,UP,Meri,LINE,«Путь был лёгким. Это меня даже удивило.»
 UP_Meri_276,UP,PC,CHOICE,«На кого ты применил Очаровать человека?»
-UP_Meri_277,UP,Meri,LINE,"«На бугбира по имени Лунная Кровь! Прелестная дама, но она в некотором смысле заставила меня действовать.»"
+UP_Meri_277,UP,Meri,LINE,"«На багбира по имени Лунная Кровь! Прелестная дама, но она в некотором смысле заставила меня действовать.»"
 UP_Meri_278,UP,PC,CHOICE,«Ты применил Очаровать человека к Лунной Крови?»
-UP_Meri_279,UP,Meri,LINE,"«К бугбиру? О да, прелестная дама. Да, мне пришлось, к сожалению. Думаю, иначе она бы меня не пропустила.»"
+UP_Meri_279,UP,Meri,LINE,"«К багбиру? О да, прелестная дама. Да, мне пришлось, к сожалению. Думаю, иначе она бы меня не пропустила.»"
 UP_Meri_280,UP,PC,CHOICE,(Ударить его в лицо.)
 UP_Meri_281,UP,str,LINE,"Ты наносишь удар, целясь прямо в лицо Фристрайдера, и тот выглядит полным дураком."
 UP_Meri_282,UP,Meri,LINE,Он издаёт смутлённый стон.
@@ -68902,7 +68902,7 @@ UP_Meri_570,UP,PC,CHOICE,«А невидимый огненный мужчина
 UP_Meri_571,UP,Meri,LINE,Он кивает.
 UP_Meri_572,UP,Meri,LINE,"«Полагаю, этот невидимый человек, скорее всего, бежал прямо от взрыва…»"
 UP_Meri_573,UP,Meri,LINE,«Он тоже вошёл в одну из этих <i>щелей</i> в древних вратах. Как бы невероятно и чудесно это ни звучало.»
-UP_Meri_574,UP,Ettir,LINE,"«Если есть преступный заклинатель, способный скрыться внутри Ворот, кому-то придётся его схватить.»"
+UP_Meri_574,UP,Ettir,LINE,"«Если маг-отступник способен скрыться внутри Врат, кому-то придётся его схватить.»"
 UP_Meri_575,UP,Snell,LINE,«Хм. Как ты вообще собираешься с этим разобраться?»
 UP_Meri_576,UP,Snell,LINE,"«То есть, мы… проследуем за ним через щель?»"
 UP_Meri_577,UP,PC,CHOICE,"«Да, Снелл. Мы <i>обязаны</i> проследовать за ним через щель.» (Смотреть на Колонну.)"
@@ -69001,7 +69001,7 @@ UP_Meri_669,UP,con,LINE,ПРЕДЕЛЫ.
 UP_Meri_670,UP,Snell,LINE,«Я не отношусь к этому легкомысленно. Клянусь.»
 UP_Meri_671,UP,PC,CHOICE,«Почему Сагелист <i>так</i> сильно этого хочет?»
 UP_Meri_672,UP,Snell,LINE,"Гоблин задумывается, его взгляд падает на Колонну."
-UP_Meri_673,UP,Snell,LINE,"Потом он говорит тебе: «Если мы не добудемся чего-то осязаемого — ну, например, этого заклинателя- ROGUE, — тогда На полпути будут в реально дерьмовой ситуации.»"
+UP_Meri_673,UP,Snell,LINE,"Потом он говорит тебе: «Если мы не раздобудем чего-то осязаемого — например, этого мага-отступника, — На полпути окажутся в полной заднице.»"
 UP_Meri_674,UP,PC,CHOICE,"«Что, Сагелист теряет силу?»"
 UP_Meri_675,UP,Snell,LINE,«Нет. У неё это <i>в рукаве</i>.»
 UP_Meri_676,UP,PC,CHOICE,«Почему? Из-за чайной.»
@@ -73792,14 +73792,14 @@ VL_Visken_1038,VL,PC,CHOICE,«Я не жрец. Ну уж точно.»
 VL_Visken_1039,VL,Visken,LINE,«Интересно.»
 VL_Visken_1040,VL,Visken,LINE,«А кто ты тогда?»
 VL_Visken_1041,VL,dex,LINE,Даже вопрос. Ты явно…
-VL_Visken_1042,VL,PC,CHOICE,«Я сексуальный разбойник.»
+VL_Visken_1042,VL,PC,CHOICE,«Я сексуальный плут.»
 VL_Visken_1043,VL,Visken,LINE,Бледный человек молча смотрит на тебя несколько секунд.
 VL_Visken_1044,VL,dex,LINE,"Чёрт, да."
 VL_Visken_1045,VL,Visken,LINE,Наконец он возвращается к своим документам.
 VL_Visken_1046,VL,Visken,LINE,«Захватывающе.»
 VL_Visken_1047,VL,wis,LINE,На его лице не видно никакого восторга.
 VL_Visken_1048,VL,str,LINE,Воровство — позорный поступок.
-VL_Visken_1049,VL,dex,LINE,Разбойник — не только это.
+VL_Visken_1049,VL,dex,LINE,Плут не сводится к воровству.
 VL_Visken_1050,VL,dex,LINE,"Мы ещё и крадёмся в тени. О, и соблазняем тоже."
 VL_Visken_1051,VL,str,LINE,"Вот что такое глупая <i>жизнь преступника</i>. Тот, кто поддаётся хаосу, не настоящий мужчина."
 VL_Visken_1052,VL,dex,LINE,Хаос — это весело! И очень прибыльно.
@@ -74763,11 +74763,11 @@ WL_Bookbinder_37,WL,PC,CHOICE,«Друиды иногда читают книг�
 WL_Bookbinder_38,WL,Snell,LINE,"«Не знаю, Жрец.»"
 WL_Bookbinder_39,WL,Snell,LINE,Он стонет.
 WL_Bookbinder_40,WL,wis,LINE,"По его звуку слышно, что он устал от твоих разговоров о друидах, хотя ему следовало бы радоваться твоей страстной любви к природе."
-WL_Bookbinder_41,WL,PC,CHOICE,«Разбойник.»
+WL_Bookbinder_41,WL,PC,CHOICE,«Плут.»
 WL_Bookbinder_42,WL,Snell,LINE,«…Что?»
-WL_Bookbinder_43,WL,PC,CHOICE,«Разбойник.»
+WL_Bookbinder_43,WL,PC,CHOICE,«Плут.»
 WL_Bookbinder_44,WL,Snell,LINE,«Простите?»
-WL_Bookbinder_45,WL,PC,CHOICE,«Разбойник. Я разбойник.»
+WL_Bookbinder_45,WL,PC,CHOICE,«Плут. Я плут.»
 WL_Bookbinder_46,WL,Snell,LINE,«Я не спрашивал!»
 WL_Bookbinder_47,WL,Snell,LINE,"«Ну. Может, нам не стоит стоять перед лавкой и разговаривать.»"
 WL_Bookbinder_48,WL,Snell,LINE,«Ты стучишь или мы уходим?»
@@ -74790,7 +74790,7 @@ WL_Bookbinder_64,WL,int,LINE,Птиценог.
 WL_Bookbinder_65,WL,dex,LINE,А! Сова!
 WL_Bookbinder_66,WL,Shen,LINE,«Гм? <i>Жрец</i>?»
 WL_Bookbinder_67,WL,PC,CHOICE,"«Нет, я волшебник.»"
-WL_Bookbinder_68,WL,PC,CHOICE,"«Нет, я разбойник.»"
+WL_Bookbinder_68,WL,PC,CHOICE,"«Нет, я плут.»"
 WL_Bookbinder_69,WL,PC,CHOICE,«Ага.»
 WL_Bookbinder_70,WL,Shen,LINE,«Хм.»
 WL_Bookbinder_71,WL,Shen,LINE,Птиценог за дверью взъерошивает перья.
@@ -75115,7 +75115,7 @@ WL_CornerHouse_46,WL,OBJ,LINE,«<i>Un magicien?</i>»
 WL_CornerHouse_47,WL,wis,LINE,Он морщится.
 WL_CornerHouse_48,WL,OBJ,LINE,"«Не знаю разницы. И, честно говоря, мне всё равно.»"
 WL_CornerHouse_49,WL,int,LINE,Простофиля. Как грустно.
-WL_CornerHouse_50,WL,PC,CHOICE,«Лично я предпочитаю видеть себя в роли лихого разбойника.»
+WL_CornerHouse_50,WL,PC,CHOICE,«Лично я предпочитаю считать себя лихим плутом.»
 WL_CornerHouse_51,WL,OBJ,LINE,«Лихого…? <i>Нет.</i> Ты явно Жрец.»
 WL_CornerHouse_52,WL,dex,LINE,Ишь как пренебрежительно.
 WL_CornerHouse_53,WL,wis,LINE,Он видит тебя насквозь.
@@ -75383,8 +75383,8 @@ WL_Giorgio_168,WL,OBJ,LINE,"«Двуногий, безперый двуруки�
 WL_Giorgio_169,WL,OBJ,LINE,«Ты не согласен?»
 WL_Giorgio_170,WL,PC,CHOICE,«Не согласен!» (Приготовься спорить о своей личности.)
 WL_Giorgio_171,WL,OBJ,LINE,«Конечно. И какую неправду ты тогда изрыешь в мою сторону?»
-WL_Giorgio_172,WL,PC,CHOICE,«На самом деле я очень крутой разбойник.»
-WL_Giorgio_173,WL,OBJ,LINE,«Разбойник? В смысле… бродяга?»
+WL_Giorgio_172,WL,PC,CHOICE,«На самом деле я очень крутой плут.»
+WL_Giorgio_173,WL,OBJ,LINE,«Плут? Вроде… пройдоха?»
 WL_Giorgio_174,WL,PC,CHOICE,"«Да, из тех, кто крадёт.»"
 WL_Giorgio_175,WL,PC,CHOICE,"«Да, из тех, кто развлекает.»"
 WL_Giorgio_176,WL,PC,CHOICE,«Нет. Я всегда совершенно серьёзный и совсем не весёлый.»
@@ -75729,14 +75729,14 @@ WL_Rollo_Modissa_48,WL,Rollo,LINE,«О. Конечно!»
 WL_Rollo_Modissa_49,WL,PC,CHOICE,«Подожди секунду. Нет… Мне нужно кое-что исправить. Я на самом деле не жрец.»
 WL_Rollo_Modissa_50,WL,Rollo,LINE,«Ты нет?»
 WL_Rollo_Modissa_51,WL,Nisse,LINE,Парень за ним начинает запинаться: «П-чего ты тогда? Ну… в смысле… кто?»
-WL_Rollo_Modissa_52,WL,PC,CHOICE,«Я на самом деле крутой разбойник.»
+WL_Rollo_Modissa_52,WL,PC,CHOICE,«Я вообще-то крутой плут.»
 WL_Rollo_Modissa_53,WL,Modissa,LINE,«Что?»
 WL_Rollo_Modissa_54,WL,PC,CHOICE,"«Ну, ты знаешь. Такой, который со шпагой.»"
 WL_Rollo_Modissa_55,WL,PC,CHOICE,"«Ну, ты знаешь. Вор.»"
 WL_Rollo_Modissa_56,WL,PC,CHOICE,"«Ну, ты знаешь. Хитрый лазутчик или что-то вроде того.»"
 WL_Rollo_Modissa_57,WL,Modissa,LINE,«…Немыслимо.» Она бормочет себе под нос и утыкается лицом в ладони.
 WL_Rollo_Modissa_58,WL,cha,LINE,Ей это уже порядком надоело.
-WL_Rollo_Modissa_59,WL,dex,LINE,"Другим разбойнику досталась бы, пожалуй, более достойная реакция."
+WL_Rollo_Modissa_59,WL,dex,LINE,"Похоже, я неважный плут: другой получил бы реакцию получше."
 WL_Rollo_Modissa_60,WL,PC,CHOICE,"«Разве ты не видишь, что я могущественный волшебник?»"
 WL_Rollo_Modissa_61,WL,Rollo,LINE,«А! Вроде жреца-волшебника!»
 WL_Rollo_Modissa_62,WL,PC,CHOICE,«Пусть будет так. Я принимаю.»
@@ -76261,7 +76261,7 @@ WL_Rollo_Modissa_563,WL,Jehanne,LINE,"«Да, большое спасибо!»"
 WL_Rollo_Modissa_564,WL,PC,CHOICE,«Отлично. Теперь ты тоже пошёл нахер. И перестань доставлять ту газету — это реально очень незаконно.»
 WL_Rollo_Modissa_565,WL,Modissa,LINE,«Как скажешь. Пойдём.»
 WL_Rollo_Modissa_566,WL,PC,CHOICE,«Твоё дело благородное. Продолжай в том же духе.»
-WL_Rollo_Modissa_567,WL,Modissa,LINE,"«М-м. Сделаю. И если захочешь помочь: приходи в квартиру Симий, в Дырах.»"
+WL_Rollo_Modissa_567,WL,Modissa,LINE,"«М-м. Сделаю. И если захочешь помочь: приходи в квартиру Симия, в Дырах.»"
 WL_Rollo_Modissa_568,WL,Modissa,LINE,"«Пока ты друг, тебе будут рады.»"
 WL_Rollo_Modissa_569,WL,PC,CHOICE,(Вздыхаешь и отворачиваешься от них.)
 WL_Rollo_Modissa_570,WL,int,LINE,"Не проходит и минуты, как они расходятся, и Водный путь становится чуть тише."
@@ -76406,6 +76406,6 @@ WL_Window_46,WL,PC,CHOICE,(Просто уйти.)
 WL_Window_47,WL,dex,LINE,Время насладиться добычей…
 WL_Window_48,WL,Snell,LINE,«Отлично сделано.»
 WL_Window_49,WL,Snell,LINE,"«И если мы встретим кого-нибудь внутри, помни: ты жрец на задании, а не взломщик.»"
-WL_Window_50,WL,PC,CHOICE,«А если это будет <i>хитрый разбойник</i>?»
+WL_Window_50,WL,PC,CHOICE,«А если это будет <i>хитрый плут</i>?»
 WL_Window_51,WL,Snell,LINE,«Конечно. Так уже немного лучше.»
 WL_Window_52,WL,PC,CHOICE,Неплохо.

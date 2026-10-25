@@ -6,6 +6,7 @@ All notable changes to Esoteric Ebb RU. Versions are ordered newest first.
 
 ### Fixed
 
+- Standardized character-class names and the Bugbear creature term, unified «маг-отступник» for outlawed spellcasters, repaired inconsistent forms of «Плут», «Чародей» and «Колдун», and corrected the declension of «Симий».
 - Repaired the Tôlk and Makt glossary entries, moved misplaced periods outside quoted terms in 35 glossary notes, and rewrote the Houses of Healing note to remove a broken repetition.
 - Corrected contextual dialogue: the Dwarvish word for a trial, a voter response, the she-elf wordplay, the Gate of Jor reflection, and a movement prompt that addressed the player formally.
 - Smoothed Akzel's estimate of a week in the City Below and the player's reaction to it.

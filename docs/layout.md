@@ -43,12 +43,15 @@ measurements were taken against the real font data out of the game's assets:
 | Key | Before | After |
 | --- | --- | --- |
 | `AbilityScoreInfo_Strength_Uses1` | ДОПОЛНИТЕЛЬНЫЕ ПРЕДМЕТЫ | ЛИШНИЕ ПРЕДМЕТЫ |
-| `AbilityScoreInfo_Dexterity_Uses2` | Как стремительный Разбойник | Как дерзкий разбойник |
+| `AbilityScoreInfo_Dexterity_Uses2` | Как дерзкий разбойник | Как лихой плут |
 | `AbilityScoreInfo_Constitution_Uses3` | Твоя политическая партия на прошлой неделе получила 2% голосов, и | Твоя партия набрала 2% за прошлую неделю, и |
 | Third line of `AbilityScoreInfo_Strength_LoreFootNote` | `<b><size=33>DIVINE MISSION</b>` | `<b><size=25>U+200B</b>` (invisible) |
 
 The Wisdom line keeps the word and lowers the size: the word was correct, the
 box was not.
+
+The Dexterity class label `Как лихой плут` measures 276 px in the selected
+Noto Serif font at size 35. It fits the 325 px uses column.
 
 ## Glossary notes
 

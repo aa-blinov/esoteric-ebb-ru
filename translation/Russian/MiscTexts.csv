@@ -272,7 +272,7 @@ FinalMessage_TeaShop,OBJ,"(Я до сих пор не могу поверить,
 FinalMessage_EverGlad,OBJ,"(Я до сих пор не могу поверить, что ты подписал контракт с Вечно-Радостным. Это изменит мои планы довольно значительно.)"
 FinalMessage_CLERIC,OBJ,"(Или, точнее, <i>ЖРЕЦ</i>, верно?)"
 FinalMessage_WIZARD,OBJ,"(Или, точнее, твой <i>волшебник</i>, верно?)"
-FinalMessage_ROGUE,OBJ,"(Или, точнее, твой <i>долбоёб-разбойник</i>, верно?)"
+FinalMessage_ROGUE,OBJ,"(Или, точнее, твой <i>долбоёб-плут</i>, верно?)"
 FinalMessage_BARB,OBJ,"(Или, точнее, твой питающийся непереработанным мясом <i>ВАРВАР</i>, верно?)"
 FinalMessage_BARD,OBJ,"(Или, точнее, твой будущий легендарный <i>ТАНЦУЮЩИЙ БАРД</i>, верно?)"
 FinalMessage_DRUID,OBJ,"(Или, точнее, твой добродушный местный <i>ДРУИД</i>, верно?)"
@@ -322,7 +322,7 @@ FinalMessage_Fool_1,OBJ,Прости. Таковы правила. Я их не 
 FinalMessage_Fool_2,OBJ,"Хорошо, технически я их всё же написал. Но воспринимай это как весёлое испытание. Сложный режим!"
 FinalMessage_Fool_Sword_0,OBJ,"И что важнее: ты несёшь <i>Меч Тола</i> на спине. Подумай, что написано на рукояти."
 FinalMessage_Fool_Sword_1,OBJ,"Благодаря этому недостатку ты разгадал ту самую подсказку намного, <i>намного</i> раньше, чем следовало. Я говорю — на десять уровней раньше. Так что радуйся."
-FinalMessage_ROGUECard_0,OBJ,"И ещё кое-что — ты вытянул карту РАЗБОЙНИКА, верно? Из Колоды множества вещей?"
+FinalMessage_ROGUECard_0,OBJ,"И ещё кое-что — ты вытянул карту ПЛУТА, верно? Из Колоды множества вещей?"
 FinalMessage_ROGUECard_1,OBJ,"Да, это ещё отомстит тебе. Скажем так, где-то в Норвике есть очень злой старик, который сейчас — тайком — плетёт твою гибель."
 FinalMessage_ROGUECard_2,OBJ,Но это будет просто весёлым испытанием. Сложным режимом!
 FinalMessage_Darrow_0,OBJ,"В конечном счёте, однако, меня больше всего заинтересовали твои дела с Дарроу. То, что он поделился всеми теми сведениями о Пророчестве Кровавого языка."
@@ -703,7 +703,7 @@ SpecName_Barbarian_DeathDefying,,Смертельно опасный
 SpecName_Bard_Philogynistic,,Женоненавистник
 SpecName_Druid_NatureLoving,,Любящий природу
 SpecName_Indefinitive_Cleric,,а <b>Жрец</b>
-SpecName_Indefinitive_Rogue,,а <b>Разбойник</b>
+SpecName_Indefinitive_Rogue,,а <b>Плут</b>
 SpecName_Indefinitive_Wizard,,а <b>Волшебник</b>
 SpecName_Indefinitive_Druid,,а <b>Друид</b>
 SpecName_Indefinitive_Bard,,а <b>Бард</b>
@@ -731,7 +731,7 @@ Race_Gnome_Glintfolk,,"Гном, Блескфолк"
 Race_Goblin_Forest,,Лесной гоблин
 Race_Goblin_Hill,,Холмовой гоблин
 Race_Goblin_Cave,,Пещерный гоблин
-Race_Bugbear,,Багбер
+Race_Bugbear,,Багбир
 Race_Ogre,,Огр
 Race_Troll,,Тролль
 Race_Birdfolk,,Птицелюд
@@ -973,7 +973,7 @@ Area_DS,,Пьяный сфинкс
 Area_GG,,Гоблинский сад
 Area_GW,,Склад Гильдии
 Area_PC,,Пересечение Колонн
-Area_SH,,Нора Симий
+Area_SH,,Нора Симия
 Area_SP,,Усадьба Снелла
 Area_SO,,Кабинет Снурре
 Area_AR,,Асканий-Ридс
@@ -1300,7 +1300,7 @@ AbilityScoreInfo_Dexterity_RoleLow_Point6,,Беден как нищета. Оч�
 AbilityScoreInfo_Dexterity_RoleNotice,,Как Ловкость влияет на Жреца.
 AbilityScoreInfo_Dexterity_Uses1,,"С достаточной Ловкостью можно
 <size=33>УКРАСТЬ ЧТО УГОДНО."
-AbilityScoreInfo_Dexterity_Uses2,,"Вскрывать замки, Подкрасться, Уклоняться от ловушек, Бросать инициативу и быстро реагировать <size=35>Как дерзкий разбойник"
+AbilityScoreInfo_Dexterity_Uses2,,"Вскрывать замки, Подкрасться, Уклоняться от ловушек, Бросать инициативу и быстро реагировать <size=35>Как лихой плут"
 AbilityScoreInfo_Dexterity_Uses3,,"Скопить состояние, как <size=40>Республиканец <size=41>Революционный"
 AbilityScoreInfo_Dexterity_Uses4,,"Просто беги, болван"
 AbilityScoreInfo_Dexterity_UsesNotice,,Механические преимущества Ловкости
