@@ -377,6 +377,29 @@ The Chinese translation reads the same key as 交谈, a talk, and the icon
 next to it is a speech bubble, so the name was not the right one to begin
 with. It is «Говорить» now, and the name of the hand is «Взять».
 
+## The statistics of the character sheet
+
+The panel of the character that stands on the right of the inventory lists
+the statistics of the character. The names of the rows are right-aligned in a
+column of about **170 px**, and every one of them has to stay on one line: a
+name that breaks takes the line of the row below it.
+
+| Name | Result |
+| --- | --- |
+| `Очки здоровья` | breaks after «Очки», «Здоровья» falls on the row of the dice |
+| `Кубики здоровья` | breaks after «Кубики» |
+| `Бонус мастерства` | breaks after «Бонус» |
+| `Очки` | fits |
+| `Кубики` | fits |
+| `Бонус` | fits |
+
+The name of the empty feat slot had the same trouble: «[Пустой слот для
+умения]» needs 270 px in a row of 195 px, and the second line crossed the
+rules of the rows below. It is «[Пустой слот]» now.
+
+The description of the dice called them «Кости здоровья» while the name of
+the row called them «Кубики здоровья». Both say «кубики» now.
+
 ## Checking a line yourself
 
 ```bash

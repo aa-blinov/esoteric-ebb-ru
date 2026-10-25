@@ -8,6 +8,22 @@ All notable changes to Esoteric Ebb RU. Versions are ordered newest first.
 
 - Nothing yet.
 
+## 0.15.0 (2026-10-25)
+
+### Fixed
+
+- **The names of the statistics keep their row.** The names of the statistics
+  on the character sheet are right-aligned in a column of about 170 px, and
+  «Очки здоровья», «Кубики здоровья» and «Бонус мастерства» broke into two
+  lines: the second line of each of them fell on the row below. They are
+  «Очки», «Кубики» and «Бонус» now.
+- **The empty feat slot keeps its row.** «[Пустой слот для умения]» needs
+  270 px in a row of 195 px, and its second line crossed the rules of the
+  rows below. It is «[Пустой слот]» now.
+- **The dice have one name.** The description of the dice called them «Кости
+  здоровья» while the name of the row called them «Кубики здоровья». Both say
+  «кубики» now.
+
 ## 0.14.0 (2026-10-25)
 
 ### Fixed

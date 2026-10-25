@@ -35,7 +35,7 @@ Crowns_Gained,,Получен предмет: «Пучок Корон.»
 Item_Gained,,Получен предмет: «{0}.»
 Feat_Unlocked,,Разблокировано умение «{0}»
 Feat_Unlocked_NoName,,Умение разблокировано
-Feat_EmptySlot,,[Пустой слот для умения]
+Feat_EmptySlot,,[Пустой слот]
 QuestPoint_Added,,«{0}» добавлено.
 QuestPoint_Completed,,«{0}» выполнено.
 QuestPoint_Updated,,«{0}» обновлено.
