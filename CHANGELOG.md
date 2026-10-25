@@ -8,6 +8,17 @@ All notable changes to Esoteric Ebb RU. Versions are ordered newest first.
 
 - Nothing yet.
 
+## 0.14.0 (2026-10-25)
+
+### Fixed
+
+- **The name of the interaction fits its plate.** The icons around an object
+  carry a name in a plate of about 95 px, and «Вступить в бой» needs 145 px:
+  the text came out of the plate on both sides. The name was also the wrong
+  one — the Chinese translation reads the same key as 交谈, a talk, and the
+  icon next to it is a speech bubble. It is «Говорить» now, and the name of
+  the hand is «Взять».
+
 ## 0.13.0 (2026-10-25)
 
 ### Fixed

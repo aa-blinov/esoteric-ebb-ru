@@ -366,6 +366,17 @@ needs 158 px at the size of 30, so the display font broke both words in the
 middle and the second one fell out of the panel. The size of the name is 20
 now, and the two words fit on their own lines.
 
+## The names of the interaction
+
+The icons that open around an object carry a name in a plate of about
+**95 px**, and the plate belongs to the game. The names of the game are one
+word each. Three of the Russian ones fit: «Войти», «Мелочь» and «Смотреть».
+
+«Вступить в бой» needs **145 px** and came out of the plate on both sides.
+The Chinese translation reads the same key as 交谈, a talk, and the icon
+next to it is a speech bubble, so the name was not the right one to begin
+with. It is «Говорить» now, and the name of the hand is «Взять».
+
 ## Checking a line yourself
 
 ```bash

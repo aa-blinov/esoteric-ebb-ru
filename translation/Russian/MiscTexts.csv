@@ -40,9 +40,9 @@ QuestPoint_Added,,«{0}» добавлено.
 QuestPoint_Completed,,«{0}» выполнено.
 QuestPoint_Updated,,«{0}» обновлено.
 TriInteraction_Enter,,Войти
-TriInteraction_Trifle,,Мелочь
+TriInteraction_Trifle,,Взять
 TriInteraction_Behold,,Смотреть
-TriInteraction_Engage,,Вступить в бой
+TriInteraction_Engage,,Говорить
 Examine_Examine,,Осмотреть
 Examine_Memorize,,Запомнить
 Examine_Consume,,Употребить
