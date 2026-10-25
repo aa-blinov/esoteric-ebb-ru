@@ -60,6 +60,18 @@ At size 22, it measures 472 px in the game's Noto Serif font and fits the
 500 px text area on one line. The revised `Glossary_Response_690` wraps to five
 lines at the same size; its widest line measures 474 px.
 
+The Urth terminology entries were measured in the same font at size 22. The
+text wraps at spaces within the 500 px area:
+
+| Key | Lines | Widest line |
+| --- | ---: | ---: |
+| `Glossary_Response_4` | 4 | 431 px |
+| `Glossary_Response_104` | 5 | 483 px |
+| `Glossary_Response_574` | 7 | 489 px |
+| `Glossary_Response_575` | 9 | 484 px |
+| `Glossary_Response_576` | 5 | 447 px |
+| `Glossary_Response_577` | 7 | 485 px |
+
 ## The uses column
 
 The third tab of the lore panel, **Польза**, is a narrow column. The English

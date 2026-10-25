@@ -912,7 +912,7 @@
   "Lake": "Озеро",
   "Lake Cujah": "Озеро Куджа",
   "Lake Primus": "Озеро Примус",
-  "Landed Urthfolk": "Высадившиеся уртхфолки",
+  "Landed Urthfolk": "Уртфолки-землевладельцы",
   "Languages": "Языки",
   "Lantern": "Фонарь",
   "Larper": "Ролевик",
@@ -1104,7 +1104,7 @@
   "North Wall": "Северная стена",
   "Norvik": "Норвик",
   "Norvik Azgal Council": "Совет Азгала Норвика",
-  "Norvikian": "Норвикийцы",
+  "Norvikian": "Норвикиец",
   "Norvikian Crown": "Норвикийская корона",
   "Norvikian Post": "Норвикийская почта",
   "Norvikians": "Норвикийцы",
@@ -1883,5 +1883,7 @@
   "Âppleskrutt": "Аппелескрутт",
   "Ånggrytan": "Энггрытан",
   "Ôrka": "Орка",
-  "Ôstragârd": "Остраград"
+  "Ôstragârd": "Остраград",
+  "Urthguarder": "Уртгардовец",
+  "Urthguarders": "Уртгардовцы"
 }
