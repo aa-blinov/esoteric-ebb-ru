@@ -50,6 +50,13 @@ measurements were taken against the real font data out of the game's assets:
 The Wisdom line keeps the word and lowers the size: the word was correct, the
 box was not.
 
+## Glossary notes
+
+`Glossary_Response_706` now reads «Толк» по-дворфски значит «переводчик».
+At size 22, it measures 472 px in the game's Noto Serif font and fits the
+500 px text area on one line. The revised `Glossary_Response_690` wraps to five
+lines at the same size; its widest line measures 474 px.
+
 ## The uses column
 
 The third tab of the lore panel, **Польза**, is a narrow column. The English

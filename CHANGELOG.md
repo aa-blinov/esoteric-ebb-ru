@@ -6,6 +6,8 @@ All notable changes to Esoteric Ebb RU. Versions are ordered newest first.
 
 ### Fixed
 
+- Repaired the Tôlk and Makt glossary entries, moved misplaced periods outside quoted terms in 35 glossary notes, and rewrote the Houses of Healing note to remove a broken repetition.
+- Corrected contextual dialogue: the Dwarvish word for a trial, a voter response, the she-elf wordplay, the Gate of Jor reflection, and a movement prompt that addressed the player formally.
 - Smoothed Akzel's estimate of a week in the City Below and the player's reaction to it.
 - Replaced the self-referential City Below gloss with “Подгородье” and rewrote its description to read naturally.
 - Renamed the Divine pillar of magic to “Божественность” so its heading agrees grammatically with its glossary description.
