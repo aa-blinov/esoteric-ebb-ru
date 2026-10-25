@@ -458,8 +458,10 @@ the tagline of the game. The English source reads
 
 The line cannot be taken away. A line of ours that is emptied is replaced by
 the English original of the game, as the panel of the character sheet shows
-when its line is empty. The only lever is the wording, and the same line
-stands in the panel of Strength as its caption.
+when its line is empty. A line that holds nothing but a non-breaking space
+does the same, because the game trims the spaces before it looks. The only
+lever is the wording, and the same line stands in the panel of Strength as
+its caption.
 
 ## Checking a line yourself
 
