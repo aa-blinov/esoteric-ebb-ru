@@ -6,6 +6,7 @@ All notable changes to Esoteric Ebb RU. Versions are ordered newest first.
 
 ### Fixed
 
+- Replaced the self-referential City Below gloss with “Подгородье” and rewrote its description to read naturally.
 - Renamed the Divine pillar of magic to “Божественность” so its heading agrees grammatically with its glossary description.
 - Removed nine accidental Chinese fragments from dialogue and glossary entries; restored the source's punch-weight joke and corrected the troll description.
 - Shortened alignment labels and reduced the neutral and chaotic terms to sizes 16 and 19 so every two-line option fits its character-sheet field.
