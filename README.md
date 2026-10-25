@@ -80,7 +80,7 @@ without touching the menu:
 | Setting | Value | What it does |
 | --- | --- | --- |
 | `LanguageCode` | `RU` | The language the game starts in. `EN` returns to English. |
-| `FontSize` | `20` | Size of the dialogue text. The developer recommends 24 for English; Russian needs 20 to keep the same line breaks in the fixed panels. |
+| `FontSize` | `22` | Size of the dialogue text. The developer recommends 24 for English; at 24 the Russian takes a line more in the fixed panels, so 22 or 20 is the right size. |
 | `UIFontSize` | `0` | Interface size: 0 ordinary, 1 large, 2 huge. Nothing below ordinary exists. |
 | `FontIndex` | `6` | The dialogue font. 0 is Ebberia and 2 is Josefin Sans; neither of them carries any Cyrillic, and the game draws the Russian text of such a panel as a row of runes. The installer moves the setting to Ubuntu when it finds one of the two. |
 
@@ -116,6 +116,83 @@ that carries such a word is faithful when the source carries it too.
 ```bash
 python3 scripts/scan_ai_patterns.py --verbose
 ```
+
+## Install it on your own copy
+
+**1. Take the folder.** The translation is the `translation/Russian/` folder of
+this repository. It holds the twelve CSV files and nothing else.
+
+**2. Put it next to the languages of the game.** Copy the folder into the
+`Localization` folder of the game, so that the game sees three folders there:
+
+```
+Esoteric Ebb_Data\StreamingAssets\Localization\
+├── Official\          English and Chinese, as the developer shipped them
+├── ChineseCommunity\  A translation by the community
+└── Russian\           ← the folder you copied
+```
+
+The path of the game depends on where Steam put it. The usual one is
+
+```
+C:\Program Files (x86)\Steam\steamapps\common\Esoteric Ebb\Esoteric Ebb_Data\StreamingAssets\Localization\
+```
+
+and on another drive it starts with the drive of that copy of Steam, for
+example `M:\SteamLibrary\steamapps\common\Esoteric Ebb\...`. Right click the
+game in Steam → Manage → Browse local files, and the folder is there.
+
+**3. Start the game and pick the language.** `Options → Language → Русский`.
+The keys `V` and `B` switch the language while the game runs, and `Ctrl+R`
+reads the files again without a restart.
+
+**4. If the language is not in the list,** two things are usually wrong. The
+first line of every one of the twelve files has to name the language in its
+last column:
+
+```csv
+ID,RU
+```
+
+and `MiscTexts.csv` has to carry these two lines:
+
+```csv
+ID,Speaker,RU
+LanguageDropdown,,Русский
+FallbackLanguage,,EN
+```
+
+`FallbackLanguage` is the language the game falls back to when a line is
+empty, and it stays `EN` in the Russian folder: an empty line shows the
+English original of the game, which is the wanted behaviour.
+
+**5. Set the size and the font.** The file of the settings is
+
+```
+%USERPROFILE%\AppData\LocalLow\Christoffer Bodegard\Esoteric Ebb\SETTINGS.es3
+```
+
+and it is plain JSON. The three lines that matter are
+
+```json
+"LanguageCode" : { "__type" : "string", "value" : "RU" },
+"FontSize"     : { "__type" : "int",    "value" : 22 },
+"FontIndex"    : { "__type" : "int",    "value" : 6 }
+```
+
+`FontSize` sets the size of the dialogue text. The developer recommends 24 for
+English; at 24 the Russian takes a line more in the fixed panels, so 22 or 20
+is the right size. `FontIndex` picks the dialogue font, and 6 is Ubuntu.
+The two fonts that carry no Cyrillic at all are Ebberia (0) and Josefin Sans
+(2); the game draws a rune for every missing letter, so a Russian line in
+them reads as a row of runes.
+
+The game rewrites the file when it leaves, so the settings have to be changed
+while it is closed.
+
+**6. After a Steam update.** The update does not touch the `Russian` folder,
+but if it is gone, copy it again from this repository. The current version is
+always the folder in this repository.
 
 ## How it works
 
