@@ -85,17 +85,19 @@ panel.
 
 The Russian description is a line shorter than the English one, so the heading
 of the uses, **Большая Сила**, rose far enough to be seen under the bubble.
-The footnote takes that line back. It is written as three lines of one
-sentence each, and the name in capitals is one size smaller, so that it fits
-the line and does not break in the middle of the phrase.
+The footnote was set in three short lines, with its all-caps phrase reduced to
+size 25 to fit. The third line still showed through the black notice band in
+the live panel, so it is now an invisible placeholder. The first two lines and
+the notice itself stay visible.
 
 ### Strength description after the wording fix
 
 The description has **371 characters including markup**. At font size **22**,
 it wraps to **10 lines** in the live 1920 × 1080 screen. Pixel bounds of the
 rendered text show a widest line of **497 px** in the roughly **500 px** text
-column. All three lines of the Strength footnote remain visible above the
-notice band.
+column. The third line of the Strength footnote is replaced by a zero-width
+space because it showed through the notice band. The first two footnote lines
+remain in the translation, and the black notice text remains visible.
 
 ## The dialogue fonts
 

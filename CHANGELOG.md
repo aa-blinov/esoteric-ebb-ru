@@ -7,7 +7,8 @@ All notable changes to Esoteric Ebb RU. Versions are ordered newest first.
 ### Fixed
 
 - Corrected five ability lore entries and standardized the Constitution stat as “Телосложение”. Two ordinary dialogue uses now read as “здоровье”.
-- Shortened the Strength description so all three footnote lines stay visible at font size 22.
+- Shortened the Strength description to fit the fixed panel at font size 22.
+- Replaced the clipped third line of the Strength footnote with a zero-width space; the black notice text remains visible.
 
 ## 0.21.0 (2026-10-25)
 
