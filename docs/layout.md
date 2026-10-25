@@ -542,6 +542,16 @@ The two names are written in the size 16 now. The size of the panel is 20, and
 the tag of the size does change the name on this element, which was measured
 on the screen of the game.
 
+## Alignment labels
+
+The character sheet gives each word of an alignment about **140 px** and draws
+the names in capitals. In the game's Noto Serif at size 20, «НЕЙТРАЛЬНЫЙ»
+measures **161 px**, «ХАОТИЧНЫЙ» measures **136 px**, and
+«ЗАКОНОПОСЛУШНЫЙ» measures **228 px**. «НЕЙТРАЛЬНЫЙ» now uses size 16 and
+measures **129 px**. «ХАОТИЧНЫЙ» uses size 19 and measures **129 px**. The
+long lawful label is shortened to the canon term «ЗАКОННЫЙ», which measures
+**121 px**. All nine options keep their two-line form and fit within the field.
+
 ## Checking a line yourself
 
 ```bash

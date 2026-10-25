@@ -57,9 +57,8 @@ ALLOWED_LATIN = {
     "rogue",
 }
 
-# One row departs from the English on purpose: the display size of a word was
-# lowered so that the line fits the panel it is drawn in. The reason is in
-# docs/layout.md.
+# Rows that depart from the source markup on purpose are listed here: most
+# adjust display size so a line fits its panel. The reasons are in docs/layout.md.
 MARKUP_EXCEPTIONS = {
     ("MiscTexts.csv", "AbilityScoreInfo_Wisdom_Uses3"): "<size=44><size=43>",
     ("MiscTexts.csv", "AbilityScoreInfo_Strength_LoreFootNote"): "<b></b><b><size=25></b>",
@@ -69,6 +68,13 @@ MARKUP_EXCEPTIONS = {
     ("MiscTexts.csv", "AbilityScoreInfo_Charisma_Uses3"): "<size=42></size><size=40>",
     ("MiscTexts.csv", "AbilityScoreInfo_Charisma_Uses1"): "<size=20></size><size=48></size><size=18>",
     ("MiscTexts.csv", "AbilityScoreInfo_Charisma_LoreFootNote"): "<size=20><b></b><b></b></size>",
+    ("MiscTexts.csv", "Alignment_Neutral_Good"): "<size=16></size>",
+    ("MiscTexts.csv", "Alignment_Chaotic_Good"): "<size=19></size>",
+    ("MiscTexts.csv", "Alignment_Lawful_Neutral"): "<size=16></size>",
+    ("MiscTexts.csv", "Alignment_True_Neutral"): "<size=16></size>",
+    ("MiscTexts.csv", "Alignment_Chaotic_Neutral"): "<size=19></size><size=16></size>",
+    ("MiscTexts.csv", "Alignment_Neutral_Evil"): "<size=16></size>",
+    ("MiscTexts.csv", "Alignment_Chaotic_Evil"): "<size=19></size>",
     ("UIElements.csv", "Menu_DeepStorage"): "<size=20></size>",
     ("UIElements.csv", "Menu_Button_PressAnyButton"): "<size=36></size>",
     ("UIElements.csv", "Menu_Header_SessionNotes"): "<size=38></size>",
