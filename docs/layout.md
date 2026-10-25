@@ -630,4 +630,5 @@ line of **445 px**. Measurements use font assets extracted by
 The harmonized glossary labels «Пустяк» and «Почтальон» measure **78 px**
 and **121 px** respectively in the same font at size 22, within the panel's
 500 px width. The synchronized lore terms «Тростников» and «Ропер» measure
-**130 px** and **66 px** respectively at the same size.
+**130 px** and **66 px** respectively at the same size. «Тропа Подбережья»
+measures **209 px** in the same font at size 22.

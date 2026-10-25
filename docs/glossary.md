@@ -74,6 +74,7 @@ The machine-readable form is [../src/voice/glossary.json](../src/voice/glossary.
 | Urthguard | Уртгард |
 | Urthguarder | Уртгардовец |
 | Undercoast | Подбережье |
+| Undercoast Path | Тропа Подбережья |
 | Vourgeni | Вургени |
 | Askan | Аскан |
 | Askanii | Аскании |
@@ -177,7 +178,8 @@ is «Закрытие Врат»; it marks the end of the era. `Postie` is «П�
 both glossary entries, preserving the joke about a reader of the Norvikian
 Post. `Trifler` is «Пустяк», retaining the wordplay with «пустяки» in the
 dialogue. The creature name is «Ропер»; in running text it is lowercase and
-declines as «ропер, ропера, роперу, ропером».
+declines as «ропер, ропера, роперу, ропером». `Undercoast Path` is «Тропа
+Подбережья»; in text, use «к Тропе Подбережья» and «на Тропе Подбережья».
 
 ## Context and chronology
 

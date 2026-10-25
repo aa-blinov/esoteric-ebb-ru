@@ -7,6 +7,7 @@ All notable changes to Esoteric Ebb RU. Versions are ordered newest first.
 ### Fixed
 
 - Synchronized 40 Reedsian dialogue lines and the reference to Reeds in Viira's dialogue with the canonical «Тростники» forms, standardized 49 Roper dialogue lines as «ропер», corrected the declension of Old Diminor in 50 lore lines, clarified that Diminor is the former name of Reeds, and aligned the Fordfolk history with its source.
+- Unified the name `Undercoast Path` as «Тропа Подбережья» across dialogue, map labels, and quest text; rewrote the Divine Era poem line to use the canonical era name and the poem's correct pronoun.
 - Corrected the Necklace of Fireballs abbreviation, Mimic plurals, the declension of Clanlands, AEFA's Russian spelling, and the singular and plural forms of High-Corporation.
 - Standardized Jor-derived names, transliterated Fell Tire, repaired lore entries for Numenism, the Golden Horde, Tolstad, and Cultravez, and corrected references to Urth, Citizenry, Tol's Leaving, and Illym the Mender.
 - Shortened the saved-game menu label from «Продолжить» to «Дальше» after the longer label wrapped over the save card.
