@@ -71,9 +71,9 @@ without touching the menu:
 | :---: | :---: |
 | ![Main menu](docs/screenshots/menu-ru.png) | ![Options](docs/screenshots/options-ru.png) |
 
-| Character sheet | Dialogue font |
+| Character creation | In-game scene |
 | :---: | :---: |
-| ![Character sheet](docs/screenshots/character-ru.png) | ![Dialogue font](docs/screenshots/dialogue-ru.png) |
+| ![Character creation and Strength lore](docs/screenshots/character-ru.png) | ![Gameplay tooltip](docs/screenshots/gameplay-ru.jpg) |
 
 ## Configuration
 
