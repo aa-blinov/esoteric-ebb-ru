@@ -429,30 +429,37 @@ about 34 px of cap height at the size 43.
 ## The light mode
 
 The game rebuilds parts of the interface when the light mode is switched at
-runtime. The panels it rebuilds take their text from the fallback language
-instead of the one that is set, and the Russian build shows them in English:
-the column of examples next to the settings turns into
+runtime. The panels it rebuilds take their text from the strings of the game
+itself, and not from the folder of the language, and the Russian build shows
+them in English: the column of examples next to the settings turns into
 `When I play Ebb, I use text size 24...` while the same panel reads
 «Когда я играю в Эбб, использую размер текста 24...» before the switch.
 
-The Chinese build of the game does not show it: the same panel stays Chinese
-after the same switch. The keys of the panel are translated in
-`UIElements.csv`, and the same keys are read correctly in the panel that the
-game builds at the start.
-
-What was tried and did not help:
-
-- the column of the source language next to the Russian one, the way the
-  developer stores the Chinese files (`ID,EN,CH` against `ID,RU`): the panel
-  still fell back to English;
-- the reload of the localization with `Ctrl+R`: the interface stays Russian;
-- the light mode itself: a game that starts in the light mode shows the
-  panel in Russian.
+That the strings come from the game and not from the folder is easy to see:
+a line of ours that is emptied shows the English original in its place, the
+pink plate of the panel of the character sheet reads
+`The Cleric's unique take on Strength.` as soon as the line is empty. The
+game holds the English source in its own assets, and the developer put his
+own Chinese into the same place, which is why the Chinese build keeps its
+Chinese after the same switch.
 
 The rest of the interface is not affected: the menus, the bar of the
-character sheet, the clock and the game itself stay Russian after the switch.
-A restart of the game reads the localization again, and the panel is Russian
-again.
+character sheet, the clock and the game itself stay Russian after the
+switch. A restart of the game reads the localization again, and the panel is
+Russian again.
+
+## The tagline of the title screen
+
+The line under the title of the game comes from the caption of the panel of
+Strength (`AbilityScoreInfo_Strength_LoreNotice`), which the developer uses as
+the tagline of the game. The English source reads
+`The Cleric's unique take on Strength.`, and the Russian reads
+«Собственный подход Жреца к Силе.».
+
+The line cannot be taken away. A line of ours that is emptied is replaced by
+the English original of the game, as the panel of the character sheet shows
+when its line is empty. The only lever is the wording, and the same line
+stands in the panel of Strength as its caption.
 
 ## Checking a line yourself
 

@@ -22,12 +22,17 @@ All notable changes to Esoteric Ebb RU. Versions are ordered newest first.
 
 - **The light mode makes one panel fall back to English.** The game rebuilds
   parts of the interface when the light mode is switched at runtime, and the
-  panels it rebuilds take their text from the fallback language. The column of
-  examples next to the settings turns into English in the Russian build; the
-  Chinese build of the game keeps the Chinese. The keys of the panel are
-  translated and are read correctly before the switch, and the rest of the
-  interface stays Russian. A restart reads the localization again. The
-  measurements and what was tried are in `docs/layout.md`.
+  panels it rebuilds take their text from the strings of the game itself and
+  not from the folder of the language. The column of examples next to the
+  settings turns into English in the Russian build, and the Chinese build
+  keeps its Chinese. The rest of the interface stays Russian, and a restart
+  reads the localization again. The measurements and what was tried are in
+  `docs/layout.md`.
+- **The tagline of the title screen cannot be taken away.** The line under
+  the title of the game comes from the caption of the panel of Strength
+  (`AbilityScoreInfo_Strength_LoreNotice`), which the developer uses as the
+  tagline. A line of ours that is emptied is replaced by the English original
+  of the game, so the line can only be worded differently, not removed.
 
 ## 0.17.0 (2026-10-25)
 
