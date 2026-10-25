@@ -468,7 +468,7 @@ name that breaks takes the line of the row below it.
 | --- | --- |
 | `Очки здоровья` | breaks after «Очки», «Здоровья» falls on the row of the dice |
 | `Кубики здоровья` | breaks after «Кубики» |
-| `Бонус мастерства` | breaks after «Бонус» |
+| `Владение` | fits at 97 px in Noto Serif at size 20 |
 | `Очки` | fits |
 | `Кубики` | fits |
 | `Бонус` | fits |
@@ -557,9 +557,11 @@ The mark next to the name of an ability says whether the character is
 proficient in it. The English word is `Proficient`, and the lore of the game
 speaks of proficiency in the words of the translation: «Ты владеешь двумя
 характеристиками» (`Loading_Desc_Proficiency`) and «бонус владения»
-(`SpellDescription_20`). The name is «Владение» now, which is the word the
-lore itself uses, and it fits the room of the mark. «Умелый» was the word
-before, and the lore never uses it.
+(`SpellDescription_20`). The name is «Владение» now, the word the lore itself uses, and it fits the
+room of the mark. The loading title and character sheet use the same label.
+«Владение» measures **97 px** in the installed Noto Serif at size 20, within
+the sheet's **170 px** column. «Умелый» was the word before, and the lore
+never uses it.
 
 ## The card of the collected spells
 
@@ -611,3 +613,21 @@ The saved-game menu button uses the short label «Дальше»: the longer
 «Продолжить» measures **127 px** in the installed Noto Serif at size 20 and
 wraps over the save card in the running game. «Дальше» measures **79 px** at
 the same size and stays on one line.
+
+## Lore glossary measurements
+
+All 723 non-empty glossary descriptions were checked against the installed
+`NotoSerif-Regular` font at size 22, using the game's 500 px text area and
+wrapping at spaces. No individual word is wider than the panel. The longest
+description is `Glossary_Response_707`: it wraps to 15 lines, with a widest
+line of about **496 px**. The revised Old Diminor entry wraps to 7 lines, with a widest
+line of **469 px**. The restored ASAP explanation wraps to 6 lines, with a
+widest line of **487 px**; the dwarf drill entry wraps to 5 lines, with a
+widest line of **485 px**; the «секс» entry wraps to 2 lines, with a widest
+line of **445 px**. Measurements use font assets extracted by
+`src/ebru/measure_width.py` from the installed game.
+
+The harmonized glossary labels «Пустяк» and «Почтальон» measure **78 px**
+and **121 px** respectively in the same font at size 22, within the panel's
+500 px width. The synchronized lore terms «Тростников» and «Ропер» measure
+**130 px** and **66 px** respectively at the same size.

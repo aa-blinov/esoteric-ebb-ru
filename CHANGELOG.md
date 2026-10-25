@@ -6,7 +6,9 @@ All notable changes to Esoteric Ebb RU. Versions are ordered newest first.
 
 ### Fixed
 
+- Synchronized 40 Reedsian dialogue lines and the reference to Reeds in Viira's dialogue with the canonical «Тростники» forms, standardized 49 Roper dialogue lines as «ропер», corrected the declension of Old Diminor in 50 lore lines, clarified that Diminor is the former name of Reeds, and aligned the Fordfolk history with its source.
 - Corrected the Necklace of Fireballs abbreviation, Mimic plurals, the declension of Clanlands, AEFA's Russian spelling, and the singular and plural forms of High-Corporation.
+- Standardized Jor-derived names, transliterated Fell Tire, repaired lore entries for Numenism, the Golden Horde, Tolstad, and Cultravez, and corrected references to Urth, Citizenry, Tol's Leaving, and Illym the Mender.
 - Shortened the saved-game menu label from «Продолжить» to «Дальше» after the longer label wrapped over the save card.
 - Standardized character-class names and the Bugbear creature term, unified «маг-отступник» for outlawed spellcasters, repaired inconsistent forms of «Плут», «Чародей» and «Колдун», and corrected the declension of «Симий».
 - Corrected Urth's gender and Illym's references in the elven tale, repaired the Urthfolk spelling and the meaning of landed Urthfolk, separated the Urthguard order from its members throughout the dialogue and codex, and standardized Norvikian demonym forms.
@@ -33,6 +35,10 @@ All notable changes to Esoteric Ebb RU. Versions are ordered newest first.
 - Aligned spell names, creature types, and the Roper entry across the glossary, item cards, and character sheet; corrected the Sending Pebble target and several feat mechanics.
 - Translated two remaining English dialogue lines and repaired 20 dialogue quote openings.
 - Fixed the manual-fix pipeline so corrections keyed by CSV filenames also reach corpus rows on rebuild.
+- Reviewed all 723 non-empty glossary entries against the English game text. Corrected terminology, lore details, grammar, and phrasing; removed 93 unnecessary em dashes from 86 descriptions while preserving one deliberate pause in the source; shortened the near-limit Røykfall entry and measured the revised descriptions in the game's font.
+- Restored dry jokes and wordplay lost in translation, including the Mimic line, the dwarf drill gag, and the brewery initials behind ASAP; corrected several mistranslated punchlines and comic asides.
+- Clarified the Diminor glossary entry so its Arcane Era name and postwar renaming to Reeds are easy to distinguish.
+- Unified River Run, Deck of Many Things, and Norvikian Post across the glossary and item names; aligned Proficiency with «Владение» and «бонус владения»; unified Postie as «Почтальон» and Trifler as «Пустяк» to preserve their dialogue wordplay.
 
 ## 0.21.0 (2026-10-25)
 
