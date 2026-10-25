@@ -76,6 +76,18 @@ text wraps at spaces within the 500 px area:
 | `Glossary_Response_576` | 5 | 447 px |
 | `Glossary_Response_577` | 7 | 485 px |
 
+The Halfway entries use the same Noto Serif font at size 22. The long
+description breaks into seven lines, and its widest line measures 475 px.
+The shorter definitions use two and six lines, with widest lines of 469 px
+and 486 px. The full name «Племя Моста на полпути» measures 281 px.
+
+| Entry | Lines | Widest line |
+| --- | ---: | ---: |
+| `Glossary_Response_158` | 7 | 475 px |
+| `Glossary_Response_406` | 2 | 469 px |
+| `Glossary_Response_501` | 6 | 486 px |
+| «Племя Моста на полпути» | 1 | 281 px |
+
 ## The uses column
 
 The third tab of the lore panel, **Польза**, is a narrow column. The English
@@ -584,3 +596,16 @@ long lawful label is shortened to the canon term «ЗАКОННЫЙ», which mea
 python3 scripts/measure_width.py            # the widths of the known cases
 python3 src/verify_final.py                 # the width of every line in the corpus
 ```
+
+
+## The short name of the City Below
+
+The area label uses the short name «Подгородье». In the installed Noto Serif
+font at size 22, it measures **131 px**, within the **500 px** fixed panel. The
+revised divine choice «Направь силу Урта.» measures **216 px** at the same size.
+The sphinx-riddle line «ПРАЙМЛ-СТРУНА покажет, чего ты стоишь.» measures
+**485 px**, within the 500 px area. The verse lines are separate dialogue entries,
+so each one opens and closes its own guillemets.
+
+The saved-game menu button uses «Продолжить» to match the action label. It
+measures **127 px** in the installed Noto Serif at size 20.

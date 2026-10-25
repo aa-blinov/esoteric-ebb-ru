@@ -12,6 +12,7 @@ All notable changes to Esoteric Ebb RU. Versions are ordered newest first.
 - Repaired the Tôlk and Makt glossary entries, moved misplaced periods outside quoted terms in 35 glossary notes, and rewrote the Houses of Healing note to remove a broken repetition.
 - Corrected contextual dialogue: the Dwarvish word for a trial, a voter response, the she-elf wordplay, the Gate of Jor reflection, and a movement prompt that addressed the player formally.
 - Smoothed Akzel's estimate of a week in the City Below and the player's reaction to it.
+- Repaired the sphinx riddle’s repeated verses and aligned its Arcane, Primal, and Divine clues with the game’s magic categories; corrected an Oyu choice’s action, gender agreement, and quotation marks.
 - Replaced the self-referential City Below gloss with “Подгородье” and rewrote its description to read naturally.
 - Renamed the Divine pillar of magic to “Божественность” so its heading agrees grammatically with its glossary description.
 - Removed nine accidental Chinese fragments from dialogue and glossary entries; restored the source's punch-weight joke and corrected the troll description.
@@ -21,6 +22,7 @@ All notable changes to Esoteric Ebb RU. Versions are ordered newest first.
 - Replaced the clipped third line of the Strength footnote with a zero-width space; the black notice text remains visible.
 - Shortened the Charisma footnote and set it to size 20 so its five measured lines stay above the panel illustration; the black notice remains visible.
 - Corrected the geographic term for the Coast’s eight regions and separated it from uses meaning a music group, companions, or idioms.
+- Standardized the Halfway Bridge Tribe, its short name «Полпути», and the bridge name across dialogue and glossary entries. Aligned references to Jor’s Gates, clarified a Gate Era clue, corrected Urth’s case forms, and used «Подгородье» for the short location name.
 - Standardized the halfling people and the Golden Horde, corrected treaty and item names, and repaired a five-thousand-year prophecy and related lore dialogue.
 - Made the dates and era names consistent across the war history, archive records, and current-day references.
 - Restored the canonical dwarf term across the translation and repaired lines that had turned dwarves into gnomes, doors, or nobles. Removed an invented country name from the suffragette history.
