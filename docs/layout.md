@@ -60,6 +60,10 @@ At size 22, it measures 472 px in the game's Noto Serif font and fits the
 500 px text area on one line. The revised `Glossary_Response_690` wraps to five
 lines at the same size; its widest line measures 474 px.
 
+The corrected glossary names were measured in the installed Noto Serif font
+at size 22. The longest, «Ожерелье огненных шаров», measures 302 px; «Кланленды»
+measures 128 px. Both fit within the 500 px panel.
+
 The Urth terminology entries were measured in the same font at size 22. The
 text wraps at spaces within the 500 px area:
 

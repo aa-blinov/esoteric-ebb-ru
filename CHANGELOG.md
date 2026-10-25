@@ -6,6 +6,7 @@ All notable changes to Esoteric Ebb RU. Versions are ordered newest first.
 
 ### Fixed
 
+- Corrected the Necklace of Fireballs abbreviation, Mimic plurals, the declension of Clanlands, AEFA's Russian spelling, and the singular and plural forms of High-Corporation.
 - Standardized character-class names and the Bugbear creature term, unified «маг-отступник» for outlawed spellcasters, repaired inconsistent forms of «Плут», «Чародей» and «Колдун», and corrected the declension of «Симий».
 - Corrected Urth's gender and Illym's references in the elven tale, repaired the Urthfolk spelling and the meaning of landed Urthfolk, separated the Urthguard order from its members throughout the dialogue and codex, and standardized Norvikian demonym forms.
 - Repaired the Tôlk and Makt glossary entries, moved misplaced periods outside quoted terms in 35 glossary notes, and rewrote the Houses of Healing note to remove a broken repetition.

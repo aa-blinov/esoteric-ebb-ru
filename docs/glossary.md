@@ -15,10 +15,13 @@ The machine-readable form is [../src/voice/glossary.json](../src/voice/glossary.
 | Agrarian Party | Аграрная партия |
 | Agricultural Party | Аграрная партия |
 | Agrarian Rural Party | Сельская аграрная партия |
+| AEFA | АЭФА |
 | Arcane Era | Эпоха тайной магии |
 | Band (geographic division) | пояс |
 | Bugbear | Багбир |
 | Cleric | Жрец |
+| Clanlands (halfling federation) | Кланленды |
+| Clanlands Deal | Соглашение о Кланлендах |
 | Landed Urthfolk | Уртфолки-землевладельцы |
 | Detect Alignment | Определить уравновешение |
 | Constitution | Телосложение |
@@ -44,7 +47,6 @@ The machine-readable form is [../src/voice/glossary.json](../src/voice/glossary.
 | Coinlord | Владыка монет |
 | Jor | Джор |
 | Interband | межпоясный |
-| Clanlands Deal | Соглашение о Кланлендсе |
 | Sageleaf | Сагелист |
 | Kraaid | Крааид |
 | Ettir | Эттир |
@@ -67,6 +69,8 @@ The machine-readable form is [../src/voice/glossary.json](../src/voice/glossary.
 | Simii | Симий |
 | Divinii Torum | Дивинии Торум |
 | Gate Era | Эпоха Врат |
+| High-Corporation | Крупная корпорация |
+| High-Corporations | Крупные корпорации |
 | Golden Horde | Золотая Орда |
 | Reeds | Тростники |
 | Fordnip | Форднип |
@@ -74,6 +78,8 @@ The machine-readable form is [../src/voice/glossary.json](../src/voice/glossary.
 | Akzel | Акзел |
 | Pinja | Пиндзя |
 | Meek | Смиренный |
+| Necklace of Fireballs | Ожерелье огненных шаров |
+| NOF (item abbreviation) | ООШ |
 | Olzis | Ользис |
 | Rixbiter | Риксбайтер |
 | Alfoz | Альфос |
@@ -88,6 +94,8 @@ The machine-readable form is [../src/voice/glossary.json](../src/voice/glossary.
 | Cleric | Жрец |
 | Druid | Друид |
 | Fighter | Боец |
+| Mimic | Мимик |
+| Mimics | Мимики |
 | Paladin | Паладин |
 | Ranger | Следопыт |
 | Rogue | Плут |
@@ -100,6 +108,8 @@ The machine-readable form is [../src/voice/glossary.json](../src/voice/glossary.
 | Wizard | Волшебник |
 
 Названия классов в репликах склоняются по падежу и согласуются с полом персонажа: например, «колдуну», «колдунья», «чародейкой». Название класса передаётся как «Плут». Сочетание «маг-отступник» обозначает мага вне закона, а не класс «Плут». Если речь идёт о представителе другого класса, слово «отступник» ставится после названия класса: «паладин-отступник».
+
+Название Кланлендов употребляется во множественном числе и склоняется: Кланленды, Кланлендов, Кланлендам, Кланлендами, о Кланлендах. Сокращение «ООШ» образовано от «Ожерелья огненных шаров» и не склоняется.
 
 Имя Симий склоняется: Симий, Симия, Симию, Симием, о Симии. «Багбир» — название вида; нормативные формы: багбира, багбиру, багбиром, багбиры.
 
