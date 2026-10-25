@@ -632,3 +632,14 @@ and **121 px** respectively in the same font at size 22, within the panel's
 500 px width. The synchronized lore terms «Тростников» and «Ропер» measure
 **130 px** and **66 px** respectively at the same size. «Тропа Подбережья»
 measures **209 px** in the same font at size 22.
+
+
+## Proofread wording
+
+The Alfoz narrator line, window interaction choice, human-skulls popup, dragon
+epitaph, worldview quotation, and Vicious Mockery description were proofread
+against their English sources. At dialogue size 22, the unwrapped widths of
+the Alfoz line, window choice, and human-skulls popup in the installed
+`NotoSerif-Regular` font are **788 px**, **343 px**, and **716 px** respectively.
+The dialogue and popup fields wrap at spaces; no font-size or panel change was
+needed.

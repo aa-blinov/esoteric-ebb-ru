@@ -6,6 +6,7 @@ All notable changes to Esoteric Ebb RU. Versions are ordered newest first.
 
 ### Fixed
 
+- Corrected the dwarf narrator’s joke in Alfoz’s scene, repaired the window interaction choice, and removed a literal calque from the human-skulls popup. Repaired a worldview quotation, corrected the mechanics of Vicious Mockery, and smoothed a dragon epitaph.
 - Synchronized 40 Reedsian dialogue lines and the reference to Reeds in Viira's dialogue with the canonical «Тростники» forms, standardized 49 Roper dialogue lines as «ропер», corrected the declension of Old Diminor in 50 lore lines, clarified that Diminor is the former name of Reeds, and aligned the Fordfolk history with its source.
 - Unified the name `Undercoast Path` as «Тропа Подбережья» across dialogue, map labels, and quest text; rewrote the Divine Era poem line to use the canonical era name and the poem's correct pronoun.
 - Corrected the Necklace of Fireballs abbreviation, Mimic plurals, the declension of Clanlands, AEFA's Russian spelling, and the singular and plural forms of High-Corporation.
