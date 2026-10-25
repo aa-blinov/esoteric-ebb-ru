@@ -1,6 +1,7 @@
-"""The lore panel on the character screen is fixed height, and the pink notice
-band is drawn over its last line. The Strength lore is the longest of the six
-by a wide margin, and in Russian it runs two lines over the box.
+"""Write the hand-reviewed Strength lore text.
+
+The description now wraps to ten lines at font size 22, and the entire three
+line footnote stays visible in the fixed-height lore panel.
 """
 import json
 import os
@@ -10,13 +11,11 @@ BUDGET = 400
 
 TEXTS = {
     "AbilityScoreInfo_Strength_LoreDesc":
-        "<b><color=#FF3959>СИЛА</color></b> отражает твою телесную мощь и мышление, "
-        "напичканное тестостероном. Будучи мужчиной, ты считаешь должным совершенствовать "
-        "своё тело. Но зачем?\n\n"
-        "Поиск смысла не менее важен, чем тяга к мастерству. К счастью, ты уже знаешь "
-        "своё дело.\n\n"
-        "<b>Защищать невинных</b>. Вести слабых. Жертвовать собой, пока о мостовую не "
-        "ударится твоя кость. Буквально <b>умереть</b>.",
+        "<b><color=#FF3959>СИЛА</color></b> отражает природную мощь тела и тестостероновый склад ума. "
+        "Тебе как мужчине подобает развивать тело и его возможности. Но зачем?\n\n"
+        "Поиск смысла важен не меньше мастерства. К счастью, ты знаешь, за что стоишь.\n\n"
+        "<b>Защищать невинных</b>. Вести слабых. Жертвовать собой, пока одни твои кости не ударятся о мостовую. "
+        "Буквально <b>умереть</b>.",
 }
 
 

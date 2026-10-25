@@ -12,6 +12,7 @@ The machine-readable form is [../src/voice/glossary.json](../src/voice/glossary.
 | English | Russian |
 | --- | --- |
 | Cleric | Жрец |
+| Constitution | Телосложение |
 | Urth | Урт |
 | Urthfolk | Уртфолки |
 | Norvik | Норвик |

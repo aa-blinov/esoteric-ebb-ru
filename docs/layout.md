@@ -89,6 +89,14 @@ The footnote takes that line back. It is written as three lines of one
 sentence each, and the name in capitals is one size smaller, so that it fits
 the line and does not break in the middle of the phrase.
 
+### Strength description after the wording fix
+
+The description has **371 characters including markup**. At font size **22**,
+it wraps to **10 lines** in the live 1920 × 1080 screen. Pixel bounds of the
+rendered text show a widest line of **497 px** in the roughly **500 px** text
+column. All three lines of the Strength footnote remain visible above the
+notice band.
+
 ## The dialogue fonts
 
 The game has seven fonts for the dialogue text: Ebberia, EB Garamond,
@@ -110,7 +118,7 @@ dialogue text decides how many lines they take and where the panel ends. The
 quote, the tabs of the panel and the clock in the corner are drawn in the
 display font of the game and do not move.
 
-The size the translation is held to is **20**. At the default of 24 the
+The size the translation is held to is **22**. At the default of 24 the
 Russian description takes a line more than the English one, and the heading of
 the uses rises under the bubble that covers the foot of the panel.
 
@@ -226,14 +234,14 @@ English one.
 
 The game has a "Dialog Text Size" preference, 24 by default and tuned by the
 developer for English. At 24 the Russian text runs about 20 % longer than the
-English and spills out of the panels that the English just fits into. At 20 it
+English and spills out of the panels that the English just fits into. At 22 it
 occupies the English footprint.
 
 The setting lives in the game's own settings file:
 
 ```json
 // %USERPROFILE%\AppData\LocalLow\Christoffer Bodegard\Esoteric Ebb\SETTINGS.es3
-"FontSize" : { "__type" : "int", "value" : 20 }
+"FontSize" : { "__type" : "int", "value" : 22 }
 ```
 
 A Russian player can change it in **Options → Text**. The right-hand panel of
