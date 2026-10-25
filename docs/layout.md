@@ -456,12 +456,27 @@ the tagline of the game. The English source reads
 `The Cleric's unique take on Strength.`, and the Russian reads
 «Собственный подход Жреца к Силе.».
 
-The line cannot be taken away. A line of ours that is emptied is replaced by
-the English original of the game, as the panel of the character sheet shows
-when its line is empty. A line that holds nothing but a non-breaking space
-does the same, because the game trims the spaces before it looks. The only
-lever is the wording, and the same line stands in the panel of Strength as
-its caption.
+The line cannot be taken away by emptying it: a line of ours that is empty is
+replaced by the English original of the game, as the panel of the character
+sheet shows when its line is empty. A line that holds nothing but a
+non-breaking space does the same, because the game trims the spaces before it
+looks.
+
+The zero width space (`U+200B`) does not count as a space, so the game keeps
+it, and the font draws nothing for it. The line of the tagline is that
+character now, and the title screen shows the band of the game without a word
+on it. The panel of Strength draws the same line as its caption, and it keeps
+its band of pink without a word on it as well.
+
+## The name of the proficiency
+
+The mark next to the name of an ability says whether the character is
+proficient in it. The English word is `Proficient`, and the lore of the game
+speaks of proficiency in the words of the translation: «Ты владеешь двумя
+характеристиками» (`Loading_Desc_Proficiency`) and «бонус владения»
+(`SpellDescription_20`). The name is «Владение» now, which is the word the
+lore itself uses, and it fits the room of the mark. «Умелый» was the word
+before, and the lore never uses it.
 
 ## Checking a line yourself
 

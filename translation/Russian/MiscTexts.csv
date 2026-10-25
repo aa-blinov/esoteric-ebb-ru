@@ -23,7 +23,7 @@ Constitution,,Телосложение
 Intelligence,,Интеллект
 Wisdom,,Мудрость
 Charisma,,Харизма
-Proficient,,Умелый
+Proficient,,Владение
 NAT_20,,NAT 20
 Natural_20,,Natural 20
 NAT_1,,NAT 1
@@ -1010,7 +1010,7 @@ Time_Dawn,,Рассвет
 Time_Day,,Дня {0}
 Time_Election,,Конец
 Time_Election_Day,,Дня выборов
-InfoList_Proficient,,<i>Умелый</i>
+InfoList_Proficient,,<i>Владение</i>
 InfoList_Potion,,Зелье принято
 InfoList_FEAT_MILL,,[Страж тысячелетия]
 InfoList_AbilityScore,,Благословлён Уртом
@@ -1193,7 +1193,7 @@ AbilityScoreInfo_Strength_LoreDesc,STR,"<b><color=#FF3959>СИЛА</color></b> �
 AbilityScoreInfo_Strength_LoreFootNote,STR,"Стань <b>ФАНАТИКОМ</b>.
 Верни свою честь.
 Отправься в <b><size=25>БОЖЕСТВЕННУЮ МИССИЮ</b>."
-AbilityScoreInfo_Strength_LoreNotice,,Собственный подход Жреца к Силе.
+AbilityScoreInfo_Strength_LoreNotice,,​
 AbilityScoreInfo_Strength_RoleHigh_Title,,Жрец с высокой Силой…
 AbilityScoreInfo_Strength_RoleHigh_Point1,,Голоса за Партию Норвика.
 AbilityScoreInfo_Strength_RoleHigh_Point2,,Молится своему мёртвому богу.
