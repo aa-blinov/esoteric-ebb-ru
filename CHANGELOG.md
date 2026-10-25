@@ -12,13 +12,13 @@ All notable changes to Esoteric Ebb RU. Versions are ordered newest first.
 
 ### Fixed
 
-- **The tagline of the title screen is gone.** The line under the title of the
-  game comes from the caption of the panel of Strength, and an emptied line
-  is replaced by the English original of the game. The line holds a zero
-  width space now: the game does not trim it, and the font draws nothing for
-  it. The band of the game stays, and it stays empty. The caption of the
-  panel of Strength is the same line, and its band of pink stays empty as
-  well.
+- **The caption of the panel of Strength stays in Russian.** The line under
+  the title of the game comes from that caption, and an emptied line is
+  replaced by the English original of the game. The zero width space is the
+  one thing that stops the game from doing that, because it is not a space
+  and the font draws nothing for it. The caption itself stays in Russian,
+  because the panel of Strength shows it as its caption and the player reads
+  it there.
 - **The mark of the proficiency follows the lore.** The lore of the game
   speaks of proficiency in our own words: «Ты владеешь двумя
   характеристиками» and «бонус владения». The mark next to

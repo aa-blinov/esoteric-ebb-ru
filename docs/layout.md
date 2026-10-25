@@ -462,11 +462,14 @@ sheet shows when its line is empty. A line that holds nothing but a
 non-breaking space does the same, because the game trims the spaces before it
 looks.
 
-The zero width space (`U+200B`) does not count as a space, so the game keeps
-it, and the font draws nothing for it. The line of the tagline is that
-character now, and the title screen shows the band of the game without a word
-on it. The panel of Strength draws the same line as its caption, and it keeps
-its band of pink without a word on it as well.
+The zero width space (`U+200B`) is the one thing that keeps the game from
+falling back to the English original: it is not a space, so the game does not
+trim it, and the font draws nothing for it. The band of the title screen stays
+and stays empty that way, and the band of pink of the panel of Strength does
+the same.
+
+The caption itself stays in Russian, because the panel of Strength shows it
+as its caption and the player reads it there.
 
 ## The name of the proficiency
 
