@@ -607,5 +607,7 @@ The sphinx-riddle line «ПРАЙМЛ-СТРУНА покажет, чего ты
 **485 px**, within the 500 px area. The verse lines are separate dialogue entries,
 so each one opens and closes its own guillemets.
 
-The saved-game menu button uses «Продолжить» to match the action label. It
-measures **127 px** in the installed Noto Serif at size 20.
+The saved-game menu button uses the short label «Дальше»: the longer
+«Продолжить» measures **127 px** in the installed Noto Serif at size 20 and
+wraps over the save card in the running game. «Дальше» measures **79 px** at
+the same size and stays on one line.
