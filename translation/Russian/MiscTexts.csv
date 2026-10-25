@@ -176,9 +176,9 @@ Lost_Crowns,,Потеряно {0} корон.
 Lost_Crowns_All,,Потеряно {0} корон. Теперь у меня не осталось ни одной.
 DayMessage_Day,,день {0}
 DayMessage_Night,,Ночь
-DayMessage_Date_Day22,,"22 марта, 27 год Эры После Падения"
-DayMessage_Date_Day23,,"23 марта, 27 год Эры После Падения"
-DayMessage_Date_Day,,"Март {0}-го, 27 год Эры Падения"
+DayMessage_Date_Day22,,"22 марта, 27-й год Послевоенной эпохи"
+DayMessage_Date_Day23,,"23 марта, 27-й год Послевоенной эпохи"
+DayMessage_Date_Day,,"Март {0}-го, 27-й год Послевоенной эпохи"
 LongRest_Done,,"[Хорошо отдохнул: преимущество при большинстве проверок, пока не получишь истощение.]"
 LongRest_Snell,Snell,И… ты отправляешься спать. Тогда я тоже пойду. <i>Спокойной ночи</i>.
 PillarScene_Snell,OBJ,<shake>Снелл</shake>!
@@ -302,7 +302,7 @@ FinalMessage_Mines_Key,OBJ,"Возможно, странный «Ключ в Н�
 FinalMessage_Mines_NoKey,OBJ,"Полагаю, это может стать отличной целью следующего приключения. Кто не любит хорошую охоту за сокровищами?"
 FinalMessage_Deal_0,OBJ,"Кстати, Модисса и Ролло — интересная пара, не правда?"
 FinalMessage_Deal_1,OBJ,"Я бы сказал, эта путаница впоследствии доставит серьёзных неприятностей. Союз Азгала и Националистов? Он не может долго продержаться. Или может?"
-FinalMessage_GoldenHorde,OBJ,"Какой бы исход ни случился, Золотая орда будет бдительно — излучающе — следить за вашим городом."
+FinalMessage_GoldenHorde,OBJ,"Какой бы исход ни случился, Золотая Орда будет бдительно — излучающе — следить за вашим городом."
 FinalMessage_GoldenHorde_A,OBJ,"К счастью для тебя, этот глаз не станет слишком тщательно за тобой следить. Хотя, возможно, это плохо. Будет захватывающе посмотреть."
 FinalMessage_GoldenHorde_B,OBJ,"И этот глаз может уставиться на <i>тебя</i> из-за того, как ты сыграл на той встрече. Будет захватывающе посмотреть."
 FinalMessage_Visken_0,OBJ,"Что касается Вискена, твоё маленькое приключение для него — суета. Разумеется."
@@ -717,7 +717,7 @@ SpecName_Indefinitive_Agrarian,,ан <b>Аграрий</b>
 Race_Human_Urthfolk,,"Человек, Уртфолк"
 Race_Human_Reedsfolk,,"Человек, Тростниколикий"
 Race_Human_Coastfolk,,"Человек, Побережьефолк"
-Race_Human_Hordefolk,,"Человек, Толпафолк"
+Race_Human_Hordefolk,,"Человек, ордынец"
 Race_Halfling_Fordfolk,,"Полурослик, Фордфолк"
 Race_Halfling_Stormblood,,"Полурослик, Яростькрови"
 Race_Elf_Illym,,Эльф Иллим
@@ -1130,61 +1130,61 @@ SessionNotes_Message_8f,,"И наконец, ты спускаешься пря�
 SessionNotes_Message_9,,"Жрец на задании. Эзотерическом задании — разгадать тайну «Чайной лавки, которая взорвалась». Это ты! Пора отправляться: исследуй улицы, тоннели и Башни города."
 PCBackground_PunchingBag_name,,Груша для битья
 PCBackground_PunchingBag_desc,OBJ,"Ты — сын фермера, выросший в городе. Конечно, ты оказался изгоем. Понадобилось время, чтобы научиться с этим справляться."
-PCBackground_PunchingBag_date,,"Хронос 1-й, 6 PE"
+PCBackground_PunchingBag_date,,"Хронос 1-й, 6 ПЭ"
 PCBackground_Trollkiller_name,,Убийца троллей
 PCBackground_Trollkiller_desc,OBJ,"Ты не помнишь, но хорошо знаешь, как умер отец. Иногда это воодушевляло. Иногда казалось, что достичь его невозможно."
-PCBackground_Trollkiller_date,,"Фелтени 14-й, 7 PE"
+PCBackground_Trollkiller_date,,"Фелтени 14-й, 7 ПЭ"
 PCBackground_KioskKid_name,,Киосковый пацан
 PCBackground_KioskKid_desc,OBJ,"Мать редко была дома и устроила тебя на работу после школы, чтобы не ввязывался в дурное. Ты ненавидишь запах газет."
-PCBackground_KioskKid_date,,"22-й Горгони, 10 PE"
+PCBackground_KioskKid_date,,"22-й Горгони, 10 ПЭ"
 PCBackground_LoreEnthusiast_name,,Знаток истории
 PCBackground_LoreEnthusiast_desc,OBJ,"Проводя время в одиночестве, ты часто оказывался в Библиотеке Дарроу. Странная история Царства Джора была твоим спутником."
-PCBackground_LoreEnthusiast_date,,11 PE
+PCBackground_LoreEnthusiast_date,,11 ПЭ
 PCBackground_CrowdPleaser_name,,Народный любимец
 PCBackground_CrowdPleaser_desc,OBJ,Рано или поздно ты связался с не той компанией. Ты освоил их сленг и радикальную терминологию — лишь бы обрести настоящих друзей.
-PCBackground_CrowdPleaser_date,,"11 PE, 12 PE, 13 PE"
+PCBackground_CrowdPleaser_date,,"11 ПЭ, 12 ПЭ, 13 ПЭ"
 PCBackground_LittleWeirdo_name,,Маленький чудак
 PCBackground_LittleWeirdo_desc,OBJ,"Для них ты был диковинкой: мальчик, готовый на всё ради внимания. <i>Ради одобрения</i>. Через два года ты научился этому."
-PCBackground_LittleWeirdo_date,,13 PE
+PCBackground_LittleWeirdo_date,,13 ПЭ
 PCBackground_AzgalistActivist_name,,Активист Азгалист
 PCBackground_AzgalistActivist_desc,OBJ,«Друзья» вскоре показали тебе мятежное нутро Норвика. Подростком ты сеял хаос — и что хуже: <i>дворфскую пропаганду</i>.
-PCBackground_AzgalistActivist_date,,"Хронос 19-й, 15 PE"
+PCBackground_AzgalistActivist_date,,"Хронос 19-й, 15 ПЭ"
 PCBackground_UrthguardRecruit_name,,Рекрут Уртгарда
 PCBackground_UrthguardRecruit_desc,OBJ,"После ареста долго спорить не пришлось. Три изнуряющих года в подготовке, зубрёжка городского устава и добродетелей. Но ты выжил."
-PCBackground_UrthguardRecruit_date,,"Ингарми 3-й, 17 PE"
+PCBackground_UrthguardRecruit_date,,"Ингарми 3-й, 17 ПЭ"
 PCBackground_OneFriend_name,,Единственный друг
 PCBackground_OneFriend_desc,OBJ,"В те одинокие годы ты молился только об одном. Но боги не ответили. Поэтому ты научился справляться сам, как всегда."
-PCBackground_OneFriend_date,,18 PE
+PCBackground_OneFriend_date,,18 ПЭ
 PCBackground_Acolyte_name,,Послушник
 PCBackground_Acolyte_desc,OBJ,"Умение переписывать вывело тебя к церковным обязанностям. Взят из рядовых, ты быстро показал преданность божественному городу."
-PCBackground_Acolyte_date,,"19 PE, 20 PE"
+PCBackground_Acolyte_date,,"19 ПЭ, 20 ПЭ"
 PCBackground_TowerApprentice_name,,Ученик Башен
 PCBackground_TowerApprentice_desc,OBJ,"Вступление в Башни — честь для немногих. Но и страшное испытание, даже для тебя. Кто бы подумал, что лекции так выматывают?"
-PCBackground_TowerApprentice_date,,"21-й Сумил, 21 PE"
+PCBackground_TowerApprentice_date,,"21-й Сумил, 21 ПЭ"
 PCBackground_ArcaneProdigy_name,,Тайный Вундеркинд
 PCBackground_ArcaneProdigy_desc,OBJ,"Впервые в жизни ты был природным дарованием. Кантрипы ты знал всегда, но настоящая магия — это было другое. Это была <i>сила</i>."
-PCBackground_ArcaneProdigy_date,,22 PE
+PCBackground_ArcaneProdigy_date,,22 ПЭ
 PCBackground_PalacePawn_name,,Дворцовая Пешка
 PCBackground_PalacePawn_desc,OBJ,"Быстро растущий талант, ты часто оказывался среди интриг начальства, несмотря на все старания. Тебе это никогда не шло на пользу."
-PCBackground_PalacePawn_date,,"9-й Бельтан, 22 PE"
+PCBackground_PalacePawn_date,,"9-й Бельтан, 22 ПЭ"
 PCBackground_FaithfulHarbinger_name,,Верный Вестник
 PCBackground_FaithfulHarbinger_desc,OBJ,"Что-то не так. Молитвы мёртвому богу, чьи шёпоты ещё витают в воздухе… медленно стихают. Ты один среди своих собратьев."
 PCBackground_FaithfulHarbinger_date,,???
 PCBackground_EsotericExpert_name,,Эзотерик
 PCBackground_EsotericExpert_desc,OBJ,"Ночи напролёт ты искал эзотерическое знание. Одинокая жизнь. Твои открытия властям были не нужны, но ты не остановился. Никогда."
-PCBackground_EsotericExpert_date,,"30-е Эльтре, 25 PE"
+PCBackground_EsotericExpert_date,,"30-е Эльтре, 25 ПЭ"
 PCBackground_RevolutionaryScribe_name,,Писец революции
 PCBackground_RevolutionaryScribe_desc,OBJ,"Разочарование. Город, где идеалы не соблюдаются. Ты выбрал зарождающуюся Демократию. Писал ночами ради <i>перемен и славы</i>."
-PCBackground_RevolutionaryScribe_date,,"3-е Марта, 26 PE"
+PCBackground_RevolutionaryScribe_date,,"3 марта, 26 ПЭ"
 PCBackground_AbjectApostate_name,,Жалкий Отступник
 PCBackground_AbjectApostate_desc,OBJ,"Тебя никто не любит. Когда понизили за небрежность, никто не вступился. Но всё в порядке. Всё будет хорошо. Ты к этому привык."
-PCBackground_AbjectApostate_date,,"23-е Хроноса, 26 PE"
+PCBackground_AbjectApostate_date,,"Хронос 23-й, 26 ПЭ"
 PCBackground_DeadCleric_name,,Мёртвый Жрец
 PCBackground_DeadCleric_desc,OBJ,Взросление в одиночестве. Неприятности. Обучение в Уртгарде. Жизнь Жрецу. Неужели всё это должно было кончиться в <i>Реке</i>?
-PCBackground_DeadCleric_date,,"25-е Марта, 27 PE"
-AbilityScoreInfo_Strength_LoreQuote,STR,"<i>«Каждый пастух знает песнь. Она ревёт вверх по течению. Урт живёт в той полоске земли.»
+PCBackground_DeadCleric_date,,"25 марта, 27 ПЭ"
+AbilityScoreInfo_Strength_LoreQuote,STR,"<i>«Каждый пастух знает песнь. Она гулко разносится вверх по реке. Урт живёт в той полоске земли.»
 </i>
-—Плач Торны, народная молитва"
+— Плач Торны, народная молитва"
 AbilityScoreInfo_Strength_LoreDesc,STR,"<b><color=#FF3959>СИЛА</color></b> отражает природную мощь тела и тестостероновый склад ума. Тебе как мужчине подобает развивать тело и его возможности. Но зачем?
 
 Поиск смысла важен не меньше мастерства. К счастью, ты знаешь, за что стоишь.
@@ -1220,7 +1220,7 @@ AbilityScoreInfo_Strength_Uses4,,"Возрослое
 AbilityScoreInfo_Strength_UsesNotice,,Механические преимущества Силы
 AbilityScoreInfo_Wisdom_LoreQuote,WIS,"<i>«Крупные рушатся под тяжестью собственных тел. Мистические сбиваются в решающий момент. Мелкие дерутся до последнего.»</i>
 — Стихотворение Халфвида"
-AbilityScoreInfo_Wisdom_LoreDesc,WIS,"<b><color=#63CD5E>МУДРОСТЬ</color></b> измеряет осознанность, интуицию и умение понимать мир вокруг тебя. Чувствовать его. Ты можешь не знать причины, но, встретившись с ней взглядом, обретаешь эмпатическую связь: чувствуешь её желания и страхи, мечты и надежды. Ты умеешь читать людей — во благо или во зло — и замечать детали, которые другие пропускают."
+AbilityScoreInfo_Wisdom_LoreDesc,WIS,"<b><color=#63CD5E>МУДРОСТЬ</color></b> измеряет осознанность, интуицию и умение понимать окружающий мир. Чувствовать его. Ты можешь не знать почему, но, встретившись взглядом с другим человеком, обретаешь эмпатическую связь с ним: чувствуешь его желания и страхи, мечты и надежды. Ты умеешь читать людей и во благо, и во зло, а также замечать детали, которые другие упускают."
 AbilityScoreInfo_Wisdom_LoreFootNote,WIS,"Это твоя <b>ВЕРА</b> в самом сердце всех людей. Давать и делиться тем, что есть, и быть совершенно <b>БЕСКОРЫСТНЫМ</b>. Это единственный истинный путь к искуплению. Одни боги знают, как усердно ты стараешься."
 AbilityScoreInfo_Wisdom_LoreNotice,,Свойственный Жрецу взгляд на Мудрость.
 AbilityScoreInfo_Wisdom_RoleHigh_Title,,Жрец с высокой Мудростью…
@@ -1277,8 +1277,8 @@ AbilityScoreInfo_Intelligence_Uses2,,"Думай, планируй, действ
 AbilityScoreInfo_Intelligence_Uses3,,Заверши Магократский Возврат <size=35>Проголосуй за себя
 AbilityScoreInfo_Intelligence_Uses4,,Будь гением без равных
 AbilityScoreInfo_Intelligence_UsesNotice,,Механические преимущества Интеллекта.
-AbilityScoreInfo_Dexterity_LoreQuote,DEX,"<i>«Настоятельно важно просто объяснить этим людям, что они имеют право выбирать. Вера в себя справедлива. Благосостояние создаётся изнутри».</i>
-— Мериадок Лунная стража, «Зак тростников»"
+AbilityScoreInfo_Dexterity_LoreQuote,DEX,"<i>«Прежде всего, этим людям нужно объяснить: они имеют право выбирать. Верить в себя — правильно. Благосостояние создаётся изнутри».</i>
+— Мериадок Лунная стража, «Виды за Тростниками»"
 AbilityScoreInfo_Dexterity_LoreDesc,DEX,"<b><color=#F8FF5D>ЛОВКОСТЬ</color></b> измеряет естественную реактивность, равновесие и самообладание. Скорость, с которой ты бросаешь остроумную реплику или замечаешь нервный взгляд. И, конечно, способность изящно уходить от последствий своих действий. Всё решает соотношение риска и награды!"
 AbilityScoreInfo_Dexterity_LoreFootNote,DEX,"Это чувство <b>САМОСОХРАНЕНИЯ</b>, когда всё рушится вокруг. Хватать побольше, пока есть возможность. Двигаться к новому будущему, полному <b>СВОБОДЫ</b>, чтобы те, кто заботится о себе, могли процветать и выжить."
 AbilityScoreInfo_Dexterity_LoreNotice,,Уникальный взгляд Жреца на Ловкость.
@@ -1336,10 +1336,10 @@ AbilityScoreInfo_Constitution_Uses3,,"Твоя партия набрала 2% з
 <size=43>тебе всё равно"
 AbilityScoreInfo_Constitution_Uses4,,Боль полезна для тебя
 AbilityScoreInfo_Constitution_UsesNotice,,Механические преимущества Телосложения
-AbilityScoreInfo_Charisma_LoreQuote,CHA,"<i>«Те, кто верит в демократию, великолепно смотрят на простых людей — считают их способными принимать рациональные и обоснованные решения, свободные от личных предпочтений и эмоциональных порывов. Это, честно говоря, вдохновляет».
+AbilityScoreInfo_Charisma_LoreQuote,CHA,"<i>«Те, кто верит в демократию, высокого мнения о простых людях: считают, что те способны принимать разумные и обоснованные решения, не поддаваясь личным предубеждениям и эмоциям. Честно говоря, это вдохновляет.»
 </i>
 — Николай Дарроу, «Мемуары государственного деятеля»"
-AbilityScoreInfo_Charisma_LoreDesc,CHA,"<b><color=#CF5DCB>ХАРИЗМА</color></b> измеряет твоё красноречие, уверенность и способность ориентироваться в любых общественных ситуациях. Коротко говоря, это сила твоей небрежной личности. Но им знать об этом не нужно."
+AbilityScoreInfo_Charisma_LoreDesc,CHA,"<b><color=#CF5DCB>ХАРИЗМА</color></b> измеряет твоё красноречие, уверенность и умение вести себя в любых общественных ситуациях. Коротко говоря, это сила твоей непричёсанной натуры. Но им знать об этом не нужно."
 AbilityScoreInfo_Charisma_LoreFootNote,CHA,"Гладко поговори, чтобы получить любую должность, какую пожелаешь. Ты можешь быть связан с любой известной фракцией или идеей. Реальность складывается вокруг твоей воли. Как хамелеон, стань <b>ОБЩЕСТВЕННЫМ ОПЕРАТОРОМ</b>. Стань всем, кем нужно, чтобы каждый наконец <b>ПОЛЮБИЛ ТЕБЯ</b>."
 AbilityScoreInfo_Charisma_LoreNotice,,Своеобразный взгляд Жреца на Харизму.
 AbilityScoreInfo_Charisma_RoleHigh_Title,,Жрец с высокой Харизмой…
@@ -1381,7 +1381,7 @@ BadEnding_Genocide_2,,"Легенда быстро разнеслась по П�
 BadEnding_Snell_1,,Что бы сделал друг?
 BadEnding_Snell_2,,…
 BadEnding_Donjon_1,,Тюрьма
-BadEnding_Donjon_2,,"Мир молод. Всего лишь половину тысячелетия спустя, один лишь Жрец доживёт до его конца. Эта битва приведёт его на поля брани разорённых земель, где люди останавливаются и затем начинают заново. Он станет тем, кто увидит Последнюю Эпоху. Проклятие. Легенда. Последний Человек Джора.
+BadEnding_Donjon_2,,"Мир молод. Всего через пять тысяч лет один лишь Жрец доживёт до его конца. Эта битва приведёт его на поля брани разорённых земель, где люди останавливаются и затем начинают заново. Он станет тем, кто увидит Последнюю Эпоху. Проклятие. Легенда. Последний Человек Джора.
 
 Увы, слишком далеко. Возвращайся."
 BadEnding_Death_1,,Принятие Смерти

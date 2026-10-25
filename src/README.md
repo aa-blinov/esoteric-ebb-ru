@@ -21,7 +21,7 @@ from: the style code and the frozen glossary.
 | `ebru/verify_final.py` | The final report: typography, markup, address, repeats, width. |
 | `ebru/finalize.py` | The corpus into the twelve CSV files. |
 | `voice/bible.md` | The style code the editor reads. |
-| `voice/glossary.json` | The frozen terms, 1,838 of them. |
+| `voice/glossary.json` | The frozen terms, 1,847 of them. |
 
 ## Running it
 

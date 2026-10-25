@@ -31,6 +31,7 @@ The first build of the translation had these lines in the lore panel:
 | `ДОПОЛНИТЕЛЬНЫЕ ПРЕДМЕТЫ` | 45 | 674 px | wraps, overlaps the line below |
 | `Higher Strength` (English) | 38 | 286 px | fits |
 | `Большая Сила` | 38 | 431 px | fits |
+| `ЛИШНИЕ ПРЕДМЕТЫ` (Russian, Noto Serif) | 45 | 495 px | fits within 500 px |
 
 Russian needs more characters than English for the same thought, and the
 difference is enough to push a display-size line out of the panel. The
@@ -44,7 +45,7 @@ measurements were taken against the real font data out of the game's assets:
 | `AbilityScoreInfo_Strength_Uses1` | ДОПОЛНИТЕЛЬНЫЕ ПРЕДМЕТЫ | ЛИШНИЕ ПРЕДМЕТЫ |
 | `AbilityScoreInfo_Dexterity_Uses2` | Как стремительный Разбойник | Как дерзкий разбойник |
 | `AbilityScoreInfo_Constitution_Uses3` | Твоя политическая партия на прошлой неделе получила 2% голосов, и | Твоя партия набрала 2% за прошлую неделю, и |
-| `AbilityScoreInfo_Strength_LoreFootNote` | `<size=33>БОЖЕСТВЕННУЮ МИССИЮ` | `<size=25>БОЖЕСТВЕННУЮ МИССИЮ` |
+| Third line of `AbilityScoreInfo_Strength_LoreFootNote` | `<b><size=33>DIVINE MISSION</b>` | `<b><size=25>U+200B</b>` (invisible) |
 
 The Wisdom line keeps the word and lowers the size: the word was correct, the
 box was not.
@@ -87,8 +88,9 @@ The Russian description is a line shorter than the English one, so the heading
 of the uses, **Большая Сила**, rose far enough to be seen under the bubble.
 The footnote was set in three short lines, with its all-caps phrase reduced to
 size 25 to fit. The third line still showed through the black notice band in
-the live panel, so it is now an invisible placeholder. The first two lines and
-the notice itself stay visible.
+the live panel, so it is now an invisible placeholder. The first two lines
+(«Стань ФАНАТИКОМ. Верни свою честь.») and the separate black notice text
+(`AbilityScoreInfo_Strength_LoreNotice`) stay visible.
 
 ### Strength description after the wording fix
 

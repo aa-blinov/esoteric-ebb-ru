@@ -49,7 +49,9 @@ def main():
     manual = json.load(open(MANUAL, encoding="utf-8"))
     for fn, table in by_file.items():
         manual.setdefault(fn, {}).update(table)
-    json.dump(manual, open(MANUAL, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+    with open(MANUAL, "w", encoding="utf-8") as fh:
+        json.dump(manual, fh, ensure_ascii=False, indent=2)
+        fh.write("\n")
     print("manual fixes:", sum(len(v) for v in manual.values()))
 
 
