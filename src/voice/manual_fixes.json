@@ -404,7 +404,8 @@
     "Loading_Title_PreparingSpells": "<size=33>Подготовка заклинаний</size>",
     "Loading_Title_DivineIntervention": "<size=26>Божественное вмешательство</size>",
     "Loading_Title_EsotericEvents": "<size=33>Эзотерические события</size>",
-    "Loading_Title_QuestingTree": "<size=29>Древо поиска приключений</size>"
+    "Loading_Title_QuestingTree": "<size=29>Древо поиска приключений</size>",
+    "Menu_Header_SessionNotes": "<size=38>Заметки сессии</size>"
   },
   "Feats.csv": {
     "FEAT_EYE_CHA": "Чтение обстановки",

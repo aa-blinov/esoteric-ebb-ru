@@ -416,6 +416,16 @@ The names of the types are short now: «Гримуар», «Ключевой», 
 letters of the abilities are the ones the game itself uses in the rolls of
 the spells.
 
+## The notes of the session
+
+The panel of the session notes carries a heading, a rule under it, and the
+date of the save. The rule follows the heading and the date is written on the
+same line, so the rule cuts the top off the digits of the date.
+
+The date belongs to the game, and the heading is ours. The heading is written
+in the size 38 now, so that the rule lifts off the date. The heading measured
+about 34 px of cap height at the size 43.
+
 ## Checking a line yourself
 
 ```bash

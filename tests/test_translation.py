@@ -65,6 +65,7 @@ MARKUP_EXCEPTIONS = {
     ("MiscTexts.csv", "AbilityScoreInfo_Charisma_Uses3"): "<size=42></size><size=40>",
     ("UIElements.csv", "Menu_DeepStorage"): "<size=20></size>",
     ("UIElements.csv", "Menu_Button_PressAnyButton"): "<size=36></size>",
+    ("UIElements.csv", "Menu_Header_SessionNotes"): "<size=38></size>",
     ("UIElements.csv", "Menu_LoadFile"): "<size=35></size>",
     ("UIElements.csv", "Loading_Title_AbilityScore"): "<size=26></size>",
     ("UIElements.csv", "Loading_Title_AbilityScoreMod"): "<size=26></size>",

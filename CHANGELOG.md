@@ -8,6 +8,16 @@ All notable changes to Esoteric Ebb RU. Versions are ordered newest first.
 
 - Nothing yet.
 
+## 0.17.0 (2026-10-25)
+
+### Fixed
+
+- **The date of the session notes clears the rule.** The panel of the session
+  notes carries a heading, a rule under it and the date of the save. The rule
+  follows the heading and the date is written on the same line, so the rule
+  cut the top off the digits of the date. The heading is written in the size
+  38 now, and the rule lifts off the date.
+
 ## 0.16.0 (2026-10-25)
 
 ### Fixed

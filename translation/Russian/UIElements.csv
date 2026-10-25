@@ -206,7 +206,7 @@ Menu_Button_Exit,Выход
 Menu_Button_PressAnyButton,<size=36>Нажмите любую кнопку</size>
 Menu_Button_Resume,Продолжить
 Menu_Button_QuitToMenu,Выйти в меню
-Menu_Header_SessionNotes,Заметки сессии
+Menu_Header_SessionNotes,<size=38>Заметки сессии</size>
 Menu_Button_Continue,Дальше
 Menu_Button_Finish,Готово
 Sheet_BackgroundFocus,Фокус на фоне
