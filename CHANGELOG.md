@@ -6,6 +6,7 @@ All notable changes to Esoteric Ebb RU. Versions are ordered newest first.
 
 ### Fixed
 
+- Renamed the Divine pillar of magic to “Божественность” so its heading agrees grammatically with its glossary description.
 - Removed nine accidental Chinese fragments from dialogue and glossary entries; restored the source's punch-weight joke and corrected the troll description.
 - Shortened alignment labels and reduced the neutral and chaotic terms to sizes 16 and 19 so every two-line option fits its character-sheet field.
 - Corrected five ability lore entries and standardized the Constitution stat as “Телосложение”. Two ordinary dialogue uses now read as “здоровье”.
