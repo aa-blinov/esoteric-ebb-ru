@@ -8,6 +8,27 @@ All notable changes to Esoteric Ebb RU. Versions are ordered newest first.
 
 - Nothing yet.
 
+## 0.21.0 (2026-10-25)
+
+### Added
+
+- **A scan for the traces of machine-written prose.**
+  `scripts/scan_ai_patterns.py` reads every line of the localization, looks
+  for the patterns of the `humanizer` skill in Russian, and prints the lines
+  next to their English source, together with the rate of the connectives and
+  the em dashes on both sides. The English source is the yardstick: a Russian
+  line that carries such a word is faithful when the source carries it too.
+
+### Fixed
+
+- **Three lines that were stiffer than the source.** «Вообще-то ей в
+  значительной степени всё равно.» was a heavy way to say that she does not
+  care either way, «Однако очевидно, что этот сам по себе не парит.» had a
+  pronoun that pointed at nothing, and «также, как все рассказы, рисованные…»
+  mixed up the two meanings of the word. The lines are «Ну, ей вообще-то всё
+  равно.», «Однако он сам по себе не парит.» and «Как и все рассказы,
+  рисованные…».
+
 ## 0.20.0 (2026-10-25)
 
 ### Fixed

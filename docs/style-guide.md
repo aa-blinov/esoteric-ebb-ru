@@ -87,6 +87,46 @@ The input is a JSON array of objects. The reply is a JSON array of the same
 length: the edited Russian for every line. A line that already follows the
 guide comes back unchanged.
 
+## 10. The voice of the translation
+
+The dialogue of the game is written by a person, and the Russian must sound
+like the same person. The traps of machine-written prose are known: the
+padded claim, the phrase that fills a pause, the group of three, the fake
+alternative that is rejected and forgotten, the em dash that does the work of
+a comma.
+
+The English source uses some of the same everyday words that the list of
+these traps is built from: `obviously`, `time will tell`, `in other words`,
+`here's the thing`, `in fact`, `to some degree`. A Russian line that carries
+such a word is faithful, and rewriting it would only make it stranger.
+
+The check is therefore a measurement, and the English source is the yardstick:
+
+```bash
+python3 scripts/scan_ai_patterns.py          # the counts and the rates
+python3 scripts/scan_ai_patterns.py --verbose # every line, with its source
+```
+
+The last run covered all 81,892 lines and 3,632,456 characters of the
+localization. The lines with a pattern are 602, and every one of them was
+read against its English source. The Russian uses no connective more often
+than the source does:
+
+| Connective | Russian per 1000 characters | English per 1000 characters |
+| --- | --- | --- |
+| `и это` | 0.036 | 0.038 |
+| `не просто` | 0.012 | 0.011 |
+| `очевидно` | 0.062 | 0.076 |
+| `на самом деле` | 0.052 | 0.125 |
+| `давайте` | 0.013 | 0.102 |
+| `в сущности` | 0.002 | 0.017 |
+
+The em dash is the one place where the two languages part company. The
+English source has none, the Russian has **1.489** per 1000 characters, and
+the Chinese translation of the developer has 1.48. The dash is how a
+Russian sentence turns, and it is how the Chinese one turns as well, so the
+rate stays.
+
 ## The checks that run afterwards
 
 The editor is followed by three automated passes, and they are the ones that
