@@ -323,7 +323,15 @@
     "PCBackground_UrthguardRecruit_name": "Рекрут Уртгарда",
     "TriInteraction_Trifle": "Взять",
     "TriInteraction_Engage": "Говорить",
-    "Feat_EmptySlot": "[Пустой слот]"
+    "Feat_EmptySlot": "[Пустой слот]",
+    "ItemType_Spellbook": "Гримуар",
+    "ItemType_KeyItem": "Ключевой",
+    "ItemType_DexMod": "Мод. ЛОВ",
+    "ItemType_ConMod": "Мод. КОН",
+    "ItemType_IntMod": "Мод. ИНТ",
+    "ItemType_WisMod": "Мод. МДР",
+    "ItemType_ChaMod": "Мод. ХАР",
+    "ItemType_StrMod": "Мод. СИЛ"
   },
   "UIElements.csv": {
     "Loading_Desc_SpellConcentration": "Некоторые заклинания требуют поддержания Концентрации. Ты можешь сосредоточиться только на одном заклинании за раз.\r\n\r\nЕсли ты получаешь достаточно урона, для поддержания Концентрации обычно необходимо успешно пройти проверку Телосложения. Для тебя это, похоже, не проблема.\r\n\r\nКак только срок действия заклинания истекает или ты теряешь Концентрацию, заклинание заканчивается.",

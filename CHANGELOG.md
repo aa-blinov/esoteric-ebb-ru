@@ -8,6 +8,17 @@ All notable changes to Esoteric Ebb RU. Versions are ordered newest first.
 
 - Nothing yet.
 
+## 0.16.0 (2026-10-25)
+
+### Fixed
+
+- **The name of the type of an item fits the tooltip.** The plate of the
+  tooltip is one line tall and about 215 px wide, and «Книга заклинаний»
+  needs two lines: the word «ЗАКЛИНАНИЙ» came out under the plate. The names
+  of the types are short now: «Гримуар», «Ключевой», «Мод. СИЛ», «Мод. ЛОВ»,
+  «Мод. КОН», «Мод. ИНТ», «Мод. МДР» and «Мод. ХАР». The three letters of the
+  abilities are the ones the game itself uses in the rolls of the spells.
+
 ## 0.15.0 (2026-10-25)
 
 ### Fixed

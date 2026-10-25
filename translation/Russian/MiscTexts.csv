@@ -599,21 +599,21 @@ IdeaBox_DayBeforeElection,,"День перед выборами, {0}"
 IdeaBox_ElectionDay,,"День выборов, {0}"
 ItemType_Weapon,,Оружие
 ItemType_Head,,Голова
-ItemType_Spellbook,,Книга заклинаний
+ItemType_Spellbook,,Гримуар
 ItemType_Scroll,,Свиток
 ItemType_Potion,,Зелье
 ItemType_Shard,,Осколок
 ItemType_Incense,,Ладан
 ItemType_Coin,,Монета
 ItemType_Misc,,Разное
-ItemType_KeyItem,,Ключевой предмет
+ItemType_KeyItem,,Ключевой
 ItemType_AllItem,,Все предметы
-ItemType_StrMod,,Мод. Силы
-ItemType_DexMod,,Мод. Ловкости
-ItemType_ConMod,,Мод. Телосложения
-ItemType_IntMod,,Мод. Интеллекта
-ItemType_WisMod,,Мод. Мудрости
-ItemType_ChaMod,,Мод. Харизмы
+ItemType_StrMod,,Мод. СИЛ
+ItemType_DexMod,,Мод. ЛОВ
+ItemType_ConMod,,Мод. КОН
+ItemType_IntMod,,Мод. ИНТ
+ItemType_WisMod,,Мод. МДР
+ItemType_ChaMod,,Мод. ХАР
 ItemType_None,,Нет
 ItemTitle_Normal_Weapon,,Оружие
 ItemTitle_SlightlyOff_Weapon,,Оружие

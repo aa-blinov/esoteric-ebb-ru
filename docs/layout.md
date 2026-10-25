@@ -400,6 +400,22 @@ rules of the rows below. It is «[Пустой слот]» now.
 The description of the dice called them «Кости здоровья» while the name of
 the row called them «Кубики здоровья». Both say «кубики» now.
 
+## The tooltip of an item
+
+The name of the type of an item is drawn in a plate that is one line tall and
+about **215 px** wide, on the left edge of the screen. A name that does not
+fit breaks, and its second line comes out under the plate.
+
+| Name | Width | Result |
+| --- | --- | --- |
+| `КНИГА ЗАКЛИНАНИЙ` | 16 letters | breaks, «ЗАКЛИНАНИЙ» falls out of the plate |
+| `ГРИМУАР` | 7 letters | fits |
+
+The names of the types are short now: «Гримуар», «Ключевой», «Мод. СИЛ»,
+«Мод. ЛОВ», «Мод. КОН», «Мод. ИНТ», «Мод. МДР» and «Мод. ХАР». The three
+letters of the abilities are the ones the game itself uses in the rolls of
+the spells.
+
 ## Checking a line yourself
 
 ```bash
