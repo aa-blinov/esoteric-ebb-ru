@@ -97,8 +97,8 @@ a comma.
 
 The English source uses some of the same everyday words that the list of
 these traps is built from: `obviously`, `time will tell`, `in other words`,
-`here's the thing`, `in fact`, `to some degree`. A Russian line that carries
-such a word is faithful, and rewriting it would only make it stranger.
+`in fact`, `to some degree`. A Russian line that carries such a word is
+faithful, and rewriting it would only make it stranger.
 
 The check is therefore a measurement, and the English source is the yardstick:
 

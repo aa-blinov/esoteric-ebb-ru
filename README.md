@@ -4,6 +4,8 @@ A complete Russian localization of Esoteric Ebb: 81,883 translated lines in
 twelve CSV files, installed as a language folder that the game loads next to
 the English one.
 
+[Русская версия этого описания](README_ru.md).
+
 Esoteric Ebb ships its own localization pipeline. The game reads
 `StreamingAssets/Localization/<Folder>/*.csv` at startup, and the developer
 tells translators to copy the `Template` folder, fill it in, and keep the word
@@ -53,8 +55,9 @@ without touching the menu:
 - **Typography that survives the layout.** Russian needs a few characters more
   than English in the same box, and the game's panels are fixed size. The
   translation was measured against the real panel widths and the real font
-  metrics; four lines were rewritten to fit, and the dialogue text size was
-  lowered from 24 to 20 so the Russian occupies the space the English did.
+  metrics; every line that did not fit was shortened or given a smaller size,
+  and the dialogue text size was lowered so the Russian occupies the space the
+  English did. `docs/layout.md` holds the measurements.
 - **Inline markup left alone.** `<i>`, `<b>`, `<u>`, `<s>`, `<shake>`,
   `<wiggle>`, `<size=N>`, `<color=#RRGGBB>` and placeholders such as `{CLERIC}`
   are checked row by row against the English source. No row differs.
@@ -84,6 +87,35 @@ without touching the menu:
 Every one of these lives in `SETTINGS.es3` and survives a restart. The game
 rewrites the file when it leaves, so the setting has to be changed while the
 game is closed.
+
+## Known issues
+
+Two of them belong to the game and cannot be fixed by a translation.
+
+- **The light mode empties one panel.** The game rebuilds parts of the
+  interface when the light mode is switched at runtime, and the panels it
+  rebuilds take their text from the strings of the game itself and not from
+  the folder of the language. The column of examples next to the settings
+  turns into English in the Russian build; the Chinese build keeps its
+  Chinese, because the developer put his own Chinese in the same place. The
+  rest of the interface stays Russian, and a restart reads the localization
+  again.
+- **A few strings of the developer are in Russian already.** The tooltip of a
+  spell slot, the screen that blocks a session and a few numbers of the
+  options carry the Russian of the developer, not the translation. The
+  measurements are in `docs/layout.md`.
+
+## Checking the voice
+
+`scripts/scan_ai_patterns.py` reads every line of the localization, looks for
+the patterns of machine-written prose in Russian, and prints the lines next to
+their English source, together with the rate of the connectives and the em
+dashes on both sides. The English source is the yardstick: a Russian line
+that carries such a word is faithful when the source carries it too.
+
+```bash
+python3 scripts/scan_ai_patterns.py --verbose
+```
 
 ## How it works
 

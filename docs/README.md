@@ -8,6 +8,7 @@
 | [layout.md](layout.md) | The panel widths the Russian is measured against, and the strings that failed them. |
 | [screenshots/](screenshots/) | The game in Russian. |
 | [../README.md](../README.md) | The front door: what it does and how to install it. |
+| [../README_ru.md](../README_ru.md) | The same front door, in Russian. |
 
 ## Reading order
 
