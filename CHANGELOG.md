@@ -8,6 +8,27 @@ All notable changes to Esoteric Ebb RU. Versions are ordered newest first.
 
 - Nothing yet.
 
+## 0.12.0 (2026-10-25)
+
+### Fixed
+
+- **The titles of the loading tips stay on one line.** The title of a tip is
+  drawn above a rule of 499 px, and a title that does not fit breaks: its second
+  line lands on the first line of the text. «ПОДГОТОВКА ЗАКЛИНАНИЙ» is the
+  clearest case, and the words «ЗАКЛИНАНИЙ» sat on the text. Eleven of the
+  Russian titles were wider than the rule; they keep their words and get a
+  smaller size now.
+- **The prompt at the bottom of the loading screen fits.** «Нажмите любую
+  клавишу, чтобы продолжить» needs 566 px, the rule there is 500 px wide, and
+  the word «ПРОДОЛЖИТЬ» fell on the rule. The prompt is «Нажмите любую
+  клавишу» now.
+- **The button of the load screen keeps its word.** «- Загрузить файл -» needs
+  464 px and the panel is 400 px wide, so the label broke into two lines and the
+  second one was cut off by the edge of the screen. The size of the label is 35
+  now, and it measures 369 px.
+- **The question of the load screen keeps one line.** «Загрузить файл?» broke
+  after the first word. It is «Загрузить?» now.
+
 ## 0.11.0 (2026-10-25)
 
 ### Fixed

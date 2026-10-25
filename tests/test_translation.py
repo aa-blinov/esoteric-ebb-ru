@@ -65,6 +65,18 @@ MARKUP_EXCEPTIONS = {
     ("MiscTexts.csv", "AbilityScoreInfo_Charisma_Uses3"): "<size=42></size><size=40>",
     ("UIElements.csv", "Menu_DeepStorage"): "<size=30></size>",
     ("UIElements.csv", "Menu_Button_PressAnyButton"): "<size=36></size>",
+    ("UIElements.csv", "Menu_LoadFile"): "<size=35></size>",
+    ("UIElements.csv", "Loading_Title_AbilityScore"): "<size=26></size>",
+    ("UIElements.csv", "Loading_Title_AbilityScoreMod"): "<size=26></size>",
+    ("UIElements.csv", "Loading_Title_DivineIntervention"): "<size=26></size>",
+    ("UIElements.csv", "Loading_Title_EsotericEvents"): "<size=33></size>",
+    ("UIElements.csv", "Loading_Title_HiddenDialogChoices"): "<size=29></size>",
+    ("UIElements.csv", "Loading_Title_LockedChecks"): "<size=29></size>",
+    ("UIElements.csv", "Loading_Title_PreparingSpells"): "<size=33></size>",
+    ("UIElements.csv", "Loading_Title_QuestingTree"): "<size=29></size>",
+    ("UIElements.csv", "Loading_Title_SituationalSpells"): "<size=30></size>",
+    ("UIElements.csv", "Loading_Title_SpellCasting"): "<size=33></size>",
+    ("UIElements.csv", "Loading_Title_SpellConcentration"): "<size=27></size>",
 }
 
 

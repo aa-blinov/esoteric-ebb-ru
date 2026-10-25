@@ -242,6 +242,56 @@ Five strings in the lore panel overlap their neighbours in the English build
 as well: the badge row of the role description sits on top of the last line of
 the text, and the game has always done that. The Russian is not the cause.
 
+## The tips of the loading screen
+
+While a save is loading, the game shows a tip: a title in orange, a rule under
+it, and the text of the tip below. The rule is **499 px** wide, and the title
+has to stay on one line above it. A title that does not fit breaks, and its
+second line is drawn over the first line of the text.
+
+The title is drawn in the size **35**, and the width of a line follows the
+advance widths of the font:
+
+```
+width in px = size × (sum of the advance widths of the letters, in em)
+```
+
+The table was taken from four titles that were measured on the screen of
+the game, and it is accurate to about one percent:
+
+| Title | Measured | Computed |
+| --- | --- | --- |
+| `ЧЕРТЫ` | 120 px | 122 px |
+| `ПОДГОТОВКА` | 240 px | 243 px |
+| `ЗАКЛИНАНИЙ` | 239 px | 241 px |
+| `ЭЗОТЕРИЧЕСКИЕ СОБЫТИЯ` | 499 px | 500 px |
+
+Eleven of the Russian titles are wider than the rule. They keep their words and
+get a smaller size, so that every one of them measures less than 478 px:
+
+| Key | Size |
+| --- | --- |
+| `Loading_Title_AbilityScore` | 26 |
+| `Loading_Title_AbilityScoreMod` | 26 |
+| `Loading_Title_DivineIntervention` | 26 |
+| `Loading_Title_SpellConcentration` | 27 |
+| `Loading_Title_LockedChecks` | 29 |
+| `Loading_Title_QuestingTree` | 29 |
+| `Loading_Title_HiddenDialogChoices` | 29 |
+| `Loading_Title_SituationalSpells` | 30 |
+| `Loading_Title_EsotericEvents` | 33 |
+| `Loading_Title_PreparingSpells` | 33 |
+| `Loading_Title_SpellCasting` | 33 |
+
+The line at the bottom of that screen had the same trouble. «Нажмите любую
+клавишу, чтобы продолжить» is 41 characters and needs 566 px, and the rule
+there is 500 px wide, so the word «ПРОДОЛЖИТЬ» fell on the rule. The prompt
+is «Нажмите любую клавишу» now, and it measures 290 px.
+
+Four tips were loaded and looked at on the screen of the game.
+«ДРЕВО ПОИСКА ПРИКЛЮЧЕНИЙ» is one of the eleven titles of the table, and it
+stays on one line. None of the four reached the line of text.
+
 ## The character sheet
 
 The sheet of the character carries three panels of its own: the lore, the
