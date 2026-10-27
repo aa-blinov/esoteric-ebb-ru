@@ -21,8 +21,12 @@ tells translators to copy the `Template` folder, fill it in, and keep the word
 
 ## Quick start
 
-Copy the folder into the game's localization directory and pick Russian in the
-menu:
+Download the [v1.0.0 localization archive](https://github.com/aa-blinov/esoteric-ebb-ru/releases/download/v1.0.0/esoteric-ebb-ru-v1.0.0.zip)
+and extract its `Russian` folder into the game's
+`Esoteric Ebb_Data/StreamingAssets/Localization/` directory. Find the game
+folder in Steam with **Manage → Browse local files**.
+
+Alternatively, copy the folder from a source checkout:
 
 ```bash
 git clone https://github.com/aa-blinov/esoteric-ebb-ru.git
@@ -46,8 +50,9 @@ without touching the menu:
 
 - **Every line of the game.** 81,891 strings across dialogue, the codex, spells,
   feats, items, quests, the character sheet and the interface. Every source
-  line that carries text has a Russian one; the rows that stay empty are empty
-  in the English source too.
+  line that carries text has a Russian one. Rows with an empty English source
+  stay empty, except for the game's intentionally blank `Popup_194`, which uses
+  a zero-width space so the game does not display its quote placeholder.
 - **One voice for the whole game.** The terms were translated first and frozen
   in a glossary of 1,838 entries; every later pass was bound to that glossary.
   2,219 repeated lines that had been translated differently in different places
@@ -139,7 +144,7 @@ C:\Program Files (x86)\Steam\steamapps\common\Esoteric Ebb\Esoteric Ebb_Data\Str
 ```
 
 and on another drive it starts with the drive of that copy of Steam, for
-example `M:\SteamLibrary\steamapps\common\Esoteric Ebb\...`. Right click the
+example `D:\SteamLibrary\steamapps\common\Esoteric Ebb\...`. Right click the
 game in Steam → Manage → Browse local files, and the folder is there.
 
 **3. Start the game and pick the language.** `Options → Language → Русский`.

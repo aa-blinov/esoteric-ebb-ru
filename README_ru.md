@@ -35,10 +35,9 @@ Template рядом с Official и заполни её**. Игра при ста
 
 ## Установка
 
-1. Скопируйте папку `Russian` в:
-   `M:\SteamLibrary\steamapps\common\Esoteric Ebb\Esoteric Ebb_Data\StreamingAssets\Localization\`
-   (если игра стоит в другом месте, укажите её папку `Esoteric Ebb_Data\StreamingAssets\Localization\`)
-2. Запустите игру → **Options → Language → Русский**.
+1. Скачайте [архив локализации v1.0.0](https://github.com/aa-blinov/esoteric-ebb-ru/releases/download/v1.0.0/esoteric-ebb-ru-v1.0.0.zip). В нём находится папка `Russian` с 12 CSV-файлами.
+2. Найдите папку игры в Steam: **Manage → Browse local files**. Распакуйте `Russian` в `Esoteric Ebb_Data\StreamingAssets\Localization\` рядом с папками `Official` и `ChineseCommunity`.
+3. Запустите игру → **Настройки → Язык → Русский** (в английском интерфейсе: **Options → Language → Русский**).
 
 Переключение языка также работает горячими клавишами **V** / **B** прямо в игре,
 а **Ctrl+R** перечитывает CSV без перезапуска.
@@ -332,7 +331,7 @@ python3 scripts/scan_ai_patterns.py --verbose
 ### Шаг 5. Контроль качества
 У каждой строки сверяется мультимножество тегов и плейсхолдеров с оригиналом:
 `<i> <b> <u> <s> <shake> <wiggle> <size=NN> <color=#RRGGBB>`, `{0}`, `{CLERIC}`.
-Итог: **0 расхождений разметки, 0 пустых строк, 0 дефектов смешанных шрифтов.**
+Итог: **0 расхождений разметки, 0 пропущенных переводов для непустого оригинала, 0 дефектов смешанных шрифтов.**
 
 Скорость: около 65 пакетов в минуту на 12 потоках; весь конвейер занимает около 4 часов.
 Каждый вызов модели кэшируется на диске, поэтому пайплайн можно перезапустить в любой момент

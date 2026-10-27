@@ -4,7 +4,9 @@ All notable changes to Esoteric Ebb RU. Versions are ordered newest first.
 
 ## [Unreleased]
 
-No unreleased changes.
+### Documentation
+
+- README теперь ссылаются на архив v1.0.0; инструкция на русском больше не привязана к пути Steam на машине автора. Уточнено, как игра обрабатывает пустую Popup_194.
 
 ## [1.0.0] - 2026-10-27
 
