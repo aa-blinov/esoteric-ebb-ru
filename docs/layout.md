@@ -255,10 +255,13 @@ The Russian `День {0}` needs 123 px. The label is one line high, so the numb
 wrapped onto a second line, the word rode up over the rule, and the number was
 drawn below the panel.
 
-The label is `день {0}` now. Lower case needs 107 px and fits on one line, and
-the display font draws lower case as small capitals: the label reads **ДЕНЬ 1**,
-the same shape as **DAY 1**. The same string builds the summary of a saved
-game, where it reads `день 1 - 08:10`.
+The earlier lowercase fix did not hold in the live HUD: a fresh screenshot
+showed that the day label still wrapped into the clock. The pipeline had also
+restored `День {0}` because the correction was not persisted as a manual fix.
+The label is now `дн. {0}`; the abbreviation keeps the meaning while leaving
+room for the day number on the HUD. After a full restart, a live 1920 × 1080
+capture showed `дн. 1` on one line below the clock, with no overlap. The
+saved-game summary uses the same key and also fits on one line.
 
 A non-breaking space between the word and the number does not help: the text
 engine breaks the line at it as well.
@@ -379,9 +382,16 @@ The line at the bottom of that screen had the same trouble. «Нажмите л�
 there is 500 px wide, so the word «ПРОДОЛЖИТЬ» fell on the rule. The prompt
 is «Нажмите любую клавишу» now, and it measures 290 px.
 
+At reference size 24 in the game's Klee One font, the intro skip label
+`Пропустить` measures **240 px**. The shorter `Пропуск` measures **168 px**, a
+30% reduction.
+The black loading screen was also checked live: «Нажмите любую клавишу» and
+the `100%` progress value stay clear of each other.
+
 Four tips were loaded and looked at on the screen of the game.
 «ДРЕВО ПОИСКА ПРИКЛЮЧЕНИЙ» is one of the eleven titles of the table, and it
 stays on one line. None of the four reached the line of text.
+
 
 ## The character sheet
 

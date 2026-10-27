@@ -21,7 +21,7 @@ tells translators to copy the `Template` folder, fill it in, and keep the word
 
 ## Quick start
 
-Download the [v1.0.0 localization archive](https://github.com/aa-blinov/esoteric-ebb-ru/releases/download/v1.0.0/esoteric-ebb-ru-v1.0.0.zip)
+Download the [v1.0.1 localization archive](https://github.com/aa-blinov/esoteric-ebb-ru/releases/download/v1.0.1/esoteric-ebb-ru-v1.0.1.zip)
 and extract its `Russian` folder into the game's
 `Esoteric Ebb_Data/StreamingAssets/Localization/` directory. Find the game
 folder in Steam with **Manage → Browse local files**.

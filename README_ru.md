@@ -35,7 +35,7 @@ Template рядом с Official и заполни её**. Игра при ста
 
 ## Установка
 
-1. Скачайте [архив локализации v1.0.0](https://github.com/aa-blinov/esoteric-ebb-ru/releases/download/v1.0.0/esoteric-ebb-ru-v1.0.0.zip). В нём находится папка `Russian` с 12 CSV-файлами.
+1. Скачайте [архив локализации v1.0.1](https://github.com/aa-blinov/esoteric-ebb-ru/releases/download/v1.0.1/esoteric-ebb-ru-v1.0.1.zip). В нём находится папка `Russian` с 12 CSV-файлами.
 2. Найдите папку игры в Steam: **Manage → Browse local files**. Распакуйте `Russian` в `Esoteric Ebb_Data\StreamingAssets\Localization\` рядом с папками `Official` и `ChineseCommunity`.
 3. Запустите игру → **Настройки → Язык → Русский** (в английском интерфейсе: **Options → Language → Русский**).
 

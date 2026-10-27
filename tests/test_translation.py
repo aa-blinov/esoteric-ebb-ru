@@ -242,6 +242,14 @@ class TestSettings(unittest.TestCase):
         self.assertEqual(rows.get("LanguageDropdown"), "Русский")
         self.assertEqual(rows.get("FallbackLanguage"), "EN")
 
+    def test_clock_day_label_stays_on_one_line(self):
+        rows = {r[0]: r[-1] for r in load_csv("MiscTexts.csv")[1:]}
+        self.assertEqual(rows.get("DayMessage_Day"), "дн. {0}")
+
+    def test_intro_skip_label_uses_short_form(self):
+        rows = {r[0]: r[-1] for r in load_csv("UIElements.csv")[1:]}
+        self.assertEqual(rows.get("Intro_Skip"), "Пропуск")
+
 
 class TestManualFixes(unittest.TestCase):
     def test_csv_named_fixes_apply_to_corpus_rows(self):
