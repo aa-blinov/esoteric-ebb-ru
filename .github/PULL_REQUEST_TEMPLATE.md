@@ -1,23 +1,28 @@
-## What this changes
+## Summary
 
-<!-- One paragraph, or one sentence if the change is small. The reader should
-     be able to tell what is different without opening the diff. -->
+<!-- Describe the player-facing change and list the affected CSV keys/files. -->
 
-## Why
+## Context
 
-<!-- The reason, not the mechanism. If a rule in the house style is being
-     broken here, say which one and why it had to be broken; a deliberate
-     exception is fine, an unnoticed one is not. -->
+<!-- Add the English source or lore context needed to review the wording. -->
 
-## How to check it
+## Verification
 
-<!-- The command a reviewer runs to verify this. If there is no such command,
-     say so; that is worth knowing too. -->
+- [ ] `python -m unittest discover -s tests -v` passes.
+- [ ] The `Check and test` and `House style` workflows pass.
+- [ ] Markup and placeholders still match the English source.
+- [ ] Repeated source lines still use the same Russian wording.
+- [ ] I checked the game when this change affects layout; screenshots and
+      resolution/font settings are included below.
 
-## Checklist
+## Project files
 
-- [ ] `scripts/housecheck.py --strict .` passes.
-- [ ] Tests pass, and new behaviour comes with a test.
-- [ ] `README.md` still describes what the project deliberately does.
-- [ ] `CHANGELOG.md` has an entry, if the change is visible to a user.
-- [ ] No new dependency without a reason written down next to it.
+- [ ] The CSV correction is persisted in `src/voice/manual_fixes.json`.
+- [ ] `docs/layout.md` records a measured layout change, if applicable.
+- [ ] `CHANGELOG.md` describes a player-visible change.
+- [ ] No dependency or workflow permission was added without a reason.
+
+## Screenshots or notes
+
+<!-- Include before/after images for UI changes. For text-only changes, write
+     “Not applicable.” -->
