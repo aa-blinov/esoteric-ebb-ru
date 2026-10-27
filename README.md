@@ -122,6 +122,12 @@ that carries such a word is faithful when the source carries it too.
 python3 scripts/scan_ai_patterns.py --verbose
 ```
 
+## Contributing
+
+Read [CONTRIBUTING.md](CONTRIBUTING.md) before proposing translation or code
+changes. The project follows the [Code of Conduct](CODE_OF_CONDUCT.md); the
+[release process](docs/release-process.md) explains versions and publishing.
+
 ## Install it on your own copy
 
 **1. Take the folder.** The translation is the `translation/Russian/` folder of
