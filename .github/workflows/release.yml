@@ -24,6 +24,12 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Test the release commit
+        run: |
+          python3 -m pip install --upgrade pip
+          python3 -m pip install -r requirements.txt
+          python3 -m unittest discover -s tests -v
+
       - name: Extract the version
         id: version
         run: |
