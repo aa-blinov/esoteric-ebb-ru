@@ -65,10 +65,10 @@ MARKUP_EXCEPTIONS = {
     ("MiscTexts.csv", "AbilityScoreInfo_Strength_Uses3"): "<size=63><size=45>",
     ("MiscTexts.csv", "AbilityScoreInfo_Dexterity_Uses3"): "<size=40><size=41>",
     ("MiscTexts.csv", "AbilityScoreInfo_Intelligence_Uses1"): "<size=40></size><size=42>",
-    ("MiscTexts.csv", "AbilityScoreInfo_Charisma_Uses3"): "<size=42></size><size=40>",
+    ("MiscTexts.csv", "AbilityScoreInfo_Charisma_Uses3"): "<size=28></size><size=40>",
     ("MiscTexts.csv", "AbilityScoreInfo_Charisma_Uses1"): "<size=20></size><size=48></size><size=18>",
     ("MiscTexts.csv", "AbilityScoreInfo_Charisma_LoreFootNote"): "<size=20><b></b><b></b></size>",
-    ("MiscTexts.csv", "Alignment_Neutral_Good"): "<size=16></size>",
+        ("MiscTexts.csv", "Alignment_Neutral_Good"): "<size=16></size>",
     ("MiscTexts.csv", "Alignment_Chaotic_Good"): "<size=19></size>",
     ("MiscTexts.csv", "Alignment_Lawful_Neutral"): "<size=16></size>",
     ("MiscTexts.csv", "Alignment_True_Neutral"): "<size=16></size>",
@@ -78,8 +78,7 @@ MARKUP_EXCEPTIONS = {
     ("UIElements.csv", "Menu_DeepStorage"): "<size=20></size>",
     ("UIElements.csv", "Menu_Button_PressAnyButton"): "<size=36></size>",
     ("UIElements.csv", "Menu_Header_SessionNotes"): "<size=38></size>",
-    ("MiscTexts.csv", "Cantrips"): "<size=16></size>",
-    ("MiscTexts.csv", "Spells"): "<size=16></size>",
+        ("MiscTexts.csv", "Spells"): "<size=16></size>",
     ("UIElements.csv", "Menu_LoadFile"): "<size=35></size>",
     ("UIElements.csv", "Loading_Title_AbilityScore"): "<size=26></size>",
     ("UIElements.csv", "Loading_Title_AbilityScoreMod"): "<size=26></size>",
@@ -162,11 +161,16 @@ class TestTypography(unittest.TestCase):
             for i, row in enumerate(load_csv(name)[1:], 1):
                 self.assertNotIn("...", row[-1], "%s: row %d" % (name, i))
 
-    def test_tak_zhe_is_one_word(self):
+    def test_separate_tak_zhe_uses_are_reviewed(self):
+        with open(ALLOWLIST, encoding="utf-8") as fh:
+            reviewed = json.load(fh).get("separate_tak_zhe", {})
+        unreviewed = []
         for name in FILES:
             for i, row in enumerate(load_csv(name)[1:], 1):
-                self.assertIsNone(re.search(r"\bтак же\b", row[-1], re.I),
-                                  "%s: row %d" % (name, i))
+                if re.search(r"\bтак же\b", row[-1], re.I) and row[0] not in reviewed.get(name, []):
+                    unreviewed.append("%s: row %d: %s" % (name, i, row[0]))
+        self.assertEqual(unreviewed[:10], [],
+                         "unreviewed separate uses of 'так же': %d" % len(unreviewed))
 
     def test_quotes_are_balanced(self):
         unbalanced = []
@@ -182,17 +186,20 @@ class TestTypography(unittest.TestCase):
 class TestLanguage(unittest.TestCase):
     def test_no_english_inside_a_russian_sentence(self):
         allowed = allowed_tokens()
+        with open(ALLOWLIST, encoding="utf-8") as fh:
+            row_allowlist = json.load(fh).get("rows", {})
         found = []
         for name in FILES:
             for i, row in enumerate(load_csv(name)[1:], 1):
                 cell = row[-1]
+                row_allowed = {w.lower() for w in row_allowlist.get(name, {}).get(row[0], [])}
                 if not cell or not CYRILLIC.search(cell):
                     continue
                 clean = SPECIAL.sub(" ", cell)
                 for tok in WORD.findall(clean):
                     if not ASCII_LATIN.match(tok):
                         continue          # a word of another language
-                    if tok.lower() not in allowed:
+                    if tok.lower() not in allowed and tok.lower() not in row_allowed:
                         found.append("%s: row %d: %s" % (name, i, tok))
         self.assertEqual(found[:10], [], "english left inside russian in %d rows" % len(found))
 

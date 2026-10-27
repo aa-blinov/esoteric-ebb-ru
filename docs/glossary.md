@@ -19,31 +19,49 @@ The machine-readable form is [../src/voice/glossary.json](../src/voice/glossary.
 | Arcane (magic type) | Тайный |
 | Arcane Era | Эпоха тайной магии |
 | Band (geographic division) | пояс |
+| Beyond (realm) | Запределье |
+| Provisional Government | Временное правительство |
+| PPG (abbreviation) | РПС |
 | Bugbear | Багбир |
 | Cleric | Жрец |
+| Circle Square | Круглая площадь |
 | City Below (short place name) | Подгородье |
+| City Below Security | Служба безопасности Подгородья |
+| CBS (abbreviation) | СБП |
 | The City Below the City (full place name) | Город под городом |
 | Clanlands (halfling federation) | Кланленды |
 | Clanlands Deal | Соглашение о Кланлендах |
+| Core Crevice | Основная Расщелина |
 | Landed Urthfolk | Уртфолки-землевладельцы |
 | Detect Alignment | Определить уравновешение |
+| Dispel Magic | Рассеивание магии |
+| Door Hug | обнимашки с дверью |
 | Constitution | Телосложение |
+| Curse-Mother (dwarven slang) | тёща |
 | Urth | Урт |
 | Urthfolk | Уртфолки |
 | Citizenry | Гражданство |
+| Voting Card | Избирательная карточка |
 | Citizenry | Гражданство |
 | Norvik | Норвик |
 | Norvikian (person) | Норвикиец |
 | Norvikians | Норвикийцы |
+| Outreach (Illym foreign representation) | Представительство |
+| Pillar Road | Колонная улица |
 | Tolstad | Толстад |
 | Freestrider | Фристрайдер |
+| Guild Union | Союз гильдий |
 | Fell Tire (band) | Фелл-Тайр |
+| Far Realm (plane) | Дальний Предел |
 | Tol's Leaving | Проводы Тола |
 | The Mender (Illym epithet) | Восстановительница |
 | Tol's Leaving | Проводы Тола |
 | Greenroc | Гринрок |
 | Golden Horde | Золотая Орда |
 | Halfling | полурослик |
+| Magic Mouth | Волшебный рот |
+| Hail Snail | Град из улиток |
+| Garden Tunnel | Садовый тоннель |
 | Halfway Bridge | Мост на полпути |
 | Halfway Bridge Tribe | Племя Моста на полпути |
 | Halfway-Bridge Tribe | Племя Моста на полпути |
@@ -51,6 +69,7 @@ The machine-readable form is [../src/voice/glossary.json](../src/voice/glossary.
 | Halfways | Полпути |
 | Divine (adjective) | Божественный |
 | Divinity (magic pillar) | Божественность |
+| Dagsbôter | дневной штраф |
 | Dwarf | дворф |
 | Dwarvish | дворфский |
 | Hordefolk | ордынец |
@@ -58,12 +77,17 @@ The machine-readable form is [../src/voice/glossary.json](../src/voice/glossary.
 | Azgal | Азгал |
 | Azgalist | Азгалист |
 | Azgalian | Азгалианец |
+| Azgalian Endurance | Азгалианская стойкость |
+| Human-Dwarf Unity | Единство людей и дворфов |
+| Mass Media Propaganda | Пропаганда в СМИ |
+| Positive Tingle | Позитивное покалывание |
 | Snell | Снелл |
 | Darrow | Дарроу |
 | Coinlord | Владыка монет |
 | Jor | Джор |
 | Interband | межпоясный |
 | Sageleaf | Сагелист |
+| Old Lady | Старая леди |
 | Kraaid | Крааид |
 | Ettir | Эттир |
 | Visken | Вискен |
@@ -74,15 +98,18 @@ The machine-readable form is [../src/voice/glossary.json](../src/voice/glossary.
 | Urthguard | Уртгард |
 | Urthguarder | Уртгардовец |
 | Undercoast | Подбережье |
+| Sweeping Decay | Всеобщее Угасание |
 | Undercoast Path | Тропа Подбережья |
 | Vourgeni | Вургени |
 | Askan | Аскан |
 | Askanii | Аскании |
 | String | Струна |
+| Stringmaster | Мастер Струн |
 | Post | Почта |
 | Postwar Era | Послевоенная эпоха |
 | Primal (magic type) | Праймл |
-| Primal magic | Первобытная магия |
+| Primal magic | Праймл-магия |
+| Primal Well | Колодец Праймла |
 | Primal String | Праймл-Струна |
 | Hedonists | Гедонисты |
 | Patriarchs | Патриархи |
@@ -147,7 +174,7 @@ The machine-readable form is [../src/voice/glossary.json](../src/voice/glossary.
 
 Норвик склоняется: Норвик, Норвика, Норвику, Норвиком, о Норвике. Норвикиец склоняется: норвикиец, норвикийца, норвикийцу, норвикийцем, о норвикийце; норвикийцы, норвикийцев, норвикийцам, норвикийцами, о норвикийцах. Прилагательное имеет формы норвикийский, норвикийская, норвикийское и далее по роду, числу и падежу.
 
-Олд Диминор склоняется: Олд Диминор, Олд Диминора, Олд Диминору, Олд Диминором, об Олд Диминоре. После «в» выбор формы зависит от смысла: «в Олд Диминор» обозначает направление, а «в Олд Диминоре» указывает на место.
+Олд Диминор склоняется: Олд Диминор, Олд Диминора, Олд Диминору, Олд Диминором, об Олд Диминоре. После «в» выбор формы зависит от смысла: «в Олд Диминор» обозначает направление, а «в Олд Диминоре» указывает на место. В Эпоху тайной магии пояс Тростники назывался Диминором; «Олд Диминор» — его распространённое историческое название. После Войны на побережье пояс переименовали в Тростники по соглашениям о капитуляции.
 
 Этноним «фордфолк» склоняется: фордфолк, фордфолка, фордфолку, фордфолком, о фордфолке; множественное число: фордфолки, фордфолков, фордфолкам, фордфолками, о фордфолках.
 
@@ -157,18 +184,22 @@ The machine-readable form is [../src/voice/glossary.json](../src/voice/glossary.
 | --- | --- |
 | AIS (Alignment Intent Studies) | ИНУ |
 | Burghers | Бюргеры |
+| Demi-Lich | полулич |
 | Fallout | Фоллаут |
 | Fly | Полёт |
 | Fordfolk | фордфолки |
 | Great Perch | Великий окунь |
+| Immaterial Plane | Нематериальная плоскость |
 | Merman | Мужчина-мерфолк |
 | Phoenix Watch | День феникса |
 | Postie | Почтальон |
+| Pouch of Holding | Мешочек хранения |
 | Reedsian | тростниковский; из Тростников |
 | Riverguild | Речная гильдия |
 | Roc | Рух |
 | Roper | Ропер |
 | The Closing | Закрытие Врат |
+| Trade Prince | торговый князь |
 | Trifler | Пустяк |
 
 Names and lore words use the same forms in the glossary and dialogue. `Reeds`
@@ -199,6 +230,8 @@ declines as «ропер, ропера, роперу, ропером». `Underco
 По официальному описанию разработчика, игра начинается за пять дней до первых выборов в Норвике: Жреца отправляют расследовать взрыв чайной. Действие проходит на неделе выборов. Решения игрока влияют на судьбу Жреца и его отношения с фракциями; сам игрок обладает голосом обычного избирателя.
 
 В повествовании даты указываются с полным названием эпохи. На коротких датных плашках `ПЭ` означает Послевоенную эпоху. По игровым записям, Эпоха тайной магии длилась 511 лет и завершилась за 27 лет до событий игры. Война на побережье началась в 398-м и закончилась в 481-м году этой эпохи, то есть завершилась за 57 лет до событий игры. В пророчестве «half myriad» означает пять тысяч лет; это число подтверждает официальный китайский текст той же строки.
+
+Ettir is a feminine name and does not decline in Russian.
 
 ## How a term is chosen
 

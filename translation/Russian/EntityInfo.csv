@@ -1,15 +1,15 @@
 ID,Speaker,RU
 EntityDescription_0,OBJ,Поддворф.
-EntityDescription_1,OBJ,Дворф смотрит через док.
+EntityDescription_1,OBJ,Дворф глядит на доки.
 EntityDescription_2,OBJ,Сущность.
 EntityDescription_3,OBJ,"Обычный, не гигантский краб."
 EntityDescription_4,OBJ,Ещё один рабочий.
 EntityDescription_5,OBJ,Хм?
-EntityDescription_6,OBJ,"Скелет. Идущий, закованный в доспехи скелет."
+EntityDescription_6,OBJ,"Скелет. Идёт, закованный в доспехи."
 EntityDescription_7,OBJ,Мужик. Постоянно топчется на месте.
-EntityDescription_8,OBJ,Остерегайтесь этих клыков. И остального тоже.
+EntityDescription_8,OBJ,Берегись клыков. И всего остального тоже.
 EntityDescription_9,OBJ,Дракон Толстада. Остерегайтесь.
-EntityDescription_10,OBJ,"Зверь Джора, останок Эпохи Врат."
+EntityDescription_10,OBJ,"Зверь Джора, пережиток Эпохи Врат."
 EntityDescription_11,OBJ,Полурослик-торговец в яркой одежде.
 EntityDescription_12,OBJ,Женщина с дьявольским видом. Её глаза следят за тобой.
 EntityDescription_13,OBJ,Ржавый монстр.
@@ -17,25 +17,25 @@ EntityDescription_14,OBJ,Великолепная чайка.
 EntityDescription_15,OBJ,Чёрный кот.
 EntityDescription_16,OBJ,Дрожащий гоблин украдкой смотрит в твою сторону.
 EntityDescription_17,OBJ,Твой спутник Снелл.
-EntityDescription_18,OBJ,Крошечный дух Праймл.
+EntityDescription_18,OBJ,Крошечный дух Праймла.
 EntityDescription_19,OBJ,Внушительная фигура.
 EntityDescription_20,OBJ,Персонаж.
 EntityDescription_21,OBJ,Сущность. Крайне неинтересная.
-EntityDescription_22,OBJ,Крошечная хижина. На ногах. Вот теперь ты видел всё!
+EntityDescription_22,OBJ,Крошечная хижина. На ножках. Вот теперь ты видел всё!
 EntityDescription_23,OBJ,Идея.
 EntityDescription_24,OBJ,Здесь вода движется странно.
 EntityDescription_25,OBJ,Решётка? И несколько ящиков?
-EntityDescription_26,OBJ,Крыса! Она на самом деле не убегает от тебя.
+EntityDescription_26,OBJ,Крыса! Да она от тебя и не убегает.
 EntityDescription_27,OBJ,Крыса. Едва двигается.
 EntityDescription_28,OBJ,"Крыса! Похоже, она хочет с тобой сразиться."
 EntityDescription_29,OBJ,Испуганная маленькая крыса. Хватай!
 EntityDescription_30,OBJ,Удивительно дружелюбная маленькая крыса. Подозрительно.
 EntityDescription_31,OBJ,Богато украшенный череп.
 EntityDescription_32,OBJ,Осколок.
-EntityDescription_33,OBJ,Наверху. Пахнет странно.
-EntityDescription_34,OBJ,"Далеко, далеко вниз…"
+EntityDescription_33,OBJ,Наверху. Пахнет затхлостью.
+EntityDescription_34,OBJ,Где-то далеко внизу…
 EntityDescription_35,OBJ,Вот эта маленькая дверца.
-EntityDescription_36,OBJ,Эти поднимаются высоко сквозь Толстад.
+EntityDescription_36,OBJ,"Они уходят высоко вверх, через весь Толстад."
 EntityDescription_37,OBJ,"Светящиеся грибы. Наверное, вкусные."
 EntityDescription_38,OBJ,Разрушенный доспех. Сломанный меч. Но вот этот шлем?
 EntityDescription_39,OBJ,Капюшонник у Колонны.
@@ -48,10 +48,10 @@ EntityDescription_45,OBJ,Мёртвый боец. Явно утонувший. �
 EntityDescription_46,OBJ,Ага. Здесь есть тайный проход.
 EntityDescription_47,OBJ,Он смотрит на тебя стебельчатыми глазами.
 EntityDescription_48,OBJ,Раковина улитки. Она преграждает путь.
-EntityDescription_49,OBJ,"Тени, птичьи конечности. Странная магия."
+EntityDescription_49,OBJ,"Тени, птичьи лапы. Странная магия."
 EntityDescription_50,OBJ,Несчастный бедолага.
 EntityDescription_51,OBJ,"Да, ты мог бы. Правда?"
-EntityDescription_52,OBJ,Самый центр великого древа брачен в Толстаде.
+EntityDescription_52,OBJ,Самая сердцевина великого браченового дерева Толстада.
 EntityDescription_53,OBJ,Череп льва.
 EntityDescription_54,OBJ,Великая гравюра Эпохи Божественности.
 EntityDescription_55,OBJ,Вот он.
@@ -75,7 +75,7 @@ EntityDescription_72,OBJ,В этом окаменевшем волшебнике
 EntityDescription_73,OBJ,<i>Не мимик.</i>
 EntityDescription_74,OBJ,Странная коробка.
 EntityDescription_75,OBJ,<i>Конечно</i>. Выглядит безопасно.
-EntityDescription_76,OBJ,"Хорошо, ладно. На самом деле безопасно."
+EntityDescription_76,OBJ,"Ладно, ладно. И правда безопасно."
 EntityDescription_77,OBJ,Заклинание!
 EntityDescription_78,OBJ,Эта стена…
 EntityDescription_79,OBJ,О?
@@ -83,7 +83,7 @@ EntityDescription_80,OBJ,Ого…?
 EntityDescription_81,OBJ,Здесь есть что-то помимо обычной пыли от трупов…
 EntityDescription_82,OBJ,Погребальный обряд другой эпохи.
 EntityDescription_83,OBJ,Оставлено людьми. До сих пор.
-EntityDescription_84,OBJ,Мураль Эпохи Божественности.
+EntityDescription_84,OBJ,Фреска Эпохи Божественности.
 EntityDescription_85,OBJ,Этот каменный саркофаг…
 EntityDescription_86,OBJ,Деревянный гроб. Он гниёт.
 EntityDescription_87,OBJ,Ого…
@@ -91,7 +91,7 @@ EntityDescription_88,OBJ,Тысячи мёртвых.
 EntityDescription_89,OBJ,Первая гробница Урта.
 EntityDescription_90,OBJ,Булава?
 EntityDescription_91,OBJ,Гробница воина. Внутри пусто. Кроме…
-EntityDescription_92,OBJ,Склеп лучницы. Пусто.
+EntityDescription_92,OBJ,Склеп лучницы. Внутри пусто.
 EntityDescription_93,OBJ,Странная книга.
 EntityDescription_94,OBJ,Под этим грибом — женщина.
 EntityDescription_95,OBJ,Они разговаривают очень громко.
@@ -102,9 +102,9 @@ EntityDescription_99,OBJ,"О нет. Это запрещённое заклин�
 EntityDescription_100,OBJ,Просто палка с грибом на конце.
 EntityDescription_101,OBJ,Грибы!
 EntityDescription_102,OBJ,Наскальные рисунки?
-EntityDescription_103,OBJ,Это эзотерический карман. Не трогай его.
-EntityDescription_104,OBJ,"Смотри, кусок желеобразного куба! Кажется, вполне дружелюбный."
-EntityDescription_105,OBJ,<i>Торг Лизы и её прорицания.</i>
+EntityDescription_103,OBJ,Это эзотерический карман. Лучше не лезь.
+EntityDescription_104,OBJ,"Смотри, кусок желеобразного куба! Вроде безобидный."
+EntityDescription_105,OBJ,<i>Торг и прорицания от Лизы.</i>
 EntityDescription_106,OBJ,Призрачная алебарда.
 EntityDescription_107,OBJ,Можешь спуститься сюда.
 EntityDescription_108,OBJ,Можешь подняться сюда.
@@ -116,19 +116,19 @@ EntityDescription_113,OBJ,Череп. Похож на гоблинский.
 EntityDescription_114,OBJ,Тайник.
 EntityDescription_115,OBJ,Яблоки!
 EntityDescription_116,OBJ,Листья. Оставлены сохнуть надолго.
-EntityDescription_117,OBJ,«Южные Пещеры. Остерегайтесь Монстров.»
+EntityDescription_117,OBJ,«Южные пещеры. Осторожно: монстры».
 EntityDescription_118,OBJ,Столько книг…
 EntityDescription_119,OBJ,Здесь дыра. Внутри что-то есть…
 EntityDescription_120,OBJ,Иллюзорная плитка.
 EntityDescription_121,OBJ,Интересно.
 EntityDescription_122,OBJ,Осколок в темноте.
 EntityDescription_123,OBJ,Всего лишь осколок целого.
-EntityDescription_124,OBJ,"Не выглядят по-настоящему настоящими, но на вкус — вполне. Время перекусить."
-EntityDescription_125,OBJ,Алтарь!
+EntityDescription_124,OBJ,"Выглядят ненастоящими, зато на вкус — вполне. Самое время подкрепиться."
+EntityDescription_125,OBJ,Святилище!
 EntityDescription_126,OBJ,Пламенный Язык Норвика.
 EntityDescription_127,OBJ,Крошечный гоблин дрожит и танцует в клетке.
 EntityDescription_128,OBJ,"Зелье лечения! Скучно, но полезно."
-EntityDescription_129,OBJ,Это зелье выглядит действительно пригодным для питья. Вроде потребительского.
+EntityDescription_129,OBJ,Это зелье и правда можно пить. Прямо товар из магазина.
 EntityDescription_130,OBJ,Дверь. Наружу.
 EntityDescription_131,OBJ,Крошечные черепа без ртов.
 EntityDescription_132,OBJ,Это не дверь.
@@ -144,70 +144,70 @@ EntityDescription_141,OBJ,Железная дверь в форме улитки
 EntityDescription_142,OBJ,Ещё одна дверь-улитка.
 EntityDescription_143,OBJ,"Дверь-улитка, от которой веет жутью."
 EntityDescription_144,OBJ,Очень жуткая круглая дверь-улитка.
-EntityDescription_145,OBJ,Эта плитка свободна. Тайник?
+EntityDescription_145,OBJ,"Плитка шатается. Может, под ней тайник?"
 EntityDescription_146,OBJ,Что?
 EntityDescription_147,OBJ,Опять этот тип. Будь он проклят.
 EntityDescription_148,OBJ,Здесь что-то замёрзло.
 EntityDescription_149,OBJ,Корни шевелятся. Совсем чуть-чуть.
-EntityDescription_150,OBJ,"Наверх, к Нижнему."
+EntityDescription_150,OBJ,"Наверх, в Нижний город."
 EntityDescription_151,OBJ,Дверь-улитка. Она <i>позволяет</i> тебе войти.
 EntityDescription_152,OBJ,"Огромный гриб, а вокруг него… растут какие-то ягоды."
 EntityDescription_153,OBJ,Крошечный гриб.
 EntityDescription_154,OBJ,<i>Длинный</i> гриб.
 EntityDescription_155,OBJ,Колонна продолжается ещё глубже.
 EntityDescription_156,OBJ,Клетка. Её можно открыть.
-EntityDescription_157,OBJ,"Ящик с яблоками HWBT. Должно быть, его смыло сюда водами."
-EntityDescription_158,OBJ,"Обезглавленное, разлагающееся тело. Похоже, этот был кем-то вроде друида."
+EntityDescription_157,OBJ,"Ящик с яблоками HWBT. Наверное, его смыло сюда."
+EntityDescription_158,OBJ,"Обезглавленное разлагающееся тело. Похоже, это был какой-то друид."
 EntityDescription_159,OBJ,По этим лианам можно взобраться.
 EntityDescription_160,OBJ,Угу. Давай теперь спустимся.
 EntityDescription_161,OBJ,Свежее яблоко. Как оно вообще сюда попало?
-EntityDescription_162,OBJ,Сумка на поясе. Мокрая и покрытая… грибком. Прелестно.
+EntityDescription_162,OBJ,Поясная сумка. Мокрая и покрытая… грибком. Прелестно.
 EntityDescription_163,OBJ,Впереди лабиринт…
 EntityDescription_164,OBJ,Это ведёт далеко в руины.
 EntityDescription_165,OBJ,Здесь зарыт сундук!
 EntityDescription_166,OBJ,"Великий дракон, жарящий каких-то улиток."
-EntityDescription_167,OBJ,Древняя святыня. Сойдёт.
+EntityDescription_167,OBJ,Древнее святилище. Сойдёт.
 EntityDescription_168,OBJ,Самый дорогой трофей тролля…
 EntityDescription_169,OBJ,Старый щит. <i>Очень</i> старый щит.
-EntityDescription_170,OBJ,Зеркало. И за ним что-то… есть.
-EntityDescription_171,OBJ,Свиток заклинания с запиской: «ДЛЯ ЭКСТРЕННЫХ СЛУЧАЕВ.»
+EntityDescription_170,OBJ,Зеркало. А за ним… что-то есть.
+EntityDescription_171,OBJ,Свиток заклинания с запиской: «НА СЛУЧАЙ ЧРЕЗВЫЧАЙНОЙ СИТУАЦИИ».
 EntityDescription_172,OBJ,Забирай!
 EntityDescription_173,OBJ,О да. Отличная добыча.
 EntityDescription_174,OBJ,Хватай! Хватай!
 EntityDescription_175,OBJ,Ещё добыча!
 EntityDescription_176,OBJ,Прибрежное полушарие.
-EntityDescription_177,OBJ,Эти лестницы ведут вниз к докам.
+EntityDescription_177,OBJ,"Эти ступени ведут вниз, к докам."
 EntityDescription_178,OBJ,Улицы Водного пути.
 EntityDescription_179,OBJ,Эти лестницы ведут на крышу штаба.
 EntityDescription_180,OBJ,На стене висит невероятный меч.
 EntityDescription_181,OBJ,Они преграждают путь к сцене.
-EntityDescription_182,OBJ,"[ПОЧТИ, ИГРАЕТ НА ГИТАРЕ КАЖДЫЙ ВЕЧЕР.]"
+EntityDescription_182,OBJ,[ПОЧТИ. ИГРАЕТ НА ГИТАРЕ КАЖДЫЙ ВЕЧЕР.]
 EntityDescription_183,OBJ,Гоблин не двигается.
 EntityDescription_184,OBJ,Мужчина смотрит на светлую сторону.
-EntityDescription_185,OBJ,Женщина звучит слегка раздражённо.
+EntityDescription_185,OBJ,"По голосу женщины слышно, что она слегка раздражена."
 EntityDescription_186,OBJ,Гордый гоблин.
-EntityDescription_187,OBJ,"Ещё один гоблин, пытающийся убедить."
+EntityDescription_187,OBJ,"Ещё один гоблин, пытающийся убедить остальных."
 EntityDescription_188,OBJ,Уставший на вид дворф.
-EntityDescription_189,OBJ,"Крупный малый, который, похоже, возится с флагом."
+EntityDescription_189,OBJ,"Здоровяк, который, похоже, возится с флагом."
 EntityDescription_190,OBJ,Молодой дворф. Выглядит нервным.
 EntityDescription_191,OBJ,Леди из Азгала. Выглядит серьёзной.
 EntityDescription_192,OBJ,Высокий дворф. Смотрит на тебя.
-EntityDescription_193,OBJ,"Он работает так, будто у него на плече сидит маленький азгалец."
+EntityDescription_193,OBJ,"Он работает так, будто маленький азгалец сидит у него на плече."
 EntityDescription_194,OBJ,Под этим камнем что-то есть…
 EntityDescription_195,OBJ,Старый колодец.
 EntityDescription_196,OBJ,Эти бочки преграждают путь к сцене.
 EntityDescription_197,OBJ,Музыкальный автомат!
 EntityDescription_198,OBJ,"Пока Почти играет, музыкальный автомат отключён."
-EntityDescription_199,OBJ,Табличка для пожертвований.
+EntityDescription_199,OBJ,Тарелка для пожертвований.
 EntityDescription_200,OBJ,Главный выход.
 EntityDescription_201,OBJ,"Лестница вверх, в Толстад."
-EntityDescription_202,OBJ,Древние.
-EntityDescription_203,OBJ,"Ты помнишь, что внутри? Пустота помнит тебя."
+EntityDescription_202,OBJ,Древний.
+EntityDescription_203,OBJ,"Помнишь, что было внутри? Пустота помнит тебя."
 EntityDescription_204,OBJ,Сундук.
 EntityDescription_205,OBJ,Гоблин.
 EntityDescription_206,OBJ,Пожилой гоблин.
 EntityDescription_207,OBJ,Молодой гоблин.
-EntityDescription_208,OBJ,Явно один из телохранителей Сагелиста.
+EntityDescription_208,OBJ,Явно один из телохранителей леди Сагелист.
 EntityDescription_209,OBJ,"Мастерица починок в очках. Похоже, она пишет на парящем листе."
 EntityDescription_210,OBJ,Сомнительный тип.
 EntityDescription_211,OBJ,"Кажется, они носят одинаковые шляпы. Модная тенденция?"
@@ -216,24 +216,24 @@ EntityDescription_213,OBJ,Это выглядит небезопасно.
 EntityDescription_214,OBJ,Из руин доносится свист.
 EntityDescription_215,OBJ,Они не говорят ничего интересного.
 EntityDescription_216,OBJ,Он ищет течь в трубе. Или что-то вроде того.
-EntityDescription_217,OBJ,Починить корень. Тяжёлый труд.
-EntityDescription_218,OBJ,"[ПОЧТИ, ИГРАЕТ В ПЕРВЫЙ ДЕНЬ.]"
+EntityDescription_217,OBJ,Работник чинит корни. Тяжёлый труд.
+EntityDescription_218,OBJ,[ПОЧТИ. ИГРАЕТ В ПЕРВЫЙ ДЕНЬ.]
 EntityDescription_219,OBJ,Наблюдатель. Без оружия.
 EntityDescription_220,OBJ,Он ждёт.
 EntityDescription_221,OBJ,Усталый на вид садовник.
-EntityDescription_222,OBJ,"Садовник, постигающий своё ремесло."
+EntityDescription_222,OBJ,"Садовник, в совершенстве освоивший своё ремесло."
 EntityDescription_223,OBJ,Мускулистый гоблин.
 EntityDescription_224,OBJ,Богато одетый гоблин.
 EntityDescription_225,OBJ,Лысый гоблин. Круто.
 EntityDescription_226,OBJ,"Толстая книга, переплетённая корой. Тебе никак не удаётся её открыть…"
 EntityDescription_227,OBJ,Из сада.
 EntityDescription_228,OBJ,Тоннель к реке.
-EntityDescription_229,OBJ,Просьба принести ингредиенты. Ты наверняка сможешь взять немного…
+EntityDescription_229,OBJ,Список нужных ингредиентов. Наверняка можно взять немного…
 EntityDescription_230,OBJ,Тоннель в центр Толстада.
 EntityDescription_231,OBJ,Тоннель в нижнее логово.
 EntityDescription_232,OBJ,"Гриб в горшке, спрятанный в углу."
 EntityDescription_233,OBJ,"Гриб в горшке, выращенный умелым садовником."
-EntityDescription_234,OBJ,<i>Ухаживаю за садом. Вернусь после обеда. —Несса</i>
+EntityDescription_234,OBJ,<i>Ухаживаю за Садом. Вернусь после обеда. — Несса</i>
 EntityDescription_235,OBJ,"Большой ящик. Ты слышишь, что внутри что-то есть."
 EntityDescription_236,OBJ,Дверь в порт.
 EntityDescription_237,OBJ,Да. По нему можно взобраться.
@@ -252,23 +252,23 @@ EntityDescription_249,OBJ,Он выглядит тревожным.
 EntityDescription_250,OBJ,"Её глаза следят за тобой, пока ты проходишь мимо."
 EntityDescription_251,OBJ,Хитрый гоблин.
 EntityDescription_252,OBJ,Гоблин-наблюдатель.
-EntityDescription_253,OBJ,Блондин то и дело поглядывает поверх фасада здания.
+EntityDescription_253,OBJ,Блондин то и дело поглядывает на фасад здания.
 EntityDescription_254,OBJ,Женщина-уртфолк. Редкое зрелище в этих краях.
-EntityDescription_255,OBJ,Морской мужчина возится с дверным замком.
+EntityDescription_255,OBJ,Мужчина-мерфолк возится с дверным замком.
 EntityDescription_256,OBJ,Гоблин со строгим выражением лица.
 EntityDescription_257,OBJ,Усталый на вид гоблин. Он преграждает путь.
-EntityDescription_258,OBJ,Табличка гласит: «ОБЩЕЖИТИЕ — НЕ РАБОТАЕТ». [так в оригинале]
-EntityDescription_259,OBJ,Тоннель к Виду на Водный путь. Оттуда доносится стук доков.
-EntityDescription_260,OBJ,"Надпись на двери гласит: «Симий, сын Отбоя.»"
-EntityDescription_261,OBJ,"На узком почтовом ящике написано: «Снелл, HWBT.»"
-EntityDescription_262,OBJ,На двери грубо вырезано: «R&A.»
+EntityDescription_258,OBJ,Табличка гласит: «ОБЩЕЖИТИЕ — НЕ РАБОТАЕТ».
+EntityDescription_259,OBJ,Тоннель к Виду на Водный путь. Из-за поворота доносится шум доков.
+EntityDescription_260,OBJ,"На двери написано: «Симий, сын Отбоя»."
+EntityDescription_261,OBJ,"На узком почтовом ящике написано: «Снелл, HWBT»."
+EntityDescription_262,OBJ,На двери грубо вырезано: «R&A».
 EntityDescription_263,OBJ,Тоннель в Гоблинский сад. Пахнет затхлым.
 EntityDescription_264,OBJ,Главный вход в Пьяного Сфинкса.
 EntityDescription_265,OBJ,"<i>ПЬЯНЫЙ СФИНКС, ОТКРЫВАЕТСЯ В 18:00.</i>"
 EntityDescription_266,OBJ,"Тропа вверх, к Толстаду."
 EntityDescription_267,OBJ,Извилистая тропа. В конце концов выводит наружу.
 EntityDescription_268,OBJ,Заметный лаз.
-EntityDescription_269,OBJ,На стене висит красивая табличка: «Талассос Глаукодополис.»
+EntityDescription_269,OBJ,На стене висит красивая табличка: «Талассос Глаукодополис».
 EntityDescription_270,OBJ,На двери написано: «Ремонт запланирован на 4-4-26.»
 EntityDescription_271,OBJ,Почти целая и бесконечно растущая Колонна. Главное украшение Норвика.
 EntityDescription_272,OBJ,Что за ад…?
@@ -285,7 +285,7 @@ EntityDescription_282,OBJ,Работа Снелла.
 EntityDescription_283,OBJ,"Ты знаешь, к чему это ведёт. Ты очень сообразителен."
 EntityDescription_284,OBJ,Коллекция книг. В основном политических.
 EntityDescription_285,OBJ,Что-то застряло между страницами…
-EntityDescription_286,OBJ,Свиток заклинания. Его можно быстро Запомнить.
+EntityDescription_286,OBJ,Свиток заклинания. Можно быстро его запомнить.
 EntityDescription_287,OBJ,На самом дне что-то есть. Монеты?
 EntityDescription_288,OBJ,Волшебное перо и бумага.
 EntityDescription_289,OBJ,Статуя Урта. Кто оставил её здесь?
@@ -293,51 +293,51 @@ EntityDescription_290,OBJ,Статуя Урта среди трудов его �
 EntityDescription_291,OBJ,Щёгольский гоблин.
 EntityDescription_292,OBJ,Дворф осматривает стену.
 EntityDescription_293,OBJ,Старик перекладывает ящики у воды.
-EntityDescription_294,OBJ,Мужчина насквозь мокрый. До самой Кости.
-EntityDescription_295,OBJ,"[ПОЧТИ, ИГРАЕТ НА ГИТАРЕ ВТОРОЙ ДЕНЬ.]"
+EntityDescription_294,OBJ,Мужчина промок до самых костей.
+EntityDescription_295,OBJ,[ПОЧТИ. ИГРАЕТ НА ГИТАРЕ ВО ВТОРОЙ ДЕНЬ.]
 EntityDescription_296,OBJ,Немного монет. Желания так и не сбылись.
 EntityDescription_297,OBJ,"Эй, эта скала… Не совсем крепкая."
 EntityDescription_298,OBJ,Длинный тоннель к Пересечению Колонн.
 EntityDescription_299,OBJ,Торговая компания Асканий-Ридс.
 EntityDescription_300,OBJ,На табличке написано: «<i>Мы закрыты на сегодня. — Персонал AR</i>»
 EntityDescription_301,OBJ,Верхний вход в Торговую компанию Асканий-Ридс.
-EntityDescription_302,OBJ,Это окно выглядит… открывающимся.
+EntityDescription_302,OBJ,"Это окно… похоже, его можно открыть."
 EntityDescription_303,OBJ,Окно открыто для тебя.
-EntityDescription_304,OBJ,Вход на Док торговой компании AR.
+EntityDescription_304,OBJ,Вход со стороны доков в торговую компанию Асканий-Ридс.
 EntityDescription_305,OBJ,"«Контора Снурре Яблокозуба, ТЧ.»"
 EntityDescription_306,OBJ,Тропа вдоль воды.
 EntityDescription_307,OBJ,Поднимаюсь.
 EntityDescription_308,OBJ,Спускаюсь. Очень далеко.
-EntityDescription_309,OBJ,Дверь внизу ведёт на Склад. Туда допущены только Фристрайдеры и рабочие Гильдии.
-EntityDescription_310,OBJ,Товарный люк. Внутри верёвка.
+EntityDescription_309,OBJ,Дверь внизу ведёт на склад. Войти могут только Фристрайдеры и работники гильдии.
+EntityDescription_310,OBJ,Грузовой люк. Внутри верёвка.
 EntityDescription_311,OBJ,Написано: «С. Елан и сыновья.»
 EntityDescription_312,OBJ,Указатель улицы. Написано: «Верхний: Западный вид — Нижний: Западные доки.»
 EntityDescription_313,OBJ,«Торговая компания Асканий-Ридс» — с фирменным знаком Фристрайдера.
-EntityDescription_314,OBJ,Здесь в двери есть щель для подачи.
-EntityDescription_315,OBJ,На двери написано: «Открывается на закате.»
+EntityDescription_314,OBJ,В этой двери есть щель.
+EntityDescription_315,OBJ,На двери написано: «Открывается на закате».
 EntityDescription_316,OBJ,Грузовой люк.
 EntityDescription_317,OBJ,"Ящик, набитый испорченными газировками. Одна вроде бы пригодна для питья."
 EntityDescription_318,OBJ,Эта дверь выглядит… многообещающе.
-EntityDescription_319,OBJ,Этот бак издаёт звук. Странный звук. Насколько странный.
+EntityDescription_319,OBJ,Из этого бака доносится звук. Странный звук. Очень странный.
 EntityDescription_320,OBJ,Чёрный ход Владыки монет. Хе.
-EntityDescription_321,OBJ,Кит во всевозможных цветах.
+EntityDescription_321,OBJ,Кит всех цветов радуги.
 EntityDescription_322,OBJ,Здесь сзади есть тайник…
-EntityDescription_323,OBJ,"Рыцарский шлем! Видимо, остался от кого-то. Забираю."
-EntityDescription_324,OBJ,"Газета Норвика, газета какой-то девушки и газетный вырезок о Владыке монет."
+EntityDescription_323,OBJ,"Рыцарский шлем! Наверное, чей-то старый. Забирай."
+EntityDescription_324,OBJ,"LR Норвика, LR какой-то девушки и газетная вырезка о Владыке монет."
 EntityDescription_325,OBJ,"Сундук, высоко над землёй."
 EntityDescription_326,OBJ,Выход.
-EntityDescription_327,OBJ,Славное святилище Единственного и Неповторимого Урта.
+EntityDescription_327,OBJ,Святилище Единственного и Неповторимого Урта.
 EntityDescription_328,OBJ,Отличное место для сна. Относительно говоря.
 EntityDescription_329,OBJ,Стопка книг по богословию и истории.
 EntityDescription_330,OBJ,"Стопка гроссбухов, украшенных официальными городскими печатями."
 EntityDescription_331,OBJ,Медный календарь!
-EntityDescription_332,OBJ,[Спасибо за прохождение демоверсии!]
-EntityDescription_333,OBJ,[Спасибо за прохождение демоверсии! Небольшая Начальная награда.]
+EntityDescription_332,OBJ,"[Спасибо, что сыграли в демоверсию!]"
+EntityDescription_333,OBJ,"[Спасибо, что сыграли в демоверсию! Вот небольшая награда для начала.]"
 EntityDescription_334,OBJ,Какой-то мужик. Выглядит нерешительным.
 EntityDescription_335,OBJ,Какой-то мужик. Он не двигается.
 EntityDescription_336,OBJ,В этом тоннеле есть дверь.
 EntityDescription_337,OBJ,Винтовая лестница. Древняя архитектура.
-EntityDescription_338,OBJ,"Лестница, ведущая далеко вниз, в Город под городом."
+EntityDescription_338,OBJ,"Лестница, ведущая далеко вниз, в Подгородье."
 EntityDescription_339,OBJ,В эту бочку воткнут сломанный меч. Выглядит старым.
 EntityDescription_340,OBJ,"Это не твоё, правда?"
 EntityDescription_341,OBJ,Это труп. Под одеялом.
@@ -345,59 +345,59 @@ EntityDescription_342,OBJ,Ваза с листьями. Прекрасно па�
 EntityDescription_343,OBJ,Вот этот выглядит хорошо.
 EntityDescription_344,OBJ,Куча яблок.
 EntityDescription_345,OBJ,"Божественное святилище, усыпанное яблоками."
-EntityDescription_346,OBJ,"Божественное Писание — не там, где ему место."
+EntityDescription_346,OBJ,Священное писание — не на своём месте.
 EntityDescription_347,OBJ,"Яблоко. Выглядит лучше тех, что в куче."
 EntityDescription_348,OBJ,Очень важный листок.
 EntityDescription_349,OBJ,"Ящик, наполненный песком."
 EntityDescription_350,OBJ,Корзина яблок. Некоторые выглядят более-менее нормально.
-EntityDescription_351,OBJ,"Почти пустая коробка, если не считать Несвежего Обращения и мешочка."
-EntityDescription_352,OBJ,Написано: «Песнопения Урта.»
+EntityDescription_351,OBJ,Почти пустая коробка: внутри только залежавшееся лакомство и мешочек.
+EntityDescription_352,OBJ,Написано: «Песнопения Урта».
 EntityDescription_353,OBJ,О нет! Кто-то погиб!
 EntityDescription_354,OBJ,Свиток с тайным заклинанием. Старый.
-EntityDescription_355,OBJ,"Свиток, перевязанный веревкой жреца."
+EntityDescription_355,OBJ,"Свиток, перевязанный жреческим шнуром."
 EntityDescription_356,OBJ,Настал час. Ты пробудишься.
 EntityDescription_357,OBJ,Слегка повреждённый штатный клинок Уртгарда.
-EntityDescription_358,OBJ,О боги. Здесь несколько несвежих выпечных изделий.
+EntityDescription_358,OBJ,О боги. Здесь полно черствой выпечки.
 EntityDescription_359,OBJ,Рабочие Гильдодцев Скалолома хранили в своём архиве не только гроссбухи.
 EntityDescription_360,OBJ,"Подожди, это…?!"
-EntityDescription_361,OBJ,Долго падать. Должно быть безопасно.
+EntityDescription_361,OBJ,Высоко падать. Должно быть безопасно.
 EntityDescription_362,OBJ,К шестерне что-то прилипло…
-EntityDescription_363,OBJ,Лестницы. Прямейший путь вознесения.
+EntityDescription_363,OBJ,Лестницы. Самый прямой путь к восхождению.
 EntityDescription_364,OBJ,У воды. Не свались снова.
-EntityDescription_365,OBJ,Идти дальше.
+EntityDescription_365,OBJ,Выйти наружу.
 EntityDescription_366,OBJ,"Наверх, на крышу."
-EntityDescription_367,OBJ,"Куча правил <i>ТЕХНИКИ БЕЗОПАСНОСТИ</i>. Затем написано: <i>Если оборвано, свяжитесь с местным представителем профсоюза</i>."
-EntityDescription_368,OBJ,Должно вести к остальной части Гильдодцев Скалолома.
-EntityDescription_369,OBJ,Спуск по лестнице. Идёт прямо до… Пересечения Колонн.
+EntityDescription_367,OBJ,"Куча правил <i>ТЕХНИКИ БЕЗОПАСНОСТИ</i>. А ниже: <i>Если правила нарушены, свяжитесь с местным представителем профсоюза</i>."
+EntityDescription_368,OBJ,"Отсюда, должно быть, можно попасть в остальную часть Гильдодцев Скалолома."
+EntityDescription_369,OBJ,Спуск по лестнице. Она ведёт прямо к… Пересечению Колонн.
 EntityDescription_370,OBJ,Тёмный тоннель. Зловещий.
-EntityDescription_371,OBJ,«Стену» перекрывает этот тоннель. Как её открыть?
+EntityDescription_371,OBJ,Тоннель перекрывает какая-то «стена». Как её открыть?
 EntityDescription_372,OBJ,Кнопка.
 EntityDescription_373,OBJ,Путь наверх.
-EntityDescription_374,OBJ,Кто не любит хороший рычаг?
+EntityDescription_374,OBJ,Кто не любит хороший рычажок?
 EntityDescription_375,OBJ,В этом ящике что-то есть. Вот это неожиданность.
 EntityDescription_376,OBJ,Ещё зелья.
 EntityDescription_377,OBJ,Целая куча зелий!
 EntityDescription_378,OBJ,Коробка просроченных зелий.
-EntityDescription_379,OBJ,Тайник со священными письменами?!
-EntityDescription_380,OBJ,"Заглянув внутрь этого сейфа, обнаруживаешь… О! СВЯТАЯ ДЕРЬМО!"
+EntityDescription_379,OBJ,Тайник со священными писаниями?!
+EntityDescription_380,OBJ,Заглядываешь в сейф… О! СВЯТЫЕ УГОДНИКИ!
 EntityDescription_381,OBJ,Несколько мешков. Один из них… выглядит интересно.
 EntityDescription_382,OBJ,"Слишком далеко, чтобы дотянуться…"
-EntityDescription_383,OBJ,До него буквально ЕЛЕ-еле можно дотянуться.
+EntityDescription_383,OBJ,До него буквально ЧУТЬ-ЧУТЬ не дотянуться.
 EntityDescription_384,OBJ,О… о…!
 EntityDescription_385,OBJ,Выход.
 EntityDescription_386,OBJ,Раньше здесь сидели посетители.
-EntityDescription_387,OBJ,"Кучки того, что когда-то было фарфором."
-EntityDescription_388,OBJ,Остался лишь каменный цоколь.
+EntityDescription_387,OBJ,"Обломки того, что когда-то было фарфором."
+EntityDescription_388,OBJ,Осталось лишь каменное основание.
 EntityDescription_389,OBJ,Под завалами и копотью ты видишь железную дверь.
-EntityDescription_390,OBJ,"Чудо, что эта камера не рухнула целиком."
+EntityDescription_390,OBJ,"Чудо, что свод камеры ещё не обрушился."
 EntityDescription_391,OBJ,…перевёрнутый стол. Выглядит тяжёлым.
-EntityDescription_392,OBJ,"Бумага, по всей видимости, плохо переносит огонь."
+EntityDescription_392,OBJ,"Бумага, похоже, огня боится."
 EntityDescription_393,OBJ,Рама без картины.
 EntityDescription_394,OBJ,"О, что это?"
 EntityDescription_395,OBJ,Сломанный стол. Или полка? Ну ладно.
 EntityDescription_396,OBJ,Он второй в очереди.
 EntityDescription_397,OBJ,Волосатый мужчина без рубашки делает глубокие вдохи посреди стройки.
-EntityDescription_398,OBJ,Пожилая женщина звучит раздражённо.
+EntityDescription_398,OBJ,Пожилая женщина говорит с раздражением.
 EntityDescription_399,OBJ,Девушка пытается отмахнуться от матери.
 EntityDescription_400,OBJ,Эти лестницы ведут далеко под город.
 EntityDescription_401,OBJ,Он первый в очереди.
@@ -415,54 +415,54 @@ EntityDescription_412,OBJ,Эта плитка шатается…
 EntityDescription_413,OBJ,В грязи ты видишь что-то блестящее.
 EntityDescription_414,OBJ,Ключ с запиской: <i>Ты достоин.</i>
 EntityDescription_415,OBJ,<i>ДЕНЬ ВЫБОРОВ — ОЧЕРЕДЬ НАЧИНАЕТСЯ ЗДЕСЬ.</i>
-EntityDescription_416,OBJ,<i>БЕСПЛАТНЫЕ НАПИТКИ — При спонсировании Торговой компании АСКАНИЙ-РИДС.</i>
-EntityDescription_417,OBJ,Карлик бросает перед тобой кошель.
+EntityDescription_416,OBJ,<i>БЕСПЛАТНЫЕ НАПИТКИ — при поддержке торговой компании «АСКАНИЙ-РИДС».</i>
+EntityDescription_417,OBJ,Снеал бросает перед тобой кошель.
 EntityDescription_418,OBJ,Очень довольный дворф.
-EntityDescription_419,OBJ,Время рыболовли.
-EntityDescription_420,OBJ,Заразно сонный.
+EntityDescription_419,OBJ,Пора на рыбалку.
+EntityDescription_420,OBJ,Сонный до зевоты.
 EntityDescription_421,OBJ,Она глубоко дышит.
 EntityDescription_422,OBJ,Два засаленных гоблина обсуждают планы.
-EntityDescription_423,OBJ,Два засаленных гоблина спорят из-за сала.
-EntityDescription_424,OBJ,Слегка болтливый дворф.
+EntityDescription_423,OBJ,Два гоблина в жирных пятнах спорят из-за жира.
+EntityDescription_424,OBJ,Довольно разговорчивый дворф.
 EntityDescription_425,OBJ,Она выглядит счастливой.
 EntityDescription_426,OBJ,Юноша что-то чинит.
 EntityDescription_427,OBJ,Её голос разносится через всю улицу.
 EntityDescription_428,OBJ,"«Да, да. Я здесь.»"
 EntityDescription_429,OBJ,Стая озорных крыс.
-EntityDescription_430,OBJ,"Бочка, доверху наполненная салом. Запах чувствуется отсюда."
+EntityDescription_430,OBJ,Бочка сала. Запах чуешь даже отсюда.
 EntityDescription_431,OBJ,Бесплатные газеты.
-EntityDescription_432,OBJ,"<i>«НИКАКИХ ВЫБОРНЫХ МАТЕРИАЛОВ, БРУТ. СПИТ.»</i>"
+EntityDescription_432,OBJ,"<i>«НИКАКИХ МАТЕРИАЛОВ О ВЫБОРАХ, БРУТ. СПИТ».</i>"
 EntityDescription_433,OBJ,Работающий дворф.
 EntityDescription_434,OBJ,Это дворф? Ага.
 EntityDescription_435,OBJ,"Смотри, дворф!"
 EntityDescription_436,OBJ,Столько дворфов.
 EntityDescription_437,OBJ,"О, вот это да. Дворф."
 EntityDescription_438,OBJ,Ага. Точно дворф.
-EntityDescription_439,OBJ,"Гоблин похож на того, кто засыпает."
+EntityDescription_439,OBJ,Гоблин вот-вот уснёт.
 EntityDescription_440,OBJ,Скучающий гоблин.
 EntityDescription_441,OBJ,Он несёт караул. Или что-то в этом роде.
 EntityDescription_442,OBJ,Она пристально смотрит на тебя.
-EntityDescription_443,OBJ,Некоторым образом загадочный дворф.
-EntityDescription_444,OBJ,Хитрый дворф.
+EntityDescription_443,OBJ,Загадочный дворф.
+EntityDescription_444,OBJ,Подозрительный дворф.
 EntityDescription_445,OBJ,"Человек в плаще смотрит на тебя, пока ты проходишь мимо."
-EntityDescription_446,OBJ,Самый полезный инструмент за всю историю человечества.
-EntityDescription_447,OBJ,Маленькая дверца на двери открыта. Из неё вырывается клуб дыма.
-EntityDescription_448,OBJ,Кто это бездельничает у чайной лавки?
+EntityDescription_446,OBJ,Самый полезный инструмент в истории человечества.
+EntityDescription_447,OBJ,Приоткрыто маленькое окошко в двери. Из него вырывается клуб дыма.
+EntityDescription_448,OBJ,Кто это слоняется на крыше чайной лавки?
 EntityDescription_449,OBJ,Бывшая бочка из-под эля.
 EntityDescription_450,OBJ,«Пустая» бочка.
-EntityDescription_451,OBJ,Мусорный контейнер. В основном набитый старыми самиздатами.
-EntityDescription_452,OBJ,Мусорный контейнер. В основном набитый старыми самиздатами. И…
+EntityDescription_451,OBJ,Мусорный бак. Почти весь забит старой периодикой.
+EntityDescription_452,OBJ,Мусорный бак. Почти весь забит старой периодикой. И…
 EntityDescription_453,OBJ,Пустые бочки для воды.
-EntityDescription_454,OBJ,Хитрое яблоко.
+EntityDescription_454,OBJ,Яблоко-хитрюга.
 EntityDescription_455,OBJ,Спускаемся в Личхаус.
 EntityDescription_456,OBJ,Оттуда тянет сыростью.
-EntityDescription_457,OBJ,Внутри слышны эхо. Отсюда можно выйти к Колонне Пересечения.
+EntityDescription_457,OBJ,Внутри слышно эхо. Отсюда можно выйти к Пересечению Колонн.
 EntityDescription_458,OBJ,"Лестница вниз, к Пьяному Сфинксу."
 EntityDescription_459,OBJ,Центральный храм Урта.
 EntityDescription_460,OBJ,"Чайная, которая взорвалась."
-EntityDescription_461,OBJ,Чёрный ход Магистрата. Выглядит тесновато.
+EntityDescription_461,OBJ,Чёрный ход Магистра. Выглядит тесновато.
 EntityDescription_462,OBJ,Вход в старую Сторожевую Башню.
-EntityDescription_463,OBJ,За этими стенами слышна верфь.
+EntityDescription_463,OBJ,С той стороны слышны звуки верфи.
 EntityDescription_464,OBJ,Внутри слышно бесконечное вращение шестерён.
 EntityDescription_465,OBJ,Внутри работает механизм.
 EntityDescription_466,OBJ,Шум внизу оглушителен.
@@ -471,67 +471,67 @@ EntityDescription_468,OBJ,Здесь пахнет сырой плесенью.
 EntityDescription_469,OBJ,В Норвике такая труба могла бы вести куда угодно.
 EntityDescription_470,OBJ,[Спасибо за прохождение демоверсии! Вот небольшая награда.]
 EntityDescription_471,OBJ,Внутри этой старой вазы что-то есть…
-EntityDescription_472,OBJ,Остерегайтесь Ногтей.
-EntityDescription_473,OBJ,Далеко вверх поднимается дерево. Зрелище истинной силы природы.
-EntityDescription_474,OBJ,<i>«СПИТ. ДЛЯ ОБСЛУЖИВАНИЯ ПРИХОДИТЕ ПОСЛЕ ПОЛУНОЧИ-НЕ-ТОЧНО».</i>
+EntityDescription_472,OBJ,Берегитесь гвоздей.
+EntityDescription_473,OBJ,Дерево взмывает ввысь. Во всей красе — сила природы.
+EntityDescription_474,OBJ,<i>«СПИТ. ОБСЛУЖИВАНИЕ — ПОСЛЕ ПОЛУНОЧИ. ПЛЮС-МИНУС».</i>
 EntityDescription_475,OBJ,"Внутри этой хижины что-то движется. Это не должно казаться странным, но почему-то кажется."
 EntityDescription_476,OBJ,Чайная лавка.
-EntityDescription_477,OBJ,Яркий маленький уголок Толстада.
-EntityDescription_478,OBJ,В земле спрятан магический предмет. Очень круто.
-EntityDescription_479,OBJ,"Заросшее, древнее, в некотором роде интересное место."
+EntityDescription_477,OBJ,"Яркий, самобытный уголок Толстада."
+EntityDescription_478,OBJ,В земле спрятана магическая вещь. Класс!
+EntityDescription_479,OBJ,"Заросшее, древнее и по-своему занятное место."
 EntityDescription_480,OBJ,Запад — Путь Тола. Север — Дом Дарроу.
-EntityDescription_481,OBJ,Надпись гласит: «ДОМ ДАРРОУ» светящимися магическими буквами.
+EntityDescription_481,OBJ,Надпись светится магическими буквами: «ДОМ ДАРРОУ».
 EntityDescription_482,OBJ,Велодорожка. Один велосипед бросается в глаза.
-EntityDescription_483,OBJ,Яблоня Магистрата. Это Брачен.
+EntityDescription_483,OBJ,Яблоня Магистрата. Это брачен.
 EntityDescription_484,OBJ,Очень красивое дерево.
-EntityDescription_485,OBJ,В лопасти Гильдодцев Скалолома застряло что-то.
-EntityDescription_486,OBJ,Уличный указатель. Можно же на него взглянуть?
-EntityDescription_487,OBJ,Призрачные буквы складываются в «Колонну Пересечения.»
+EntityDescription_485,OBJ,В одной из лопастей гильдодцев что-то застряло.
+EntityDescription_486,OBJ,Уличный указатель. На него можно посмотреть?
+EntityDescription_487,OBJ,Призрачные буквы складываются в название «Пересечение Колонн».
 EntityDescription_488,OBJ,На знаке изображён Сфинкс со стаканом вина.
-EntityDescription_489,OBJ,Грубо вырезанные буквы гласят: <i>КВАРТИРЫ НАШЕЙ ЛЕДИ</i>.
-EntityDescription_490,OBJ,"Написано: «ЛИЧХАУС ВИСКЕНА», но «& СТОМАТОЛОГИЯ» зачёркнуто."
-EntityDescription_491,OBJ,Гоблинская настенная живопись.
-EntityDescription_492,OBJ,"Старые выцветшие плакаты, приколотые к стене. Нечитаемые."
-EntityDescription_493,OBJ,Всё же читаемые плакаты. Они ещё довольно старые.
-EntityDescription_494,OBJ,Сумка. Выглядит жирной.
-EntityDescription_495,OBJ,"Спрятанное гнездо. Асканийские чайки, может быть?"
+EntityDescription_489,OBJ,Нацарапано: <i>«АПАРТАМЕНТЫ НАШЕЙ ЛЕДИ»</i>.
+EntityDescription_490,OBJ,"Написано: «ЛИЧХАУС ВИСКЕНА», но слова «И СТОМАТОЛОГИЯ» зачёркнуты."
+EntityDescription_491,OBJ,Гоблинская настенная роспись.
+EntityDescription_492,OBJ,Старые выцветшие плакаты прибиты к стене. Надписи не разобрать.
+EntityDescription_493,OBJ,"А эти плакаты ещё можно прочесть. Правда, они тоже старенькие."
+EntityDescription_494,OBJ,"Сумка. Похоже, вся в жирных пятнах."
+EntityDescription_495,OBJ,"В укромном месте — птичье гнездо. Может, асканийской чайки?"
 EntityDescription_496,OBJ,Кто оставил здесь это ведро?
-EntityDescription_497,OBJ,"Божественное святилище, заброшенное на десятилетия."
-EntityDescription_498,OBJ,На знамени написано: «<b>Автономное Строительство Инк.</b> — Квалифицированный Невидимый Труд с 11-го года ПЭ.»
+EntityDescription_497,OBJ,"Божественное святилище, за которым не ухаживали десятки лет."
+EntityDescription_498,OBJ,На знамени написано: <b>Автономное строительство</b> — Профессионально трудимся невидимо с 11 года ПЭ.
 EntityDescription_499,OBJ,"Письмо, зажатое между черепицами крыши."
 EntityDescription_500,OBJ,"Мешок, набитый… цементом? Там есть кое-что ещё."
 EntityDescription_501,OBJ,В этом ящике что-то есть…
-EntityDescription_502,OBJ,Поистину древний фрагмент истории — установлен как садовое украшение.
-EntityDescription_503,OBJ,Похоже на ситуацию из басни о лисе и винограде.
+EntityDescription_502,OBJ,Поистине древнюю реликвию выставили в саду как украшение.
+EntityDescription_503,OBJ,Прямо как в басне о лисе и винограде.
 EntityDescription_504,OBJ,В этой штуке что-то блестящее…
-EntityDescription_505,OBJ,На мешке есть ярлык: «<b>Автономное Строительство Инк.</b> — Квалифицированный Невидимый Труд с 11-го года ПЭ.»
-EntityDescription_506,OBJ,Свежие яблоки. Почти все целые.
-EntityDescription_507,OBJ,Миленькая статуя кота. Но с… светящимся глазом?
+EntityDescription_505,OBJ,На мешке ярлык: <b>Автономное строительство</b> — Профессионально трудимся невидимо с 11 года ПЭ.
+EntityDescription_506,OBJ,Свежие яблоки. Почти все.
+EntityDescription_507,OBJ,Милая статуя кота. Но глаз у неё… светится?
 EntityDescription_508,OBJ,Кто это сюда положил?
 EntityDescription_509,OBJ,Хм…?
 EntityDescription_510,OBJ,В этой трещине что-то есть…
 EntityDescription_511,OBJ,"О, ещё одна трещина!"
-EntityDescription_512,OBJ,По ним можно взобраться. Наверное.
+EntityDescription_512,OBJ,"По ним, наверное, можно взобраться."
 EntityDescription_513,OBJ,Хм.
 EntityDescription_514,OBJ,Блестящий.
-EntityDescription_515,OBJ,Ключ с запиской: <i>Жрец. Иди спать.</i>
-EntityDescription_516,OBJ,Какой-то мужчина. Лицо скрыто.
+EntityDescription_515,OBJ,Ключ с запиской: <i>Жрец. Ложись спать.</i>
+EntityDescription_516,OBJ,Какой-то тип. Лица не разглядеть.
 EntityDescription_517,OBJ,Карманные часы. Твои?
 EntityDescription_518,OBJ,Почти целый меч.
-EntityDescription_519,OBJ,Нет. Слишком много читать.
-EntityDescription_520,OBJ,Твоя судьба — однажды.
+EntityDescription_519,OBJ,Нет. Слишком много чтения.
+EntityDescription_520,OBJ,Однажды и тебя ждёт такая участь.
 EntityDescription_521,OBJ,"Горшок, полный странных камней."
 EntityDescription_522,OBJ,"Бочка, полная странных камней."
 EntityDescription_523,OBJ,Печальное зрелище.
 EntityDescription_524,OBJ,Мёртвый эльф.
 EntityDescription_525,OBJ,Иллюзорная стена?
-EntityDescription_526,OBJ,"Разблокированный сундук, полный странных камней."
+EntityDescription_526,OBJ,"Незапертый сундук, полный странных камней."
 EntityDescription_527,OBJ,Поднос со старым ладаном. Часть ещё годится.
 EntityDescription_528,OBJ,Запах соли.
 EntityDescription_529,OBJ,Внизу ещё холоднее.
 EntityDescription_530,OBJ,Пустой горшок…
 EntityDescription_531,OBJ,"Грибы. Наверное, съедобные."
-EntityDescription_532,OBJ,Раскрытая книга по тайной геометрии. Ты это уже знаешь.
+EntityDescription_532,OBJ,Раскрытая книга по эзотерической геометрии. Ты и так это знаешь.
 EntityDescription_533,OBJ,На железной плите лежит толстый том.
 EntityDescription_534,OBJ,Свиток тайного заклинания. Заговор?
 EntityDescription_535,OBJ,"В записке рядом написано: <i>Магические предметы, принадлежавшие усопшему</i>."
@@ -545,9 +545,9 @@ EntityDescription_542,OBJ,Храм Урта
 EntityDescription_543,OBJ,Гильдодцы Скалолома
 EntityDescription_544,OBJ,Пьяный сфинкс
 EntityDescription_545,OBJ,Хижина Сида
-EntityDescription_546,OBJ,"Бочка, полная листьев. Вонючие листья."
+EntityDescription_546,OBJ,"Бочка, полная листьев. Вонючих листьев."
 EntityDescription_547,OBJ,Святилище Урта.
-EntityDescription_548,OBJ,Старое пение. Для тебя оно значит… ПРАВДА.
+EntityDescription_548,OBJ,Старое песнопение. Для тебя оно значит… ПРАВДА.
 EntityName_0,,Акзел
 EntityName_1,,Альфос
 EntityName_2,,Арн
@@ -590,9 +590,9 @@ EntityName_38,,Несса
 EntityName_39,,Ользис
 EntityName_40,,Ост
 EntityName_41,,Ою
-EntityName_42,,ПК
+EntityName_42,,Игрок
 EntityName_43,,Пиндзя
-EntityName_44,,ПиндзяМёртв
+EntityName_44,,Мёртвая Пиндзя
 EntityName_45,,Котёл
 EntityName_46,,Раз
 EntityName_47,,Риксбайтер
@@ -625,8 +625,8 @@ EntityName_73,,Холодный труп
 EntityName_74,,Внушительное дерево
 EntityName_75,,Гоблинская роспись
 EntityName_76,,Плакаты
-EntityName_77,,Гнездо птицы
-EntityName_78,,Озерная тварь
+EntityName_77,,Птичье гнездо
+EntityName_78,,Озёрная тварь
 EntityName_79,,Ящики HWBT + эзотерическая печь
 EntityName_80,,Связь
 EntityName_81,,Зловещий коридор
@@ -634,8 +634,8 @@ EntityName_82,,Рун Факла
 EntityName_83,,Зловещая Рун Факла
 EntityName_84,,Желатиновый куб
 EntityName_85,,Скрытая дверь
-EntityName_86,,Гигантский град из улиток
-EntityName_87,,Танцовщица
+EntityName_86,,Град улиток
+EntityName_87,,Танцор
 EntityName_88,,Столп Джора
 EntityName_89,,Мёртвый искатель приключений
 EntityName_90,,Огромная колонна
@@ -653,7 +653,7 @@ EntityName_101,,Табличка «Не мимик»
 EntityName_102,,Подозрительный сундук
 EntityName_103,,Стена за корнями
 EntityName_104,,Дверь склепа
-EntityName_105,,Настенная роспись
+EntityName_105,,Фреска
 EntityName_106,,Каменный саркофаг
 EntityName_107,,Череп дракона
 EntityName_108,,Куча черепов
@@ -675,19 +675,19 @@ EntityName_123,,Северная железная дверь
 EntityName_124,,Мэри
 EntityName_125,,Спящий тролль
 EntityName_126,,Странный Ватте
-EntityName_127,,Мёрзлый росток
+EntityName_127,,Замёрзший росток
 EntityName_128,,Пробуждённые корни
 EntityName_129,,Низины руин улитки
 EntityName_130,,Вершина руин улитки
 EntityName_131,,Лабиринт
 EntityName_132,,Древняя фреска
 EntityName_133,,Святилище Урта
-EntityName_134,,Скрытый сейф Фристрайдера
+EntityName_134,,Скрытый сейф Фристрайдеров
 EntityName_135,,Полушарие
 EntityName_136,,Старый колодец
 EntityName_137,,Загромождающие бочки
 EntityName_138,,Музыкальный автомат
-EntityName_139,,Донатовая чаша
+EntityName_139,,Чаша для пожертвований
 EntityName_140,,"Ящик, изнутри которого доносится ритмичный стук"
 EntityName_141,,Чернильные кассеты
 EntityName_142,,Неисправные карманные мотоциклы
@@ -714,34 +714,34 @@ EntityName_162,,Календарь
 EntityName_163,,Центральная куча яблок
 EntityName_164,,Ящик с песком
 EntityName_165,,Верх лестницы
-EntityName_166,,Куб напряжения
+EntityName_166,,Куб стресса
 EntityName_167,,Низ лестницы
 EntityName_168,,Нижние Гильдодцы Скалолома
 EntityName_169,,Странная кнопка
 EntityName_170,,Рычаг
 EntityName_171,,Накрытый ящик
 EntityName_172,,Коробка зелий
-EntityName_173,,Военный молот за решёткой
-EntityName_174,,Прилавки
+EntityName_173,,Боевой молот за решёткой
+EntityName_174,,Кабинки
 EntityName_175,,Разбитые чайные чашки
 EntityName_176,,Стойка
 EntityName_177,,Погнутая железная дверь
-EntityName_178,,Щебень
+EntityName_178,,Завалы
 EntityName_179,,Перевёрнутый стол
-EntityName_180,,Опалённые журналы
+EntityName_180,,Обгоревшие зин-журналы
 EntityName_181,,Разрушенная рама
 EntityName_182,,Тайная дверь
 EntityName_183,,Скрытый сейф
-EntityName_184,,Очень усердно голосующий дворф
+EntityName_184,,Дворф с маниакальным рвением голосует
 EntityName_185,,Урна для голосования
 EntityName_186,,Урны для голосования
 EntityName_187,,Отдельные камни
 EntityName_188,,Статуя
-EntityName_189,,Отдельная плитка в задней части храма
+EntityName_189,,Шатающаяся плитка в дальней части храма
 EntityName_190,,Загадочная труба
 EntityName_191,,Пять крыс
-EntityName_192,,Ещё одно отправление
-EntityName_193,,Отправление
+EntityName_192,,Ещё одно послание
+EntityName_193,,Послание
 EntityName_194,,Чёрный кот
 EntityName_195,,Подозрительная дверь
 EntityName_196,,Вход в чайную лавку
@@ -761,14 +761,14 @@ EntityName_209,,Мёртвый эльф
 EntityName_210,,Древний фолиант
 EntityName_211,,Странные книги
 EntityName_212,,СВЯТИЛИЩЕ
-EntityName_213,,Свиток заклинания — Зона истины
+EntityName_213,,Свиток «Зона истины»
 Entity_NameChange_0,,Муравей-череп
 Entity_NameChange_1,,<shake>Рёв Колонны</shake>
 Entity_NameChange_2,,"Франк, сын Франка"
 Entity_NameChange_3,,Странный череп
-Entity_NameChange_4,,Лорд Учёный Феттернакс Cividix
+Entity_NameChange_4,,Лорд-учёный Феттернакс Сивидикс
 Entity_NameChange_5,,Снурре
 Entity_NameChange_6,,Джорджио Вальзантиго
 Entity_NameChange_7,,Труп
-Entity_NameChange_8,,"Преступление, краб"
+Entity_NameChange_8,,"Криминити, краб"
 Entity_NameChange_9,,Эльфийские сапоги

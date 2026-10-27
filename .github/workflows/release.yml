@@ -7,7 +7,6 @@ name: release
 on:
   push:
     tags: ['v*']
-  workflow_dispatch:
 
 permissions:
   contents: write
@@ -33,12 +32,33 @@ jobs:
           echo "Building $VERSION"
 
       - name: Build
-        # Replace with the real build. The rule is that the artefact that
-        # ships is produced by the same command the README documents.
-        run: echo "Replace with the build command for this stack."
+        run: |
+          python3 - "${{ steps.version.outputs.version }}" <<'PY'
+          from pathlib import Path
+          import sys
+          import zipfile
+
+          version = sys.argv[1]
+          source = Path("translation/Russian")
+          files = sorted(source.glob("*.csv"))
+          if len(files) != 12:
+              raise SystemExit(f"Expected 12 localization CSV files, found {len(files)}")
+
+          output = Path("dist") / f"esoteric-ebb-ru-v{version}.zip"
+          output.parent.mkdir(parents=True, exist_ok=True)
+          with zipfile.ZipFile(output, "w", compression=zipfile.ZIP_DEFLATED) as archive:
+              for path in files:
+                  archive.write(path, Path("Russian") / path.name)
+
+          notes = Path("docs/releases") / f"v{version}.md"
+          if not notes.is_file():
+              raise SystemExit(f"Release notes not found: {notes}")
+          print(f"Built {output} with {len(files)} CSV files")
 
       - name: Publish
         uses: softprops/action-gh-release@v2
         with:
-          generate_release_notes: true
-          body_path: CHANGELOG.md
+          name: Esoteric Ebb RU v${{ steps.version.outputs.version }}
+          body_path: docs/releases/v${{ steps.version.outputs.version }}.md
+          files: dist/esoteric-ebb-ru-v${{ steps.version.outputs.version }}.zip
+          fail_on_unmatched_files: true

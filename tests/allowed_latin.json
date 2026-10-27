@@ -1,149 +1,380 @@
 {
- "note": "Latin words the game keeps in its own script, and the words of the world's other languages.",
- "groups": {
-  "organisations and offices": [
-   "aefa",
-   "aff",
-   "ais",
-   "cbs",
-   "cividix",
-   "dip",
-   "dls",
-   "flm",
-   "gsp",
-   "hwbt",
-   "lr",
-   "mhr",
-   "nda",
-   "nmbt",
-   "oacn",
-   "pcg",
-   "ppg",
-   "rf",
-   "tt",
-   "vdr",
-   "vk"
-  ],
-  "creatures, spells and titles": [
-   "act",
-   "arcanus",
-   "averia",
-   "be",
-   "bellum",
-   "carpe",
-   "cassus",
-   "chains",
-   "chalybs",
-   "classium",
-   "ddvaerg",
-   "dominans",
-   "du",
-   "dust",
-   "ebb",
-   "esoteric",
-   "faux",
-   "felgentior",
-   "giant",
-   "grin",
-   "hexbrew",
-   "interlude",
-   "lady",
-   "larp",
-   "let",
-   "lingua",
-   "magnum",
-   "maior",
-   "manifestum",
-   "mitt",
-   "nearly",
-   "operariorum",
-   "pas",
-   "pillar",
-   "plebeium",
-   "prôv",
-   "quam",
-   "rex",
-   "rogue",
-   "scene",
-   "serif",
-   "tenebras",
-   "the",
-   "torch",
-   "trade",
-   "ullus",
-   "umbrameexus",
-   "vii",
-   "vox",
-   "ym"
-  ],
-  "keys, marks and single letters": [
-   "d20",
-   "d4",
-   "d6",
-   "d8",
-   "d10",
-   "d12",
-   "xp",
-   "x",
-   "c",
-   "l",
-   "r",
-   "t",
-   "s",
-   "f",
-   "i",
-   "w",
-   "q",
-   "e",
-   "g",
-   "b",
-   "n",
-   "k",
-   "v",
-   "y",
-   "z",
-   "h",
-   "j",
-   "m",
-   "p",
-   "u",
-   "a",
-   "d",
-   "o",
-   "shift",
-   "she",
-   "it",
-   "pc",
-   "np",
-   "ui",
-   "hp",
-   "mp",
-   "dnd",
-   "tv",
-   "id",
-   "dlc",
-   "sdk",
-   "api",
-   "www",
-   "http",
-   "https",
-   "com",
-   "org",
-   "steam",
-   "lol",
-   "rpg",
-   "fps",
-   "qa",
-   "fqa",
-   "fc",
-   "co",
-   "ahplc",
-   "ost",
-   "vol",
-   "ii",
-   "pe",
-   "ro",
-   "ar"
-  ]
- }
+  "note": "Latin words the game keeps in its own script, and the words of the world's other languages.",
+  "groups": {
+    "organisations and offices": [
+      "aefa",
+      "aff",
+      "ais",
+      "cbs",
+      "cividix",
+      "dip",
+      "dls",
+      "flm",
+      "gsp",
+      "hwbt",
+      "lr",
+      "mhr",
+      "nda",
+      "nmbt",
+      "oacn",
+      "pcg",
+      "ppg",
+      "rf",
+      "tt",
+      "vdr",
+      "vk"
+    ],
+    "creatures, spells and titles": [
+      "act",
+      "arcanus",
+      "averia",
+      "be",
+      "bellum",
+      "carpe",
+      "cassus",
+      "chains",
+      "chalybs",
+      "classium",
+      "ddvaerg",
+      "dominans",
+      "du",
+      "dust",
+      "ebb",
+      "esoteric",
+      "faux",
+      "felgentior",
+      "giant",
+      "grin",
+      "hexbrew",
+      "interlude",
+      "lady",
+      "larp",
+      "let",
+      "lingua",
+      "magnum",
+      "maior",
+      "manifestum",
+      "mitt",
+      "nearly",
+      "operariorum",
+      "pas",
+      "pillar",
+      "plebeium",
+      "prôv",
+      "quam",
+      "rex",
+      "rogue",
+      "scene",
+      "serif",
+      "tenebras",
+      "the",
+      "torch",
+      "trade",
+      "ullus",
+      "umbrameexus",
+      "vii",
+      "vox",
+      "ym"
+    ],
+    "keys, marks and single letters": [
+      "d20",
+      "d4",
+      "d6",
+      "d8",
+      "d10",
+      "d12",
+      "xp",
+      "x",
+      "c",
+      "l",
+      "r",
+      "t",
+      "s",
+      "f",
+      "i",
+      "w",
+      "q",
+      "e",
+      "g",
+      "b",
+      "n",
+      "k",
+      "v",
+      "y",
+      "z",
+      "h",
+      "j",
+      "m",
+      "p",
+      "u",
+      "a",
+      "d",
+      "o",
+      "shift",
+      "she",
+      "it",
+      "pc",
+      "np",
+      "ui",
+      "hp",
+      "mp",
+      "dnd",
+      "tv",
+      "id",
+      "dlc",
+      "sdk",
+      "api",
+      "www",
+      "http",
+      "https",
+      "com",
+      "org",
+      "steam",
+      "lol",
+      "rpg",
+      "fps",
+      "qa",
+      "fqa",
+      "fc",
+      "co",
+      "ahplc",
+      "ost",
+      "vol",
+      "ii",
+      "pe",
+      "ro",
+      "ar"
+    ]
+  },
+  "rows": {
+    "Dialogs.csv": {
+      "CB_Apartment_250": [
+        "Animare"
+      ],
+      "CB_Ettir_17": [
+        "Miasto",
+        "Głębin"
+      ],
+      "CB_HallwaySolution_161": [
+        "Al",
+        "son",
+        "divino"
+      ],
+      "GG_Nessan_496": [
+        "Minun",
+        "Seksikäs",
+        "Puuni"
+      ],
+      "JC_Gorm_1872": [
+        "Sanguis",
+        "maledictus"
+      ],
+      "RM_Rollo_269": [
+        "Griffin",
+        "Gryphon",
+        "Griphon"
+      ],
+      "UP_Meri_59": [
+        "Hola",
+        "Hejsan",
+        "Salve",
+        "amice"
+      ],
+      "UP_Meri_60": [
+        "Cześć",
+        "hallo-o",
+        "hallo"
+      ],
+      "UP_Nessan_168": [
+        "Rakas",
+        "puuni"
+      ],
+      "TS_Pocket_94": [
+        "DEPF"
+      ],
+      "WL_CornerHouse_25": [
+        "Qu",
+        "est",
+        "ce",
+        "que"
+      ],
+      "WL_CornerHouse_30": [
+        "Allez"
+      ],
+      "WL_CornerHouse_33": [
+        "Mon",
+        "dieu"
+      ],
+      "WL_CornerHouse_38": [
+        "le",
+        "clergé"
+      ],
+      "WL_CornerHouse_42": [
+        "Ah",
+        "Bon"
+      ],
+      "WL_CornerHouse_46": [
+        "Un",
+        "magicien"
+      ],
+      "WL_CornerHouse_51": [
+        "Non"
+      ],
+      "WL_CornerHouse_56": [
+        "Musique"
+      ],
+      "WL_CornerHouse_58": [
+        "Bizarre"
+      ],
+      "WL_CornerHouse_71": [
+        "Pardon"
+      ],
+      "WL_CornerHouse_72": [
+        "Espèce",
+        "de",
+        "cochon"
+      ],
+      "WL_CornerHouse_79": [
+        "C",
+        "est",
+        "évident"
+      ],
+      "WL_CornerHouse_86": [
+        "Merci"
+      ],
+      "WL_CornerHouse_94": [
+        "Je",
+        "vis",
+        "ici"
+      ],
+      "WL_CornerHouse_95": [
+        "maudit"
+      ],
+      "WL_CornerHouse_103": [
+        "Au",
+        "revoir"
+      ],
+      "WL_CornerHouse_108": [
+        "Ah",
+        "Flatterie"
+      ],
+      "WL_CornerHouse_111": [
+        "C",
+        "est",
+        "ennuyeux"
+      ],
+      "WL_CornerHouse_113": [
+        "au",
+        "revoir"
+      ],
+      "WL_CornerHouse_137": [
+        "le",
+        "points",
+        "d",
+        "interest"
+      ],
+      "WL_CornerHouse_61": [
+        "Oui"
+      ]
+    },
+    "EntityInfo.csv": {
+      "EntityDescription_498": [
+        "Inc"
+      ],
+      "EntityDescription_505": [
+        "Inc"
+      ]
+    },
+    "Glossary.csv": {
+      "Glossary_Response_185": [
+        "Mass",
+        "Hag",
+        "Recruitment"
+      ],
+      "Glossary_Response_301": [
+        "Alignment",
+        "Intent",
+        "Studies"
+      ],
+      "Glossary_Response_309": [
+        "One",
+        "Sided",
+        "Offspring",
+        "Effect"
+      ],
+      "Glossary_Response_473": [
+        "Lack",
+        "of",
+        "Ladies"
+      ]
+    },
+    "ItemTexts.csv": {
+      "ItemDesc_1": [
+        "River",
+        "Reach"
+      ],
+      "ItemDesc_66": [
+        "Vis",
+        "Imperium",
+        "Regni",
+        "Filum"
+      ]
+    },
+    "MiscTexts.csv": {
+      "PillarScene_Intelligence10_1": [
+        "Purus",
+        "Esotericus"
+      ]
+    },
+    "UIElements.csv": {
+      "Settings_TwitchIntegration_Title": [
+        "Twitch"
+      ],
+      "Settings_TwitchIntegration_Info": [
+        "Twitch"
+      ]
+    }
+  },
+  "separate_tak_zhe": {
+    "Dialogs.csv": [
+      "EP_Snell_631",
+      "Ettir_Companion_50",
+      "GT_Ettir_438",
+      "GT_Literature_45",
+      "GW_Drummer_73",
+      "JC_Gorm_1141",
+      "JC_Urth_1292",
+      "JC_Urth_397",
+      "JC_Urth_448",
+      "JC_Urth_932",
+      "JC_Urth_933",
+      "LL_CorpseOne_77",
+      "LL_Intro_226",
+      "Meek_Companion_65",
+      "OP_EverGlad_307",
+      "OP_Isk_375",
+      "OP_Isk_890",
+      "OP_Isk_893",
+      "OP_Isk_898",
+      "Q_Election_65",
+      "Q_Feathers_165",
+      "SO_Snurre_465",
+      "SO_Snurre_890",
+      "SP_Snell_198",
+      "TS_Arn_Roof_63",
+      "TS_GoboGrafitti_70",
+      "TS_GoboGrafitti_95",
+      "TS_Kull_237",
+      "TS_Pocket_24",
+      "TS_Pocket_306",
+      "UP_Brr_96",
+      "UP_Gourgalash_305",
+      "VL_Pinja_33",
+      "VL_Visken_215",
+      "WL_Avikness_82"
+    ],
+    "SheetInfo.csv": [
+      "IP_BOND_12"
+    ]
+  }
 }
