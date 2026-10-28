@@ -249,7 +249,7 @@ rules.
 ```bash
 python3 -m pip install -r requirements.txt   # httpx, fonttools, unitypy
 python3 -m unittest discover -s tests         # check the shipped CSV files
-python3 src/build.py --help                   # run the pipeline
+python3 src/ebru/build.py --help               # run the pipeline
 ```
 
 The tests read `translation/Russian/*.csv` and fail on a missing key, a

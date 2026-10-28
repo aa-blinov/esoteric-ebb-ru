@@ -36,7 +36,7 @@ The first build of the translation had these lines in the lore panel:
 Russian needs more characters than English for the same thought, and the
 difference is enough to push a display-size line out of the panel. The
 measurements were taken against the real font data out of the game's assets:
-`scripts/measure_width.py`.
+`src/ebru/measure_width.py`.
 
 ## The lines that were rewritten
 
@@ -607,8 +607,8 @@ long lawful label is shortened to the canon term «ЗАКОННЫЙ», which mea
 ## Checking a line yourself
 
 ```bash
-python3 scripts/measure_width.py            # the widths of the known cases
-python3 src/verify_final.py                 # the width of every line in the corpus
+python3 src/ebru/measure_width.py            # the widths of the known cases
+python3 src/ebru/verify_final.py                 # the width of every line in the corpus
 ```
 
 
