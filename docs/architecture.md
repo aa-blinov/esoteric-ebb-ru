@@ -16,19 +16,19 @@ script that produced it.
 
 | Module | What it is responsible for |
 | --- | --- |
-| `src/extract_corpus.py` | Parses the English CSVs into one JSON line per string. |
-| `src/llm_client.py` | The model endpoint, the disk cache, the JSON reply parser. |
-| `src/run_translation.py` | The three translation stages: terms, names, bulk. |
-| `src/literary_pass.py` | The editor: rewrites the corpus against the style code. |
-| `src/canonicalise.py` | Collapses repeated source lines onto one wording each. |
-| `src/unify_address.py` | Brings the address in narration and rules to «ты». |
-| `src/typo_normalise.py` | The typographic rules, applied to every row. |
-| `src/compact_ui.py` | Shortens the character-screen labels that outgrew their boxes. |
-| `src/fix_layout.py` | The four lines with a display size that did not fit. |
-| `src/qa_check.py` | The language checks: mixed scripts, English left inside Russian. |
-| `src/struct_qa.py` | The structural checks: quotes, markup, placeholders. |
-| `src/verify_final.py` | The final report: typography, markup, address, repeats. |
-| `src/build.py` | Runs the stages in order and writes `translation/Russian/`. |
+| `src/ebru/extract_corpus.py` | Parses the English CSVs into one JSON line per string. |
+| `src/ebru/llm_client.py` | The model endpoint, the disk cache, the JSON reply parser. |
+| `src/ebru/run_translation.py` | The three translation stages: terms, names, bulk. |
+| `src/ebru/literary_pass.py` | The editor: rewrites the corpus against the style code. |
+| `src/ebru/canonicalise.py` | Collapses repeated source lines onto one wording each. |
+| `src/ebru/unify_address.py` | Brings the address in narration and rules to «ты». |
+| `src/ebru/typo_normalise.py` | The typographic rules, applied to every row. |
+| `src/ebru/compact_ui.py` | Shortens the character-screen labels that outgrew their boxes. |
+| `src/ebru/fix_layout.py` | The four lines with a display size that did not fit. |
+| `src/ebru/qa_check.py` | The language checks: mixed scripts, English left inside Russian. |
+| `src/ebru/struct_qa.py` | The structural checks: quotes, markup, placeholders. |
+| `src/ebru/verify_final.py` | The final report: typography, markup, address, repeats. |
+| `src/ebru/build.py` | Runs the stages in order and writes `translation/Russian/`. |
 | `src/voice/bible.md` | The style code the editor reads. |
 | `src/voice/glossary.json` | The frozen terms, 1,838 of them. |
 
@@ -98,7 +98,7 @@ lines.
 
 The character-screen lore panel is 541 px wide with about 500 px of text
 inside it. Whether a line fits depends on the glyphs, so
-`scripts/measure_width.py` reads the advance widths out of the fonts the game
+`src/ebru/measure_width.py` reads the advance widths out of the fonts the game
 ships and computes the rendered width the way TextMeshPro does.
 
 The cost is a dependency on the game's assets, and the measurements in
@@ -115,13 +115,13 @@ the setting has to be set once per installation.
 
 ## Boundaries
 
-- **`src/llm_client.py` knows nothing about the game.** It calls an endpoint
+- **`src/ebru/llm_client.py` knows nothing about the game.** It calls an endpoint
   and caches the answers. Everything game-specific lives in the stages above
   it.
 - **The stages do not import each other.** They read a file and write a file.
   A stage can be re-run on its own, and the intermediate files under `work/`
   are the record of what each one did.
-- **`src/verify_final.py` and `scripts/measure_width.py` may read the game's
+- **`src/ebru/verify_final.py` and `src/ebru/measure_width.py` may read the game's
   assets; nothing else may.** The game is installed on one machine and not on
   another, and the pipeline has to run on both.
 - **`tests/` never imports from `src/`.** The tests read the shipped CSV files
