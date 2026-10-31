@@ -4,6 +4,10 @@ All notable changes to Esoteric Ebb RU. Versions are ordered newest first.
 
 ## [Unreleased]
 
+### Документация
+
+- Подготовлены руководство Steam по установке, текст с разметкой, план публикации, обложка, схемы и игровые скриншоты.
+
 ## [1.0.2] - 2026-10-31
 
 ### Исправлено
