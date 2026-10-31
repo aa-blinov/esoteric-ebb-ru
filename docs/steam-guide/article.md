@@ -12,7 +12,7 @@
 
 ## 2. Скачайте перевод
 
-Откройте [последний релиз на GitHub](https://github.com/aa-blinov/esoteric-ebb-ru/releases/latest). В списке файлов **Assets** скачайте архив перевода с именем **esoteric-ebb-ru-v…zip**. У текущей версии 1.0.2 он называется **esoteric-ebb-ru-v1.0.2.zip**.
+Откройте [последний релиз на GitHub](https://github.com/aa-blinov/esoteric-ebb-ru/releases/latest). В списке файлов **Assets** скачайте ZIP-архив перевода последней версии.
 
 Архивы **Source code** для установки не нужны. В архиве перевода находится папка **Russian** с двенадцатью CSV-файлами.
 
