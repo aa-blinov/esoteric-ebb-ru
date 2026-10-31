@@ -9,6 +9,7 @@
 | [release-process.md](release-process.md) | Versioning, release checks, tags and package publishing. |
 | [../.agents/skills/game-localization-pipeline/SKILL.md](../.agents/skills/game-localization-pipeline/SKILL.md) | Reusable workflow for planning, translating, editing, and validating game localization. |
 | [../.agents/skills/esoteric-ebb-ru-translation/SKILL.md](../.agents/skills/esoteric-ebb-ru-translation/SKILL.md) | Codex workflow for translating, editing, and checking Russian text in the game. |
+| [steam-guide/](steam-guide/) | Готовая статья для Steam, план публикации и изображения. |
 | [screenshots/](screenshots/) | The game in Russian. |
 | [../README.md](../README.md) | The front door: what it does and how to install it. |
 | [../README_ru.md](../README_ru.md) | The same front door, in Russian. |
