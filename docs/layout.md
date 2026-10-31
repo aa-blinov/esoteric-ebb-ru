@@ -30,7 +30,7 @@ The first build of the translation had these lines in the lore panel:
 | `EXTRA ITEMS` (English) | 45 | 297 px | fits |
 | `ДОПОЛНИТЕЛЬНЫЕ ПРЕДМЕТЫ` | 45 | 674 px | wraps, overlaps the line below |
 | `Higher Strength` (English) | 38 | 286 px | fits |
-| `Большая Сила` | 38 | 431 px | fits |
+| `Высокая Сила` | 38 | current heading |
 | `ЛИШНИЕ ПРЕДМЕТЫ` (Russian, Noto Serif) | 45 | 495 px | fits within 500 px |
 
 Russian needs more characters than English for the same thought, and the
@@ -142,22 +142,24 @@ description, the footnote and the heading of the uses follow each other, and
 the pink bubble that carries the character's comment covers the foot of the
 panel.
 
-The Russian description is a line shorter than the English one, so the heading
-of the uses, **Большая Сила**, rose far enough to be seen under the bubble.
-The footnote was set in three short lines, with its all-caps phrase reduced to
-size 25 to fit. The third line still showed through the black notice band in
-the live panel, so it is now an invisible placeholder. The first two lines
-(«Стань ФАНАТИКОМ. Верни свою честь.») and the separate black notice text
-(`AbilityScoreInfo_Strength_LoreNotice`) stay visible.
+The Russian description is a line shorter than the English one. The footnote
+keeps two visible lines («Стань ФАНАТИКОМ. Верни свою честь.»); its third line
+is an invisible placeholder because it showed through the black notice band.
+The separate black notice (`AbilityScoreInfo_Strength_LoreNotice`) stays
+visible. A later report found that on the first visit to this panel in a new
+game, the `Высокая Сила` heading (`AbilityScoreInfo_Strength_Uses1`) can appear
+behind the red notice band. Switching to another role and back redraws the
+description and clears the overlap. This points to a first-render layout issue; the translated heading itself is shorter than the English source. It still needs a clean-start in-game check before attributing the issue to localization.
 
 ### Strength description after the wording fix
 
 The description has **371 characters including markup**. At font size **22**,
 it wraps to **10 lines** in the live 1920 × 1080 screen. Pixel bounds of the
 rendered text show a widest line of **497 px** in the roughly **500 px** text
-column. The third line of the Strength footnote is replaced by a zero-width
-space because it showed through the notice band. The first two footnote lines
-remain in the translation, and the black notice text remains visible.
+column. These measurements cover the description after it has rendered; they
+do not prove that the panel lays out correctly on its first visit in a new
+game. Check that first-visit state separately from the state after switching
+roles.
 
 ### Charisma footnote
 
@@ -449,6 +451,23 @@ not fit:
 The names were rewritten instead of shrunk: «Эзотерик», «Писец революции» and
 «Рекрут Уртгарда». Eight of the backgrounds were drawn and looked at on the
 screen of the game, and every name of them stays on one line.
+
+### Background cards with bonus plates
+
+Later screen captures showed two additional titles wrapping into the date and
+five descriptions running under the bonus plates. The titles are now «Юный
+газетчик» and «Прирождённый маг». In the game's Klee One font at size 20 they
+measure **247 px** and **307 px**, respectively, within the card's **480 px**
+text area.
+
+The five affected descriptions were shortened. Using the installed Noto Serif
+font at size 22 and the same 480 px text width, word wrapping now produces at
+most four lines; the widest line per card is **455 px** for Dead Cleric,
+**452 px** for Crowd Pleaser, **460 px** for Little Weirdo, **455 px** for
+Urthguard Recruit, and **464 px** for Acolyte. The bonus plates begin below
+the four-line text area. These are font-metric checks; the supplied captures
+show the overlap before the fix, and the affected cards still need a fresh
+visual check after the game reloads the updated CSV.
 
 ## The deep storage
 
@@ -1503,3 +1522,11 @@ MiscTexts.csv: в подтверждении короткого отдыха у�
 MiscTexts.csv: подпись кнопки SpellBook_Target приведена к общему переводу Cast — «Сотворить».
 
 MiscTexts.csv: подсказки SpellTile_ShortRest_* приведены к обращению на «ты» и согласованы с терминами ОЗ, истощения и ячейки заклинания.
+
+## Save limit labels
+
+The settings screen puts the standalone label «Лимит» next to each slider and
+shows the save type in a separate narrow title field. Full Russian phrases
+wrap into that neighboring label, so the titles are compact: «Быстрых» for
+quick saves and «Авто» for autosaves. The adjacent word «Лимит» completes the
+meaning, while the help text explains how each save type is created.

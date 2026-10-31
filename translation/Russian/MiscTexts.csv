@@ -1134,34 +1134,34 @@ PCBackground_PunchingBag_date,,"Хронос 1-й, 6 ПЭ"
 PCBackground_Trollkiller_name,,Убийца троллей
 PCBackground_Trollkiller_desc,OBJ,"Ты не помнишь, но хорошо знаешь, как умер отец. Иногда это подстёгивало. Иногда казалось, что тебе никогда не стать ему ровней."
 PCBackground_Trollkiller_date,,"Фелтени 14-й, 7 ПЭ"
-PCBackground_KioskKid_name,,Парень из газетного киоска
+PCBackground_KioskKid_name,,Юный газетчик
 PCBackground_KioskKid_desc,OBJ,"Мать редко была дома и устроила тебя на работу после школы, чтобы не ввязывался в дурное. Ты ненавидишь запах газет."
 PCBackground_KioskKid_date,,"22-й Горгони, 10 ПЭ"
 PCBackground_LoreEnthusiast_name,,Любитель истории
 PCBackground_LoreEnthusiast_desc,OBJ,Одинокие прогулки по городу часто приводили тебя в Дарровскую библиотеку. Странная история царства Джора всегда была твоим спутником.
 PCBackground_LoreEnthusiast_date,,11 ПЭ
 PCBackground_CrowdPleaser_name,,В угоду компании
-PCBackground_CrowdPleaser_desc,OBJ,Рано или поздно ты связался не с той компанией. Ты быстро перенял их жаргон и радикальную лексику — на что только не пойдёшь ради настоящих друзей.
+PCBackground_CrowdPleaser_desc,OBJ,Ты связался не с той компанией. Быстро перенял их жаргон и радикальную лексику — лишь бы найти настоящих друзей.
 PCBackground_CrowdPleaser_date,,"11 ПЭ, 12 ПЭ, 13 ПЭ"
 PCBackground_LittleWeirdo_name,,Маленький чудик
-PCBackground_LittleWeirdo_desc,OBJ,"Для них ты был диковинкой — мальчишкой, готовым на всё, лишь бы привлечь их внимание. <i>Заслужить их одобрение</i>. Года через два ты в этом поднаторел."
+PCBackground_LittleWeirdo_desc,OBJ,"Для них ты был диковинкой: мальчишкой, готовым на всё ради внимания. <i>Их одобрения</i>. Через пару лет ты в этом поднаторел."
 PCBackground_LittleWeirdo_date,,13 ПЭ
 PCBackground_AzgalistActivist_name,,Активист азгалистов
 PCBackground_AzgalistActivist_desc,OBJ,Вскоре «друзья» познакомили тебя с мятежным подпольем Норвика. Подростком ты годами сеял хаос — и кое-что похуже: <i>гномью пропаганду</i>.
 PCBackground_AzgalistActivist_date,,"Хронос 19-й, 15 ПЭ"
 PCBackground_UrthguardRecruit_name,,Новобранец Уртгарда
-PCBackground_UrthguardRecruit_desc,OBJ,После ареста спорить особо не пришлось. Три изнурительных года подготовки: городской кодекс и добродетели вдалбливали тебе в голову. Но ты выжил.
+PCBackground_UrthguardRecruit_desc,OBJ,После ареста выбирать не пришлось. Три года изнурительной муштры: зубрёжка городского кодекса и добродетелей. Но выжил.
 PCBackground_UrthguardRecruit_date,,"Ингарми 3-й, 17 ПЭ"
 PCBackground_OneFriend_name,,Единственный друг
 PCBackground_OneFriend_desc,OBJ,"В те одинокие годы ты молился лишь об одном. Но боги не ответили. Как всегда, пришлось справляться самому."
 PCBackground_OneFriend_date,,18 ПЭ
 PCBackground_Acolyte_name,,Послушник
-PCBackground_Acolyte_desc,OBJ,"Твой талант к переписыванию текстов привёл тебя на церковную службу. Тебя выбрали из рядовых служителей, и ты быстро доказал свою преданность божественному городу."
+PCBackground_Acolyte_desc,OBJ,Из рядовых тебя повысили за умение переписывать тексты. Ты быстро доказал преданность божественному городу.
 PCBackground_Acolyte_date,,"19 ПЭ, 20 ПЭ"
 PCBackground_TowerApprentice_name,,Ученик Башен
 PCBackground_TowerApprentice_desc,OBJ,"Поступить в Башни — честь, выпадающая немногим. Но это ещё и тяжёлое испытание. Кто бы мог подумать, что лекции так выматывают?"
 PCBackground_TowerApprentice_date,,"21-й Сумил, 21 ПЭ"
-PCBackground_ArcaneProdigy_name,,Магический вундеркинд
+PCBackground_ArcaneProdigy_name,,Прирождённый маг
 PCBackground_ArcaneProdigy_desc,OBJ,"Впервые в жизни что-то давалось тебе само собой. Ты всегда знал несколько кантрипов, но настоящая магия — совсем другое дело. Это была <i>сила</i>."
 PCBackground_ArcaneProdigy_date,,22 ПЭ
 PCBackground_PalacePawn_name,,Дворцовая Пешка
@@ -1180,7 +1180,7 @@ PCBackground_AbjectApostate_name,,Отверженный отступник
 PCBackground_AbjectApostate_desc,OBJ,"Тебя никто не любит. Когда тебя разжаловали за халатность, никто не возразил. Но ничего, всё будет хорошо. Ты ведь к этому привык."
 PCBackground_AbjectApostate_date,,"Хронос 23-й, 26 ПЭ"
 PCBackground_DeadCleric_name,,Мёртвый Жрец
-PCBackground_DeadCleric_desc,OBJ,Ты рос в одиночестве. Ввязывался в неприятности. Прошёл обучение в Ургвардии. Посвятил жизнь служению и стал Жрецом. Неужели всё должно было закончиться в <i>Реке</i>?
+PCBackground_DeadCleric_desc,OBJ,Одинокое детство. Неприятности. Уртгардская учёба. Служение богам. Сан Жреца. Неужели всё должно было закончиться в <i>Реке</i>?
 PCBackground_DeadCleric_date,,"25 марта, 27 ПЭ"
 AbilityScoreInfo_Strength_LoreQuote,STR,"<i>«Каждый пастух знает песнь. Она гулко разносится вверх по реке. Урт живёт в той полоске земли.»
 </i>
