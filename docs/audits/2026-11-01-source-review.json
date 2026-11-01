@@ -1,0 +1,563 @@
+{
+  "date": "2026-11-01",
+  "baseline_commit": "132af8325285979b5ece331becbe6af75feeded5",
+  "scope": "Automated scan of every current CSV row; contextual review of selected candidates. Not a complete line-by-line literary certification.",
+  "summary": {
+    "rows": 82610,
+    "files": 12,
+    "candidates": {
+      "damaged_text": 0,
+      "expanded_short_source": 0,
+      "shortened_long_source": 10,
+      "false_friends": 717,
+      "suspicious_ru": 893,
+      "lost_negation": 1050
+    },
+    "inconsistent_long_groups": 418
+  },
+  "changed_rows": 83,
+  "changes": [
+    {
+      "key": "AR_Viira_715",
+      "en": "You actually have to get some people to sign the papers, it appears.",
+      "before": "Похоже, вам и правда нужно найти людей, которые подпишут бумаги.",
+      "after": "Похоже, тебе и правда нужно найти людей, которые подпишут бумаги."
+    },
+    {
+      "key": "CB_Bondavol_195",
+      "en": "\"I'll bet your soul it's not!\"",
+      "before": "«Готов поставить душу, что именно так!»",
+      "after": "«Ставлю твою душу на то, что никакой разницы нет!»"
+    },
+    {
+      "key": "CB_HallwaySolution_416",
+      "en": "\"No need to apologize. From what I've read, the City Below is incredibly dangerous.\"",
+      "before": "«Не за что извиняться. Судя по тому, что я читал, Подгородье невероятно опасен.»",
+      "after": "«Не за что извиняться. Судя по тому, что я читал, Подгородье невероятно опасно.»"
+    },
+    {
+      "key": "CB_HallwaySolution_497",
+      "en": "\"But trust me, the City Below is very esoteric.\"",
+      "before": "«Но поверь мне, Подгородье очень эзотеричен.»",
+      "after": "«Но поверь мне, Подгородье очень эзотерично.»"
+    },
+    {
+      "key": "CB_HallwaySolution_500",
+      "en": "We do not know why the City Below is so esoteric. We cannot know. Not in any sensible manner.",
+      "before": "Мы не знаем, почему Подгородье так эзотеричен. Мы не можем узнать. Никаким разумным способом.",
+      "after": "Мы не знаем, почему Подгородье так эзотерично. И не можем узнать. Во всяком случае, разумным путём."
+    },
+    {
+      "key": "CB_HallwaySolution_502",
+      "en": "The City Below City is alive.",
+      "before": "Подгородье жив.",
+      "after": "Подгородье живо."
+    },
+    {
+      "key": "CB_HallwaySolution_503",
+      "en": "ALIVE.",
+      "before": "ЖИВ.",
+      "after": "ЖИВО."
+    },
+    {
+      "key": "CB_HallwaySolution_690",
+      "en": "\"She did the impossible: actually uniting the rowdy Halfways Tribe.\"",
+      "before": "«Она совершила невозможное: объединила буйное Племя Моста на полпути.»",
+      "after": "«Она совершила невозможное: объединила буйное племя Полпути.»"
+    },
+    {
+      "key": "CB_Kraaid_488",
+      "en": "\"<wiggle>Kraaid</wiggle> cares not.\"",
+      "before": "«<wiggle>Крааид</wiggle> всё равно.»",
+      "after": "«<wiggle>Крааиду</wiggle> всё равно.»"
+    },
+    {
+      "key": "CB_Kraaid_795",
+      "en": "\"<wiggle>Kraaid</wiggle> does not care.\"",
+      "before": "«<wiggle>Крааид</wiggle> всё равно.»",
+      "after": "«<wiggle>Крааиду</wiggle> всё равно.»"
+    },
+    {
+      "key": "CB_LordPuu_245",
+      "en": "The void of nothing, aligned closely with Askanii. Aligned closely with the World Tree tendrils.",
+      "before": "Пустота, само Ничто, тесно связана с Асканиями и с отростками Древа Мира.",
+      "after": "Пустота небытия, тесно связанная с Асканией и отростками Древа Мира."
+    },
+    {
+      "key": "CB_Moongore_428",
+      "en": "<b>YEEEEEEEEEEEEEEEEEEEEEEEEEEEEEES</b>.",
+      "before": "<b>ДААААААААААААААААААААААА</b>.",
+      "after": "<b>ДААААААААААА</b>."
+    },
+    {
+      "key": "CB_MysteryDoor_46",
+      "en": "Not even slightly.",
+      "before": "Даже чуть-чуть.",
+      "after": "Ни на волосок."
+    },
+    {
+      "key": "CB_RunTorch_68",
+      "en": "\"Yeah, something like that.\"",
+      "before": "Разве что найти «Магическую руку». Возможно, где-то наверху отыщется копия этого заклинания.",
+      "after": "«Да, примерно так.»"
+    },
+    {
+      "key": "CB_StairsTrap_40",
+      "en": "You had no chance of noticing it before it went off either. The trigger must have been a hair-fine cord or something.",
+      "before": "Ловушку, должно быть, запускал тончайший шнур — почти как волос.",
+      "after": "До срабатывания заметить её было невозможно. Наверное, спусковым механизмом служил тончайший шнур, толщиной с волос."
+    },
+    {
+      "key": "DS_Nearly_95",
+      "en": "She doesn't look at you.",
+      "before": "Ну и грубо.",
+      "after": "Она не смотрит на тебя."
+    },
+    {
+      "key": "DS_Olzis_560",
+      "en": "\"Well, not if you're going to react like that.\"",
+      "before": "«Ну, если ты собираешься реагировать именно так.»",
+      "after": "«Ну, если ты так реагируешь, то нет.»"
+    },
+    {
+      "key": "DS_Razz_26",
+      "en": "You hear him clear his throat, slowly.",
+      "before": "Вы слышите, как он медленно прочищает горло.",
+      "after": "Ты слышишь, как он медленно прочищает горло."
+    },
+    {
+      "key": "DS_Rixbiter_73",
+      "en": "\"That's not how I'd phrase it. But sure.\"",
+      "before": "«Какие тут новости? О чём болтают? Какие горячие сплетни, как там говорят?»",
+      "after": "«Я бы выразился иначе. Но пусть будет так.»"
+    },
+    {
+      "key": "EP_Moongore_66",
+      "en": "\"Is he in the City Below still?!\"",
+      "before": "«Он всё ещё в Подгороде?!»",
+      "after": "«Он всё ещё в Подгородье?!»"
+    },
+    {
+      "key": "EP_Moongore_82",
+      "en": "<b>YEEEEEEEEEEEEEEEEEEEEEEEEEEEEEES</b>.",
+      "before": "<b>ЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫ</b>.",
+      "after": "<b>ДААААААААААА</b>."
+    },
+    {
+      "key": "EP_Moongore_86",
+      "en": "(Whisper to Meek.) \"Quiet, I'm trying to score here.\"",
+      "before": "(Шёпотом Тилю.) «Тише, я пытаюсь её обаять.»",
+      "after": "(Шёпотом Смиренному.) «Тише, я тут пытаюсь её очаровать.»"
+    },
+    {
+      "key": "EP_Moongore_110_SkeletonIntro",
+      "en": "You defeated the skeleton.",
+      "before": "Ты победил скелет.",
+      "after": "Ты победил скелета."
+    },
+    {
+      "key": "EP_Moongore_110_CB_MoongoreCharmed",
+      "en": "You cast Charm Person on her. She's still mad about it.",
+      "before": "Ты наложил на неё заклинание «Очаровать человека». Она всё ещё злится из-за этого.",
+      "after": "Ты наложил на неё заклинание «Очаровать гуманоида». Она всё ещё злится."
+    },
+    {
+      "key": "EP_Snell_403",
+      "en": "\"This guy named Smarter. Let's hope you never meet him.\"",
+      "before": "«А кто на первом месте?»",
+      "after": "«Один тип по имени Умнее. Надеюсь, ты с ним никогда не встретишься.»"
+    },
+    {
+      "key": "EP_Snell_484_SNELL_DISMISSED",
+      "en": "You dismissed him when Darrow asked you to.",
+      "before": "Ты отказался его увольнять, когда Дарроу попросил об этом.",
+      "after": "Ты прогнал его, когда Дарроу попросил об этом."
+    },
+    {
+      "key": "EP_Snell_618_SNELL_DISMISSED",
+      "en": "You dismissed him when Darrow asked you to.",
+      "before": "Ты отверг его, когда Дарроу попросил тебя об этом.",
+      "after": "Ты прогнал его, когда Дарроу попросил об этом."
+    },
+    {
+      "key": "GG_Miska_441",
+      "en": "Snell has joined as a companion. You can speak with him if you need help finding your way across Tolstad.",
+      "before": "«Силы зла будут повержены! Ура!»",
+      "after": "Снелл присоединился к тебе как спутник. Если нужна помощь, чтобы найти дорогу по Толстаду, поговори с ним."
+    },
+    {
+      "key": "GG_Miska_731",
+      "en": "He nods to you and continues.",
+      "before": "«Несколько отсроченных огненных шаров или девять отдельных заклинателей. И то и другое маловероятно.»",
+      "after": "Он кивает тебе и продолжает."
+    },
+    {
+      "key": "GT_Ettir_903",
+      "en": "\"So you're a conchie?\"",
+      "before": "«Значит, ты отказываешься воевать?»",
+      "after": "«Значит, ты кончи?»"
+    },
+    {
+      "key": "GT_Ettir_904",
+      "en": "\"Conchie.\"",
+      "before": "«Отказница по убеждениям».",
+      "after": "«Кончи.»"
+    },
+    {
+      "key": "GT_Ettir_906",
+      "en": "\"You know. Conscientious objector. You object to fighting in the war.\"",
+      "before": "«Ну, ты отказываешься участвовать в войне по убеждениям совести».",
+      "after": "«Ну, отказница от военной службы по убеждениям. Ты отказываешься участвовать в войне.»"
+    },
+    {
+      "key": "GT_Ettir_907",
+      "en": "\"Conscientious objector.\"",
+      "before": "«Отказ от войны по убеждениям совести».",
+      "after": "«Отказница от военной службы по убеждениям.»"
+    },
+    {
+      "key": "GT_Snell_55",
+      "en": "\"I still can't get over it.\"",
+      "before": "«Ага. Вид у тебя соответствующий.»",
+      "after": "«До сих пор не могу прийти в себя.»"
+    },
+    {
+      "key": "JC_Ettir_52",
+      "en": "\"It's called flirting, Ettir.\"",
+      "before": "Чёрт. Она перевела стрелки на тебя.",
+      "after": "«Это называется флирт, Эттир.»"
+    },
+    {
+      "key": "JC_Ettir_64",
+      "en": "\"It was not your fault.\"",
+      "before": "ДАВАЙ!",
+      "after": "«Это не твоя вина.»"
+    },
+    {
+      "key": "JC_Gorm_58",
+      "en": "He does not see you as a threat.",
+      "before": "Да. Позволь ему о тебе позаботиться… избавить тебя от всех проблем.",
+      "after": "Он не видит в тебе угрозы."
+    },
+    {
+      "key": "JC_Gorm_1338_SNELL_DISMISSED",
+      "en": "You dismissed him when Darrow asked you to.",
+      "before": "Ты отверг его, когда Дарроу попросил тебя об этом.",
+      "after": "Ты прогнал его, когда Дарроу попросил об этом."
+    },
+    {
+      "key": "JC_Gorm_1624_E_ViciousMove",
+      "en": "You Vicious Moved him. Oh boy.",
+      "before": "Ты провела по нему «Свирепый удар». Вот это да.",
+      "after": "Ты провёл по нему «Свирепый удар». Вот это да."
+    },
+    {
+      "key": "JC_Gorm_1645_E_ViciousMove",
+      "en": "You Vicious Moved him. Oh boy.",
+      "before": "Ты провела по нему «Свирепый удар». Вот это да.",
+      "after": "Ты провёл по нему «Свирепый удар». Вот это да."
+    },
+    {
+      "key": "JC_Gorm_1820_E_RemainStand",
+      "en": "You looked him in the eyes.",
+      "before": "Ты смотришь ему в глаза.",
+      "after": "Ты посмотрел ему в глаза."
+    },
+    {
+      "key": "JC_Gorm_1896_E_RemainStand",
+      "en": "You looked him in the eyes.",
+      "before": "Ты посмотрела ему в глаза.",
+      "after": "Ты посмотрел ему в глаза."
+    },
+    {
+      "key": "JC_Gorm_1896_E_ViciousMove",
+      "en": "You Vicious Moved him. Oh boy.",
+      "before": "Ты провела по нему «Свирепый удар». Вот это да.",
+      "after": "Ты провёл по нему «Свирепый удар». Вот это да."
+    },
+    {
+      "key": "JC_Gorm_1906",
+      "en": "His body will not give up.",
+      "before": "Но тело сдаёт.",
+      "after": "Его тело не сдаётся."
+    },
+    {
+      "key": "JC_Gorm_1912_E_RemainStand",
+      "en": "You looked him in the eyes.",
+      "before": "Ты смотришь ему в глаза.",
+      "after": "Ты посмотрел ему в глаза."
+    },
+    {
+      "key": "JC_Gorm_1912_E_ViciousMove",
+      "en": "You Vicious Moved him. Oh boy.",
+      "before": "Ты применил к нему «Свирепый выпад». Вот это да!",
+      "after": "Ты провёл по нему «Свирепый удар». Вот это да."
+    },
+    {
+      "key": "JC_Gorm_1966_E_ViciousMove",
+      "en": "You Vicious Moved him. Oh boy.",
+      "before": "Ты провела по нему «Свирепый удар». Вот это да.",
+      "after": "Ты провёл по нему «Свирепый удар». Вот это да."
+    },
+    {
+      "key": "OP_Fiend_155",
+      "en": "Not flame. Not smoke.",
+      "before": "«Чтобы восстановиться.»",
+      "after": "Не пламя. Не дым."
+    },
+    {
+      "key": "OP_Isk_36",
+      "en": "You do not know this script.",
+      "before": "Это письменный язык вам незнаком.",
+      "after": "Эта письменность тебе незнакома."
+    },
+    {
+      "key": "Q_Resistance_74",
+      "en": "In the broader Coastal community, at least.",
+      "before": "Возможно, в Хаэ’Си и Йме есть тайные анклавы, о которых ты читала. Японцы ведь не зря слывут легендарными. Но по сути — да.",
+      "after": "По крайней мере, среди государств Побережья."
+    },
+    {
+      "key": "Q_Resistance_75",
+      "en": "There might be hidden enclaves in Hae'Xi and Ym you have read about. The Japanese are legendary after all. But in effect, yes.",
+      "before": "Помни: ты — последняя представительница человечества.",
+      "after": "Возможно, в Хаэ’Си и Йме есть тайные анклавы, о которых ты читал. Японцы ведь не зря слывут легендарными. Но по сути — да."
+    },
+    {
+      "key": "Q_Resistance_76",
+      "en": "You are the last of humanity. Keep that in mind.",
+      "before": "Ты — последняя из человечества. Держи это в уме.",
+      "after": "Ты — последний представитель человечества. Помни об этом."
+    },
+    {
+      "key": "RM_Ladder_57",
+      "en": "You will not come out of this unscathed.",
+      "before": "Ты выйдешь отсюда не невредимым.",
+      "after": "Тебе не выйти отсюда невредимым."
+    },
+    {
+      "key": "RM_Ladder_86",
+      "en": "It really, really, was not meant to be, then.",
+      "before": "Значит, так и должно было случиться. Вот только не сейчас.",
+      "after": "Значит, этому и правда не суждено было случиться."
+    },
+    {
+      "key": "RM_Rollo_560",
+      "en": "\"Our service to the city is not something you can put a price on.\"",
+      "before": "Они ужасно молчаливы.",
+      "after": "«Нашу службу городу нельзя оценить в деньгах.»"
+    },
+    {
+      "key": "Snell_Companion_265",
+      "en": "\"That was not my intention, Cleric.\"",
+      "before": "«Так и задумано.»",
+      "after": "«Я этого не хотел, Жрец.»"
+    },
+    {
+      "key": "Snell_Companion_359",
+      "en": "\"I don't see anyone else in Urthguard colors here.\"",
+      "before": "«Ну ладно. Тот самый Жрец.»",
+      "after": "«Я не вижу здесь никого другого в цветах Уртгарда.»"
+    },
+    {
+      "key": "Snell_Companion_449_SNELL_DISMISSED",
+      "en": "You dismissed him when Darrow asked you to.",
+      "before": "Ты отказался от его услуг, когда Дарроу попросил тебя об этом.",
+      "after": "Ты прогнал его, когда Дарроу попросил об этом."
+    },
+    {
+      "key": "SO_Snurre_1141",
+      "en": "Get some knowledge out of him, before he moves on for good.",
+      "before": "Вытяните из него знания, пока он не ушёл навсегда.",
+      "after": "Выведай у него что-нибудь, пока он не ушёл навсегда."
+    },
+    {
+      "key": "ST_Button_29",
+      "en": "\"Humble master! Very humble!\"",
+      "before": "«Очень хорошо. Очень хорошо. Ли-ифт…»",
+      "after": "«Скромный хозяин! Очень скромный!»"
+    },
+    {
+      "key": "ST_Lever_30",
+      "en": "\"Humble master! Very humble!\"",
+      "before": "«Скромный мастер! Очень скромный!»",
+      "after": "«Скромный хозяин! Очень скромный!»"
+    },
+    {
+      "key": "TE_Pinja_379",
+      "en": "(Shrug.) \"Eh. Give me an afternoon or two.\"",
+      "before": "(????? ???????.) ??? ?????. ??? ??? ????-???????.",
+      "after": "(Пожать плечами.) «Да ладно. Дай мне день-другой.»"
+    },
+    {
+      "key": "TE_Rubble_24_TS_Triban_BlueFlame",
+      "en": "The cat mentioned blue flames.",
+      "before": "??? ???????? ????? ????? ???????.",
+      "after": "Кот упоминал синее пламя."
+    },
+    {
+      "key": "TS_Ettir_224",
+      "en": "'Restouir' is not a real word.",
+      "before": "Тот, кто пытается узаконить это слово, заслуживает жизни, полной страданий.",
+      "after": "Слова «рестуар» не существует."
+    },
+    {
+      "key": "TS_Kull_68",
+      "en": "You never need to say \"whom.\" It is not a real word.",
+      "before": "«Как правильно: „кто в итоге предал нас“ или „кого в итоге предал нас“?»",
+      "after": "Слово «кого» тебе вообще не нужно. Такого слова не существует."
+    },
+    {
+      "key": "TS_Modissa_25",
+      "en": "She takes a step back as you approach the mailbox slit.",
+      "before": "Подойдя к почтовой щели, она отступает на шаг.",
+      "after": "Когда ты подходишь к щели почтового ящика, она отступает на шаг."
+    },
+    {
+      "key": "TS_Nearly_9",
+      "en": "The song. You yearn for it.",
+      "before": "И такая мелодия — от гоблина…",
+      "after": "Песня. Ты жаждешь её услышать."
+    },
+    {
+      "key": "TS_Viira_324",
+      "en": "Figure out why she won't let this go, and make her leave.",
+      "before": "«А теперь мне очень интересно узнать, что ты на самом деле думаешь», — говорит она с улыбкой.",
+      "after": "Разберись, почему она не отступает, и добейся, чтобы она ушла."
+    },
+    {
+      "key": "TS_Viira_325",
+      "en": "Attempting to see things from her perspective only makes things muddier.",
+      "before": "Разберись, почему она не отступает, и добейся, чтобы она ушла.",
+      "after": "Попытка взглянуть на всё её глазами лишь сильнее тебя запутывает."
+    },
+    {
+      "key": "TS_Viira_332",
+      "en": "\"Yes. Uh...\" (Change your mind.)",
+      "before": "«Да. Э-э…» (Изменить его мнение.)",
+      "after": "«Да. Э-э…» (Передумать.)"
+    },
+    {
+      "key": "TS_Viira_358",
+      "en": "And worst of all, she enjoys this.",
+      "before": "Это не просто бюрократия. Это деньги и власть.",
+      "after": "И что хуже всего, ей это нравится."
+    },
+    {
+      "key": "TS_Viira_360",
+      "en": "She laughs. \"I couldn't care one bit about their silly 'message'.\"",
+      "before": "Наверное, бюрократия и правда ни при чём. Может, она просто упрямая?",
+      "after": "Она смеётся. «Мне совершенно плевать на их дурацкие „идеи“.»"
+    },
+    {
+      "key": "TS_Viira_362",
+      "en": "No. It's about money and power. Nothing else.",
+      "before": "«С чего бы мне это делать?»",
+      "after": "Нет. Всё дело в деньгах и власти. Больше ни в чём."
+    },
+    {
+      "key": "TS_Viira_363",
+      "en": "\"It's smart. Stopping them in their tracks like this.\"",
+      "before": "«Как скажешь.»",
+      "after": "«Умно. Вот так взять и помешать им.»"
+    },
+    {
+      "key": "TS_Viira_365",
+      "en": "No. It's about money and power. Nothing else.",
+      "before": "«Вам заплатили за это?»",
+      "after": "Нет. Всё дело в деньгах и власти. Больше ни в чём."
+    },
+    {
+      "key": "TS_Viira_366",
+      "en": "\"You don't give a shit about the law.\"",
+      "before": "Она недоумённо смотрит на тебя. «Что?»",
+      "after": "«Тебе плевать на закон.»"
+    },
+    {
+      "key": "TS_Viira_367",
+      "en": "She stops smiling.",
+      "before": "«Что вы здесь делаете?»",
+      "after": "Она перестаёт улыбаться."
+    },
+    {
+      "key": "TS_Viira_368",
+      "en": "A moment of silence passes before she speaks. \"I am an Agent of Change here on Tolstad. The law is infallible as long as it too can change.\"",
+      "before": "Повисает напряжённая тишина.",
+      "after": "Помолчав немного, она говорит: «Я Агент Перемен на Толстаде. Закон безупречен, пока он сам способен меняться.»"
+    },
+    {
+      "key": "TU_Borgo_66",
+      "en": "The knight doesn't move.",
+      "before": "Ну, вроде бы.",
+      "after": "Рыцарь не двигается."
+    },
+    {
+      "key": "TU_Borgo_69",
+      "en": "\"Okay. Good. I believe you.\"",
+      "before": "Наверное.",
+      "after": "«Ладно. Хорошо. Я тебе верю.»"
+    },
+    {
+      "key": "TU_Borgo_70",
+      "en": "The knight doesn't move.",
+      "before": "Пожалуй, пора идти.",
+      "after": "Рыцарь не двигается."
+    },
+    {
+      "key": "VL_Books_88",
+      "en": "This is simply the shape in which it was written down. Who knows how exactly it functioned in its original state.",
+      "before": "Записали её именно так. Кто знает, какой она была изначально.",
+      "after": "Просто именно в таком виде её записали. Кто знает, как она действовала изначально."
+    },
+    {
+      "key": "WL_Giorgio_42",
+      "en": "If you had to be awoken from your lovely slumber by a helmed handsome stranger on a day such as this?",
+      "before": "Именно в такой день?",
+      "after": "Если бы в такой день тебя разбудил прекрасный незнакомец в шлеме, прервав твой сладкий сон?"
+    }
+  ],
+  "word_width_checks": [
+    {
+      "font": "OpenDyslexic-Italic",
+      "max_word_width_px": 267.34,
+      "word": "ДААААААААААА.",
+      "size_px": 22
+    },
+    {
+      "font": "LXGWWenKaiGB-Regular",
+      "max_word_width_px": 191.09,
+      "word": "ДААААААААААА.",
+      "size_px": 22
+    },
+    {
+      "font": "NotoSerif-Regular",
+      "max_word_width_px": 192.43,
+      "word": "ДААААААААААА.",
+      "size_px": 22
+    },
+    {
+      "font": "LXGWWenKaiTC-Regular",
+      "max_word_width_px": 191.09,
+      "word": "ДААААААААААА.",
+      "size_px": 22
+    },
+    {
+      "font": "KleeOne-Regular",
+      "max_word_width_px": 286.0,
+      "word": "присоединился",
+      "size_px": 22
+    },
+    {
+      "font": "LXGWWenKaiKR-Regular",
+      "max_word_width_px": 191.09,
+      "word": "ДААААААААААА.",
+      "size_px": 22
+    },
+    {
+      "font": "LiberationSans",
+      "max_word_width_px": 182.42,
+      "word": "ДААААААААААА.",
+      "size_px": 22
+    }
+  ]
+}
