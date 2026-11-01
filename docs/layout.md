@@ -1,5 +1,13 @@
 # Layout
 
+## Проверка реплик от 1 ноября 2026 года
+
+В описании Корпуса Кончи исправлен смысл военного термина: штрафной отряд.
+Описание сокращено с 278 до 254 знаков. Длина повторной реплики Крааида
+не изменилась: 56 знаков. Сохранено одинаковое прочтение шутки в двух
+диалогах. Это проверка текста; ширина новых строк и отображение этих сцен
+в игре ещё не проверены.
+
 The game draws its interface in fixed boxes. A line of Russian that does not
 fit its box wraps, and the wrapped part overlaps whatever sits below it. This
 document records the measurements the translation is held to.
