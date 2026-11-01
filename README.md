@@ -7,7 +7,7 @@
 ## Installation: три шага
 
 1. В Steam: **Библиотека → правая кнопка по Esoteric Ebb → Свойства → Бета-версии**. Выберите **Localization Branch** и дождитесь обновления.
-2. Скачайте **esoteric-ebb-ru-v1.0.2.zip** из [последнего релиза](https://github.com/aa-blinov/esoteric-ebb-ru/releases/latest). Нужен архив перевода, а не `Source code`.
+2. Скачайте **esoteric-ebb-ru-v1.0.3.zip** из [последнего релиза](https://github.com/aa-blinov/esoteric-ebb-ru/releases/latest). Нужен архив перевода, а не `Source code`.
 3. Откройте папку игры: **правая кнопка по игре → Управление → Просмотреть локальные файлы**. Перетащите папку `Russian` из скачанного ZIP в `Esoteric Ebb_Data/StreamingAssets/Localization/`, рядом с `Official`.
 
 Запустите игру и выберите **Настройки → Язык → Русский**. Если игра была открыта во время установки, полностью перезапустите её.
