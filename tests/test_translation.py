@@ -237,6 +237,14 @@ class TestCoverage(unittest.TestCase):
 
 
 class TestSettings(unittest.TestCase):
+    def test_glossary_refusal_term_does_not_match_fingertip_scene(self):
+        glossary = {r[0]: r[-1] for r in load_csv("Glossary.csv")[1:]}
+        dialog = {r[0]: r[-1] for r in load_csv("Dialogs.csv")[1:]}
+        term = glossary["Glossary_Term_438"].casefold()
+        self.assertTrue(term)
+        for key in ("CB_Darkness_26", "CB_Darkness_30"):
+            self.assertNotIn(term, dialog[key].casefold(), key)
+
     def test_the_language_is_registered(self):
         rows = {r[0]: r[-1] for r in load_csv("MiscTexts.csv")[1:]}
         self.assertEqual(rows.get("LanguageDropdown"), "Русский")
