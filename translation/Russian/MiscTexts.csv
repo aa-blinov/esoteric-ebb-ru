@@ -43,7 +43,7 @@ TriInteraction_Enter,,Войти
 TriInteraction_Trifle,,Взять
 TriInteraction_Behold,,Осмотр
 TriInteraction_Engage,,Говорить
-Examine_Examine,,Осмотр
+Examine_Examine,,<size=70%>Осмотр</size>
 Examine_Memorize,,Запомнить
 Examine_Consume,,Употребить
 Haggle,,[Торг: {0}%]
