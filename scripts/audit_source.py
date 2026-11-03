@@ -5,6 +5,7 @@ Candidates require contextual review; counts are not counts of errors.
 """
 from pathlib import Path
 import os
+import unicodedata
 import csv, json, re, collections
 
 root=Path(__file__).resolve().parents[1]
@@ -26,6 +27,7 @@ checks={
 }
 counts={}
 extra={
+ 'glitch_marks':[r for r in rows if any(unicodedata.category(c).startswith('M') and c!='\u0301' for c in r['ru'])],
  'damaged_text':[r for r in rows if re.search(r'\?{3,}|\ufffd',r['ru']) and not re.search(r'\?{3,}',r['en'])],
  'expanded_short_source':[r for r in rows if 8<len(r['en'])<65 and len(r['ru'])>max(100,len(r['en'])*2.8)],
  'shortened_long_source':[r for r in rows if len(r['en'])>100 and len(r['ru'])<len(r['en'])*.55 and r['ru'].strip() and re.search('[A-Za-z]',r['en'])],

@@ -15,6 +15,7 @@ import re
 import sys
 import tempfile
 import unittest
+import unicodedata
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "src"))
@@ -237,6 +238,19 @@ class TestCoverage(unittest.TestCase):
 
 
 class TestSettings(unittest.TestCase):
+    def test_text_has_no_glitch_overlays_or_stacked_marks(self):
+        for filename in FILES:
+            for row in load_csv(filename)[1:]:
+                if not row:
+                    continue
+                previous_mark = False
+                for char in row[-1]:
+                    mark = unicodedata.category(char).startswith("M")
+                    if mark:
+                        self.assertEqual(char, "\u0301", (filename, row[0], hex(ord(char))))
+                        self.assertFalse(previous_mark, (filename, row[0]))
+                    previous_mark = mark
+
     def test_glossary_refusal_term_does_not_match_fingertip_scene(self):
         glossary = {r[0]: r[-1] for r in load_csv("Glossary.csv")[1:]}
         dialog = {r[0]: r[-1] for r in load_csv("Dialogs.csv")[1:]}
