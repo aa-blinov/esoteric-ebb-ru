@@ -6,6 +6,7 @@ Candidates require contextual review; counts are not counts of errors.
 from pathlib import Path
 import os
 import unicodedata
+import difflib
 import csv, json, re, collections
 
 root=Path(__file__).resolve().parents[1]
@@ -32,6 +33,22 @@ extra={
  'expanded_short_source':[r for r in rows if 8<len(r['en'])<65 and len(r['ru'])>max(100,len(r['en'])*2.8)],
  'shortened_long_source':[r for r in rows if len(r['en'])>100 and len(r['ru'])<len(r['en'])*.55 and r['ru'].strip() and re.search('[A-Za-z]',r['en'])],
 }
+neighbors=[]
+for i,row in enumerate(rows):
+    if not 35<=len(row['ru'])<=450:
+        continue
+    for j in (i-1,i+1):
+        if not 0<=j<len(rows):
+            continue
+        other=rows[j]
+        if row['file']!=other['file'] or len(other['ru'])<35:
+            continue
+        if min(len(row['ru']),len(other['ru']))/max(len(row['ru']),len(other['ru']))<.7:
+            continue
+        if difflib.SequenceMatcher(None,row['ru'],other['ru']).ratio()>.78 and difflib.SequenceMatcher(None,row['en'],other['en']).ratio()<.33:
+            neighbors.append(row)
+            break
+extra['possible_neighbor_substitution']=neighbors
 for name,found in extra.items():
     counts[name]=len(found)
     with (out/(name+'.json')).open('w',encoding='utf-8') as f: json.dump(found,f,ensure_ascii=False,indent=2)
