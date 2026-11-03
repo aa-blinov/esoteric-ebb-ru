@@ -40776,7 +40776,9 @@
     "LevelUp_HitDice": "Кость хитов +1",
     "PreBuild_PrimalCleric_Title": "Жрец первобытной магии",
     "PreBuild_BeefyCleric_Title": "Жрец-крепыш",
-    "PreBuild_UnstableCleric_Title": "Неуравновешенный жрец"
+    "PreBuild_UnstableCleric_Title": "Неуравновешенный жрец",
+    "TriInteraction_Behold": "Осмотр",
+    "Examine_Examine": "Осмотр"
   },
   "QuestPoints.csv": {
     "Quest_5_3": "Мужчину в жёлтом одеянии видел «Утка» в Подгородье. Этот мужчина прошёл мимо входа в Склеп, направляясь в Южные Пещеры.",
