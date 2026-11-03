@@ -61,6 +61,7 @@ ALLOWED_LATIN = {
 # Rows that depart from the source markup on purpose are listed here: most
 # adjust display size so a line fits its panel. The reasons are in docs/layout.md.
 MARKUP_EXCEPTIONS = {
+    ("MiscTexts.csv", "Examine_Examine"): "<size=70%></size>",
     ("MiscTexts.csv", "AbilityScoreInfo_Wisdom_Uses3"): "<size=44><size=43>",
     ("MiscTexts.csv", "AbilityScoreInfo_Strength_LoreFootNote"): "<b></b><b><size=25></b>",
     ("MiscTexts.csv", "AbilityScoreInfo_Strength_Uses3"): "<size=63><size=45>",
