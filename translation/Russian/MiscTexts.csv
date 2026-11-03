@@ -41,9 +41,9 @@ QuestPoint_Completed,,Выполнено: «{0}».
 QuestPoint_Updated,,Обновлено: «{0}».
 TriInteraction_Enter,,Войти
 TriInteraction_Trifle,,Взять
-TriInteraction_Behold,,Осмотреть
+TriInteraction_Behold,,Осмотр
 TriInteraction_Engage,,Говорить
-Examine_Examine,,Осмотреть
+Examine_Examine,,Осмотр
 Examine_Memorize,,Запомнить
 Examine_Consume,,Употребить
 Haggle,,[Торг: {0}%]
