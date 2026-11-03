@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-03",
+  "baseline_commit": "c40006f7b73b1721bbe9e3a4b6df9e26c7ba1e0b",
+  "scope": "Full corpus automated scan and contextual review of neighbor-substitution candidates. In-game rendering and crash fix not verified.",
+  "changed_rows": 14,
+  "summary": {
+    "rows": 82610,
+    "files": 12,
+    "candidates": {
+      "glitch_marks": 0,
+      "damaged_text": 0,
+      "expanded_short_source": 0,
+      "shortened_long_source": 13,
+      "possible_neighbor_substitution": 0,
+      "false_friends": 717,
+      "suspicious_ru": 893,
+      "lost_negation": 1050
+    },
+    "inconsistent_long_groups": 417
+  },
+  "changes": [
+    {
+      "key": "AR_Viira_780",
+      "en": "\"But I'm sure you can find more...\"",
+      "before": "«На ум сразу приходят Личхаус Вискена и, конечно, „Пьяный сфинкс“.»",
+      "after": "«Но уверена, ты найдёшь и другие…»"
+    },
+    {
+      "key": "EP_Rollo_Arn_73",
+      "en": "\"Change is coming. I can feel it.\"",
+      "before": "«Имена не названы, но там пишут, что собираются тщательно изучить зацепки.»",
+      "after": "«Перемены близко. Я это чувствую.»"
+    },
+    {
+      "key": "GG_Miska_860",
+      "en": "The dumbest possible thing, that isn't too over the top.",
+      "before": "Скажи что-нибудь глупое. Совсем уж идиотское.",
+      "after": "Самую глупую вещь, какую только можно придумать. Но без лишнего перебора."
+    },
+    {
+      "key": "JC_Gorm_608",
+      "en": "\"Her involvement is only bitter.\"",
+      "before": "«Это трагедия, и я — чудовище, которое её убьёт.»",
+      "after": "«То, что она оказалась замешана, лишь огорчает.»"
+    },
+    {
+      "key": "Snell_Companion_679",
+      "en": "You now stand alone.",
+      "before": "«Тогда завтра я к тебе вернусь, когда ты решишь, как сам выразился, больше не идти одному.»",
+      "after": "Теперь ты остался один."
+    },
+    {
+      "key": "Snell_Companion_680",
+      "en": "Alright then.",
+      "before": "Теперь ты остался один.",
+      "after": "Что ж, ладно."
+    },
+    {
+      "key": "TS_FlowerYard_14",
+      "en": "It will take you an hour to dig it out. If you believe yourself to have the time, then go ahead.",
+      "before": "Ты прикидываешь: предмет лежит примерно в метре под землёй.",
+      "after": "Чтобы выкопать его, понадобится час. Если считаешь, что у тебя есть время, приступай."
+    },
+    {
+      "key": "TS_FlowerYard_60",
+      "en": "Then you feel it.",
+      "before": "Ты копаешь, пока не сдвигаешь в сторону глубокий слой почвы.",
+      "after": "И тут ты его нащупываешь."
+    },
+    {
+      "key": "TS_Resistance_Note_6",
+      "en": "(Read the note.)",
+      "before": "«Сегодняшний Тинг отменяется. Встречаемся сегодня вечером на Водном пути. Пора остановить „Пение“!»",
+      "after": "(Прочитать записку.)"
+    },
+    {
+      "key": "TS_Resistance_Note_7",
+      "en": "'Tonight's Ting is canceled. Meet-up tonight on Waterlane instead. It's time to stop the Chant!'",
+      "before": "«Сегодняшний сбор отменяется. Встречаемся сегодня вечером на Водном пути. Пора остановить „Пение“!»",
+      "after": "«Сегодняшний Тинг отменяется. Вместо этого встречаемся вечером на Водном пути. Пора остановить „Пение“!»"
+    },
+    {
+      "key": "TS_Viira_70",
+      "en": "\"Is she busy?\"",
+      "before": "Повернув голову и взглянув на юг, ты замечаешь какой-то сад. На стенах виднеются пара гоблинов.",
+      "after": "«Она занята?»"
+    },
+    {
+      "key": "VL_Ost_192",
+      "en": "\"Who buys the milk?\"",
+      "before": "«Люди. Жители Водного пути. Перед рассветом они дорого платят за свежее молоко.»",
+      "after": "«Кто покупает молоко?»"
+    },
+    {
+      "key": "VL_Visken_1768",
+      "en": "Is that passive aggressiveness? It should be.",
+      "before": "«Пожалуй, читаю что-нибудь лёгкое. Честно говоря, стоит завести ещё несколько увлечений. Спасибо, что напомнил, Жрец.»",
+      "after": "Это пассивная агрессия? Должно быть."
+    },
+    {
+      "key": "VL_Visken_1831",
+      "en": "(Stop sneaking around behind the mortician, and leave.)",
+      "before": "Может, в его карманах нет ничего ценного? Или он так богат, что ему всё равно?",
+      "after": "(Перестать красться за спиной гробовщика и уйти.)"
+    }
+  ]
+}
