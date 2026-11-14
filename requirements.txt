@@ -1,5 +1,5 @@
 # The pipeline needs an HTTP client and the font metrics of the game.
 # The tests need neither: they read the shipped CSV files and the manifest.
-httpx>=0.27
-fonttools>=4.50
-unitypy>=1.20
+httpx>=0.28.1
+fonttools>=4.68.0
+unitypy>=1.25.4
